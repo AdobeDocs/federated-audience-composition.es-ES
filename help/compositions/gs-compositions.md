@@ -2,9 +2,9 @@
 audience: end-user
 title: Introducción a las composiciones
 description: Aprenda a empezar con composiciones
-source-git-commit: 71b3a93b7ac85605b008f7b1ec1da25a1dc84f24
+source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Desde esta pantalla, puede crear nuevas composiciones y acceder a las existentes
 
 Para refinar la lista y encontrar fácilmente la composición que está buscando, puede buscar en la lista y filtrar composiciones por sus estados o fechas de último procesamiento.
 
-También puede personalizar la lista añadiendo o quitando columnas. Para ello, haga clic en el botón Configure columns y administre
+También puede personalizar la lista añadiendo o quitando columnas. Para ello, haga clic en el **Configurar columna** s y añada o elimine las columnas de salida deseadas.
 
 ![](assets/compositions-columns.png)
 

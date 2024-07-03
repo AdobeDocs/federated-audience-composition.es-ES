@@ -2,10 +2,10 @@
 audience: end-user
 title: Creación de composiciones
 description: Aprenda a crear composiciones
-source-git-commit: 4b5173a2a0549d6535bccd07c94e521ecde8330b
+source-git-commit: fd92c280094989cb64ff5151fb00b4a8b0e650f7
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 2%
+source-wordcount: '1034'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ El **En caso de error** Este campo permite especificar la acción que se debe ll
 
 ### Script de inicialización
 
-El **Script de inicialización** permite inicializar variables o modificar propiedades de actividad. Haga clic en **Editar código** y escriba el fragmento de código que desea ejecutar. Se llama al script cuando se ejecuta la actividad. Consulte la sección relacionada con [variables de evento](../workflows/event-variables.md).
+El **Script de inicialización** permite inicializar variables o modificar propiedades de actividad. Haga clic en **Editar código** y escriba el fragmento de código que desea ejecutar. Se llama al script cuando se ejecuta la actividad.
 
 ## Ejemplo {#example}
 
@@ -108,4 +108,4 @@ Para ello, se han añadido las actividades siguientes:
 
 Una vez completado el flujo de trabajo, añada. **[!UICONTROL Fin]** actividad al final del diagrama. Esta actividad le permite marcar visualmente el final de un flujo de trabajo y no tiene impacto funcional.
 
-Después de diseñar correctamente el diagrama de flujo de trabajo, puede ejecutar el flujo de trabajo y realizar un seguimiento del progreso de sus distintas tareas. [Obtenga información sobre cómo iniciar un flujo de trabajo y monitorizar su ejecución](start-monitor-workflows.md)
+Después de diseñar correctamente el diagrama de flujo de trabajo, puede ejecutar el flujo de trabajo y realizar un seguimiento del progreso de sus distintas tareas.

@@ -2,10 +2,10 @@
 user-guide-title: Composición de público federada
 title: Documentación de composición de audiencia federada de Adobe
 breadcrumb-title: Composición de público federada
-source-git-commit: 2a22a536ac3a13c4e44774126a6d691612268a20
+source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 47%
+source-wordcount: '120'
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,12 @@ ht-degree: 47%
    + [Trabajo con públicos](customer/audiences.md)
 + Composiciones {#compositions}
    + [Introducción a las composiciones](compositions/gs-compositions.md)
-   + [Crear una composición](compositions/create-composition.md)
+   + Crear y ejecutar la primera composición {#create-composition}
+      + [Principios clave de la creación de la composición](compositions/gs-composition-creation.md)
+      + [Creación de la composición](compositions/create-composition.md)
+      + [Organización de actividades](compositions/orchestrate-activities.md)
+      + [Configurar ajustes de composición](compositions/composition-settings.md)
+      + [Inicio y supervisión de la composición](compositions/start-monitor-composition.md)
    + Trabajo con actividades {#activities}
       + [Lista de actividades](compositions/activities/about-activities.md)
       + [And-Join](compositions/activities/and-join.md)

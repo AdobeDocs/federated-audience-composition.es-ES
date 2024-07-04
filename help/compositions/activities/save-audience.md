@@ -1,13 +1,14 @@
 ---
 audience: end-user
 title: Uso de la actividad Guardar audiencia
-description: Aprenda a utilizar la actividad de bifurcación
-source-git-commit: 05a023a7f7aab719f3771030a7ac8bba57e5bee3
+description: Aprenda a utilizar la actividad Guardar audiencia
+source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '358'
 ht-degree: 12%
 
 ---
+
 
 # Guardado de público {#save-audience}
 
@@ -27,14 +28,11 @@ ht-degree: 12%
 >abstract="Seleccione la identidad principal que se utilizará para los perfiles."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Obtenga más información en la documentación de Experience Platform"
 
-
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Espacio de nombres de identidad"
 >abstract="Seleccione el área de nombres que se utilizará para los perfiles."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces" text="Obtenga más información en la documentación de Experience Platform"
-
-
 
 El **Guardar audiencia** esta actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en una composición. Las audiencias creadas se añaden a la lista de audiencias de aplicación y están disponibles a través del **Audiencias** menú.
 
@@ -46,21 +44,23 @@ Siga estos pasos para configurar el **Guardar audiencia** actividad:
 
 1. Añadir un **Guardar audiencia** actividad a su composición.
 
-1. En el **Modo** , seleccione la acción que desee llevar a cabo:
+   ![](../assets/save-audience.png)
 
-   * **Crear o actualizar una audiencia existente**: defina un **Etiqueta de audiencia**. Si la audiencia ya existe, se actualiza; de lo contrario, se crea una nueva.
+1. Especifique la etiqueta de la audiencia que desea crear.
 
-   * **Actualizar una audiencia existente**: elija el **Audiencia** desea actualizar entre la lista de audiencias existentes.
+1. Clic **Añadir asignación de audiencia** a continuación, elija los campos de origen y destino de la audiencia:
 
-1. Seleccione el **Modo de actualización** que se aplicará a las audiencias existentes:
+   * **Campo de audiencia de Source**:
+   * **Campo de audiencia de destino**:
 
-   * **Reemplazar contenido de audiencia por nuevos datos**: todo el contenido de la audiencia se sustituye. Se pierden los datos antiguos. Solo se conservan los datos de la transición entrante de la actividad Guardar audiencia. Esta opción borra el tipo de audiencia y la dimensión de segmentación de la audiencia actualizada.
+   Repita la operación para agregar tantas asignaciones de audiencia como sea necesario.
 
-   * **Audiencia completa con nuevos datos**: el contenido de audiencia anterior se conserva y se añaden a él los datos de la transición de entrada de la actividad guardar audiencia.
+1. Seleccione la identidad y el área de nombres principales que se utilizarán para identificar los perfiles de destino en la base de datos:
 
-1. Compruebe la **Generación de una transición saliente** si desea añadir una transición después de la variable **Guardar audiencia** actividad.
+   * **Campo de identidad principal**: seleccione el campo que desea utilizar para identificar los perfiles. Por ejemplo, su dirección de correo electrónico o número de teléfono.
+   * **Área de nombres de identidad**: seleccione el área de nombres que se utilizará para identificar los perfiles, es decir, el tipo de datos que se utilizará como clave de identificación. Por ejemplo, si la dirección de correo electrónico se ha seleccionado como campo de identidad principal, el área de nombres de identidad **Correo electrónico** debe estar seleccionado. Si el identificador único es el número de teléfono, el área de nombres de identidad **Teléfono** debe estar seleccionado.
 
-El contenido de la audiencia guardada está disponible en la vista de detalles de la audiencia, a la que se puede acceder desde el **Audiencias** menú. Las columnas disponibles en esta vista corresponden a las columnas de la transición entrante de la variable **Guardar audiencia** actividad.
+Después de ejecutar la maquetación, la audiencia resultante se guarda en Adobe Experience Platform y se puede acceder a ella desde el **Audiencias** menú.
 
 <!--
 

@@ -2,7 +2,7 @@
 audience: end-user
 title: Uso de la actividad Fork
 description: Aprenda a utilizar la actividad de bifurcación
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 81%
@@ -32,4 +32,5 @@ Siga estos pasos para configurar la actividad **Tenedor**:
 1. Añadir un **Tenedor** actividad a su composición.
 1. Haga clic en **Agregar transición** para añadir una nueva transición saliente. De forma predeterminada, se definen dos transiciones.
 1. Añada una etiqueta a cada una de las transiciones.
+
 

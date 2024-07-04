@@ -2,22 +2,24 @@
 audience: end-user
 title: Trabajo con actividades
 description: Aprenda a trabajar con actividades
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 32%
+source-wordcount: '274'
+ht-degree: 16%
 
 ---
 
 
 # Trabajo con actividades {#activities}
 
-## Lista de actividades {#activity-list}
+En Federated Audience Composition, puede crear composiciones utilizando dos tipos de actividades:
 
-En la Composición de audiencia federada, las actividades son específicas de la segmentación. Le permiten crear uno o más públicos destinatarios al definir públicos y dividirlos o combinarlos mediante operaciones de intersección, unión o exclusión.
+* **Actividades de segmentación** permite crear uno o más objetivos definiendo una audiencia y dividiendo o combinando estas audiencias mediante operaciones de intersección, unión o exclusión.
+* **Control de flujo** Las actividades son específicas para organizar y ejecutar composiciones. Su principal tarea es coordinar las demás actividades.
 
-<!--to update -->
+## Actividades de segmentación
 
+* [Crear actividad de audiencia](build-audience.md): Defina la población objetivo. Puede seleccionar una audiencia existente o utilizar el modelador de consultas para definir su propia consulta.
 * [Cambiar dimensión](change-dimension.md): cambie la dimensión de segmentación a medida que vaya creando la composición.
 * [Combinar](combine.md): realice la segmentación en la población entrante. Puede utilizar una unión, una intersección o una exclusión.
 * [Deduplicación](deduplication.md): elimine duplicados en los resultados de las actividades entrantes.
@@ -26,3 +28,10 @@ En la Composición de audiencia federada, las actividades son específicas de la
 * [Guardar audiencia](save-audience.md): actualice una audiencia existente o cree una nueva a partir de la población calculada en sentido ascendente en una composición.
 * [Split](split.md): Segmente la población entrante en varios subconjuntos.
 
+## Actividades de control de flujo
+
+* [AND-join](and-join.md): sincronice varias ramas de ejecución de un flujo de trabajo.
+* **Fin** : Marca gráfica del final de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional.
+* [Tenedor](fork.md): cree transiciones salientes para el inicio de varias actividades al mismo tiempo.
+* [Planificador](scheduler.md): programe cuándo se inicia el flujo de trabajo.
+* [Esperar](wait.md): Pause momentáneamente la ejecución de una parte de un flujo de trabajo.

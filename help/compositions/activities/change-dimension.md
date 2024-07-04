@@ -2,12 +2,13 @@
 audience: end-user
 title: Uso de la actividad Change dimension
 description: Aprenda a utilizar la actividad de la dimensión Cambiar
-source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 41%
 
 ---
+
 
 # Cambio de dimensión {#change-dimension}
 

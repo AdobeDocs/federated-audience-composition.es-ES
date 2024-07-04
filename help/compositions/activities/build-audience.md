@@ -2,12 +2,13 @@
 audience: end-user
 title: Uso de la actividad Generar audiencia
 description: Aprenda a utilizar la actividad Generar audiencia
-source-git-commit: 33a1eb9d4c0c7b847e04ac3f0f9f1881317a2f83
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 37%
 
 ---
+
 
 # Generar público destinatario {#build-audience}
 
@@ -24,10 +25,7 @@ Para definir la población del público destinatario, puede hacer lo siguiente:
 * Seleccione un público destinatario de Adobe Experience Platform.
 * Cree una nueva audiencia con el generador de modeladores de consultas definiendo y combinando criterios de filtrado.
 
-
-
 El **Crear audiencia** la actividad se puede colocar al principio de la composición o después de cualquier otra actividad. Cualquier actividad se puede colocar después de **Crear audiencia**.
-
 
 ## Configuración de la actividad Generar público {#build-audience-configuration}
 

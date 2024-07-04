@@ -2,12 +2,13 @@
 audience: end-user
 title: Uso de la actividad Combinar
 description: Aprenda a utilizar la actividad Combinar
-source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 70%
 
 ---
+
 
 # Combinar {#combine}
 
@@ -22,9 +23,7 @@ La actividad **Combinar** permite realizar la segmentación de la población ent
 * La **Intersección** permite mantener solo los elementos comunes a las diferentes poblaciones entrantes de la actividad.
 * La **Exclusión** permite excluir elementos de una población según determinados criterios.
 
-
 El **Combinar** la actividad se puede colocar después de cualquier otra actividad, pero no al principio de la composición. Cualquier actividad se puede colocar después de **Combinar**.
-
 
 ## Configuración de la actividad de combinación {#combine-configuration}
 

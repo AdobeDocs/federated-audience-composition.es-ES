@@ -2,9 +2,9 @@
 audience: end-user
 title: Creación de composiciones
 description: Aprenda a crear composiciones
-source-git-commit: b946f8821d965fb00f79f6f5557adcfff1ee2387
+source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ Una vez creada la composición y diseñadas las tareas que se van a realizar en 
 
 ## Iniciar la composición {#start}
 
-Para iniciar la maquetación, vaya a **[!UICONTROL Composiciones]** para la campaña asociada y haga clic en el **[!UICONTROL Inicio]** en la esquina superior derecha del lienzo.
-
-Una vez que se esté ejecutando la composición, cada actividad del lienzo se ejecuta en un orden secuencial, hasta que se llega al final de la composición.
+Para iniciar una composición, haga clic en **[!UICONTROL Inicio]** en la esquina superior derecha de la pantalla. Cuando se está ejecutando la composición, cada actividad del lienzo se ejecuta en un orden secuencial, hasta que se llega al final de la composición.
 
 Puede realizar un seguimiento del progreso de los perfiles de destino en tiempo real mediante un flujo visual. Esto le permite identificar rápidamente el estado de cada actividad y el número de perfiles en transición entre ellas.
+
+![](assets/composition-visual-flow.png)
 
 ## Transiciones de composición {#transitions}
 
@@ -29,36 +29,53 @@ En las composiciones, los datos que pasan de una actividad a otra a través de t
 * Clic **[!UICONTROL Previsualizar esquema]** para mostrar el esquema de la tabla de trabajo.
 * Clic **[!UICONTROL Previsualizar resultados]** para visualizar los datos transportados en la transición seleccionada.
 
+![](assets/transition-preview.png)
+
 ## Monitorización de la ejecución de actividades {#activities}
 
 Los indicadores visuales de la esquina superior derecha de cada cuadro de actividad permiten comprobar su ejecución:
 
 | Indicador visual | Descripción |
 |-----|------------|
-|  | La actividad se está ejecutando. |
-|  | La actividad requiere su atención. Esto puede implicar confirmar el envío de una entrega o realizar la acción necesaria. |
-|  | La actividad ha encontrado un error. Para resolver el problema, abra los registros de composición para obtener más información. |
-|  | La actividad se ha ejecutado correctamente. |
+| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | La actividad se está ejecutando. |
+| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | La actividad requiere su atención. Esto puede implicar confirmar el envío de una entrega o realizar la acción necesaria. |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | La actividad ha encontrado un error. Para resolver el problema, abra los registros de composición para obtener más información. |
+| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | La actividad se ha ejecutado correctamente. |
 
 ## Monitorización de registros y tareas {#logs-tasks}
 
 La monitorización de los registros y tareas de las composiciones es un paso clave para analizar las composiciones y asegurarse de que se ejecutan correctamente. Se puede acceder a ellas desde **[!UICONTROL Registros]** que está disponible en la barra de herramientas de acciones y en el panel de propiedades de cada actividad.
 
-El **[!UICONTROL Registros y tareas]** proporciona un historial de la ejecución de la maquetación, registrando todas las acciones del usuario y los errores encontrados. Este historial se guarda durante la duración especificada en la composición [opciones de ejecución](composition-settings.md). Durante esta duración, todos los mensajes se guardan, incluso después de reiniciar la composición. Si no desea guardar los mensajes de una ejecución anterior, haga clic en el **[!UICONTROL Purge history]** botón.
+![](assets/logs-button.png)
 
-Hay dos tipos de información disponibles:
+El **[!UICONTROL Registros de composición y tareas]** La pantalla proporciona un historial de la ejecución de la maquetación, registrando todas las acciones del usuario y los errores encontrados.
+
+<!-- à confirmer, pas trouvé dans les options = The workflow history is saved for the duration specified in the workflow execution options. During this duration, all the messages are therefore saved, even after a restart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.-->
+
+El historial se organiza en varias pestañas, que se detallan a continuación:
 
 * El **[!UICONTROL Registro]** contiene el historial de ejecución de todas las actividades de composición. Indexa las operaciones realizadas y los errores de ejecución por orden cronológico.
-* El **[!UICONTROL Tareas]** La pestaña detalla la secuencia de ejecución de las actividades.
+* El **[!UICONTROL Tareas]** La pestaña detalla la secuencia de ejecución de las actividades. El botón situado al final de cada tarea le permite enumerar las variables de evento que pasan a través de la actividad.
+* El **[!UICONTROL Variables]** La pestaña enumera todas las variables pasadas en la composición. Está disponible al acceder a los registros y tareas solo desde el lienzo de composición. Ahora está disponible al acceder a los registros desde el panel de propiedades de una actividad.  <!-- à confirmer-->
 
-En ambas pestañas, puede elegir las columnas mostradas y su orden, aplicar filtros y utilizar el campo de búsqueda para encontrar rápidamente la información deseada.
+![](assets/logs-tasks.png)
+
+En todas las pestañas, puede elegir las columnas mostradas y su orden, aplicar filtros y utilizar el campo de búsqueda para encontrar rápidamente la información deseada.
 
 ## Comandos de ejecución de composición {#execution-commands}
 
-La barra de acciones de la esquina superior derecha proporciona comandos que le permiten administrar la ejecución de la composición. Puede hacer lo siguiente:
+La barra de acciones de la esquina superior derecha proporciona comandos que le permiten administrar la ejecución de la composición.
 
-* **[!UICONTROL Inicio]** / **[!UICONTROL Reanudar]** la ejecución de la composición, que luego adquiere el estado En curso. Si la composición estaba en pausa, se reanuda, pero de lo contrario se inicia y las actividades iniciales se activan.
+![](assets/execution-actions.png)
 
-* **[!UICONTROL Pausar]** la ejecución de la composición, que luego adquiere el estado Paused. No se activará ninguna actividad nueva hasta que se reanude, pero las operaciones en curso no se suspenden.
+Las acciones disponibles son:
 
-* **[!UICONTROL Detener]** una composición que se está ejecutando y que luego pasará al estado Finished. Las operaciones en curso se interrumpen si es posible. No puede continuar desde la composición desde el mismo lugar en el que se detuvo.
+* **Inicio**: inicia la ejecución de la composición, que luego asume el **En curso** estado. La composición se inicia y se activan las actividades iniciales.
+
+* **[!UICONTROL Reanudar]**: Reanuda la ejecución de la composición que se había pausado. La composición toma el **En curso** estado.
+
+* **[!UICONTROL Pausar]** la ejecución de la composición, que luego asume la **Pausado** estado. No se activará ninguna actividad nueva hasta que se reanude, pero las operaciones en curso no se suspenden.
+
+* **[!UICONTROL Detener]** una composición que se está ejecutando y que luego asumirá el **Finalizado** estado. Las operaciones en curso se interrumpen si es posible. No puede continuar desde la composición desde el mismo lugar en el que se detuvo.
+
+* **Restart**: detiene y reinicia una composición. En la mayoría de los casos, esto le permite reiniciarse más rápido, ya que la detención tarda una cierta cantidad de tiempo y el **Inicio** solo está disponible cuando la parada es efectiva.

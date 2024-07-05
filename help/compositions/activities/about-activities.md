@@ -2,9 +2,9 @@
 audience: end-user
 title: Trabajo con actividades
 description: Aprenda a trabajar con actividades
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '278'
 ht-degree: 16%
 
 ---
@@ -20,7 +20,7 @@ En Federated Audience Composition, puede crear composiciones utilizando dos tipo
 ## Actividades de segmentación
 
 * [Crear actividad de audiencia](build-audience.md): Defina la población objetivo. Puede seleccionar una audiencia existente o utilizar el modelador de consultas para definir su propia consulta.
-* [Cambiar dimensión](change-dimension.md): cambie la dimensión de segmentación a medida que vaya creando la composición.
+* [Cambiar dimensión](change-dimension.md): cambie el esquema, también conocido como dimensión de segmentación, a medida que vaya creando la composición.
 * [Combinar](combine.md): realice la segmentación en la población entrante. Puede utilizar una unión, una intersección o una exclusión.
 * [Deduplicación](deduplication.md): elimine duplicados en los resultados de las actividades entrantes.
 * [Enriquecimiento](enrichment.md): defina los datos adicionales que se procesarán en la composición. Con esta actividad, puede aprovechar la transición entrante y configurar la actividad para completar la transición saliente con datos adicionales.

@@ -2,7 +2,7 @@
 audience: end-user
 title: Uso de la actividad Generar audiencia
 description: Aprenda a utilizar la actividad Generar audiencia
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 37%

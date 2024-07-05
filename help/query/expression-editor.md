@@ -2,9 +2,9 @@
 audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas.
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2100'
 ht-degree: 74%
 
 ---
@@ -28,7 +28,7 @@ El editor de expresiones está disponible en el modelador de consultas **[!UICON
 El editor de expresiones proporciona lo siguiente:
 
 * Un **campo de entrada (1)** en el que se define la expresión.
-* La lista de disponibles **campos (2)** que se puede utilizar en la expresión y que corresponde a la dimensión de segmentación de la consulta.
+* La lista de disponibles **campos (2)** que se puede utilizar en la expresión y correspondiente al esquema, también conocido como dimensión de segmentación, de la consulta.
 * **Funciones de ayuda (3)**, ordenados por categoría.
 
 Edite la expresión introduciendo una expresión directamente en el campo de entrada. Para añadir un campo o una función de ayuda, coloque el cursor en la expresión donde desee añadirla y haga clic en el botón +.

@@ -2,10 +2,10 @@
 audience: end-user
 title: Introducción a los modelos de datos
 description: Obtenga información sobre cómo iniciar modelos de datos
-source-git-commit: e37229f46b865526f209da5831ba31b3acc8a784
+source-git-commit: 315dd7b40f9a0a6bb7e66f584a4727dc86b97616
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 4%
+source-wordcount: '163'
+ht-degree: 1%
 
 ---
 
@@ -35,4 +35,26 @@ ht-degree: 4%
 
 
 ## ¿Qué es un modelo de datos? {#data-model-start}
+
+Un modelo de datos es un conjunto de esquemas, audiencias y los vínculos entre ellos.
+
+Más información sobre [esquemas](customer/schemas.md).
+
+Más información sobre [audiencias](customer/audiences.md).
+
+## Cómo crear un modelo de datos {#data-model-create}
+
+Entrada **[!UICONTROL DATOS FEDERADOS]** , vaya a la sección **[!UICONTROL Modelos]** vínculo. Encontrará allí el **[!UICONTROL Modelo de datos]** pestaña.
+
+![](assets/datamodel_create.png){zoomable="yes"}
+
+Al hacer clic en **[!UICONTROL Crear modelo de datos]** , tendrá la posibilidad de asignar un nombre al modelo de datos y hacer clic en el botón **[!UICONTROL Crear]** botón.
+
+![](assets/datamodel_name.png){zoomable="yes"}
+
+Accederá a la ventana donde puede añadir los esquemas, las audiencias y los vínculos del modelo de datos.
+
+![](assets/datamodel_created.png){zoomable="yes"}
+
+![](assets/datamodel_schemas.png){zoomable="yes"}
 

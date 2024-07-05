@@ -2,10 +2,10 @@
 audience: end-user
 title: Uso de la actividad de anulación de duplicación
 description: Aprenda a utilizar la actividad de anulación de duplicación
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 67%
+source-wordcount: '563'
+ht-degree: 60%
 
 ---
 
@@ -40,7 +40,11 @@ Siga estos pasos para configurar el **Deduplicación** actividad:
 
 1. Añadir un **Deduplicación** actividad a su composición.
 
+1. Si la actividad tiene varias transiciones de entrada, seleccione la transición que desee utilizar para realizar la anulación de duplicación desde el **[!UICONTROL Conjunto principal]** lista desplegable
+
 1. En la sección **Campos para identificar los duplicados**, haga clic en el botón **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar.
+
+   ![](../assets/deduplication.png)
 
 1. En el **Configuración de deduplicación** , seleccione el número de **Duplicados que mantener**. El valor predeterminado de este campo es 1. El valor 0 le permite mantener todos los duplicados.
 
@@ -53,8 +57,9 @@ Siga estos pasos para configurar el **Deduplicación** actividad:
 1. Seleccione el **Método de deduplicación** para usar:
 
    * **Selección aleatoria**: selecciona de forma aleatoria el registro que se va a excluir de los duplicados.
-   * **Uso de una expresión**: esto permite mantener los registros en los que el valor de la expresión introducida es el más pequeño o el más grande.
-   * **Following a list of values**: permite definir una prioridad de valor para uno o varios campos. Para definir los valores, haga clic en **Atributo** para seleccionar un campo o crear una expresión, añada los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en el botón Add situado encima de la lista de valores.
+   * **Uso de una expresión**: Mantenga los registros en los que el valor de la expresión introducida es el más pequeño o el más grande.
+   * **Valores no vacíos**: Mantenga los registros para los que la expresión no está vacía.
+   * **Siguiendo una lista de valores**: defina una prioridad de valor para uno o varios campos. Para definir los valores, haga clic en **Atributo** para seleccionar un campo o crear una expresión, añada los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en **Botón Añadir** situado encima de la lista de valores.
 
 1. Seleccione la opción **Generate complement** si desea utilizar la población restante. El complemento está formado por todos los duplicados. A continuación, se agregará una transición adicional a la actividad.
 

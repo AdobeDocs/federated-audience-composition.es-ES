@@ -2,10 +2,10 @@
 audience: end-user
 title: Uso de la actividad Enrichment
 description: Aprenda a utilizar la actividad de enriquecimiento
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 40%
+source-wordcount: '387'
+ht-degree: 38%
 
 ---
 
@@ -53,55 +53,29 @@ Una vez añadidos los datos de enriquecimiento a la composición, pueden utiliza
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
-## Añadir una actividad de enriquecimiento {#enrichment-configuration}
+## Configuración de la actividad Enrichment {#enrichment-configuration}
 
 Siga estos pasos para configurar la actividad **Enriquecimiento**:
 
 1. Añada actividades como **Generar público destinatario** y **Combinar**.
 1. Añada una actividad **Enriquecimiento**
-1. Si se han configurado varias transiciones en la composición, puede utilizar el **[!UICONTROL Conjunto principal]** para definir qué transición debe utilizarse como conjunto principal para enriquecerse con datos.
 
-## Añadir datos de enriquecimiento {#enrichment-add}
+   ![](../assets/enrichment.png)
+
+1. Si se han configurado varias transiciones en la composición, puede utilizar el **[!UICONTROL Conjunto principal]** para definir qué transición debe utilizarse como conjunto principal para enriquecerse con datos.
 
 1. Clic **Añadir datos de enriquecimiento** y seleccione el atributo que se utilizará para enriquecer los datos.
 
-   Puede seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento de la dimensión de destino o un vínculo de recopilación. Cada uno de estos tipos se detalla en los ejemplos siguientes:
+   ![](../assets/enrichment-add.png)
 
-   * [Atributo de enriquecimiento único](#single-attribute)
-   * [Vínculo de colección](#collection-link)
+   >[!NOTE]
+   >
+   >El **Botón Editar expresión** en la pantalla de selección de atributos permite crear expresiones avanzadas para seleccionar el atributo.
 
-<!--
->[!NOTE]
->
->The **Edit expression button** in the attribute selection screen allows you to build advanced expressions to select the attribute. [Learn how to work with the expression editor](../../query/expression-editor.md)-->
+<!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 
-## Creación de vínculos entre tablas {#create-links}
-
-El **[!UICONTROL Definición de vínculo]** permite crear un vínculo entre los datos de la tabla de trabajo y la base de datos. Por ejemplo, si carga datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, debe crear un vínculo hacia la tabla del país para actualizar esta información en sus perfiles.
-
-Hay varios tipos de vínculos disponibles:
-
-* **[!UICONTROL 1 enlace simple de cardinalidad]**: Cada registro del conjunto principal se puede asociar con un registro de los datos vinculados y solo con uno.
-* **[!UICONTROL 0 o 1 enlace simple de cardinalidad]**: Cada registro del conjunto principal puede asociarse con 0 o 1 registro de los datos vinculados, pero no más de uno.
-* **[!UICONTROL Enlace de colección de cardinalidad N]**: Cada registro del conjunto principal se puede asociar con 0, 1 o más registros (N) de los datos vinculados.
-
-Para crear un vínculo, siga estos pasos:
-
-1. En el **[!UICONTROL Definición de vínculo]** , haga clic en **[!UICONTROL Añadir vínculo]** botón.
-
-1. En el **Tipo de relación** , elija el tipo de vínculo que desea crear.
-
-1. Identifique el objetivo al que desea vincular el conjunto principal:
-
-   * Para vincular una tabla existente en la base de datos, elija **[!UICONTROL Esquema de base]** y seleccione la tabla que desee en la **[!UICONTROL Esquema de destino]** field.
-   * Para vincular con datos de la transición de entrada, elija **Esquema temporal** y seleccione la transición cuyos datos desee utilizar.
-
-1. Defina los criterios de reconciliación para hacer coincidir los datos del conjunto principal con el esquema vinculado. Hay dos tipos de uniones disponibles:
-
-   * **Unión simple**: seleccione un atributo específico para hacer coincidir los datos de los dos esquemas. Clic **Añadir unión** y seleccione la **Source** y **Destino** atributos que se utilizarán como criterios de reconciliación.
-   * **Unión avanzada**: cree un vínculo con condiciones avanzadas. Clic **Añadir unión** y haga clic en **Crear condición** para abrir el modelador de consultas.
-
-Una muestra de composición que utiliza vínculos está disponible en el [Ejemplos](#link-example) sección.
+    * [Single enrichment attribute](#single-attribute)
+    * [Collection lnk](#collection-link)-->
 
 ## Ejemplos {#example}
 
@@ -113,90 +87,46 @@ A continuación, simplemente añadimos un único atributo de enriquecimiento, po
 1. Seleccione un campo simple de la dimensión de segmentación, en nuestro ejemplo, la fecha de nacimiento.
 1. Haga clic en **Confirmar**.
 
-### Vínculo de colección {#collection-link}
+<!--### Collection link {#collection-link}
 
-En este caso de uso más complejo, seleccionaremos un vínculo de colección, que es un vínculo con una cardinalidad 1-N entre tablas. Vamos a recuperar las tres últimas compras con un importe menor a 100 €. Para ello, debe definir lo siguiente:
+In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
 
-* un atributo de enriquecimiento: el campo **Cantidad total**
-* número de líneas que se van a recuperar: 3
-* un filtro: filtre los artículos que superen los 100 €
-* un orden: orden descendente en el campo **Fecha del pedido**.
+* an enrichment attribute: the **Total amount** field
+* the number of lines to retrieve: 3
+* a filter: filter out items that are greater than 100$
+* a sorting: descendant sorting on the **Order date** field. 
 
-#### Añadir el atributo {#add-attribute}
+#### Add the attribute {#add-attribute}
 
-Aquí es donde se selecciona el vínculo de colección que se utilizará como datos de enriquecimiento.
+This is where you select the collection link to use as enrichment data.
 
-1. Haga clic dentro del campo **Atributo**.
-1. Haga clic en **Mostrar atributos avanzados**.
-1. Seleccione el campo **Cantidad total** de la tabla **Compras**.
+1. Click inside the **Attribute** field.
+1. Click **Display advanced attributes**.
+1. Select the **Total amount** field from the **Purchases** table. 
 
-#### Definir la configuración de la colección{#collection-settings}
+#### Define the collection settings{#collection-settings}
 
-A continuación, defina cómo se recopilan los datos y el número de registros que desea recuperar.
+Then, define how the data is collected and the number of records to retrieve.
 
-1. Seleccionar **Recopilar datos** en el menú desplegable **Seleccione cómo se recopilan los datos**.
-1. Escriba &quot;3&quot; en el campo **Líneas a recuperar (Columnas a crear)**.
+1. Select **Collect data** in the **Select how the data is collected** drop-down.
+1. Type "3" in the **Lines to retrieve (Columns to create)** field. 
 
-Si desea, por ejemplo, obtener la cantidad promedio de compras para un cliente, seleccione **Datos acumulados** en su lugar y seleccione **Promedio** en el menú desplegable **Función de acumulado**.
+If you want, for example, to get the average amount of purchases for a customer, select **Aggregated data** instead, and select **Average** in the **Aggregate function** drop-down.
 
-#### Definición de los filtros{#collection-filters}
+#### Define the filters{#collection-filters}
 
-Aquí, definimos el valor máximo del atributo de enriquecimiento. Filtramos los elementos superiores a 100 $. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+Here, we define the maximum value for the enrichment attribute. We filter out items that are greater than 100$. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
-1. Haga clic en **Editar filtros**.
-1. Añada los dos filtros siguientes: **Cantidad total** existe Y **Cantidad total** es menor que 100. El primero filtra los valores NULOS, ya que aparecerían como el valor más alto.
-1. Haga clic en **Confirmar**.
+1. Click **Edit filters**.
+1. Add the two following filters: **Total amount** exists AND **Total amount** is less than 100. The first one filters NULL values as they would appear as the greatest value.
+1. Click **Confirm**.
 
-#### Definición de la ordenación{#collection-sorting}
+#### Define the sorting{#collection-sorting}
 
-Ahora necesitamos aplicar la ordenación para recuperar las tres **últimas** compras.
+We now need to apply sorting in order to retrieve the three **latest** purchases.
 
-1. Active la opción **Habilitar ordenación**.
-1. Haga clic dentro del campo **Atributo**.
-1. Seleccione el campo **Fecha del pedido**.
-1. Haga clic en **Confirmar**.
-1. Seleccione **Descendente** desde el menú desplegable **Ordenar**.
-
-
-### Enriquecimiento con datos vinculados {#link-example}
-
-El ejemplo siguiente muestra una composición configurada para crear un vínculo entre dos transiciones. La primera transición identifica los datos de perfil mediante una actividad de consulta, mientras que la segunda transición incluye datos de compra almacenados en un archivo cargado mediante una actividad de archivo de carga.
-
-* El primero **Enriquecimiento** la actividad vincula nuestro conjunto principal (datos del **Consulta** actividad) con el esquema de **Cargar archivo** actividad. Esto nos permite hacer coincidir cada perfil objetivo por la consulta con los datos de compra correspondientes.
-* Un segundo **Enriquecimiento** actividad se añade para enriquecer los datos de la tabla de composición con los datos de compra procedentes de **Cargar archivo** actividad. Esto nos permite utilizar esos datos en actividades adicionales, por ejemplo, para personalizar mensajes enviados a los clientes con información sobre su compra.
-
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->
+1. Activate the **Enable sorting** option.
+1. Click inside the **Attribute** field.
+1. Select the **Order date** field.
+1. Click **Confirm**. 
+1. Select **Descending** from the **Sort** drop-down.-->

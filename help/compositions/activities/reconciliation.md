@@ -2,10 +2,10 @@
 audience: end-user
 title: Uso de la actividad de reconciliación
 description: Aprenda a utilizar la actividad de reconciliación
-source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 29%
+source-wordcount: '518'
+ht-degree: 27%
 
 ---
 
@@ -43,7 +43,7 @@ El **Reconciliación** La actividad le permite vincular datos no identificados a
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Esquema"
->abstract="Seleccione el nuevo esquema que se aplicará a los datos. Un esquema, también conocido como &quot;dimensión de segmentación&quot;, permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc. De forma predeterminada, se selecciona la dimensión de segmentación actual de la composición."
+>abstract="Seleccione el nuevo esquema que se aplicará a los datos. Un esquema, también conocido como dimensión de segmentación, permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc. De forma predeterminada, se selecciona el esquema actual de maquetación."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ El **Reconciliación** La actividad le permite vincular datos no identificados a
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Seleccionar la dimensión de segmentación"
->abstract="Seleccione la dimensión de segmentación con la que se reconciliarán los datos de entrada."
+>abstract="Seleccione el esquema, también conocido como dimensión de segmentación, con el que se reconciliarán los datos entrantes."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -69,7 +69,7 @@ Siga estos pasos para configurar el **Reconciliación** actividad:
 
 1. Añadir un **Reconciliación** actividad en la composición.
 
-1. Seleccione el **Nuevo esquema**. Un esquema, también conocido como &quot;dimensión de segmentación&quot;, permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc.
+1. Seleccione el **Nuevo esquema**. Un esquema, también conocido como dimensión de segmentación, permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc.
 
 1. Seleccione los campos que se utilizarán para la reconciliación. Se pueden utilizar uno o más criterios de reconciliación.
 

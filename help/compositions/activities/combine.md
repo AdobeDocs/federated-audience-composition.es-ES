@@ -2,10 +2,10 @@
 audience: end-user
 title: Uso de la actividad Combinar
 description: Aprenda a utilizar la actividad Combinar
-source-git-commit: 7873cf38e8411480618bdeaebdcb30474731b7b5
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 61%
+source-wordcount: '765'
+ht-degree: 46%
 
 ---
 
@@ -87,7 +87,7 @@ Para ello, siga los pasos adicionales a continuación:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Reglas de inclusión "
->abstract="Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un público destinatario de otra dimensión, se debe devolver este público destinatario a la misma dimensión de segmentación que el público destinatario principal. Para ello, haga clic en **Añadir una regla** en la E **Reglas de exclusión** y especifique las condiciones del cambio de dimensión. La reconciliación de datos se lleva a cabo mediante un atributo o una unión."
+>abstract="Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un objetivo de otro esquema, también conocido como dimensión de segmentación, este objetivo debe devolverse al mismo esquema que el objetivo principal. Para ello, haga clic en **Añadir una regla** en la E **Reglas de exclusión** y especifique las condiciones del cambio de esquema. La reconciliación de datos se lleva a cabo mediante un atributo o una unión."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,7 +97,7 @@ Para ello, siga los pasos adicionales a continuación:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Reglas de inclusión "
->abstract="Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un público destinatario de otra dimensión, se debe devolver este público destinatario a la misma dimensión de segmentación que el público destinatario principal. Para ello, haga clic en **Añadir una regla** en la sección **Reglas de exclusión** y especifique las condiciones del cambio de dimensión. La reconciliación de datos se lleva a cabo mediante un atributo o una unión."
+>abstract="Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un objetivo de otro esquema, también conocido como dimensión de segmentación, este objetivo debe devolverse al mismo esquema que el objetivo principal. Para ello, haga clic en **Añadir una regla** en el **Reglas de exclusión** y especifique las condiciones del cambio de esquema. La reconciliación de datos se lleva a cabo mediante un atributo o una unión."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -112,7 +112,7 @@ Para ello, debe seguir los pasos adicionales a continuación:
 
 1. En la sección **Conjuntos que unir**, seleccione el **Conjunto principal** de las transiciones entrantes. Es el conjunto desde el que se excluyen los elementos. Los demás conjuntos coinciden con elementos antes de excluirse del conjunto principal.
 
-1. Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un público destinatario de otra dimensión, se debe devolver este público destinatario a la misma dimensión de segmentación que el público destinatario principal. Para ello, haga clic en **Añadir una regla** en la sección **Reglas de exclusión** y especifique las condiciones del cambio de dimensión. La reconciliación de datos se realiza mediante un atributo o una unión. <!-- pas compris-->
+1. Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un objetivo de otro esquema, este objetivo debe devolverse al mismo esquema que el objetivo principal. Para ello, haga clic en **Añadir una regla** en el **Reglas de exclusión** y especifique las condiciones del cambio de esquema. La reconciliación de datos se realiza mediante un atributo o una unión. <!-- pas compris-->
 1. Seleccione la opción **Generar complemento** si desea procesar la población restante. Consulte la sección [Intersección](#intersection).
 
 <!--

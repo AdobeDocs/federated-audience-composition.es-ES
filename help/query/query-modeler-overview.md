@@ -2,9 +2,9 @@
 audience: end-user
 title: Uso del modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas.
-source-git-commit: f6730819712ffcbe815517a4406dac7e8fb9779c
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '380'
 ht-degree: 8%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="Modelador de consultas"
->abstract="Defina criterios de filtrado para los destinatarios o cualquier otra dimensión de segmentación de la base de datos."
+>abstract="Defina criterios de filtrado para los destinatarios o cualquier otro esquema, también conocido como dimensión de segmentación, de la base de datos."
 
 El modelador de consultas simplifica el proceso de filtrado de la base de datos en función de diversos criterios. Además, el modelador de consultas puede administrar consultas muy complejas y largas de forma eficaz, lo que ofrece una mayor flexibilidad y precisión. Además, admite filtros predefinidos dentro de las condiciones, lo que le permite refinar las consultas con facilidad mientras utiliza expresiones avanzadas y operadores para estrategias completas de segmentación y segmentación de audiencia.
 

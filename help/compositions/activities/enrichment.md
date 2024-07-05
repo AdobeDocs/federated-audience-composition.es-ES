@@ -2,10 +2,10 @@
 audience: end-user
 title: Uso de la actividad Enrichment
 description: Aprenda a utilizar la actividad de enriquecimiento
-source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 38%
+source-wordcount: '395'
+ht-degree: 26%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Datos de enriquecimiento"
->abstract="Seleccione los datos que desea utilizar para enriquecer la composición. Se pueden seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento de la dimensión de público destinatario o un vínculo de recopilación, que es un vínculo con una cardinalidad 1-N entre las tablas."
+>abstract="Seleccione los datos que desea utilizar para enriquecer la composición. Puede seleccionar dos tipos de datos de enriquecimiento: un solo atributo de enriquecimiento del esquema, también conocido como dimensión de segmentación, o un vínculo de recopilación, que es un vínculo con una cardinalidad 1-N entre tablas."
 
 El **Enriquecimiento** esta actividad permite mejorar los datos de destino con información adicional de la base de datos federada. Normalmente se utiliza en composiciones después de actividades de segmentación.
 
@@ -84,7 +84,7 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
 A continuación, simplemente añadimos un único atributo de enriquecimiento, por ejemplo, la fecha de nacimiento. Siga estos pasos:
 
 1. Haga clic dentro del campo **Atributo**.
-1. Seleccione un campo simple de la dimensión de segmentación, en nuestro ejemplo, la fecha de nacimiento.
+1. Seleccione un campo simple del esquema, también conocido como dimensión de segmentación, y la fecha de nacimiento en nuestro ejemplo.
 1. Haga clic en **Confirmar**.
 
 <!--### Collection link {#collection-link}

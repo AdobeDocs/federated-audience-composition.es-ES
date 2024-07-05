@@ -2,7 +2,7 @@
 audience: end-user
 title: Uso de la actividad Fork
 description: Aprenda a utilizar la actividad de bifurcación
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 984ea7f59f3099f9f08af24d9468e4dc559da0a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 81%
@@ -16,7 +16,6 @@ ht-degree: 81%
 >id="dc_orchestration_fork"
 >title="Actividad de bifurcación"
 >abstract="La actividad de **bifurcación** permite crear transiciones salientes para iniciar varias actividades al mismo tiempo."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
@@ -33,4 +32,4 @@ Siga estos pasos para configurar la actividad **Tenedor**:
 1. Haga clic en **Agregar transición** para añadir una nueva transición saliente. De forma predeterminada, se definen dos transiciones.
 1. Añada una etiqueta a cada una de las transiciones.
 
-
+   ![](../assets/fork.png)

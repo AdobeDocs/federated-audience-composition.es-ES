@@ -2,7 +2,7 @@
 audience: end-user
 title: Uso de la actividad Guardar audiencia
 description: Aprenda a utilizar la actividad Guardar audiencia
-source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
+source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 12%
@@ -60,7 +60,7 @@ Siga estos pasos para configurar el **Guardar audiencia** actividad:
    * **Campo de identidad principal**: seleccione el campo que desea utilizar para identificar los perfiles. Por ejemplo, su dirección de correo electrónico o número de teléfono.
    * **Área de nombres de identidad**: seleccione el área de nombres que se utilizará para identificar los perfiles, es decir, el tipo de datos que se utilizará como clave de identificación. Por ejemplo, si la dirección de correo electrónico se ha seleccionado como campo de identidad principal, el área de nombres de identidad **Correo electrónico** debe estar seleccionado. Si el identificador único es el número de teléfono, el área de nombres de identidad **Teléfono** debe estar seleccionado.
 
-Después de ejecutar la maquetación, la audiencia resultante se guarda en Adobe Experience Platform y se puede acceder a ella desde el **Audiencias** menú.
+Después de ejecutar la composición, la audiencia resultante se guarda en Adobe Experience Platform <!-- to check-->, y se hace accesible en la **Audiencias** menú.
 
 <!--
 

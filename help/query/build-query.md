@@ -2,9 +2,9 @@
 audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Obtenga información sobre cómo crear la primera consulta en el modelador de consultas
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2066'
 ht-degree: 11%
 
 ---
@@ -15,7 +15,7 @@ Para empezar a crear una consulta, acceda al modelador de consultas desde la ubi
 
 Se pueden añadir dos tipos de elementos:
 
-* **Filtrado de componentes** (Condición personalizada, Seleccionar audiencia, Filtro predefinido) le permite crear sus propias reglas, seleccionar una audiencia o un filtro predefinido para restringir la consulta. Se añaden al principio de la consulta y en transiciones punteadas. [Aprenda a trabajar con los componentes de filtrado](#filtering)
+* **Filtrado de componentes** (Condición personalizada, Seleccionar audiencia) le permiten crear sus propias reglas o seleccionar una audiencia para restringir la consulta. Se añaden al principio de la consulta y en transiciones punteadas. [Aprenda a trabajar con los componentes de filtrado](#filtering)
 
   Ejemplo: *Destinatarios que se han suscrito al boletín &quot;Deportes&quot;*. *Destinatarios que viven en Nueva York*, *Destinatarios que viven en San Francisco*
 
@@ -33,7 +33,6 @@ Los componentes de filtrado le permiten refinar la consulta utilizando:
 
 * **[Condiciones personalizadas](#custom-condition)**: filtre la consulta creando su propia condición con atributos de la base de datos y expresiones avanzadas.
 * **[Audiencias](#audiences)**: filtre la consulta utilizando una audiencia existente.
-* **[Filtro predefinido](#predefined-filters)**: filtre la consulta utilizando filtros predefinidos existentes.
 
 ### Configuración de una condición personalizada {#custom-condition}
 
@@ -52,7 +51,7 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
    >[!NOTE]
    >
-   >El **Editar expresión** Este botón permite aprovechar el editor de expresiones web para definir manualmente una expresión utilizando los campos de la base de datos y las funciones de ayuda. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
+   >El **Editar expresión** Este botón permite aprovechar el editor de expresiones para definir manualmente una expresión mediante los campos de la base de datos y las funciones de ayuda. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
 
 1. Seleccione el operador que desee aplicar en la lista desplegable. Hay varios operadores disponibles. Tenga en cuenta que los operadores disponibles en la lista desplegable dependen del tipo de datos del atributo.
 
@@ -79,15 +78,11 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
 +++
 
-1. En el **Valor** , defina el valor esperado. También puede aprovechar el editor de expresiones web para definir manualmente una expresión mediante los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en el **Editar expresión** botón. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
+1. En el **Valor** , defina el valor esperado. También puede aprovechar el editor de expresiones para definir manualmente una expresión mediante los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en el **Editar expresión** botón. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
 
    *Ejemplo de consulta que devuelve todos los perfiles de 21 años o más:*
 
    ![](assets/query-custom-condition.png){zoomable="yes"}
-
-   Para los atributos de tipo fecha, los valores predefinidos están disponibles mediante la variable **[!UICONTROL Ajustes preestablecidos]** opción.
-
-   ![](assets/date-presets.png){zoomable="yes"}
 
 #### Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
 
@@ -243,12 +238,12 @@ VIP VIP En el ejemplo siguiente, hemos creado un grupo intermedio para incluir l
 >title="Propiedades de las reglas"
 >abstract="Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **Propiedades de las reglas** situado en el lado derecho.<br/>Este panel permite mostrar los datos resultantes, recuperar una versión de código SQL de la consulta y comprobar el número de registros de destino.<br/>Utilice el botón **Seleccionar o guardar filtro** para guardar la consulta como un filtro predefinido o reemplazar el contenido del lienzo con un filtro existente."
 
-Una vez que haya creado la consulta en el lienzo, puede comprobarla con el **Propiedades de regla** situado en el lado derecho. Las operaciones disponibles son:
+Una vez que haya creado la consulta en el lienzo, puede comprobarla con el **Propiedades de regla** situado en el lado derecho. Este panel se muestra al crear una consulta para crear una audiencia. Las operaciones disponibles son:
 
 * **Ver resultados:** Muestra los datos resultantes de la consulta.
 * **Vista de código**: Muestra una versión basada en código de la consulta en SQL.
 * **Calcular**: actualiza y muestra el número de registros dirigidos por la consulta.
-* **Seleccionar o guardar filtro**: elija un filtro predefinido existente para utilizarlo en el lienzo o guarde la consulta como un filtro predefinido para su reutilización futura. <!--[Learn how to work with predefined filters](../get-started/predefined-filters.md)-->
+* **Seleccionar o guardar filtro**: elija un filtro predefinido existente para utilizarlo en el lienzo o guarde la consulta como un filtro predefinido para su reutilización futura.
 
   >[!IMPORTANT]
   >

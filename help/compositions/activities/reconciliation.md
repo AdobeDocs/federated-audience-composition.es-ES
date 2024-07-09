@@ -2,10 +2,10 @@
 audience: end-user
 title: Uso de la actividad de reconciliación
 description: Aprenda a utilizar la actividad de reconciliación
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 27%
+source-wordcount: '526'
+ht-degree: 26%
 
 ---
 
@@ -82,7 +82,7 @@ Siga estos pasos para configurar el **Reconciliación** actividad:
 
       ![](../assets/reconciliation-rules.png)
 
-   1. Para utilizar otros atributos para reconciliar datos, seleccione la opción **Condiciones de reconciliación avanzadas** luego haga clic en la opción **Creación de condiciones** botón. A continuación, puede crear su propia condición de reconciliación utilizando el modelador de consultas.
+   1. Para utilizar otros atributos para reconciliar datos, seleccione la opción **Condiciones de reconciliación avanzadas** luego haga clic en la opción **Creación de condiciones** botón. A continuación, puede crear su propia condición de reconciliación utilizando el modelador de consultas. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 

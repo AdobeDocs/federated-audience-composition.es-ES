@@ -4,10 +4,10 @@ title: Uso de la actividad Consulta incremental
 description: Aprenda a utilizar la actividad Consulta incremental
 hide: true
 hidefromtoc: true
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 24%
+source-wordcount: '598'
+ht-degree: 23%
 
 ---
 
@@ -49,7 +49,7 @@ Siga estos pasos para configurar el **Consulta incremental** actividad:
 
    La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el objetivo se selecciona en los destinatarios. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
-1. Utilice el modelador de consultas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. Utilice el modelador de consultas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 
 1. En el **[!UICONTROL Datos procesados]** , seleccione el modo incremental que desea utilizar:
 

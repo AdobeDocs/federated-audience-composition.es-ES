@@ -2,10 +2,10 @@
 user-guide-title: Composición de público federada
 title: Documentación de composición de audiencia federada de Adobe
 breadcrumb-title: Composición de público federada
-source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 37%
+source-wordcount: '119'
+ht-degree: 36%
 
 ---
 
@@ -47,6 +47,5 @@ ht-degree: 37%
    + [Uso del modelador de consultas](query/query-modeler-overview.md)
    + [Genere su primera consulta](query/build-query.md)
    + [Editar expresiones](query/expression-editor.md)
-   + [Filtrar listas](query/filter.md)
 + Pista de auditoría {#audit-trail}
    + [Supervisión de bases de datos](admin/audit-trail.md)

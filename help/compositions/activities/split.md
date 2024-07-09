@@ -2,10 +2,10 @@
 audience: end-user
 title: Uso de la actividad División
 description: Descubra más información sobre cómo utilizar la actividad Split
-source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 74%
+source-wordcount: '927'
+ht-degree: 73%
 
 ---
 
@@ -83,7 +83,7 @@ Siga estos pasos para configurar la actividad **División**:
 
       ![](../assets/split-subset.png)
 
-   1. Para aplicar una condición de filtrado al subconjunto, haga clic en **[!UICONTROL Crear filtro]** y configure la regla de filtrado que desee mediante el modelador de consultas. Por ejemplo, incluya perfiles de la población entrante cuya dirección de correo electrónico existe en la base de datos. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+   1. Para aplicar una condición de filtrado al subconjunto, haga clic en **[!UICONTROL Crear filtro]** y configure la regla de filtrado que desee mediante el modelador de consultas. Por ejemplo, incluya perfiles de la población entrante cuya dirección de correo electrónico existe en la base de datos. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 
    1. Para limitar el número de perfiles seleccionados por el subconjunto, active la opción **[!UICONTROL Habilitar límite]** y especifique el número o los porcentajes de la población que desea incluir.
 

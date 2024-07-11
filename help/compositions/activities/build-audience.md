@@ -5,7 +5,7 @@ description: Aprenda a utilizar la actividad Generar audiencia
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 24%
+ht-degree: 39%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
 >title="Actividad generar público"
->abstract="El **Crear audiencia** esta actividad le permite definir la audiencia que entrará en la composición."
+>abstract="La actividad **Generar público** le permite definir el público que entrará en la composición."
 
-El **Crear audiencia** esta actividad le permite definir la audiencia que entrará en la composición.
+La actividad **Generar público** le permite definir el público que entrará en la composición.
 
 Para definir la población del público destinatario, puede hacer lo siguiente:
 
@@ -32,7 +32,7 @@ El **Crear audiencia** la actividad se puede colocar al principio de la composic
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
 >title="Público"
->abstract="Seleccione la audiencia."
+>abstract="Seleccione el público."
 
 Siga estos pasos para configurar la actividad **Generar público destinatario**:
 
@@ -58,7 +58,7 @@ Para seleccionar un público destinatario existente, siga estos pasos:
 
 1. Seleccione **Leer público destinatario**.
 1. Haga clic en **Continuar**.
-1. Seleccione la audiencia.
+1. Seleccione el público.
 
 >[!ENDTABS]
 

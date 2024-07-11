@@ -5,7 +5,7 @@ description: Aprenda a utilizar la actividad AND-join
 source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 57%
+ht-degree: 70%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
 >title="Actividad AND-join"
->abstract="El **And-join** esta actividad le permite sincronizar varias ramas de ejecución de una composición. Se activa una vez que han finalizado todas las actividades anteriores. Esto le permite asegurarse de que ciertas actividades han finalizado antes de continuar ejecutando la composición."
+>abstract="La actividad **And-join** le permite sincronizar varias ramas de ejecución de una composición. Se activa una vez que han finalizado todas las actividades anteriores. Esto le permite asegurarse de que ciertas actividades hayan finalizado antes de continuar con la ejecución de la composición."
 
 El **AND-join** esta actividad le permite sincronizar varias ramas de ejecución de una composición.
 

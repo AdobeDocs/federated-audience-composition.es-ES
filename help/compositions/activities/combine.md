@@ -5,7 +5,7 @@ description: Aprenda a utilizar la actividad Combinar
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 46%
+ht-degree: 56%
 
 ---
 
@@ -26,12 +26,12 @@ El **Combinar** la actividad se puede colocar después de cualquier otra activid
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_merging_options"
 >title="Opciones de combinación de intersección"
->abstract="El **intersección** permite mantener solo los elementos comunes a las diferentes poblaciones de entrada de la actividad. En el **Configura para unirse** , compruebe todas las actividades anteriores a las que desee unirse."
+>abstract="La **Intersección** le permite mantener solo los elementos comunes a las diferentes poblaciones de entrada de la actividad. En la sección **Conjuntos para unir**, compruebe todas las actividades anteriores que desee unir."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="Opciones de combinación de exclusión"
->abstract="El **exclusión** permite excluir elementos de una población según determinados criterios. En el **Configura para unirse** , compruebe todas las actividades anteriores a las que desee unirse."
+>abstract="La **Exclusión** le permite excluir elementos de una población según determinados criterios. En la sección **Conjuntos para unir**, compruebe todas las actividades anteriores que desee unir."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
@@ -86,7 +86,7 @@ Para ello, siga los pasos adicionales a continuación:
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
->title="Reglas de inclusión "
+>title="Reglas de inclusión"
 >abstract="Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un objetivo de otro esquema, también conocido como dimensión de segmentación, este objetivo debe devolverse al mismo esquema que el objetivo principal. Para ello, haga clic en **Añadir una regla** en la E **Reglas de exclusión** y especifique las condiciones del cambio de esquema. La reconciliación de datos se lleva a cabo mediante un atributo o una unión."
 
 >[!CONTEXTUALHELP]
@@ -96,13 +96,13 @@ Para ello, siga los pasos adicionales a continuación:
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
->title="Reglas de inclusión "
+>title="Reglas de inclusión"
 >abstract="Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un objetivo de otro esquema, también conocido como dimensión de segmentación, este objetivo debe devolverse al mismo esquema que el objetivo principal. Para ello, haga clic en **Añadir una regla** en el **Reglas de exclusión** y especifique las condiciones del cambio de esquema. La reconciliación de datos se lleva a cabo mediante un atributo o una unión."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
 >title="Complemento de generación de combinación"
->abstract="Alternar en **Generar complemento** opción para procesar la población restante en una transición adicional."
+>abstract="Active la opción **Generar complemento** para procesar la población restante en una transición adicional."
 
 En el **Combinar** actividad, puede configurar un **Exclusión**.
 

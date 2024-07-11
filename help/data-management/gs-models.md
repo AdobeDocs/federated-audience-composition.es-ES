@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo iniciar modelos de datos
 source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 1%
+ht-degree: 37%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
->title="Trabajo con modelos"
->abstract="Los esquemas y modelos de datos se muestran en esta pantalla. Puede crear esquemas y modelos de datos desde el **Crear** botón."
+>title="Trabajar con modelos"
+>abstract="Los esquemas y los modelos de datos se muestran en esta pantalla. Puede crear esquemas y modelos de datos mediante el botón **Crear**."
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_schema"
@@ -26,7 +26,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_audience"
 >title="Selección de un público"
->abstract="Seleccione la audiencia del modelo de datos."
+>abstract="Seleccione el público del modelo de datos."
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_properties"

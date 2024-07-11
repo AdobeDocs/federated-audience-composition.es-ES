@@ -5,7 +5,7 @@ description: Aprenda a utilizar la actividad Guardar audiencia
 source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 12%
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="Guardar un público"
->abstract="Utilice esta actividad para actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en la composición. Los públicos creados se añaden a la lista de públicos y están disponibles en el menú **Públicos**."
+>abstract="Utilice esta actividad para actualizar un público existente o crear uno nuevo a partir de la población calculada en sentido ascendente en la composición. Los públicos creados se añaden a la lista de públicos y están disponibles en el menú **Públicos**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -26,13 +26,13 @@ ht-degree: 12%
 >id="dc_orchestration_save_audience_primary_identity"
 >title="Campo de identidad principal"
 >abstract="Seleccione la identidad principal que se utilizará para los perfiles."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Obtenga más información en la documentación de Experience Platform"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Más información en la Documentación de Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Espacio de nombres de identidad"
 >abstract="Seleccione el área de nombres que se utilizará para los perfiles."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces" text="Obtenga más información en la documentación de Experience Platform"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces" text="Más información en la Documentación de Experience Platform"
 
 El **Guardar audiencia** esta actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en una composición. Las audiencias creadas se añaden a la lista de audiencias de aplicación y están disponibles a través del **Audiencias** menú.
 

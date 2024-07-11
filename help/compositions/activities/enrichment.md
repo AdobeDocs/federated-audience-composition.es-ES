@@ -5,7 +5,7 @@ description: Aprenda a utilizar la actividad de enriquecimiento
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 26%
+ht-degree: 44%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="Actividad de enriquecimiento"
->abstract="La actividad de **enriquecimiento** permite mejorar los datos de destino con información adicional de la base de datos. Normalmente se utiliza en una composición después de actividades de segmentación."
+>abstract="La actividad de **enriquecimiento** permite mejorar los datos de destino con información adicional de la base de datos. Normalmente, se utiliza en una composición después de las actividades de segmentación."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
 >title="Actividad de enriquecimiento"
->abstract="Una vez añadidos los datos de enriquecimiento a la composición, pueden utilizarse en las actividades añadidas después de la **Enriquecimiento** actividad para segmentar perfiles en grupos distintos según sus comportamientos, preferencias y opciones."
+>abstract="Una vez añadidos los datos de enriquecimiento a la composición, pueden utilizarse en las actividades añadidas después de la actividad **Enriquecimiento** para segmentar perfiles en grupos distintos según sus comportamientos, preferencias y opciones."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
@@ -35,7 +35,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Datos de enriquecimiento"
->abstract="Seleccione los datos que desea utilizar para enriquecer la composición. Puede seleccionar dos tipos de datos de enriquecimiento: un solo atributo de enriquecimiento del esquema, también conocido como dimensión de segmentación, o un vínculo de recopilación, que es un vínculo con una cardinalidad 1-N entre tablas."
+>abstract="Seleccione los datos que desee utilizar para enriquecer la composición. Puede seleccionar dos tipos de datos de enriquecimiento: un solo atributo de enriquecimiento del esquema, también conocido como dimensión de segmentación, o un vínculo de recopilación, que es un vínculo con una cardinalidad 1-N entre tablas."
 
 El **Enriquecimiento** esta actividad permite mejorar los datos de destino con información adicional de la base de datos federada. Normalmente se utiliza en composiciones después de actividades de segmentación.
 

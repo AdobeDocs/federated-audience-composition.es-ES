@@ -5,7 +5,7 @@ description: Aprenda a crear composiciones
 source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 2%
+ht-degree: 21%
 
 ---
 
@@ -33,18 +33,18 @@ El primer paso para crear una composición es definir su etiqueta y configurar a
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_properties"
->title="Propiedades de composición"
->abstract="En esta sección se proporcionan propiedades de composición genéricas a las que también se puede acceder al crear la composición."
+>title="Propiedades de la composición"
+>abstract="En esta sección se proporcionan propiedades genéricas de composición a las que también se puede acceder al crear la composición."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_segmentation"
 >title="Segmentación de composición"
->abstract="De forma predeterminada, sólo se conservan las tablas de trabajo de la última ejecución de la composición. Puede activar esta opción para mantener las tablas de trabajo con fines de prueba. Debe usarse. **solamente** en entornos de ensayo o desarrollo. Nunca se debe comprobar en un entorno de producción."
+>abstract="De forma predeterminada, solo se conservan las tablas de trabajo de la última ejecución de la composición. Puede habilitar esta opción para conservar las tablas de trabajo con fines de prueba. Debe usarse **solamente** en entornos de ensayo o de desarrollo. Nunca se debe marcar en un entorno de producción."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
 >title="Configuración de la administración de errores"
->abstract="En esta sección, puede definir cómo administrar los errores durante la ejecución. Puede optar por pausar el proceso, omitir un determinado número de errores o detener la ejecución de la composición."
+>abstract="En esta sección, puede definir cómo administrar los errores durante la ejecución. Puede optar por poner en pausa el proceso, ignorar un determinado número de errores o detener la ejecución de la composición."
 
 Al acceder a una composición, puede acceder a ajustes avanzados que le permiten, por ejemplo, definir cómo debe comportarse la composición en caso de error.
 

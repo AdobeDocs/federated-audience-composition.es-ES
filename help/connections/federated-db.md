@@ -5,7 +5,7 @@ description: Aprenda a crear y administrar sus bases de datos federadas
 source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 18%
+ht-degree: 26%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Bases de datos federadas"
->abstract="Las conexiones existentes a bases de datos federadas se muestran en esta pantalla. Para crear una nueva conexión, haga clic en **Agregar base de datos federada** botón."
+>abstract="Las conexiones existentes a bases de datos federadas se muestran en esta pantalla. Para crear una conexión nueva, haga clic en el botón **Añadir base de datos federada**."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="Propiedades de base de datos federada"
+>title="Propiedades de la base de datos federada"
 >abstract="Introduzca el nombre de la nueva base de datos federada y seleccione su tipo."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
->title="Detalles de base de datos federada"
->abstract="Introduzca los valores para conectarse a la nueva base de datos federada. Utilice el **Probar conexión** para validar la configuración."
+>title="Detalles de la base de datos federada"
+>abstract="Introduzca la configuración para conectarse a la nueva base de datos federada. Utilice el botón **Probar conexión** para validar la configuración."
 
 Cree, configure, pruebe y guarde la conexión con una base de datos externa.
 

@@ -5,7 +5,7 @@ description: Descubra más información sobre cómo utilizar la actividad Split
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 73%
+ht-degree: 76%
 
 ---
 
@@ -24,7 +24,7 @@ La actividad **División** permite segmentar las poblaciones entrantes en varios
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="Segmentos para actividad de división"
->abstract="Añada todos los subconjuntos que quiera para segmentar la población entrante.<br/></br>Cuando se ejecuta la actividad **División**, la población se segmenta en los diferentes subconjuntos en el orden en el que se añaden a la actividad. Antes de iniciar la composición, asegúrese de haber ordenado los subconjuntos en el orden que se adapte a sus necesidades mediante los botones de flecha."
+>abstract="Añada todos los subconjuntos que quiera para segmentar la población entrante.<br/></br>Cuando se ejecuta la actividad **División**, la población se segmenta en los diferentes subconjuntos en el orden en el que se añaden a la actividad. Antes de iniciar la composición, asegúrese de haber ordenado los subconjuntos en el orden que mejor se adapte a sus necesidades mediante los botones de flecha."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"

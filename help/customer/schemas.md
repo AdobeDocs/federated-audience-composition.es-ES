@@ -5,7 +5,7 @@ description: Aprenda a empezar con esquemas
 source-git-commit: 407de5e35fae1b38a4f1c2819d684fbd87285970
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 9%
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
 >title="Seleccionar tablas"
->abstract="Seleccione las tablas que desea agregar para el modelo de datos."
+>abstract="Seleccione las tablas que desea añadir al modelo de datos."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_key"
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
->title="Seleccione la base de datos de origen que filtrar"
->abstract="Puede filtrar los esquemas en función de su origen. Seleccione una o varias bases de datos federadas para mostrar sus esquemas."
+>title="Seleccione la base de datos fuente que desea filtrar"
+>abstract="Puede filtrar los esquemas en función de su fuente. Seleccione una o varias bases de datos federadas para mostrar sus esquemas."
 
 

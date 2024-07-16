@@ -2,10 +2,10 @@
 user-guide-title: Composición de público federada
 title: Documentación de composición de audiencia federada de Adobe
 breadcrumb-title: Composición de público federada
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 36%
+ht-degree: 39%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 36%
 # Documentación de composición de audiencia federada {#using}
 
 + [Documentación de composición de audiencia federada](home.md)
-+ [Introducción ](chapter1/newfile.md)
++ [Introducción ](start/get-started.md)
 + Pasos de configuración {#config}
    + [Conectar AEP con Composición de audiencia federada](connections/destinations.md)
    + [Configurar las bases de datos federadas](connections/federated-db.md)
@@ -24,12 +24,12 @@ ht-degree: 36%
    + [Trabajo con públicos](customer/audiences.md)
 + Composiciones {#compositions}
    + [Introducción a las composiciones](compositions/gs-compositions.md)
-   + Crear y ejecutar la primera composición {#create-composition}
-      + [Principios clave de la creación de la composición](compositions/gs-composition-creation.md)
+   + Cree y ejecute su primera composición {#create-composition}
+      + [Principios clave de la creación de una composición](compositions/gs-composition-creation.md)
       + [Crear y configurar la composición](compositions/create-composition.md)
       + [Organización de actividades](compositions/orchestrate-activities.md)
       + [Inicio y supervisión de la composición](compositions/start-monitor-composition.md)
-   + Trabajo con actividades {#activities}
+   + Trabajar con actividades {#activities}
       + [Lista de actividades](compositions/activities/about-activities.md)
       + [AND-Join](compositions/activities/and-join.md)
       + [Generar público destinatario](compositions/activities/build-audience.md)

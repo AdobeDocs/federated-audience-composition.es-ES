@@ -5,7 +5,7 @@ description: Aprenda a utilizar la actividad de enriquecimiento
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 44%
+ht-degree: 52%
 
 ---
 
@@ -35,21 +35,21 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Datos de enriquecimiento"
->abstract="Seleccione los datos que desee utilizar para enriquecer la composición. Puede seleccionar dos tipos de datos de enriquecimiento: un solo atributo de enriquecimiento del esquema, también conocido como dimensión de segmentación, o un vínculo de recopilación, que es un vínculo con una cardinalidad 1-N entre tablas."
+>abstract="Seleccione los datos que desee utilizar para enriquecer la composición. Se pueden seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento del esquema, también conocido como dimensión de segmentación, o un vínculo de recopilación, que es un vínculo con una cardinalidad 1-N entre las tablas."
 
-El **Enriquecimiento** esta actividad permite mejorar los datos de destino con información adicional de la base de datos federada. Normalmente se utiliza en composiciones después de actividades de segmentación.
+La actividad **Enrichment** le permite mejorar los datos de destino con información adicional de la base de datos federada. Normalmente se utiliza en composiciones después de actividades de segmentación.
 
 Los datos de enriquecimiento pueden provenir de los siguientes lugares:
 
-* **Desde la misma tabla de trabajo** como el que se segmentó en la composición:
+* **De la misma tabla de trabajo** que la que está dirigida a su composición:
 
-  *Oriente un grupo de clientes y agregue el campo &quot;Fecha de nacimiento&quot; a la tabla de trabajo actual*.
+  *Asigne un grupo de clientes y agregue el campo &quot;Fecha de nacimiento&quot; a la tabla de trabajo actual*.
 
 * **De otra tabla de trabajo**:
 
   *Seleccione como público destinatario a un grupo de clientes y añada los campos “Cantidad” y “Tipo de producto” procedentes de la tabla “Comprar”*.
 
-Una vez añadidos los datos de enriquecimiento a la composición, pueden utilizarse en las actividades añadidas después de la **Enriquecimiento** actividad para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y opciones.
+Una vez que los datos de enriquecimiento se hayan agregado a la composición, se pueden usar en las actividades agregadas después de la actividad **Enrichment** para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y opciones.
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
@@ -62,15 +62,15 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
 
    ![](../assets/enrichment.png)
 
-1. Si se han configurado varias transiciones en la composición, puede utilizar el **[!UICONTROL Conjunto principal]** para definir qué transición debe utilizarse como conjunto principal para enriquecerse con datos.
+1. Si se han configurado varias transiciones en la composición, puede utilizar el campo **[!UICONTROL Conjunto principal]** para definir qué transición debe utilizarse como conjunto principal para enriquecerse con datos.
 
-1. Clic **Añadir datos de enriquecimiento** y seleccione el atributo que se utilizará para enriquecer los datos.
+1. Haga clic en **Agregar datos de enriquecimiento** y seleccione el atributo que se utilizará para enriquecer los datos.
 
    ![](../assets/enrichment-add.png)
 
    >[!NOTE]
    >
-   >El **Botón Editar expresión** en la pantalla de selección de atributos permite crear expresiones avanzadas para seleccionar el atributo.
+   >El **botón Editar expresión** de la pantalla de selección de atributos le permite generar expresiones avanzadas para seleccionar el atributo.
 
 <!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 

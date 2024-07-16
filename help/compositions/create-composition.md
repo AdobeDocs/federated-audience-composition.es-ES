@@ -5,7 +5,7 @@ description: Aprenda a crear composiciones
 source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -16,20 +16,20 @@ El primer paso para crear una composición es definir su etiqueta y configurar a
 
 ## Creación de la composición {#create-the-composition}
 
-1. Acceda a la **[!UICONTROL Audiencias]** y seleccione la opción **[!UICONTROL Composiciones federadas]** pestaña.
+1. Acceda al menú **[!UICONTROL Audiencias]** y seleccione la pestaña **[!UICONTROL Composiciones federadas]**.
 
-1. Haga clic en **[!UICONTROL Crear composición]** botón.
+1. Haga clic en el botón **[!UICONTROL Crear composición]**.
 
    ![](assets/composition-create.png)
 
-1. En el **[!UICONTROL Propiedades]** , especifique una etiqueta para la composición y haga clic en **[!UICONTROL Crear]**.
+1. En la sección **[!UICONTROL Propiedades]**, especifique una etiqueta para la composición y haga clic en **[!UICONTROL Crear]**.
 
 1. Se muestra el lienzo de composición. Ahora puede configurar la composición agregando tantas actividades como sea necesario para adaptarlas a sus necesidades antes de ejecutarla:
 
    * [Aprenda a organizar actividades](#action-activities)
-   * [Obtenga información sobre cómo iniciar y supervisar una composición](#save)
+   * [Aprenda a iniciar y supervisar una composición](#save)
 
-## Configurar los ajustes de la composición {#settings}
+## Configuración de los ajustes de la composición {#settings}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_properties"
@@ -48,7 +48,7 @@ El primer paso para crear una composición es definir su etiqueta y configurar a
 
 Al acceder a una composición, puede acceder a ajustes avanzados que le permiten, por ejemplo, definir cómo debe comportarse la composición en caso de error.
 
-Para acceder a las opciones adicionales de la composición, haga clic en **Configuración** situado en la sección superior de la pantalla de creación de la composición.
+Para obtener acceso a opciones adicionales para la composición, haga clic en el botón **Configuración** ubicado en la sección superior de la pantalla de creación de la composición.
 
 ![](assets/composition-create-settings.png)
 
@@ -58,12 +58,12 @@ Los ajustes disponibles son los siguientes:
 
 * **[!UICONTROL Mantener el resultado de poblaciones provisionales entre dos ejecuciones]**: De forma predeterminada, solo se conservan las tablas de trabajo de la última ejecución de la composición. Las tablas de trabajo de ejecuciones anteriores se depuran mediante una composición técnica que se ejecuta diariamente.
 
-  Si esta opción está activada, las tablas de trabajo se conservarán incluso después de ejecutar la composición. Puede utilizarlo con fines de prueba y, por lo tanto, debe utilizarlo **solamente** en entornos de ensayo o desarrollo. Nunca se debe comprobar en una composición de producción.
+  Si esta opción está activada, las tablas de trabajo se conservarán incluso después de ejecutar la composición. Puede utilizarlo con fines de prueba y, por lo tanto, **solo** debe usarse en entornos de ensayo o desarrollo. Nunca se debe comprobar en una composición de producción.
 
-* **[!UICONTROL Administración de errores]**: Esta opción permite definir las acciones que se deben realizar si una actividad de maquetación presenta errores. Hay tres opciones posibles:
+* **[!UICONTROL Gestión de errores]**: Esta opción le permite definir las acciones que deben realizarse si una actividad de composición tiene errores. Hay tres opciones posibles:
 
-   * **[!UICONTROL Suspender el proceso]**: la composición se pausa automáticamente y su estado cambia a **[!UICONTROL Error]**. Una vez resuelto el problema, reanude la composición con el **[!UICONTROL Reanudar]** botones.
-   * **[!UICONTROL Ignorar]**: el estado de la tarea que activó el error cambia a **[!UICONTROL Error]**, pero la composición mantiene el **[!UICONTROL Iniciado]** estado.
-   * **[!UICONTROL Anular el proceso]**: la composición se detiene automáticamente y su estado cambia a **[!UICONTROL Error]**. Una vez resuelto el problema, reinicie la composición con el **[!UICONTROL Inicio]** botón.
+   * **[!UICONTROL Suspender el proceso]**: la composición se pone en pausa automáticamente y su estado cambia a **[!UICONTROL Error]**. Una vez resuelto el problema, reanude la composición con los botones **[!UICONTROL Reanudar]**.
+   * **[!UICONTROL Ignorar]**: El estado de la tarea que activó el error cambia a **[!UICONTROL Fallido]**, pero la composición mantiene el estado **[!UICONTROL Iniciado]**.
+   * **[!UICONTROL Anular el proceso]**: la composición se detiene automáticamente y su estado cambia a **[!UICONTROL Error]**. Una vez resuelto el problema, reinicie la composición con el botón **[!UICONTROL Iniciar]**.
 
-* **[!UICONTROL Consecutive errors]**: especifique el número de errores que se pueden ignorar antes de que se detenga el proceso. Una vez alcanzado este número, el estado de la composición cambia a **[!UICONTROL Error]**. Si el valor de este campo es 0, la composición nunca se detendrá, independientemente del número de errores.
+* **[!UICONTROL Errores consecutivos]**: especifique el número de errores que se pueden omitir antes de que se detenga el proceso. Una vez alcanzado este número, el estado de la composición cambia a **[!UICONTROL Failed]**. Si el valor de este campo es 0, la composición nunca se detendrá, independientemente del número de errores.

@@ -5,7 +5,7 @@ description: Aprenda a utilizar la actividad de la dimensión Cambiar
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 18%
+ht-degree: 42%
 
 ---
 
@@ -20,21 +20,21 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Actividad cambiar dimensión"
->abstract="Esta actividad le permite cambiar el esquema, también conocido como dimensión de segmentación, a medida que crea una audiencia. Desplaza el eje según la plantilla de datos y el esquema de entrada. Por ejemplo, puede cambiar del esquema &quot;contratos&quot; al esquema &quot;clientes&quot;."
+>abstract="Esta actividad le permite cambiar el esquema, también conocido como dimensión de segmentación, a medida que genera un público. Desplace el eje en función de la plantilla de datos y del esquema de entrada. Por ejemplo, puede cambiar del esquema “contratos” al esquema &quot;clientes&quot;."
 
-El **Cambiar dimensión** La actividad de le permite cambiar el esquema, también conocido como dimensión de segmentación, a medida que crea su audiencia. Desplaza el eje según la plantilla de datos y el esquema de entrada.
+La actividad **Cambiar dimensión** le permite cambiar el esquema, también conocido como dimensión de segmentación, mientras crea su audiencia. Desplaza el eje según la plantilla de datos y el esquema de entrada.
 
 ## Configuración de la actividad Change dimension {#configure}
 
-Siga estos pasos para configurar el **Cambiar dimensión** actividad:
+Siga estos pasos para configurar la actividad **Cambiar dimensión**:
 
-1. Añadir un **Cambiar dimensión** actividad a su composición.
+1. Agregue una actividad **Cambiar dimensión** a su composición.
 
    ![](../assets/change-dimension.png)
 
-1. Defina el **Nuevo esquema**. Durante el cambio de esquema, se guardan todos los registros.
+1. Defina el **nuevo esquema**. Durante el cambio de esquema, se guardan todos los registros.
 
-1. Ejecute la composición para ver el resultado. Compare los datos de las tablas antes y después de la variable **Cambiar dimensión** y comparar la estructura de las tablas de composición.
+1. Ejecute la composición para ver el resultado. Compare los datos de las tablas antes y después de la actividad **Change dimension** y compare la estructura de las tablas de composición.
 
 <!--
 ## Example {#example}

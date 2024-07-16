@@ -5,7 +5,7 @@ description: Aprenda a utilizar la actividad de reconciliación
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 33%
+ht-degree: 42%
 
 ---
 
@@ -32,18 +32,18 @@ ht-degree: 33%
 >title="Complemento de generación de reconciliación"
 >abstract="Complemento de generación de reconciliación"
 
-El **Reconciliación** La actividad de permite definir el vínculo entre los datos de la base de datos y los datos de una tabla de trabajo, por ejemplo, los datos cargados desde un sistema externo.
+La actividad **Reconciliation** permite definir el vínculo entre los datos de la base de datos y los de una tabla de trabajo; por ejemplo, los datos cargados desde un sistema externo.
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-El **Reconciliación** La actividad le permite vincular datos no identificados a recursos existentes. La operación de reconciliación implica que los datos a los que se une ya están en la base de datos. Por ejemplo, si desea reconciliar la información de compras que muestra qué producto se compró, a qué hora, por qué cliente, etc., el producto y el cliente ya deben existir en la base de datos.
+La actividad **Reconciliación** le permite vincular datos no identificados a recursos existentes. La operación de reconciliación implica que los datos a los que se une ya están en la base de datos. Por ejemplo, si desea reconciliar la información de compras que muestra qué producto se compró, a qué hora, por qué cliente, etc., el producto y el cliente ya deben existir en la base de datos.
 
 ## Configuración de la actividad Reconciliación {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Esquema"
->abstract="Seleccione el nuevo esquema que se aplicará a los datos. Un esquema, también conocido como dimensión de segmentación, permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc. De forma predeterminada, se selecciona el esquema actual de maquetación."
+>abstract="Seleccione el nuevo esquema que se aplicará a los datos. Un esquema, también conocido como dimensión de segmentación, permite definir la población segmentada: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc. De forma predeterminada, está seleccionado el esquema de composición actual."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ El **Reconciliación** La actividad le permite vincular datos no identificados a
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Seleccionar la dimensión de segmentación"
->abstract="Seleccione el esquema, también conocido como dimensión de segmentación, con el que se reconciliarán los datos entrantes."
+>abstract="Seleccione el esquema, también conocido como dimensión de segmentación, con la que se reconciliarán los datos de entrada."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -65,28 +65,28 @@ El **Reconciliación** La actividad le permite vincular datos no identificados a
 >title="Atributo de reconciliación"
 >abstract="Seleccione el atributo que desee utilizar para reconciliar los datos y confirme."
 
-Siga estos pasos para configurar el **Reconciliación** actividad:
+Siga estos pasos para configurar la actividad **Reconciliation**:
 
-1. Añadir un **Reconciliación** actividad en la composición.
+1. Agregue una actividad **Reconciliation** a su composición.
 
-1. Seleccione el **Nuevo esquema**. Un esquema, también conocido como dimensión de segmentación, permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc.
+1. Seleccione **Nuevo esquema**. Un esquema, también conocido como dimensión de segmentación, permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc.
 
 1. Seleccione los campos que se utilizarán para la reconciliación. Se pueden utilizar uno o más criterios de reconciliación.
 
-   1. Para utilizar atributos para reconciliar datos, seleccione **Atributos simples** luego haga clic en la opción **Añadir regla** botón.
-   1. Seleccione el **Source** y **Destino** campos para la reconciliación. El **Source** field. El **Destino** field corresponde a los campos del esquema seleccionado.
+   1. Para usar atributos para reconciliar datos, selecciona la opción **Atributos simples** y luego haz clic en el botón **Agregar regla**.
+   1. Seleccione los campos **Source** y **Destination** para la reconciliación. El campo **Source**. El campo **Destino** corresponde a los campos del esquema seleccionado.
 
-      Los datos se concilian cuando el origen y el destino son iguales. Por ejemplo, seleccione la opción **Correo electrónico** para deduplicar perfiles en función de su dirección de correo electrónico.
+      Los datos se concilian cuando el origen y el destino son iguales. Por ejemplo, seleccione los campos **Correo electrónico** para anular la duplicación de perfiles según su dirección de correo electrónico.
 
-      Para añadir otros criterios de reconciliación, haga clic en **Añadir regla** botón. Si se especifican varias condiciones de vínculo, todas deben verificarse para que los datos puedan vincularse.
+      Para agregar otros criterios de reconciliación, haga clic en el botón **Agregar regla**. Si se especifican varias condiciones de vínculo, todas deben verificarse para que los datos puedan vincularse.
 
       ![](../assets/reconciliation-rules.png)
 
-   1. Para utilizar otros atributos para reconciliar datos, seleccione la opción **Condiciones de reconciliación avanzadas** luego haga clic en la opción **Creación de condiciones** botón. A continuación, puede crear su propia condición de reconciliación utilizando el modelador de consultas. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
+   1. Para usar otros atributos para reconciliar datos, selecciona la opción **Condiciones de reconciliación avanzadas** y luego haz clic en el botón **Crear condiciones**. A continuación, puede crear su propia condición de reconciliación utilizando el modelador de consultas. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 
-1. Puede filtrar los datos para conciliarlos mediante el **Crear filtro** botón. Esto permite crear una condición personalizada mediante el modelador de consultas.
+1. Puede filtrar los datos para conciliarlos usando el botón **Crear filtro**. Esto permite crear una condición personalizada mediante el modelador de consultas.
 
 De forma predeterminada, los datos no conciliados se mantienen en la transición saliente y están disponibles en la tabla de trabajo para su uso futuro. Para quitar los datos no reconciliados, desactive la opción **Mantener datos no reconciliados**.
 

@@ -5,7 +5,7 @@ description: Descubra más información sobre cómo utilizar la actividad Split
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 76%
+ht-degree: 79%
 
 ---
 
@@ -59,17 +59,17 @@ La actividad **División** permite segmentar las poblaciones entrantes en varios
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Habilitar la superposición de poblaciones de salida"
->abstract="El **[!UICONTROL Habilitar superposición de poblaciones de salida]** Esta opción permite administrar poblaciones que pertenecen a varios subconjuntos. Cuando el cuadro no está activado, la actividad de partición garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes. Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. Adobe Campaign recomienda utilizar criterios exclusivos."
+>abstract="La opción **[!UICONTROL Habilitar la superposición de poblaciones de salida]** permite administrar poblaciones que pertenecen a varios subconjuntos. Cuando el cuadro no está marcado, la actividad de división garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes. Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. Adobe Campaign recomienda utilizar criterios exclusivos."
 
 Siga estos pasos para configurar la actividad **División**:
 
-1. Añadir un **Split** actividad a su composición.
+1. Agregue una actividad **Split** a su composición.
 
 1. El panel de configuración de actividad se abre con un subconjunto predeterminado. Haga clic en el botón **Añadir segmento** para añadir tantos subconjuntos como desee para segmentar la población entrante.
 
    >[!IMPORTANT]
    >
-   >Si la variable **Split** Cuando se ejecuta la actividad, la población se segmenta en los diferentes subconjuntos en el orden en que se añaden a la actividad. Por ejemplo, si el primer subconjunto recupera el 70 % de la población inicial, el siguiente subconjunto añadido aplicará sus criterios de selección solo al 30 % restante, y así sucesivamente.
+   >Cuando se ejecuta la actividad **Split**, la población se segmenta en los diferentes subconjuntos en el orden en que se agregan a la actividad. Por ejemplo, si el primer subconjunto recupera el 70 % de la población inicial, el siguiente subconjunto añadido aplicará sus criterios de selección solo al 30 % restante, y así sucesivamente.
    >
    >Antes de iniciar la composición, asegúrese de haber ordenado los subconjuntos en el orden que mejor se adapte a sus necesidades. Para ello, utilice los botones de flecha para cambiar la posición de un subconjunto.
 
@@ -87,7 +87,7 @@ Siga estos pasos para configurar la actividad **División**:
 
    1. Para limitar el número de perfiles seleccionados por el subconjunto, active la opción **[!UICONTROL Habilitar límite]** y especifique el número o los porcentajes de la población que desea incluir.
 
-   1. Para desactivar una transición si la población entrante está vacía, cambie el **[!UICONTROL Omitir transición vacía]** opción activada. Si ningún perfil coincide con el subconjunto, la composición no pasará a la siguiente actividad.
+   1. Para deshabilitar una transición si la población entrante está vacía, active la opción **[!UICONTROL Omitir transición vacía]**. Si ningún perfil coincide con el subconjunto, la composición no pasará a la siguiente actividad.
 
    >[!NOTE]
    >
@@ -97,11 +97,11 @@ Siga estos pasos para configurar la actividad **División**:
 
    >[!NOTE]
    >
-   >El **[!UICONTROL Generar todos los subconjuntos de la misma tabla]** permite agrupar todos los subconjuntos en una sola transición de salida.
+   >La opción **[!UICONTROL Generate all subsets in the same table]** permite agrupar todos los subconjuntos en una sola transición de salida.
 
 1. La opción **[!UICONTROL Enable overlapping of output populations]** permite administrar poblaciones que pertenecen a varios subconjuntos:
 
-   * Cuando el cuadro no está activado, la actividad de partición garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes.
+   * Cuando el cuadro no está marcado, la actividad de división garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes.
    * Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. Adobe Campaign recomienda utilizar criterios exclusivos.
 
 La actividad está configurada. En la ejecución, la población se segmenta en los diferentes subconjuntos, en el orden en que se hayan agregado a la actividad.

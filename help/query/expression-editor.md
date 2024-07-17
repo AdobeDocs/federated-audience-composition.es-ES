@@ -2,9 +2,10 @@
 audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas.
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2102'
 ht-degree: 74%
 
 ---
@@ -21,7 +22,7 @@ La edición de una expresión implica la introducción manual de condiciones par
 
 El editor de expresiones está disponible en el botón del modelador de consultas **[!UICONTROL Editar expresión]**, disponible para los campos **[!UICONTROL Atributo]** y **[!UICONTROL Valor]** al configurar una condición personalizada.
 
-| Acceso desde el campo **Atributo** | Acceso desde el campo **Value** |
+| Acceso desde el campo **[!UICONTROL Atributo]** | Acceso desde el campo **[!UICONTROL Value]** |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 

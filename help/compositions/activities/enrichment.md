@@ -2,9 +2,10 @@
 audience: end-user
 title: Uso de la actividad Enrichment
 description: Aprenda a utilizar la actividad de enriquecimiento
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '397'
 ht-degree: 52%
 
 ---

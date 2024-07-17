@@ -2,10 +2,11 @@
 audience: end-user
 title: Conexión del complemento Adobe Experience Platform y Composición de audiencia federada de Adobe
 description: Aprenda a crear un nuevo destino en AEP para conectarse a FAC
-source-git-commit: ddc880f0146c39fe06187e0ae0cc0355763adb78
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 54%
+source-wordcount: '52'
+ht-degree: 55%
 
 ---
 
@@ -15,6 +16,6 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Crear un destino"
->abstract="Introduzca la configuración para conectarse a la nueva base de datos federada. Utilice el botón **Conectar con destino** para validar la configuración."
+>abstract="Introduzca la configuración para conectarse a la nueva base de datos federada. Utilice el botón **[!UICONTROL Conectar con destino]** para validar la configuración."
 
 

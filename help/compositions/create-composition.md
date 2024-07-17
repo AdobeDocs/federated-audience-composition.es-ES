@@ -2,9 +2,10 @@
 audience: end-user
 title: Creación de composiciones
 description: Aprenda a crear composiciones
-source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '484'
 ht-degree: 22%
 
 ---
@@ -48,7 +49,7 @@ El primer paso para crear una composición es definir su etiqueta y configurar a
 
 Al acceder a una composición, puede acceder a ajustes avanzados que le permiten, por ejemplo, definir cómo debe comportarse la composición en caso de error.
 
-Para obtener acceso a opciones adicionales para la composición, haga clic en el botón **Configuración** ubicado en la sección superior de la pantalla de creación de la composición.
+Para obtener acceso a opciones adicionales para la composición, haga clic en el botón **[!UICONTROL Configuración]** ubicado en la sección superior de la pantalla de creación de la composición.
 
 ![](assets/composition-create-settings.png)
 

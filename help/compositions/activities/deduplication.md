@@ -2,10 +2,11 @@
 audience: end-user
 title: Uso de la actividad de anulación de duplicación
 description: Aprenda a utilizar la actividad de anulación de duplicación
-source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 60%
+source-wordcount: '565'
+ht-degree: 61%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Campos para identificar los duplicados"
->abstract="En la sección **Campos para identificar los duplicados**, haga clic en el botón **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar."
+>abstract="En la sección **[!UICONTROL Campos para identificar los duplicados]**, haga clic en el botón **[!UICONTROL Añadir atributo]** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -25,7 +26,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
 >title="Generación de un complemento"
->abstract="Puede generar una transición saliente adicional con la población restante, que se excluyó como duplicado. Para ello, active la opción **Generar complemento**"
+>abstract="Puede generar una transición saliente adicional con la población restante, que se excluyó como duplicado. Para ello, active la opción **[!UICONTROL Generar complemento]**"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
@@ -42,11 +43,11 @@ Siga estos pasos para configurar la actividad **Deduplication**:
 
 1. Si la actividad tiene varias transiciones de entrada, seleccione la transición que se utilizará para realizar la anulación de duplicación en la lista desplegable **[!UICONTROL Conjunto principal]**
 
-1. En la sección **Campos para identificar los duplicados**, haga clic en el botón **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar.
+1. En la sección **[!UICONTROL Campos para identificar los duplicados]**, haga clic en el botón **[!UICONTROL Añadir atributo]** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar.
 
    ![](../assets/deduplication.png)
 
-1. En la sección **Configuración de anulación de duplicación**, seleccione el número de **duplicados únicos que desea conservar**. El valor predeterminado de este campo es 1. El valor 0 le permite mantener todos los duplicados.
+1. En la sección **[!UICONTROL Configuración de anulación de duplicación]**, seleccione el número de **[!UICONTROL duplicados únicos que desea conservar]**. El valor predeterminado de este campo es 1. El valor 0 le permite mantener todos los duplicados.
 
    Por ejemplo, si los registros A y B se consideran duplicados del registro Y, y un registro C se considera un duplicado del registro Z:
 
@@ -54,14 +55,14 @@ Siga estos pasos para configurar la actividad **Deduplication**:
    * Si el valor del campo es 0: se guardan todos los registros.
    * Si el valor del campo es 2: se conservan los registros C y Z y se conservan dos registros de A, B e Y, al azar o en función del método de deduplicación seleccionado posteriormente.
 
-1. Seleccione el **método de deduplicación** que se va a utilizar:
+1. Seleccione el **[!UICONTROL método de deduplicación]** que se va a utilizar:
 
-   * **Selección aleatoria**: Selecciona aleatoriamente el registro que se va a excluir de los duplicados.
-   * **Uso de una expresión**: mantenga los registros en los que el valor de la expresión introducida sea el más pequeño o el más grande.
-   * **Valores no vacíos**: Mantenga los registros para los que la expresión no está vacía.
-   * **Siguiendo una lista de valores**: defina una prioridad de valor para uno o varios campos. Para definir los valores, haga clic en **Atributo** para seleccionar un campo o crear una expresión y, a continuación, agregue los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en el **botón Agregar** ubicado sobre la lista de valores.
+   * **[!UICONTROL Selección aleatoria]**: Selecciona aleatoriamente el registro que se va a excluir de los duplicados.
+   * **[!UICONTROL Uso de una expresión]**: mantenga los registros en los que el valor de la expresión introducida sea el más pequeño o el más grande.
+   * **[!UICONTROL Valores no vacíos]**: Mantenga los registros para los que la expresión no está vacía.
+   * **[!UICONTROL Siguiendo una lista de valores]**: defina una prioridad de valor para uno o varios campos. Para definir los valores, haga clic en **[!UICONTROL Atributo]** para seleccionar un campo o crear una expresión y, a continuación, agregue los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en el **[!UICONTROL botón Agregar]** ubicado sobre la lista de valores.
 
-1. Seleccione la opción **Generate complement** si desea utilizar la población restante. El complemento está formado por todos los duplicados. A continuación, se agregará una transición adicional a la actividad.
+1. Seleccione la opción **[!UICONTROL Generate complement]** si desea utilizar la población restante. El complemento está formado por todos los duplicados. A continuación, se agregará una transición adicional a la actividad.
 
 <!--
 ## Example{#deduplication-example}

@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: Uso del modelador de consultas
-description: Aprenda a trabajar con el modelador de consultas.
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+description: Aprenda a trabajar con el modelador de consultas
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 13%
+source-wordcount: '348'
+ht-degree: 14%
 
 ---
 
@@ -25,7 +26,7 @@ El modelador de consultas está disponible en todos los contextos en los que nec
 | Uso | Ejemplo |
 |  ---  |  ---  |
 | **Definir audiencias**: especifique la población a la que quiere dirigirse en sus composiciones y cree nuevas audiencias adaptadas a sus necesidades sin esfuerzo. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Personalizar actividades de flujo de trabajo**: aplique reglas dentro de las actividades de composición, como **División** y **Reconciliación**, para alinearlas con sus requisitos específicos. [Más información sobre las actividades de composición](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Personalizar actividades**: aplique reglas dentro de las actividades de composición, como **División** y **Reconciliación**, para alinearlas con sus requisitos específicos. [Más información sobre las actividades de composición](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Interfaz del modelador de consultas {#interface}
 
@@ -39,11 +40,11 @@ El lienzo central del modelador de consultas es donde se agregan y combinan los 
 
 La barra de herramientas situada en la esquina superior derecha del lienzo proporciona opciones para manipular fácilmente los componentes de la consulta y desplazarse por el lienzo:
 
-* **Modo de selección múltiple**: seleccione varios componentes de filtrado para copiarlos y pegarlos en la ubicación que elija.
-* **Rotar**: cambie el lienzo verticalmente.
-* **Ajustar a pantalla**: adapta el nivel de zoom del lienzo a la pantalla.
-* **Alejar** / **Acercar**: Aleja o en el lienzo.
-* **Mostrar mapa**: abre una instantánea del lienzo en el que se muestra que se encuentra.
+* **[!UICONTROL Modo de selección múltiple]**: seleccione varios componentes de filtrado para copiarlos y pegarlos en la ubicación que elija.
+* **[!UICONTROL Rotar]**: cambie el lienzo verticalmente.
+* **[!UICONTROL Ajustar a pantalla]**: adapta el nivel de zoom del lienzo a la pantalla.
+* **[!UICONTROL Alejar]** / **[!UICONTROL Acercar]**: Aleja o en el lienzo.
+* **[!UICONTROL Mostrar mapa]**: abre una instantánea del lienzo en el que se muestra que se encuentra.
 
 ### El panel Propiedades de la regla {#rule-properties}
 

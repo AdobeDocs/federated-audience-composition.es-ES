@@ -2,9 +2,10 @@
 audience: end-user
 title: Introducción a las composiciones
 description: Aprenda a empezar con composiciones
-source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '278'
 ht-degree: 13%
 
 ---
@@ -24,7 +25,7 @@ La composición de datos de Adobe le permite crear composiciones, donde puede ap
 >title="Composiciones"
 >abstract="En esta pantalla, puede acceder a la lista completa de composiciones, comprobar su estado actual, las fechas de última/siguiente ejecución y crear una nueva composición."
 
-Se puede acceder a las composiciones desde el menú **[!UICONTROL Audiencias]** de Adobe Experience Platform, en la pestaña **Composiciones federadas**.
+Se puede acceder a las composiciones desde el menú **[!UICONTROL Audiencias]** de Adobe Experience Platform, en la pestaña **[!UICONTROL Composiciones federadas]**.
 
 Desde esta pantalla, puede crear nuevas composiciones y acceder a las existentes. También puede duplicar o eliminar una composición existente haciendo clic en el botón de puntos suspensivos situado junto a su nombre.
 
@@ -32,7 +33,7 @@ Desde esta pantalla, puede crear nuevas composiciones y acceder a las existentes
 
 Para refinar la lista y encontrar fácilmente la composición que está buscando, puede buscar en la lista y filtrar composiciones por sus estados o fechas de último procesamiento.
 
-También puede personalizar la lista añadiendo o quitando columnas. Para ello, haga clic en el botón **Configurar columna** s y agregue o quite las columnas de salida que desee.
+También puede personalizar la lista añadiendo o quitando columnas. Para ello, haga clic en el botón **[!UICONTROL Configurar columna]**s y agregue o quite las columnas de salida que desee.
 
 ![](assets/compositions-columns.png)
 

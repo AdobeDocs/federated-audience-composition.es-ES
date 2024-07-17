@@ -2,9 +2,10 @@
 audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Obtenga información sobre cómo crear la primera consulta en el modelador de consultas
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2068'
 ht-degree: 11%
 
 ---
@@ -45,13 +46,13 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
 1. Haga clic en el botón **+** del nodo deseado y seleccione **[!UICONTROL Condición personalizada]**. El panel de propiedades de condición personalizada se abre en el lado derecho.
 
-1. En el campo **Atributo**, seleccione el atributo de la base de datos que desee aprovechar para crear su condición. La lista de atributos incluye todos los atributos de la base de datos, incluidos los atributos de las tablas vinculadas.
+1. En el campo **[!UICONTROL Atributo]**, seleccione el atributo de la base de datos que desee aprovechar para crear su condición. La lista de atributos incluye todos los atributos de la base de datos, incluidos los atributos de las tablas vinculadas.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >El botón **Editar expresión** le permite aprovechar el editor de expresiones para definir manualmente una expresión con campos de la base de datos y funciones de ayuda. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
+   >El botón **[!UICONTROL Editar expresión]** le permite aprovechar el editor de expresiones para definir manualmente una expresión con campos de la base de datos y funciones de ayuda. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
 
 1. Seleccione el operador que desee aplicar en la lista desplegable. Hay varios operadores disponibles. Tenga en cuenta que los operadores disponibles en la lista desplegable dependen del tipo de datos del atributo.
 
@@ -78,7 +79,7 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
 +++
 
-1. En el campo **Value**, defina el valor esperado. También puede aprovechar el editor de expresiones para definir manualmente una expresión mediante los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en el botón **Editar expresión**. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
+1. En el campo **[!UICONTROL Value]**, defina el valor esperado. También puede aprovechar el editor de expresiones para definir manualmente una expresión mediante los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en el botón **[!UICONTROL Editar expresión]**. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
 
    *Ejemplo de consulta que devuelve todos los perfiles de 21 años o más:*
 
@@ -90,13 +91,13 @@ Las condiciones personalizadas permiten consultar tablas vinculadas a la tabla q
 
 Para un vínculo **1-1**, vaya a la tabla vinculada, seleccione el atributo deseado y defina el valor esperado.
 
-También puede seleccionar directamente un vínculo de tabla en el selector **Value** y confirmar. En ese caso, los valores disponibles para la tabla seleccionada deben seleccionarse mediante un selector dedicado, como se muestra en el ejemplo siguiente.
+También puede seleccionar directamente un vínculo de tabla en el selector **[!UICONTROL Value]** y confirmar. En ese caso, los valores disponibles para la tabla seleccionada deben seleccionarse mediante un selector dedicado, como se muestra en el ejemplo siguiente.
 
 +++Ejemplo de consulta
 
 En este caso, la consulta está dirigida a marcas cuya etiqueta está &quot;en ejecución&quot;.
 
-1. Vaya dentro de la tabla **Brand** y seleccione el atributo **Label**.
+1. Vaya dentro de la tabla **[!UICONTROL Brand]** y seleccione el atributo **[!UICONTROL Label]**.
 
    ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -116,7 +117,7 @@ Para un vínculo **1-N**, puede definir subcondiciones para restringir la consul
 
 En este caso, la consulta está dirigida a destinatarios que han realizado compras relacionadas con el producto BrewMaster, por un importe total de al menos 100 $.
 
-1. Seleccione la tabla **Purchases** y confirme.
+1. Seleccione la tabla **[!UICONTROL Purchases]** y confirme.
 
    ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
@@ -124,7 +125,7 @@ En este caso, la consulta está dirigida a destinatarios que han realizado compr
 
    ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
-1. Seleccione el atributo **Price** y el destino de compras de 1000$ o más
+1. Seleccione el atributo **[!UICONTROL Price]** y el destino de compras de 1000$ o más
 
    ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -142,7 +143,7 @@ Las condiciones personalizadas le permiten realizar operaciones acumuladas. Para
 
    ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
-1. En el panel de propiedades, active la opción **Agregar datos** y seleccione la función de agregado que desee.
+1. En el panel de propiedades, active la opción **[!UICONTROL Agregar datos]** y seleccione la función de agregado que desee.
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -151,13 +152,13 @@ Las condiciones personalizadas le permiten realizar operaciones acumuladas. Para
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"
 >title="Seleccionar el público"
->abstract="Mediante la opción **Seleccionar público**, puede elegir el público que desea utilizar para filtrar la consulta."
+>abstract="Mediante la opción **[!UICONTROL Seleccionar público]**, puede elegir el público que desea utilizar para filtrar la consulta."
 
 Para filtrar la consulta utilizando una audiencia existente, siga estos pasos:
 
 1. Haga clic en el botón **+** del nodo deseado y elija **[!UICONTROL Seleccionar audiencia]**.
 
-1. El panel de propiedades **Seleccionar audiencia** se abre en el lado derecho. Elija la audiencia que desee utilizar para filtrar la consulta.
+1. El panel de propiedades **[!UICONTROL Seleccionar audiencia]** se abre en el lado derecho. Elija la audiencia que desee utilizar para filtrar la consulta.
 
    *Ejemplo de consulta que devuelve todos los perfiles pertenecientes a la audiencia &quot;Visitantes del festival&quot;:*
 
@@ -168,13 +169,13 @@ Para filtrar la consulta utilizando una audiencia existente, siga estos pasos:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_predefinedfilter"
 >title="Filtro predefinido"
->abstract="Mediante la opción **Filtro predefinido**, puede seleccionar un filtro predefinido de la lista de filtros personalizados o de favoritos."
+>abstract="Mediante la opción **[!UICONTROL Filtro predefinido]**, puede seleccionar un filtro predefinido de la lista de filtros personalizados o de favoritos."
 
 Para filtrar la consulta utilizando un filtro predefinido, siga estos pasos:
 
 1. Haga clic en el botón **+** del nodo deseado y seleccione **[!UICONTROL Filtro predefinido]**.
 
-1. El panel de propiedades **Filtro predefinido** se abre en el lado derecho. Seleccione un filtro predefinido de la lista de filtros personalizados o de favoritos.
+1. El panel de propiedades **[!UICONTROL Filtro predefinido]** se abre en el lado derecho. Seleccione un filtro predefinido de la lista de filtros personalizados o de favoritos.
 
    *Ejemplo de consulta que devuelve todos los perfiles correspondientes al filtro predefinido &quot;Clientes inactivos&quot;:*
 
@@ -198,7 +199,7 @@ Para copiar y pegar componentes de filtrado, siga estos pasos:
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. Para pegar los componentes, haga clic en el botón + al final de la transición deseada y seleccione **Pegar n elementos**.
+1. Para pegar los componentes, haga clic en el botón + al final de la transición deseada y seleccione **[!UICONTROL Pegar n elementos]**.
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -215,7 +216,7 @@ En este ejemplo, se han añadido nuevos componentes de filtrado de tipo audienci
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-Para cambiar el operador usado para vincular las condiciones de filtrado, haga clic en él y seleccione el operador deseado en el panel **Grupo** que se abre en el lado derecho.
+Para cambiar el operador usado para vincular las condiciones de filtrado, haga clic en él y seleccione el operador deseado en el panel **[!UICONTROL Grupo]** que se abre en el lado derecho.
 
 Los operadores disponibles son:
 
@@ -236,14 +237,14 @@ VIP VIP En el ejemplo siguiente, hemos creado un grupo intermedio para incluir l
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Propiedades de las reglas"
->abstract="Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **Propiedades de las reglas** situado en el lado derecho.<br/>Este panel permite mostrar los datos resultantes, recuperar una versión de código SQL de la consulta y comprobar el número de registros de destino.<br/>Utilice el botón **Seleccionar o guardar filtro** para guardar la consulta como un filtro predefinido o reemplazar el contenido del lienzo con un filtro existente."
+>abstract="Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **[!UICONTROL Propiedades de las reglas]** situado en el lado derecho.<br/>Este panel permite mostrar los datos resultantes, recuperar una versión de código SQL de la consulta y comprobar el número de registros de destino.<br/>Utilice el botón **[!UICONTROL Seleccionar o guardar filtro]** para guardar la consulta como un filtro predefinido o reemplazar el contenido del lienzo con un filtro existente."
 
-Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **Propiedades de regla** ubicado a la derecha. Este panel se muestra al crear una consulta para crear una audiencia. Las operaciones disponibles son:
+Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **[!UICONTROL Propiedades de regla]** ubicado a la derecha. Este panel se muestra al crear una consulta para crear una audiencia. Las operaciones disponibles son:
 
-* **Ver resultados:** Muestra los datos resultantes de la consulta.
-* **Vista de código**: muestra una versión basada en código de la consulta en SQL.
-* **Calcular**: actualiza y muestra el número de registros dirigidos por la consulta.
-* **Seleccione o guarde el filtro**: elija un filtro predefinido existente para utilizarlo en el lienzo o guarde la consulta como un filtro predefinido para reutilizarlo en el futuro.
+* **[!UICONTROL Ver resultados]:** Muestra los datos resultantes de la consulta.
+* **[!UICONTROL Vista de código]**: muestra una versión basada en código de la consulta en SQL.
+* **[!UICONTROL Calcular]**: actualiza y muestra el número de registros dirigidos por la consulta.
+* **[!UICONTROL Seleccione o guarde el filtro]**: elija un filtro predefinido existente para utilizarlo en el lienzo o guarde la consulta como un filtro predefinido para reutilizarlo en el futuro.
 
   >[!IMPORTANT]
   >

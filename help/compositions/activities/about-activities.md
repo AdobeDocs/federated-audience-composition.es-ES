@@ -2,10 +2,11 @@
 audience: end-user
 title: Trabajo con actividades
 description: Aprenda a trabajar con actividades
-source-git-commit: 9f84502684c7cd0e174b1fcad4b9c811f50965f1
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 16%
+source-wordcount: '280'
+ht-degree: 17%
 
 ---
 

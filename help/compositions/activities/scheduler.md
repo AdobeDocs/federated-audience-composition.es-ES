@@ -2,10 +2,10 @@
 audience: end-user
 title: Uso de la actividad Planificador
 description: Descubra más información sobre cómo utilizar la actividad Planificador
-source-git-commit: 4dca96ae81d1f70c8f20509fdbd9ec31e05c01dc
+source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 31%
+source-wordcount: '418'
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Actividad planificador"
->abstract="La actividad **Planificador** permite programar cuándo se inicia el flujo de trabajo. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo."
+>abstract="La actividad **Planificador** le permite programar cuándo comienza la composición de la audiencia. La actividad debe considerarse como un inicio programado. Solo puede utilizarse como primera actividad de una composición."
 
 La actividad **Scheduler** es una actividad **Flow control**. Permite programar cuándo se inicia la composición. La actividad debe considerarse como un inicio programado. Solo puede utilizarse como primera actividad de la composición.
 
@@ -33,7 +33,7 @@ La actividad **Scheduler** es una actividad **Flow control**. Permite programar 
 
 Siga estos pasos para configurar la actividad **Planificador**:
 
-1. Agregue una actividad **Scheduler** al flujo de trabajo.
+1. Agregue una actividad **Planificador** a su composición.
 
 1. Configure **Frecuencia de ejecución**:
 

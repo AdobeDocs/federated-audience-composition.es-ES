@@ -2,9 +2,10 @@
 audience: end-user
 title: Uso de la actividad AND-join
 description: Aprenda a utilizar la actividad AND-join
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 70%
 
 ---
@@ -25,7 +26,7 @@ Esta actividad solo activa su transición saliente una vez que se activan todas 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join_merging"
 >title="Configurar la actividad de AND-join"
->abstract="Seleccione las actividades que desea unir. En el menú desplegable **Conjunto principal**, elija qué población de transición entrante desea conservar."
+>abstract="Seleccione las actividades que desea unir. En el menú desplegable **[!UICONTROL Conjunto principal]**, elija qué población de transición entrante desea conservar."
 
 Siga estos pasos para configurar la actividad **Combinación-Y**:
 
@@ -34,5 +35,5 @@ Siga estos pasos para configurar la actividad **Combinación-Y**:
 
    ![](../assets/and-join.png)
 
-1. En la sección **Combinar opciones**, compruebe todas las actividades anteriores que desee sincronizar.
-1. En el menú desplegable **Conjunto principal**, elija qué población de transición entrante desea conservar. La transición saliente solo puede contener una de las poblaciones de transición entrantes. Si la actividad no está configurada, la transición saliente seleccionará de forma aleatoria una de las poblaciones entrantes.
+1. En la sección **[!UICONTROL Combinar opciones]**, compruebe todas las actividades anteriores que desee sincronizar.
+1. En el menú desplegable **[!UICONTROL Conjunto principal]**, elija qué población de transición entrante desea conservar. La transición saliente solo puede contener una de las poblaciones de transición entrantes. Si la actividad no está configurada, la transición saliente seleccionará de forma aleatoria una de las poblaciones entrantes.

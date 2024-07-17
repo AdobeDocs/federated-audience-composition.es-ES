@@ -2,9 +2,10 @@
 audience: end-user
 title: Uso de la actividad Change dimension
 description: Aprenda a utilizar la actividad de la dimensión Cambiar
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '189'
 ht-degree: 42%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="Generación de un complemento"
->abstract="Puede generar una transición saliente adicional con la población restante, que se excluyó como duplicado. Para ello, active la opción **Generar complemento**"
+>abstract="Puede generar una transición saliente adicional con la población restante, que se excluyó como duplicado. Para ello, active la opción **[!UICONTROL Generar complemento]**"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"

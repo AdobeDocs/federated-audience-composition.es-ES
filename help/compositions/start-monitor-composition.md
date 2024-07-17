@@ -2,9 +2,10 @@
 audience: end-user
 title: Creación de composiciones
 description: Aprenda a crear composiciones
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -70,12 +71,12 @@ La barra de acciones de la esquina superior derecha proporciona comandos que le 
 
 Las acciones disponibles son:
 
-* **Start**: inicia la ejecución de la composición, que luego adquiere el estado **In progress**. La composición se inicia y se activan las actividades iniciales.
+* **[!UICONTROL Start]**: inicia la ejecución de la composición, que luego adquiere el estado **[!UICONTROL In progress]**. La composición se inicia y se activan las actividades iniciales.
 
-* **[!UICONTROL Reanudar]**: Reanuda la ejecución de la composición que se había pausado. La composición adquiere el estado **En curso**.
+* **[!UICONTROL Reanudar]**: Reanuda la ejecución de la composición que se había pausado. La composición adquiere el estado **[!UICONTROL En curso]**.
 
-* **[!UICONTROL Pausar]** la ejecución de la composición, que luego adquiere el estado **Pausado**. No se activará ninguna actividad nueva hasta que se reanude, pero las operaciones en curso no se suspenden.
+* **[!UICONTROL Pausar]** la ejecución de la composición, que luego adquiere el estado **[!UICONTROL Pausado]**. No se activará ninguna actividad nueva hasta que se reanude, pero las operaciones en curso no se suspenden.
 
-* **[!UICONTROL Detener]** una composición que se está ejecutando y que luego adquirirá el estado **Finalizado**. Las operaciones en curso se interrumpen si es posible. No puede continuar desde la composición desde el mismo lugar en el que se detuvo.
+* **[!UICONTROL Detener]** una composición que se está ejecutando y que luego adquirirá el estado **[!UICONTROL Finalizado]**. Las operaciones en curso se interrumpen si es posible. No puede continuar desde la composición desde el mismo lugar en el que se detuvo.
 
-* **Restart**: detiene y reinicia una composición. En la mayoría de los casos, esto le permite reiniciarse más rápido, ya que la detención lleva una cierta cantidad de tiempo, y el botón **Iniciar** solo está disponible cuando la detención es efectiva.
+* **[!UICONTROL Restart]**: detiene y reinicia una composición. En la mayoría de los casos, esto le permite reiniciarse más rápido, ya que la detención lleva una cierta cantidad de tiempo, y el botón **[!UICONTROL Iniciar]** solo está disponible cuando la detención es efectiva.

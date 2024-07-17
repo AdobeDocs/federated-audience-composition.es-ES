@@ -2,10 +2,11 @@
 audience: end-user
 title: Uso de la actividad Espera
 description: Aprenda a utilizar la actividad de espera
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+badge: label="Disponibilidad limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 60%
+source-wordcount: '118'
+ht-degree: 61%
 
 ---
 

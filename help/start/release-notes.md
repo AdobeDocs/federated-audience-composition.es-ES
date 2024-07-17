@@ -2,9 +2,9 @@
 title: Novedades de la composición de audiencias federada
 description: Últimas actualizaciones y notas de la versión
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 082bdccd7bc53d6c7520a778b65b2127a62e28a4
+source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '253'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ En lugar de ingerir conjuntos de datos o audiencias en Adobe Experience Platform
 >
 >Actualmente, la composición de audiencia federada solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 >
->Por ahora, la función no está disponible para los clientes que hayan adquirido las ofertas adicionales de **Healthcare Shield** y **Privacy and Security Shield** de Adobe.
+>Por ahora, la función no está disponible para los clientes que hayan comprado el complemento de Adobe **Healthcare Shield**.
 
 
 ## Requisitos previos y protecciones {#rn-guardrails}

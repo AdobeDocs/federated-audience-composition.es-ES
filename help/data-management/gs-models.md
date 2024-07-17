@@ -44,11 +44,11 @@ Más información sobre [audiencias](../customer/audiences.md).
 
 ## Cómo crear un modelo de datos {#data-model-create}
 
-Entrada **[!UICONTROL DATOS FEDERADOS]** , vaya a la sección **[!UICONTROL Modelos]** vínculo. Encontrará allí el **[!UICONTROL Modelo de datos]** pestaña.
+En la sección **[!UICONTROL DATOS FEDERADOS]**, vaya al vínculo **[!UICONTROL Modelos]**. Ahí encontrará la ficha **[!UICONTROL Modelo de datos]**.
 
 ![](assets/datamodel_create.png){zoomable="yes"}
 
-Al hacer clic en **[!UICONTROL Crear modelo de datos]** , tendrá la posibilidad de asignar un nombre al modelo de datos y hacer clic en el botón **[!UICONTROL Crear]** botón.
+Al hacer clic en el botón **[!UICONTROL Crear modelo de datos]**, tendrá la posibilidad de asignar un nombre al modelo de datos y hacer clic en el botón **[!UICONTROL Crear]**.
 
 ![](assets/datamodel_name.png){zoomable="yes"}
 

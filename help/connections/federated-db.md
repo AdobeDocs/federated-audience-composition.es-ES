@@ -45,13 +45,14 @@ Bases de datos externas compatibles:
 
 * **[!UICONTROL Usuario]**: Nombre del usuario.
 
-* **[!UICONTROL Contraseña]**: contraseña de cuenta de usuario.
+* **[!UICONTROL Contraseña]**: Contraseña de la cuenta de usuario.
 
 * **[!UICONTROL Base de datos]**:
 
 * **[!UICONTROL Esquema de trabajo]**:
 
-* **[!UICONTROL Clave privada]**: solo se aceptan archivos .pem
+* **[!UICONTROL Clave privada]**:
+Solo se aceptan archivos .pem
 
 * **[!UICONTROL Opciones]**: el conector admite las opciones detalladas en la tabla siguiente.
 
@@ -68,13 +69,13 @@ Bases de datos externas compatibles:
 
 ## Google Big Query {#google-big-query}
 
-* **[!UICONTROL Cuenta de servicio]**: correo electrónico de su **[!UICONTROL Cuenta de servicio]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+* **[!UICONTROL Cuenta de servicio]**: Correo electrónico de su **[!UICONTROL cuenta de servicio]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
 
 * **[!UICONTROL Proyecto]**: Nombre de su **[!UICONTROL Proyecto]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
 
 * **[!UICONTROL Conjunto de datos]**: Nombre de su **[!UICONTROL Conjunto de datos]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro).
 
-* **[!UICONTROL Ruta del archivo de claves]**: cargue el archivo de claves en el servidor. Solo se aceptan archivos .json.
+* **[!UICONTROL Ruta del archivo de claves]**: Cargue el archivo de claves en el servidor. Solo se aceptan archivos .json.
 
 * **[!UICONTROL Opciones]**: el conector admite las opciones detalladas en la tabla siguiente.
 
@@ -85,10 +86,10 @@ Bases de datos externas compatibles:
 | ProxyPort | Número de puerto en el que se ejecuta el proxy, p. ej. 8080 |
 | ProxyUid | Nombre de usuario utilizado para el proxy autenticado |
 | ProxyPwd | Contraseña de ProxyUid |
-| bqpath | Tenga en cuenta que esto solo es aplicable a la herramienta de carga masiva (Cloud SDK). </br> Para evitar el uso de la variable PATH o si el directorio google-cloud-sdk debe moverse a otra ubicación, puede especificar con esta opción la ruta exacta al directorio bin del sdk en la nube en el servidor. |
-| GCloudConfigName | Tenga en cuenta que esto es aplicable a partir de la versión 7.3.4 y solo para la herramienta de carga masiva (Cloud SDK).</br> El SDK de Google Cloud utiliza configuraciones para cargar datos en tablas de BigQuery. La configuración denominada `accfda` almacena los parámetros para cargar los datos. Sin embargo, esta opción permite a los usuarios especificar un nombre diferente para la configuración. |
-| GCloudDefaultConfigName | Tenga en cuenta que esto es aplicable a partir de la versión 7.3.4 y solo para la herramienta de carga masiva (Cloud SDK).</br> La configuración activa del SDK de Google Cloud no se puede eliminar sin transferir primero la etiqueta activa a una nueva configuración. Esta configuración temporal es necesaria para volver a crear la configuración principal para cargar datos. El nombre predeterminado para la configuración temporal es `default`, esto se puede cambiar si es necesario. |
-| GCloudRecreateConfig | Tenga en cuenta que esto es aplicable a partir de la versión 7.3.4 y solo para la herramienta de carga masiva (Cloud SDK).</br> Cuando se establece en `false`, el mecanismo de carga masiva se abstendrá de intentar volver a crear, eliminar o modificar las configuraciones del SDK de Google Cloud. En su lugar, procede con la carga de datos utilizando la configuración existente en el equipo. Esta función es útil cuando otras operaciones dependen de las configuraciones del SDK de Google Cloud. </br> Si el usuario activa esta opción de motor sin una configuración adecuada, el mecanismo de carga masiva emitirá un mensaje de advertencia: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Para evitar más errores, volverá a utilizar el mecanismo de carga masiva predeterminado de inserción de matriz ODBC. |
+| bqpath | Tenga en cuenta que esto solo es aplicable a la herramienta de carga masiva (Cloud SDK). </br> Para evitar usar la variable PATH o si el directorio google-cloud-sdk debe moverse a otra ubicación, puede especificar con esta opción la ruta exacta al directorio bin del sdk en la nube en el servidor. |
+| GCloudConfigName | Tenga en cuenta que esto es aplicable a partir de la versión 7.3.4 y solo para la herramienta de carga masiva (Cloud SDK).</br>: el SDK de Google Cloud utiliza configuraciones para cargar datos en tablas de BigQuery. La configuración denominada `accfda` almacena los parámetros para cargar los datos. Sin embargo, esta opción permite a los usuarios especificar un nombre diferente para la configuración. |
+| GCloudDefaultConfigName | Tenga en cuenta que esto es aplicable a partir de la versión 7.3.4 y solo para la herramienta de carga masiva (Cloud SDK).</br>: la configuración activa del SDK de Google Cloud no se puede eliminar sin transferir primero la etiqueta activa a una nueva configuración. Esta configuración temporal es necesaria para volver a crear la configuración principal para cargar datos. El nombre predeterminado para la configuración temporal es `default`, que se puede cambiar si es necesario. |
+| GCloudRecreateConfig | Tenga en cuenta que esto es aplicable a partir de la versión 7.3.4 y solo para la herramienta de carga masiva (Cloud SDK).</br> Cuando se establece en `false`, el mecanismo de carga masiva se abstiene de intentar recrear, eliminar o modificar las configuraciones del SDK de Google Cloud. En su lugar, procede con la carga de datos utilizando la configuración existente en el equipo. Esta función es útil cuando otras operaciones dependen de las configuraciones del SDK de Google Cloud. </br> Si el usuario habilita esta opción de motor sin una configuración adecuada, el mecanismo de carga masiva emitirá un mensaje de advertencia: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Para evitar más errores, volverá a utilizar el mecanismo de carga masiva predeterminado de inserción de matriz ODBC. |
 
 ## Azure synapse Redshift {#azure-synapse-redshift}
 
@@ -96,7 +97,7 @@ Bases de datos externas compatibles:
 
 * **[!UICONTROL Cuenta]**: Nombre del usuario
 
-* **[!UICONTROL Contraseña]**: contraseña de cuenta de usuario
+* **[!UICONTROL Contraseña]**: Contraseña de la cuenta de usuario
 
 * **[!UICONTROL Base de datos]**: Nombre de la base de datos
 
@@ -104,15 +105,15 @@ Bases de datos externas compatibles:
 
 ## Vertica Analytics {#vertica-analytics}
 
-* **[!UICONTROL Servidor]**: URL del [!DNL Vertica Analytics] server
+* **[!UICONTROL Servidor]**: URL del servidor [!DNL Vertica Analytics]
 
 * **[!UICONTROL Cuenta]**: Nombre del usuario
 
-* **[!UICONTROL Contraseña]**: contraseña de cuenta de usuario
+* **[!UICONTROL Contraseña]**: Contraseña de la cuenta de usuario
 
 * **[!UICONTROL Base de datos]**: Nombre de la base de datos
 
-* **[!UICONTROL Esquema de trabajo]**: Nombre del esquema de trabajo.
+* **[!UICONTROL Esquema de trabajo]**: Nombre de su esquema de trabajo.
 
 * **[!UICONTROL Opciones]**: el conector admite las opciones detalladas en la tabla siguiente.
 
@@ -125,13 +126,13 @@ El conector admite las siguientes opciones:
 
 ## Amazon Redshift {#amazon-redshift}
 
-* **[!UICONTROL Servidor]**: Nombre del DNS
+* **[!UICONTROL Servidor]**: nombre del DNS
 
 * **[!UICONTROL Cuenta]**: Nombre del usuario
 
-* **[!UICONTROL Contraseña]**: contraseña de cuenta de usuario
+* **[!UICONTROL Contraseña]**: Contraseña de la cuenta de usuario
 
 * **[!UICONTROL Base de datos]**: Nombre de la base de datos si no se especifica en DSN. Se puede dejar vacío si se especifica en el DSN
 
-* **[!UICONTROL Esquema de trabajo]**: Nombre del esquema de trabajo. [Más información](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+* **[!UICONTROL Esquema de trabajo]**: Nombre de su esquema de trabajo. [Más información](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
 

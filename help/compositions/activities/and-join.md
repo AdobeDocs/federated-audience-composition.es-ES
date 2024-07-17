@@ -16,7 +16,7 @@ ht-degree: 70%
 >title="Actividad AND-join"
 >abstract="La actividad **And-join** le permite sincronizar varias ramas de ejecución de una composición. Se activa una vez que han finalizado todas las actividades anteriores. Esto le permite asegurarse de que ciertas actividades hayan finalizado antes de continuar con la ejecución de la composición."
 
-El **AND-join** esta actividad le permite sincronizar varias ramas de ejecución de una composición.
+La actividad **AND-join** le permite sincronizar varias ramas de ejecución de una composición.
 
 Esta actividad solo activa su transición saliente una vez que se activan todas las transiciones entrantes; es decir, una vez que todas las actividades anteriores han finalizado. Esto le permite asegurarse de que ciertas actividades han finalizado antes de continuar ejecutando la composición.
 
@@ -34,5 +34,5 @@ Siga estos pasos para configurar la actividad **Combinación-Y**:
 
    ![](../assets/and-join.png)
 
-1. En el **Combinación de opciones** , compruebe todas las actividades anteriores que desee sincronizar.
+1. En la sección **Combinar opciones**, compruebe todas las actividades anteriores que desee sincronizar.
 1. En el menú desplegable **Conjunto principal**, elija qué población de transición entrante desea conservar. La transición saliente solo puede contener una de las poblaciones de transición entrantes. Si la actividad no está configurada, la transición saliente seleccionará de forma aleatoria una de las poblaciones entrantes.

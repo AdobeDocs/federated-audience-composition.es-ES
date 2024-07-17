@@ -32,21 +32,21 @@ ht-degree: 60%
 >title="Configuración de la anulación de duplicación"
 >abstract="Para eliminar duplicados en los datos entrantes, defina el método de anulación de duplicación en los campos siguientes. De forma predeterminada, solo se guarda un registro. También debe seleccionar el modo de anulación de duplicación en función de una expresión o un atributo. De forma predeterminada, el registro que se va a excluir de los duplicados se selecciona de forma aleatoria."
 
-El **Deduplicación** la actividad permite eliminar duplicados en los resultados de las actividades entrantes, por ejemplo, perfiles duplicados en la lista de destinatarios. El **Deduplicación** la actividad se utiliza generalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos de objetivo.
+La actividad **Deduplication** le permite eliminar duplicados en los resultados de las actividades entrantes, por ejemplo perfiles duplicados en la lista de destinatarios. La actividad **Deduplication** se utiliza generalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos de destino.
 
 ## Configuración de la actividad de anulación de duplicación{#deduplication-configuration}
 
-Siga estos pasos para configurar el **Deduplicación** actividad:
+Siga estos pasos para configurar la actividad **Deduplication**:
 
-1. Añadir un **Deduplicación** actividad a su composición.
+1. Agregue una actividad **Deduplication** a su composición.
 
-1. Si la actividad tiene varias transiciones de entrada, seleccione la transición que desee utilizar para realizar la anulación de duplicación desde el **[!UICONTROL Conjunto principal]** lista desplegable
+1. Si la actividad tiene varias transiciones de entrada, seleccione la transición que se utilizará para realizar la anulación de duplicación en la lista desplegable **[!UICONTROL Conjunto principal]**
 
 1. En la sección **Campos para identificar los duplicados**, haga clic en el botón **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar.
 
    ![](../assets/deduplication.png)
 
-1. En el **Configuración de deduplicación** , seleccione el número de **Duplicados que mantener**. El valor predeterminado de este campo es 1. El valor 0 le permite mantener todos los duplicados.
+1. En la sección **Configuración de anulación de duplicación**, seleccione el número de **duplicados únicos que desea conservar**. El valor predeterminado de este campo es 1. El valor 0 le permite mantener todos los duplicados.
 
    Por ejemplo, si los registros A y B se consideran duplicados del registro Y, y un registro C se considera un duplicado del registro Z:
 
@@ -54,12 +54,12 @@ Siga estos pasos para configurar el **Deduplicación** actividad:
    * Si el valor del campo es 0: se guardan todos los registros.
    * Si el valor del campo es 2: se conservan los registros C y Z y se conservan dos registros de A, B e Y, al azar o en función del método de deduplicación seleccionado posteriormente.
 
-1. Seleccione el **Método de deduplicación** para usar:
+1. Seleccione el **método de deduplicación** que se va a utilizar:
 
-   * **Selección aleatoria**: selecciona de forma aleatoria el registro que se va a excluir de los duplicados.
-   * **Uso de una expresión**: Mantenga los registros en los que el valor de la expresión introducida es el más pequeño o el más grande.
+   * **Selección aleatoria**: Selecciona aleatoriamente el registro que se va a excluir de los duplicados.
+   * **Uso de una expresión**: mantenga los registros en los que el valor de la expresión introducida sea el más pequeño o el más grande.
    * **Valores no vacíos**: Mantenga los registros para los que la expresión no está vacía.
-   * **Siguiendo una lista de valores**: defina una prioridad de valor para uno o varios campos. Para definir los valores, haga clic en **Atributo** para seleccionar un campo o crear una expresión, añada los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en **Botón Añadir** situado encima de la lista de valores.
+   * **Siguiendo una lista de valores**: defina una prioridad de valor para uno o varios campos. Para definir los valores, haga clic en **Atributo** para seleccionar un campo o crear una expresión y, a continuación, agregue los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en el **botón Agregar** ubicado sobre la lista de valores.
 
 1. Seleccione la opción **Generate complement** si desea utilizar la población restante. El complemento está formado por todos los duplicados. A continuación, se agregará una transición adicional a la actividad.
 

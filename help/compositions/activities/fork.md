@@ -28,7 +28,7 @@ La actividad de **bifurcación** permite crear transiciones salientes para inici
 
 Siga estos pasos para configurar la actividad **Tenedor**:
 
-1. Añadir un **Tenedor** actividad a su composición.
+1. Agregue una actividad **Fork** a su composición.
 1. Haga clic en **Agregar transición** para añadir una nueva transición saliente. De forma predeterminada, se definen dos transiciones.
 1. Añada una etiqueta a cada una de las transiciones.
 

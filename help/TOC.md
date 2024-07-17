@@ -5,7 +5,7 @@ breadcrumb-title: Composición de público federada
 source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 39%
+ht-degree: 43%
 
 ---
 

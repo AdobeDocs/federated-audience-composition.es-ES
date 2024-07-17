@@ -34,21 +34,21 @@ ht-degree: 26%
 >abstract="Seleccione el área de nombres que se utilizará para los perfiles."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces" text="Más información en la Documentación de Experience Platform"
 
-El **Guardar audiencia** esta actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en una composición. Las audiencias creadas se añaden a la lista de audiencias de aplicación y están disponibles a través del **Audiencias** menú.
+La actividad **Guardar audiencia** le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en una composición. Las audiencias creadas se agregan a la lista de audiencias de aplicación y están disponibles a través del menú **Audiencias**.
 
-Esta actividad se utiliza esencialmente para mantener los grupos de población calculados en la misma composición, convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **Crear audiencia** o una **Combinar** actividad.
+Esta actividad se utiliza esencialmente para mantener los grupos de población calculados en la misma composición, convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **audiencia de compilación** o una actividad **Combinar**.
 
 ## Configuración de la actividad Guardar audiencia {#save-audience-configuration}
 
-Siga estos pasos para configurar el **Guardar audiencia** actividad:
+Siga estos pasos para configurar la actividad **Guardar audiencia**:
 
-1. Añadir un **Guardar audiencia** actividad a su composición.
+1. Agregue una actividad **Guardar audiencia** a su composición.
 
    ![](../assets/save-audience.png)
 
 1. Especifique la etiqueta de la audiencia que desea crear.
 
-1. Clic **Añadir asignación de audiencia** a continuación, elija los campos de origen y destino de la audiencia:
+1. Haga clic en **Agregar asignación de audiencia** y, a continuación, elija los campos de audiencia de origen y destino:
 
    * **Campo de audiencia de Source**:
    * **Campo de audiencia de destino**:
@@ -57,10 +57,10 @@ Siga estos pasos para configurar el **Guardar audiencia** actividad:
 
 1. Seleccione la identidad y el área de nombres principales que se utilizarán para identificar los perfiles de destino en la base de datos:
 
-   * **Campo de identidad principal**: seleccione el campo que desea utilizar para identificar los perfiles. Por ejemplo, su dirección de correo electrónico o número de teléfono.
-   * **Área de nombres de identidad**: seleccione el área de nombres que se utilizará para identificar los perfiles, es decir, el tipo de datos que se utilizará como clave de identificación. Por ejemplo, si la dirección de correo electrónico se ha seleccionado como campo de identidad principal, el área de nombres de identidad **Correo electrónico** debe estar seleccionado. Si el identificador único es el número de teléfono, el área de nombres de identidad **Teléfono** debe estar seleccionado.
+   * **Campo de identidad principal**: seleccione el campo que se usará para identificar los perfiles. Por ejemplo, su dirección de correo electrónico o número de teléfono.
+   * **Área de nombres de identidad**: seleccione el área de nombres que se utilizará para identificar los perfiles, es decir, el tipo de datos que se utilizará como clave de identificación. Por ejemplo, si la dirección de correo electrónico se ha seleccionado como campo de identidad principal, se debe seleccionar el área de nombres de identidad **Correo electrónico**. Si el identificador único es el número de teléfono, se debe seleccionar el área de nombres de identidad **Teléfono**.
 
-Después de ejecutar la composición, la audiencia resultante se guarda en Adobe Experience Platform <!-- to check-->, y se hace accesible en la **Audiencias** menú.
+Después de ejecutar la composición, la audiencia resultante se guarda en Adobe Experience Platform <!-- to check--> y se puede obtener acceso a ella desde el menú **Audiencias**.
 
 <!--
 

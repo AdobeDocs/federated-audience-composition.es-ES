@@ -11,11 +11,11 @@ ht-degree: 1%
 
 # Creación de conexiones {#connections-fdb}
 
-Para crear una nueva conexión a una base de datos federada, vaya a **[!UICONTROL DATOS FEDERADOS]** y en la sección **[!UICONTROL Bases de datos federadas]** vínculo, haga clic en **[!UICONTROL Agregar base de datos federada]** botón.
+Para crear una nueva conexión a una base de datos federada, vaya a la sección **[!UICONTROL DATOS FEDERADOS]** y, en el vínculo **[!UICONTROL Bases de datos federadas]**, haga clic en el botón **[!UICONTROL Agregar base de datos federada]**.
 
 ![](assets/connections_list.png){zoomable="yes"}
 
-Accederá a la ventana de la conexión **[!UICONTROL Propiedades]**, con el nombre y el tipo de su base de datos.
+Tendrá acceso a la ventana de la conexión **[!UICONTROL Properties]**, con el nombre y el tipo de su base de datos.
 
 ![](assets/connections_name.png){zoomable="yes"}
 
@@ -23,7 +23,7 @@ Si selecciona su tipo, tendrá acceso a otras propiedades para rellenar. [Más i
 
 ![](assets/connections_details.png){zoomable="yes"}
 
-Una vez completados los detalles, haga clic en **[!UICONTROL Probar conexión]** botón, y activado **[!UICONTROL Implementación de funciones]** botón.
-Finalice la creación de la conexión haciendo clic en **[!UICONTROL Guardar]** botón.
+Después de completar los detalles, haga clic en el botón **[!UICONTROL Probar conexión]** y en el botón **[!UICONTROL Implementar funciones]**.
+Finalice la creación de la conexión haciendo clic en el botón **[!UICONTROL Guardar]**.
 
 ![](assets/connections_testdeploy.png){zoomable="yes"}

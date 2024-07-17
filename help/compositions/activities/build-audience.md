@@ -25,7 +25,7 @@ Para definir la población del público destinatario, puede hacer lo siguiente:
 * Seleccione un público destinatario de Adobe Experience Platform.
 * Cree una nueva audiencia con el generador de modeladores de consultas definiendo y combinando criterios de filtrado.
 
-El **Crear audiencia** la actividad se puede colocar al principio de la composición o después de cualquier otra actividad. Cualquier actividad se puede colocar después de **Crear audiencia**.
+La actividad **Generar audiencia** se puede colocar al principio de la composición o después de cualquier otra actividad. Cualquier actividad se puede colocar después de **Generar audiencia**.
 
 ## Configuración de la actividad Generar público {#build-audience-configuration}
 
@@ -47,8 +47,8 @@ Siga estos pasos para configurar la actividad **Generar público destinatario**:
 
 Para crear su propia audiencia, siga estos pasos:
 
-1. Seleccionar **Crear audiencia**.
-1. Elija la **Esquema**, también conocida como dimensión de segmentación. El esquema permite definir la población objetivo de la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el esquema se selecciona en los destinatarios.
+1. Seleccione **Crear audiencia**.
+1. Elija el **Esquema**, también conocido como dimensión de segmentación. El esquema permite definir la población objetivo de la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el esquema se selecciona en los destinatarios.
 1. Haga clic en **Continuar**.
 1. Utilice el modelador de consultas para definir la consulta. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 

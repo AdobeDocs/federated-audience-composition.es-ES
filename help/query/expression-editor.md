@@ -19,25 +19,25 @@ La edición de una expresión implica la introducción manual de condiciones par
 
 ## Trabajo con el editor de expresiones {#edit}
 
-El editor de expresiones está disponible en el modelador de consultas **[!UICONTROL Editar expresión]** botón, disponible para el **[!UICONTROL Atributo]** y **[!UICONTROL Valor]** campos al configurar una condición personalizada.
+El editor de expresiones está disponible en el botón del modelador de consultas **[!UICONTROL Editar expresión]**, disponible para los campos **[!UICONTROL Atributo]** y **[!UICONTROL Valor]** al configurar una condición personalizada.
 
-| Acceso desde el **Atributo** campo | Acceso desde el **Valor** campo |
+| Acceso desde el campo **Atributo** | Acceso desde el campo **Value** |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 El editor de expresiones proporciona lo siguiente:
 
 * Un **campo de entrada (1)** en el que se define la expresión.
-* La lista de disponibles **campos (2)** que se puede utilizar en la expresión y correspondiente al esquema, también conocido como dimensión de segmentación, de la consulta.
-* **Funciones de ayuda (3)**, ordenados por categoría.
+* La lista de **campos (2)** disponibles que se pueden usar en la expresión y que corresponden al esquema, también conocido como dimensión de segmentación, de la consulta.
+* **Funciones de ayuda (3)**, ordenadas por categoría.
 
 Edite la expresión introduciendo una expresión directamente en el campo de entrada. Para añadir un campo o una función de ayuda, coloque el cursor en la expresión donde desee añadirla y haga clic en el botón +.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
-Cuando la expresión esté lista, haga clic en **[!UICONTROL Confirmar]** botón. La expresión se muestra en el campo seleccionado. Para editarlo, abra el editor de expresiones y realice los cambios deseados.
+Cuando la expresión esté lista, haga clic en el botón **[!UICONTROL Confirmar]**. La expresión se muestra en el campo seleccionado. Para editarlo, abra el editor de expresiones y realice los cambios deseados.
 
-El ejemplo siguiente muestra una expresión configurada para **[!UICONTROL Valor]** field. Para editarlo, debe abrir el editor de expresiones utilizando **[!UICONTROL Editar expresión]** botón.
+El ejemplo siguiente muestra una expresión configurada para el campo **[!UICONTROL Value]**. Para editarlo, debe abrir el editor de expresiones con el botón **[!UICONTROL Editar expresión]**.
 
 ![](assets/edit-expression-value.png){zoomable="yes"}
 
@@ -93,8 +93,8 @@ Las funciones agregadas se utilizan para realizar cálculos en un conjunto de va
   </tr>
   <tr> 
    <td> <strong>StringAgg</strong><br /> </td> 
-   <td> Devuelve la concatenación de los valores de una columna de tipo cadena, separados por el carácter del segundo argumento<br /> </td> 
-   <td> StringAgg()&lt;value&gt;, &lt;string&gt;)<br /></td> 
+   <td> Devuelve la concatenación de los valores de una columna de tipo cadena, separados por el carácter del segundo argumento <br /> </td> 
+   <td> StringAgg(&lt;Valor&gt;, &lt;Cadena&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -147,8 +147,8 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   </tr>
   <tr> 
    <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> Convierte la marca de tiempo NTZ (marca de tiempo sin zona horaria) en TZ (marca de tiempo con zona horaria) aplicando la TZ de sesión definida<br/> </td> 
-   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+   <td> Convierte la marca de tiempo NTZ (marca de tiempo sin zona horaria) en TZ (marca de tiempo con zona horaria) aplicando la sesión definida TZ<br/> </td> 
+   <td> ConvertNTZ (&lt;fecha+hora&gt;)<br /> </td>  
   </tr>
   <tr> 
    <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
@@ -158,7 +158,7 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   <tr> 
    <td> <strong>DateCmp</strong><br /> </td> 
    <td> Comparar dos fechas<br/> </td> 
-   <td> DateCmp()&lt;date&gt;,&lt;date&gt;)<br /> </td>  
+   <td> DateCmp(&lt;fecha&gt;,&lt;fecha&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -242,8 +242,8 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   </tr> 
   <tr> 
    <td> <strong>Oldest</strong><br /> </td> 
-   <td> Devuelve la fecha más antigua de un intervalo<br /> </td> 
-   <td> Oldest (&lt;date date=""&gt;)<br /> </td>  
+   <td> Devuelve la fecha más antigua de un intervalo <br /> </td> 
+   <td> Más antiguo (&lt;fecha, fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -297,13 +297,13 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   </tr> 
   <tr> 
    <td> <strong>ToTimestamp</strong><br /> </td> 
-   <td> Convierte una cadena en una marca de tiempo<br /> </td> 
-   <td> ToTimestamp()&lt;string&gt;)<br /> </td>  
+   <td> Convierte una cadena en una marca de tiempo <br /> </td> 
+   <td> ToTimestamp(&lt;cadena&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToTimeZone</strong><br /> </td> 
    <td> Convertir una fecha y hora a la zona horaria<br /> </td> 
-   <td> ToTimeZone()&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
+   <td> ToTimeZone(&lt;fecha&gt;,&lt;zona horaria&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -351,9 +351,9 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
    <td> YearAndMonth(&lt;fecha&gt;)<br /> </td>  
   </tr>
   <tr> 
-   <td> <strong>YearsAgo</strong><br /> </td> 
-   <td> Devuelve el número de años entre una fecha determinada y la fecha actual<br /> </td> 
-   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
+   <td> Hace <strong>años</strong><br /> </td> 
+   <td> Devuelve el número de años entre una fecha determinada y la fecha actual <br /> </td> 
+   <td> YearsAgo(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -488,8 +488,8 @@ Esta tabla contiene las funciones restantes disponibles.
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Cifrar la cadena proporcionada en el argumento<br /> </td> 
-   <td> AESEncrypt()&lt;value&gt;)<br /> </td> 
+   <td> Cifrar la cadena proporcionada en el argumento <br /> </td> 
+   <td> AESEncrypt(&lt;valor&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -547,8 +547,8 @@ Esta tabla contiene las funciones restantes disponibles.
    <td> IsEmptyString(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Devuelve un ID único<br /> </td> 
+   <td> <strong>NuevoUUID</strong><br /> </td> 
+   <td> Devuelve un identificador único <br /> </td> 
    <td> NewUUID()<br /> </td>  
   </tr> 
   <tr> 
@@ -617,8 +617,8 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
-   <td> Devuelve el tamaño en bytes de la cadena<br /> </td> 
-   <td> dataLength()&lt;string&gt;)<br /></td> 
+   <td> Devuelve el tamaño en bytes de la cadena <br /> </td> 
+   <td> dataLength(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
@@ -657,8 +657,8 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   </tr> 
   <tr> 
    <td> <strong>Línea</strong><br /> </td> 
-   <td> Extraer línea n de cadena<br /> </td> 
-   <td> Line()&lt;string&gt;,&lt;number&gt;)<br /></td> 
+   <td> Extraer línea n de la cadena <br /> </td> 
+   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
@@ -668,7 +668,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Devuelve la cadena completa a la izquierda<br /> </td> 
-   <td> LPad (&lt;string&gt;, &lt;number&gt;, &lt;char&gt;)<br /></td> 
+   <td> LPad (&lt;Cadena&gt;, &lt;Número&gt;, &lt;Carácter&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -686,14 +686,14 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
    <td> MemoContains(&lt;memo&gt;, &lt;cadena&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>NodeValue</strong><br /> </td> 
-   <td> Extrae el valor de un campo XML de su XPath y de los datos del campo<br /> </td> 
-   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> <strong>ValorNodo</strong><br /> </td> 
+   <td> Extrae el valor de un campo XML de su XPath y de los datos de campo <br /> </td> 
+   <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
    <td> Reemplaza todas las apariciones de un valor de cadena especificado por otro valor de cadena.<br /> </td> 
-   <td> Replace()&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
+   <td> Replace(&lt;cadena&gt;,&lt;cadena&gt;,&lt;cadena&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -713,12 +713,12 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Representación hexadecimal de la clave SHA256 de una cadena.<br /> </td> 
-   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha256Digest (&lt;cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Representación hexadecimal de la clave SHA512 de una cadena.<br /> </td> 
-   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha512Digest (&lt;cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -765,7 +765,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
    <td> Ejecute la llamada a la función SQL introducida como primer parámetro, sobre Partición u Ordenar por los campos introducidos como segundo parámetro<br /> </td> 
-   <td> _Over_ (&lt;value&gt;, &lt;value&gt;)<br /> </td>  
+   <td> _Over_ (&lt;Valor&gt;, &lt;Valor&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

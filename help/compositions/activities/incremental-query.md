@@ -28,9 +28,9 @@ ht-degree: 26%
 >title="Datos procesados de consulta incremental"
 >abstract="Datos procesados de consulta incremental"
 
-El **Consulta incremental** esta actividad le permite consultar la base de datos de forma programada. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto permite buscar solo elementos nuevos.
+La actividad **Incremental query** le permite consultar la base de datos de forma programada. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto permite buscar solo elementos nuevos.
 
-El **[!UICONTROL Consulta incremental]** la actividad se puede utilizar para varios tipos de usos:
+La actividad **[!UICONTROL Incremental query]** se puede usar para varios tipos de usos:
 
 * Segmentación de individuos para definir el destinatario de un mensaje, la audiencia, etc.
 * Exportación de datos. Por ejemplo, puede utilizar la actividad para exportar con regularidad nuevos registros en los archivos. Puede resultar útil si desea utilizar los datos de registro en herramientas externas de sistema de informes o BI.
@@ -41,29 +41,29 @@ Si el resultado de una consulta incremental es igual a 0 durante una de sus ejec
 
 ## Configuración de la actividad Consulta incremental {#incremental-query-configuration}
 
-Siga estos pasos para configurar el **Consulta incremental** actividad:
+Siga estos pasos para configurar la actividad **Incremental query**:
 
-1. Añadir un **Consulta incremental** actividad en la composición.
+1. Agregue una actividad **Incremental query** a su composición.
 
-1. En el **[!UICONTROL Audiencia]** , seleccione la **Dimensión de segmentación** luego haga clic en **[!UICONTROL Continuar]**.
+1. En la sección **[!UICONTROL Audiencia]**, elija la **Dimensión de segmentación** y luego haga clic en **[!UICONTROL Continuar]**.
 
    La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el objetivo se selecciona en los destinatarios. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
 1. Utilice el modelador de consultas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 
-1. En el **[!UICONTROL Datos procesados]** , seleccione el modo incremental que desea utilizar:
+1. En la sección **[!UICONTROL Datos procesados]**, seleccione el modo incremental que desea utilizar:
 
-   * **[!UICONTROL Excluir resultados de ejecución anterior]**: Cada vez que se ejecuta la actividad, se excluyen los resultados de las ejecuciones anteriores.
+   * **[!UICONTROL Excluir resultados de ejecuciones anteriores]**: Cada vez que se ejecuta la actividad, se excluyen los resultados de las ejecuciones anteriores.
 
-     Los registros ya segmentados en ejecuciones anteriores se pueden registrar un número máximo de días desde el día en que fueron segmentados. Para ello, utilice el **[!UICONTROL Historial en días]** field. Si este valor es cero, los destinatarios nunca se eliminan del registro.
+     Los registros ya segmentados en ejecuciones anteriores se pueden registrar un número máximo de días desde el día en que fueron segmentados. Para ello, use el campo **[!UICONTROL Historial en días]**. Si este valor es cero, los destinatarios nunca se eliminan del registro.
 
-   * **[!UICONTROL Usar un campo de fecha]**: Esta opción permite excluir los resultados de ejecuciones anteriores en función de un campo de fecha específico. Para ello, elija el campo de fecha deseado de la lista de atributos disponibles para la dimensión de segmentación seleccionada. En las siguientes ejecuciones de la composición, solo se recuperarán los datos que se hayan modificado o creado después de la última fecha de ejecución.
+   * **[!UICONTROL Usar un campo de fecha]**: esta opción le permite excluir los resultados de ejecuciones anteriores en función de un campo de fecha específico. Para ello, elija el campo de fecha deseado de la lista de atributos disponibles para la dimensión de segmentación seleccionada. En las siguientes ejecuciones de la composición, solo se recuperarán los datos que se hayan modificado o creado después de la última fecha de ejecución.
 
-     Después de la primera ejecución de la composición, la variable **[!UICONTROL Fecha de la última ejecución]** está disponible. Especifica la fecha que se utilizará para la siguiente ejecución y se actualiza automáticamente cada vez que se ejecuta la composición. Todavía tiene la posibilidad de anular este valor introduciendo manualmente uno nuevo para que se ajuste a sus necesidades.
+     Después de la primera ejecución de la composición, está disponible el campo **[!UICONTROL Última fecha de ejecución]**. Especifica la fecha que se utilizará para la siguiente ejecución y se actualiza automáticamente cada vez que se ejecuta la composición. Todavía tiene la posibilidad de anular este valor introduciendo manualmente uno nuevo para que se ajuste a sus necesidades.
 
    >[!NOTE]
    >
-   >El **[!UICONTROL Usar un campo de fecha]** El modo permite una mayor flexibilidad en función del campo de fecha seleccionado. Por ejemplo, si el campo especificado corresponde a una fecha de modificación, el modo de campo de fecha permite recuperar datos que se han actualizado recientemente, mientras que el otro modo excluye simplemente las grabaciones que ya estaban segmentadas en una ejecución anterior, incluso si se han modificado desde la última ejecución de la composición.
+   >El modo **[!UICONTROL Usar un campo de fecha]** permite una mayor flexibilidad según el campo de fecha seleccionado. Por ejemplo, si el campo especificado corresponde a una fecha de modificación, el modo de campo de fecha permite recuperar datos que se han actualizado recientemente, mientras que el otro modo excluye simplemente las grabaciones que ya estaban segmentadas en una ejecución anterior, incluso si se han modificado desde la última ejecución de la composición.
 
 <!--
 

@@ -2,17 +2,17 @@
 title: Novedades de la composición de audiencias federada
 description: Últimas actualizaciones y notas de la versión
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
+source-git-commit: 5d399539705559a7c7f583376815a55e665fc813
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 4%
+source-wordcount: '326'
+ht-degree: 3%
 
 ---
 
 
 # Notas de la versión {#rn-new}
 
-## Composición de audiencia federada (LA) {#rn-la}
+## Composición de audiencia federada (LA) {#fac-la}
 
 La Composición de audiencia federada es un complemento que ofrece un acceso flexible y un alcance ampliado a los almacenes de datos empresariales para potenciar los casos de uso de personalización.
 
@@ -20,6 +20,7 @@ La Composición de audiencia federada permite a las empresas componer datos para
 
 En lugar de ingerir conjuntos de datos o audiencias en Adobe Experience Platform, ahora puede utilizar Federated Audience Composition para reducir el volumen de datos copiados desde el almacén de datos en Adobe Experience Platform, extrayendo del almacén audiencias y atributos específicos necesarios para determinados casos de uso de segmentación o activación, y garantizar que los datos confidenciales no se conserven fuera del almacén.
 
+Obtenga más información acerca de las funciones de la composición de audiencias federada en [esta página](get-started.md) y en las [preguntas más frecuentes](get-started.md#faq).
 
 >[!AVAILABILITY]
 >
@@ -27,8 +28,16 @@ En lugar de ingerir conjuntos de datos o audiencias en Adobe Experience Platform
 >
 >Por ahora, la función no está disponible para los clientes que hayan comprado el complemento de Adobe **Healthcare Shield**.
 
+## Acceso a la composición de audiencia federada {#fac-access}
 
-## Requisitos previos y protecciones {#rn-guardrails}
+No hay permisos específicos para Composición de audiencia federada. El único requisito previo para acceder a esta capacidad es haber adquirido el complemento Federated Audience Composition.
+
+>[!AVAILABILITY]
+>
+>Una vez que el usuario haya recibido la notificación de correo electrónico de bienvenida del Adobe, la interfaz podría tardar unas horas más en actualizarse y las funciones disponibles para el usuario.
+>
+
+## Requisitos previos y protecciones {#fac-guardrails}
 
 * Sus direcciones IP deben añadirse a la lista de permitidos de para permitir el acceso a su almacén de datos y utilizar Federated Audience Composition. Para añadir sus direcciones IP a la lista de permitidos, póngase en contacto con el representante de Adobe.
 

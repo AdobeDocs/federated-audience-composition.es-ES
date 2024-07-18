@@ -3,27 +3,24 @@ audience: end-user
 title: Introducción a las bases de datos federadas
 description: Aprenda a crear y administrar sus bases de datos federadas
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 3d4d8cee37dd95928ab25952baadf51f1caf9d34
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 26%
+source-wordcount: '1419'
+ht-degree: 17%
 
 ---
 
 # Introducción a las bases de datos federadas {#federated-db}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Bases de datos federadas"
 >abstract="Las conexiones existentes a bases de datos federadas se muestran en esta pantalla. Para crear una conexión nueva, haga clic en el botón **[!UICONTROL Añadir base de datos federada]**."
 
-
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="Propiedades de la base de datos federada"
 >abstract="Introduzca el nombre de la nueva base de datos federada y seleccione su tipo."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
@@ -42,20 +39,43 @@ Bases de datos externas compatibles:
 
 ## Snowflake {#snowflake}
 
-* **[!UICONTROL Servidor]**:
+Utilice las bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso al Snowflake.
 
-* **[!UICONTROL Usuario]**: Nombre del usuario.
+1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
-* **[!UICONTROL Contraseña]**: Contraseña de la cuenta de usuario.
+1. Haga clic en **[!UICONTROL Agregar base de datos federada]**.
 
-* **[!UICONTROL Base de datos]**:
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Esquema de trabajo]**:
+1. Escriba un **[!UICONTROL Nombre]** en la base de datos federada.
 
-* **[!UICONTROL Clave privada]**:
-Solo se aceptan archivos .pem
+1. En la lista desplegable **[!UICONTROL Tipo]**, seleccione Snowflake.
 
-* **[!UICONTROL Opciones]**: el conector admite las opciones detalladas en la tabla siguiente.
+   ![](assets/federated_database_2.png)
+
+1. Configure las opciones de autenticación del Snowflake:
+
+   * **[!UICONTROL Servidor]**: escriba el nombre de su servidor.
+
+   * **[!UICONTROL Usuario]**: Escriba su nombre de usuario.
+
+   * **[!UICONTROL Contraseña]**: Escriba la contraseña de su cuenta.
+
+   * **[!UICONTROL Base de datos]** (opcional): escriba el nombre de la base de datos si no se especifica en el DSN.
+
+   * **[!UICONTROL Esquema de trabajo]** (opcional): escriba el nombre del esquema de trabajo.
+
+   * **[!UICONTROL Clave privada]**: Haga clic en el campo **[!UICONTROL Clave privada]** para seleccionar los archivos .pem de la carpeta de configuración regional.
+
+   * **[!UICONTROL Opciones]**: el conector admite las opciones detalladas en la tabla siguiente.
+
+1. Seleccione la opción **[!UICONTROL Probar la conexión]** para comprobar la configuración.
+
+1. Haga clic en el botón **[!UICONTROL Implementar funciones]** para crear las funciones.
+
+1. Una vez completada la configuración, haz clic en **[!UICONTROL Agregar]** para crear tu base de datos federada.
+
+El conector admite las siguientes opciones:
 
 | Opción | Descripción |
 |---|---|
@@ -70,15 +90,37 @@ Solo se aceptan archivos .pem
 
 ## Google Big Query {#google-big-query}
 
-* **[!UICONTROL Cuenta de servicio]**: Correo electrónico de su **[!UICONTROL cuenta de servicio]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+Utilice las bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Google Big Query.
 
-* **[!UICONTROL Proyecto]**: Nombre de su **[!UICONTROL Proyecto]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
-* **[!UICONTROL Conjunto de datos]**: Nombre de su **[!UICONTROL Conjunto de datos]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro).
+1. Haga clic en **[!UICONTROL Agregar base de datos federada]**.
 
-* **[!UICONTROL Ruta del archivo de claves]**: Cargue el archivo de claves en el servidor. Solo se aceptan archivos .json.
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Opciones]**: el conector admite las opciones detalladas en la tabla siguiente.
+1. Escriba un **[!UICONTROL Nombre]** en la base de datos federada.
+
+1. En la lista desplegable **[!UICONTROL Tipo]**, seleccione Google Big Query.
+
+   ![](assets/federated_database_3.png)
+
+1. Configure las opciones de autenticación de Google Big Query:
+
+   * **[!UICONTROL Cuenta de servicio]**: escribe el correo electrónico de tu **[!UICONTROL cuenta de servicio]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+
+   * **[!UICONTROL Proyecto]**: Escriba el nombre de su **[!UICONTROL Proyecto]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+
+   * **[!UICONTROL Conjunto de datos]**: escriba el nombre de su **[!UICONTROL Conjunto de datos]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro).
+
+   * **[!UICONTROL Ruta del archivo de claves]**: Cargue el archivo de claves en el servidor. Solo se aceptan archivos .json.
+
+   * **[!UICONTROL Opciones]**: el conector admite las opciones detalladas en la tabla siguiente.
+
+1. Seleccione la opción **[!UICONTROL Probar la conexión]** para comprobar la configuración.
+
+1. Haga clic en el botón **[!UICONTROL Implementar funciones]** para crear las funciones.
+
+1. Una vez completada la configuración, haz clic en **[!UICONTROL Agregar]** para crear tu base de datos federada.
 
 | Opción | Descripción |
 |:-:|:-:|
@@ -94,29 +136,77 @@ Solo se aceptan archivos .pem
 
 ## Azure synapse Redshift {#azure-synapse-redshift}
 
-* **[!UICONTROL Servidor]**: URL del servidor de Azure synapse
+Utilice las bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Azure synapse Redshift.
 
-* **[!UICONTROL Cuenta]**: Nombre del usuario
+1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
-* **[!UICONTROL Contraseña]**: Contraseña de la cuenta de usuario
+1. Haga clic en **[!UICONTROL Agregar base de datos federada]**.
 
-* **[!UICONTROL Base de datos]**: Nombre de la base de datos
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Options]**
+1. Escriba un **[!UICONTROL Nombre]** en la base de datos federada.
+
+1. En la lista desplegable **[!UICONTROL Tipo]**, seleccione Azure synapse Redshift.
+
+   ![](assets/federated_database_4.png)
+
+1. Configure las opciones de autenticación Redshift de Azure synapse:
+
+   * **[!UICONTROL Servidor]**: escriba la dirección URL del servidor de Azure synapse.
+
+   * **[!UICONTROL Cuenta]**: escriba el nombre de usuario.
+
+   * **[!UICONTROL Contraseña]**: escriba la contraseña de la cuenta.
+
+   * **[!UICONTROL Base de datos]** (opcional): escriba el nombre de la base de datos si no se especifica en el DSN.
+
+   * **[!UICONTROL Opciones]**: el conector admite las opciones detalladas en la tabla siguiente.
+
+1. Seleccione la opción **[!UICONTROL Probar la conexión]** para comprobar la configuración.
+
+1. Haga clic en el botón **[!UICONTROL Implementar funciones]** para crear las funciones.
+
+1. Una vez completada la configuración, haz clic en **[!UICONTROL Agregar]** para crear tu base de datos federada.
+
+| Opción | Descripción |
+|:-:|:-:|
+| Autenticación | Tipo de autenticación admitida por el conector. Valor admitido actual: ActiveDirectoryMSI. Para obtener más información, consulte [Documento SQL](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Ejemplo de cadenas de conexión n°8) |
 
 ## Vertica Analytics {#vertica-analytics}
 
-* **[!UICONTROL Servidor]**: URL del servidor [!DNL Vertica Analytics]
+Utilice las bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a las Verticas analytics.
 
-* **[!UICONTROL Cuenta]**: Nombre del usuario
+1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
-* **[!UICONTROL Contraseña]**: Contraseña de la cuenta de usuario
+1. Haga clic en **[!UICONTROL Agregar base de datos federada]**.
 
-* **[!UICONTROL Base de datos]**: Nombre de la base de datos
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Esquema de trabajo]**: Nombre de su esquema de trabajo.
+1. Escriba un **[!UICONTROL Nombre]** en la base de datos federada.
 
-* **[!UICONTROL Opciones]**: el conector admite las opciones detalladas en la tabla siguiente.
+1. En la lista desplegable **[!UICONTROL Tipo]**, seleccione Verticas analytics.
+
+   ![](assets/federated_database_5.png)
+
+1. Configure las opciones de autenticación de Verticas analytics:
+
+   * **[!UICONTROL Servidor]**: Agregue la dirección URL del servidor [!DNL Vertica Analytics].
+
+   * **[!UICONTROL Cuenta]**: Agregue el nombre de usuario.
+
+   * **[!UICONTROL Contraseña]**: Agregue la contraseña de la cuenta.
+
+   * **[!UICONTROL Base de datos]** (opcional): escriba el nombre de la base de datos si no se especifica en el DSN.
+
+   * **[!UICONTROL Esquema de trabajo]** (opcional): escriba el nombre del esquema de trabajo.
+
+   * **[!UICONTROL Opciones]**: el conector admite las opciones detalladas en la tabla siguiente.
+
+1. Seleccione la opción **[!UICONTROL Probar la conexión]** para comprobar la configuración.
+
+1. Haga clic en el botón **[!UICONTROL Implementar funciones]** para crear las funciones.
+
+1. Una vez completada la configuración, haz clic en **[!UICONTROL Agregar]** para crear tu base de datos federada.
 
 El conector admite las siguientes opciones:
 
@@ -124,16 +214,36 @@ El conector admite las siguientes opciones:
 |---|---|
 | TimeZoneName | De forma predeterminada, vacío, lo que significa que se utiliza la zona horaria del sistema del servidor de aplicaciones de Campaign Classic. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. |
 
-
 ## Amazon Redshift {#amazon-redshift}
 
-* **[!UICONTROL Servidor]**: nombre del DNS
+Utilice las bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Amazon Redshift.
 
-* **[!UICONTROL Cuenta]**: Nombre del usuario
+1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
-* **[!UICONTROL Contraseña]**: Contraseña de la cuenta de usuario
+1. Haga clic en **[!UICONTROL Agregar base de datos federada]**.
 
-* **[!UICONTROL Base de datos]**: Nombre de la base de datos si no se especifica en DSN. Se puede dejar vacío si se especifica en el DSN
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Esquema de trabajo]**: Nombre de su esquema de trabajo. [Más información](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+1. Escriba un **[!UICONTROL Nombre]** en la base de datos federada.
 
+1. En el menú desplegable **[!UICONTROL Tipo]**, seleccione Amazon Redshift.
+
+   ![](assets/federated_database_6.png)
+
+1. Configure las opciones de autenticación de Amazon Redshift:
+
+   * **[!UICONTROL Servidor]**: agregue el nombre del DNS.
+
+   * **[!UICONTROL Cuenta]**: Agregue el nombre de usuario.
+
+   * **[!UICONTROL Contraseña]**: Agregue la contraseña de la cuenta.
+
+   * **[!UICONTROL Base de datos]**: Nombre de la base de datos si no se especifica en DSN. Se puede dejar vacío si se especifica en el DSN
+
+   * **[!UICONTROL Esquema de trabajo]**: Nombre de su esquema de trabajo. [Más información](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+1. Seleccione la opción **[!UICONTROL Probar la conexión]** para comprobar la configuración.
+
+1. Haga clic en el botón **[!UICONTROL Implementar funciones]** para crear las funciones.
+
+1. Una vez completada la configuración, haz clic en **[!UICONTROL Agregar]** para crear tu base de datos federada.

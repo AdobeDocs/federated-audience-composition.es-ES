@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar audiencias a Composición de audiencia federada de Adobe
 description: Aprenda a enviar audiencias de Adobe Experience Platform a la Composición de audiencias federada
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 553db3ad6d318e7bddcede352178427255d41781
+source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '472'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ Los pasos principales para enviar audiencias de Adobe Experience Platform a la C
 
    ![](assets/destination-configure.png)
 
-   La sección **[!UICONTROL Alertas]** le permite habilitar alertas para recibir notificaciones sobre el estado del flujo de datos a su destino. Para obtener más información sobre las alertas, consulte la guía sobre [suscripción a alertas de destinos mediante la interfaz de usuario](../../ui/alerts.md).
+   La sección **[!UICONTROL Alertas]** le permite habilitar alertas para recibir notificaciones sobre el estado del flujo de datos a su destino. Para obtener más información sobre las alertas, consulte la guía sobre [suscripción a alertas de destinos mediante la interfaz de usuario](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts).
 
 1. En el paso **[!UICONTROL Política de gobernanza y acciones de aplicación]**, puede definir las políticas de gobernanza de datos y asegurarse de que los datos utilizados sean compatibles cuando las audiencias se envíen y estén activas.
 

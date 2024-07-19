@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a las bases de datos federadas
 description: Aprenda a crear y administrar sus bases de datos federadas
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 17%
+source-wordcount: '1458'
+ht-degree: 16%
 
 ---
 
@@ -27,11 +27,13 @@ ht-degree: 17%
 >title="Detalles de la base de datos federada"
 >abstract="Introduzca la configuración para conectarse a la nueva base de datos federada. Utilice el botón **[!UICONTROL Probar conexión]** para validar la configuración."
 
-Cree, configure, pruebe y guarde la conexión con una base de datos externa.
+La composición de audiencias federada permite al cliente crear y enriquecer audiencias de los almacenes de datos de terceros e importarlas a Adobe Experience Platform.
 
+Obtenga información sobre cómo crear, configurar, probar y guardar la conexión con la base de datos externa en esta página.
 
+## Bases de datos compatibles {#supported-db}
 
-Bases de datos externas compatibles:
+Con Federated Audience Composition, puede conectarse a las siguientes bases de datos:
 
 * Amazon Redshift
 * Azure synapse

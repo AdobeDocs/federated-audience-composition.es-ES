@@ -2,9 +2,9 @@
 title: Introducción a Federated Audience Composition
 description: Descubra qué es la Composición de audiencia federada de Adobe y cómo utilizarla en Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
+source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1328'
 ht-degree: 6%
 
 ---
@@ -67,10 +67,11 @@ No hay permisos específicos para Composición de audiencia federada. El único 
 
 Para esta versión, Composición de audiencia federada es compatible con:
 
-* Snowflake
-* Google Big Query
-* Azure synapse
 * Amazon Redshift
+* Azure synapse
+* Google Big Query
+* Snowflake
+* Vertica Analytics
 
 +++
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Introducción a las bases de datos federadas
 description: Aprenda a crear y administrar sus bases de datos federadas
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 17%
@@ -28,6 +28,8 @@ ht-degree: 17%
 >abstract="Introduzca la configuración para conectarse a la nueva base de datos federada. Utilice el botón **[!UICONTROL Probar conexión]** para validar la configuración."
 
 Cree, configure, pruebe y guarde la conexión con una base de datos externa.
+
+
 
 Bases de datos externas compatibles:
 

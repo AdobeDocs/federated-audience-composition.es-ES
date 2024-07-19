@@ -2,9 +2,9 @@
 user-guide-title: Composición de público federada
 title: Documentación de composición de audiencia federada de Adobe
 breadcrumb-title: Composición de público federada
-source-git-commit: bea3c176701dd256255f222713d3c10284f97210
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '133'
 ht-degree: 40%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 40%
    + [Introducción ](start/get-started.md)
    + [Notas de la versión](start/release-notes.md)
 + Pasos de configuración {#config}
-   + [Conectar AEP con Composición de audiencia federada](connections/destinations.md)
    + [Configurar las bases de datos federadas](connections/federated-db.md)
    + [Creación y administración de conexiones](connections/connections.md)
    + Modelos de datos y esquemas{#datamodel}
       + [Configuración de los modelos de datos](data-management/gs-models.md)
       + [Creación y configuración de esquemas](customer/schemas.md)
    + [Trabajo con públicos](customer/audiences.md)
+   + [Importar las audiencias en AEP](connections/destinations.md)
 + Composiciones {#compositions}
    + [Introducción a las composiciones](compositions/gs-compositions.md)
    + Cree y ejecute su primera composición {#create-composition}

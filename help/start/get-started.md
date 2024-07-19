@@ -2,19 +2,19 @@
 title: Introducción a Federated Audience Composition
 description: Descubra qué es la Composición de audiencia federada de Adobe y cómo utilizarla en Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 7%
+source-wordcount: '1320'
+ht-degree: 6%
 
 ---
 
 
 # Introducción a Federated Audience Composition {#gs-fac}
 
-La composición de audiencias federada de Adobe Experience Platform ofrece una solución fácil y potente para conectar su almacén de datos empresarial directamente en Adobe Real-time Customer Data Platform o Adobe Journey Optimizer, y realizar consultas en las tablas de su almacén de datos.
+La composición de audiencias federada es un complemento de Adobe Real-time Customer Data Platform y Adobe Journey Optimizer que permite al cliente crear y enriquecer audiencias de los almacenes de datos de terceros e importarlas a Adobe Experience Platform.
 
-La Composición de audiencias federada de Adobe ayuda a los usuarios de aplicaciones de Adobe Experience Platform a acceder a los datos de sus clientes almacenados en sus almacenes de datos y plataformas de almacenamiento en la nube (como Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). Los datos del cliente pueden almacenarse en varios almacenes de datos y ahora se puede acceder a ellos instantáneamente, sin replicación.
+La composición de audiencias federada de Adobe Experience Platform ofrece una solución fácil y potente para conectar su almacén de datos empresarial directamente en Adobe Real-time Customer Data Platform o Adobe Journey Optimizer, y realizar consultas en las tablas de su almacén de datos. La Composición de audiencias federada de Adobe ayuda a los usuarios de aplicaciones de Adobe Experience Platform a acceder a los datos de sus clientes almacenados en sus almacenes de datos y plataformas de almacenamiento en la nube (como Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). Los datos del cliente pueden almacenarse en varios almacenes de datos y ahora se puede acceder a ellos instantáneamente, sin replicación.
 
 
 ## Casos de uso {#rn-uc}

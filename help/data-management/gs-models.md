@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a los modelos de datos
 description: Obtenga información sobre cómo iniciar modelos de datos
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 39%
+source-wordcount: '220'
+ht-degree: 29%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 39%
 
 Un modelo de datos es un conjunto de esquemas, audiencias y los vínculos entre ellos.
 
-Más información sobre [esquemas](../customer/schemas.md).
+Más información sobre [esquemas](../customer/schemas.md#schema-start).
 
 Más información sobre [audiencias](../customer/audiences.md).
 
@@ -61,3 +61,16 @@ Accederá a la ventana donde puede añadir los esquemas, las audiencias y los v�
 
 ### Crear vínculos {#data-model-links}
 
+La creación de vínculos entre tablas del modelo de datos se puede realizar de dos formas:
+- Haga clic directamente en el menú **[!UICONTROL Crear vínculo]** de una de las tablas
+- Haga clic en el botón **[!UICONTROL Crear vínculos]** y elija las dos tablas
+
+![](assets/datamodel_createlinks.png){zoomable="yes"}
+
+Rellene el formulario especificado para definir el vínculo:
+
+![](assets/datamodel_link.png){zoomable="yes"}
+
+Todos los vínculos definidos para el modelo de datos se enumerarán de la siguiente manera:
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}

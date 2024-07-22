@@ -3,7 +3,7 @@ audience: end-user
 title: Introducción a los modelos de datos
 description: Obtenga información sobre cómo iniciar modelos de datos
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -41,7 +41,7 @@ Un modelo de datos es un conjunto de esquemas, audiencias y los vínculos entre 
 
 Más información sobre [esquemas](../customer/schemas.md#schema-start).
 
-Más información sobre [audiencias](../customer/audiences.md).
+Más información sobre [audiencias](../start/audiences.md).
 
 ## Creación de un modelo de datos {#data-model-create}
 

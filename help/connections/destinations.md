@@ -1,25 +1,27 @@
 ---
 audience: end-user
-title: Enviar audiencias a Composición de audiencia federada de Adobe
-description: Aprenda a enviar audiencias de Adobe Experience Platform a la Composición de audiencias federada
+title: Enriquezca las audiencias de Adobe Experience Platform con datos externos
+description: Aprenda a refinar y enriquecer las audiencias de Adobe Experience Platform con datos de sus bases de datos federadas mediante el destino de composición de audiencias federadas.
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '557'
+ht-degree: 4%
 
 ---
 
-# Enviar Adobe Experience Platform a la composición de audiencia federada de Adobe {#connect-aep-fac}
+# Enriquezca las audiencias de Adobe Experience Platform con datos externos {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Crear un destino"
 >abstract="Introduzca la configuración para conectarse a la nueva base de datos federada. Utilice el botón **[!UICONTROL Conectar con destino]** para validar la configuración."
 
-Adobe Experience Platform permite enviar audiencias desde Audience Portal a la Composición de audiencias federada de Adobe. Al hacerlo, puede aprovechar las audiencias existentes en composiciones y combinarlas con datos de bases de datos externas para crear nuevas audiencias o actualizar las existentes.
+Adobe Experience Platform permite la integración perfecta de audiencias desde Audience Portal a las bases de datos externas mediante el destino de composición de audiencia federada de Adobe. Al hacerlo, puede aprovechar las audiencias existentes en composiciones y enriquecerlas o refinarlas con datos de bases de datos externas para crear nuevas audiencias o actualizar las existentes.
 
-Para ello, debe configurar una nueva conexión en Adobe Experience Platform al destino de composición de audiencia federada de Adobe. Puede utilizar un planificador para enviar una audiencia determinada a frecuencias regulares y elegir qué campos enviar con la audiencia, como ID para conciliar los datos. Si ha aplicado políticas de gobernanza y privacidad a su audiencia, se conservarán y se devolverán al portal de audiencia una vez que se haya actualizado la audiencia.
+Para ello, debe configurar una nueva conexión en Adobe Experience Platform al destino de composición de audiencia federada de Adobe. Puede utilizar un planificador para enviar una audiencia determinada a frecuencias regulares y seleccionar los atributos específicos que desea incluir, como los ID para la reconciliación de datos. Si ha aplicado políticas de gobernanza y privacidad a su audiencia, se conservarán y se devolverán al portal de audiencia una vez que se haya actualizado la audiencia.
+
+Por ejemplo, si almacena puntuaciones de crédito de clientes en su almacén de datos y tiene una audiencia de Adobe Experience Platform dirigida a clientes interesados en un producto específico en los últimos dos meses, puede refinar esta audiencia según las puntuaciones de crédito usando el destino de Composición de audiencia federada. Este proceso le permite filtrar la audiencia para incluir solo perfiles con puntuaciones de crédito altas sin transferir datos de puntuación de crédito confidenciales desde el almacén de datos.
 
 Los pasos principales para enviar audiencias de Adobe Experience Platform a la Composición de audiencias federada de Adobe son los siguientes:
 

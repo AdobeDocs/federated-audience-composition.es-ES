@@ -2,10 +2,10 @@
 title: Introducción a Federated Audience Composition
 description: Descubra qué es la Composición de audiencia federada de Adobe y cómo utilizarla en Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
+source-git-commit: 431fe95afe2297a8fd6c3821c7fbbeaf38807aaf
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 6%
+source-wordcount: '1381'
+ht-degree: 5%
 
 ---
 
@@ -35,22 +35,14 @@ La composición de audiencias federadas de Adobe le permite crear y actualizar a
 
 Pasos clave:
 
-* Configuración de ****
+1. **Integración de datos**: reúna datos de varias fuentes y combínelos en un conjunto de datos unificado. Obtenga información sobre cómo conectar aplicaciones de Adobe Experience Platform y el almacén de datos empresarial, las bases de datos compatibles y cómo configurarlas en [esta sección](../connections/federated-db.md).
 
-   1. Conecte Adobe Experience Platform y su almacén de datos empresarial.
-Se admiten las siguientes bases de datos: Snowflake, Google Big Query, Azure synapse, Redshift.
-Obtenga más información en [esta página](../connections/federated-db.md)
-   1. Cree esquemas para seleccionar qué datos deben ser accesibles desde la interfaz de usuario.
-Obtenga más información en [esta página](../customer/schemas.md)
-   1. Cree vínculos para el modelo de datos.
-Obtenga más información en [esta página](../data-management/gs-models.md)
+2. **Modelado de datos**: Diseñe y cree modelos de datos y esquemas que definan la estructura, las relaciones y las restricciones de los datos. Obtenga más información sobre los esquemas en [esta página](../customer/schemas.md). Aprenda a crear vínculos para el modelo de datos en [esta página](../data-management/gs-models.md).
 
-* **Escribir audiencias**
+3. **Transformación de datos**: aplique técnicas de manipulación de datos para modificar el formato, la estructura o los valores de los elementos de datos y hacerlos compatibles o adecuados para aplicaciones o análisis específicos.
 
-   1. Diseñe y ejecute composiciones para crear audiencias.
-Obtenga más información en [esta página](../compositions/gs-compositions.md)
-   1. Actualice o reutilice audiencias existentes a través de Adobe Experience Platform Audience Portal y Destinations.
-Obtenga más información en [esta página](../connections/destinations.md)
+4. **Uso de datos**: Cree, organice y genere audiencias. Aprenda a componer audiencias en [esta página](../compositions/gs-compositions.md). También puede actualizar o reutilizar audiencias existentes a través de Adobe Experience Platform Audience Portal y Destinations. Obtenga más información en [esta página](../connections/destinations.md)
+
 
 ## Preguntas frecuentes {#faq}
 

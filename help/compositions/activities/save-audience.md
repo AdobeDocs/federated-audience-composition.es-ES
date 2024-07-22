@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Guardar audiencia
 description: Aprenda a utilizar la actividad Guardar audiencia
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 26%
+source-wordcount: '380'
+ht-degree: 25%
 
 ---
 
@@ -48,6 +48,10 @@ Siga estos pasos para configurar la actividad **Guardar audiencia**:
    ![](../assets/save-audience.png)
 
 1. Especifique la etiqueta de la audiencia que desea crear.
+
+   >[!IMPORTANT]
+   >
+   >La etiqueta de audiencia debe ser única dentro de la zona protegida actual. No puede ser la misma etiqueta que cualquier audiencia existente.
 
 1. Haga clic en **Agregar asignación de audiencia** y, a continuación, elija los campos de audiencia de origen y destino:
 

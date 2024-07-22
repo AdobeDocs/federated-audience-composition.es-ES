@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a los esquemas
 description: Aprenda a empezar con esquemas
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 31%
+source-wordcount: '281'
+ht-degree: 34%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 31%
 Un esquema es un objeto dentro de la aplicación que define cómo se vinculan los datos a las tablas de la base de datos.
 Un esquema hace referencia a una tabla.
 
-## ¿Cómo se crea un esquema? {#schema-create}
+## Creación de un esquema {#schema-create}
 
 En la sección **[!UICONTROL DATOS FEDERADOS]**, vaya al vínculo **[!UICONTROL Modelos]**. Ahí encontrará la ficha **[!UICONTROL Esquema]**.
 Haga clic en el botón **[!UICONTROL Crear esquema]**.
@@ -62,14 +62,14 @@ Al agregar las tablas, tendrá acceso a sus campos y podrá administrar lo que r
 
 ![](assets/schema_fields.png){zoomable="yes"}
 
-## ¿Cómo se edita un esquema? {#schema-edit}
+## Edición de un esquema {#schema-edit}
 
 Para editar un esquema, haga clic en el nombre del esquema en la carpeta de esquemas. Tendrá acceso a la página siguiente.
 Haz clic en el botón **[!UICONTROL Editar]**.
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
-## ¿Cómo obtener una vista previa de los datos en un esquema? {#schema-preview}
+## Vista previa de datos en un esquema {#schema-preview}
 
 Para obtener una vista previa de los datos de la tabla representada por su esquema, vaya a la pestaña **[!UICONTROL Data]** como se muestra a continuación.
 
@@ -79,7 +79,7 @@ Puede cambiar la Información general de datos haciendo clic en el botón **[!UI
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
-## ¿Cómo eliminar un esquema? {#schema-delete}
+## Eliminar un esquema {#schema-delete}
 
 Para eliminar un esquema, haga clic en el botón **[!UICONTROL Más]** y luego en **[!UICONTROL Eliminar]**.
 

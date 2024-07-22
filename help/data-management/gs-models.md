@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a los modelos de datos
 description: Obtenga información sobre cómo iniciar modelos de datos
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 38%
+source-wordcount: '165'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ Más información sobre [esquemas](../customer/schemas.md).
 
 Más información sobre [audiencias](../customer/audiences.md).
 
-## Cómo crear un modelo de datos {#data-model-create}
+## Creación de un modelo de datos {#data-model-create}
 
 En la sección **[!UICONTROL DATOS FEDERADOS]**, vaya al vínculo **[!UICONTROL Modelos]**. Ahí encontrará la ficha **[!UICONTROL Modelo de datos]**.
 

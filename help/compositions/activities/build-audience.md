@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Generar audiencia
 description: Aprenda a utilizar la actividad Generar audiencia
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 35%
+source-wordcount: '246'
+ht-degree: 30%
 
 ---
 
@@ -45,8 +45,11 @@ Para crear su propia audiencia, siga estos pasos:
 
 1. Seleccione **Crear audiencia**.
 1. Elija el **Esquema**, también conocido como dimensión de segmentación. El esquema permite definir la población objetivo de la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el esquema se selecciona en los destinatarios.
+
+   ![](../assets/build-audience-create.png)
+
 1. Haga clic en **Continuar**.
-1. Utilice el modelador de consultas para definir la consulta. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
+1. Utilice el modelador de consultas para definir la consulta y confirmar. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 
 >[!TAB Leer audiencia]
 
@@ -54,9 +57,16 @@ Para seleccionar un público destinatario existente, siga estos pasos:
 
 1. Seleccione **Leer público destinatario**.
 1. Haga clic en **Continuar**.
+
+   ![](../assets/build-audience-read.png)
+
 1. Seleccione el público.
 
 >[!ENDTABS]
+
+>[!NOTE]
+>
+>La opción **Generar una transición saliente** le permite agregar una transición saliente que se activará al final de la ejecución de la actividad si la población de la audiencia está vacía.
 
 <!--
 ## Examples{#build-audience-examples}

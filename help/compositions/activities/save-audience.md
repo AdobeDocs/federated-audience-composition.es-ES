@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Guardar audiencia
 description: Aprenda a utilizar la actividad Guardar audiencia
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 25%
+source-wordcount: '420'
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="Guardar un público"
->abstract="Utilice esta actividad para actualizar un público existente o crear uno nuevo a partir de la población calculada en sentido ascendente en la composición. Los públicos creados se añaden a la lista de públicos y están disponibles en el menú **Públicos**."
+>abstract="Utilice esta actividad para crear una audiencia nueva a partir de la población calculada en sentido ascendente en la composición. Los públicos creados se añaden a la lista de públicos y están disponibles en el menú **Públicos**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -35,7 +35,7 @@ ht-degree: 25%
 >abstract="Seleccione el área de nombres que se utilizará para los perfiles."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces" text="Más información en la Documentación de Experience Platform"
 
-La actividad **Guardar audiencia** le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en una composición. Las audiencias creadas se agregan a la lista de audiencias de aplicación y están disponibles a través del menú **Audiencias**.
+La actividad **Guardar audiencia** le permite crear una audiencia nueva a partir de la población calculada en sentido ascendente en una composición. Las audiencias creadas se agregan a la lista de audiencias de Adobe Experience Platform y están disponibles a través del menú **Audiencias**. [Aprenda a trabajar con audiencias](../../start/audiences.md)
 
 Esta actividad se utiliza esencialmente para mantener los grupos de población calculados en la misma composición, convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **audiencia de compilación** o una actividad **Combinar**.
 
@@ -53,10 +53,7 @@ Siga estos pasos para configurar la actividad **Guardar audiencia**:
    >
    >La etiqueta de audiencia debe ser única dentro de la zona protegida actual. No puede ser la misma etiqueta que cualquier audiencia existente.
 
-1. Haga clic en **Agregar asignación de audiencia** y, a continuación, elija los campos de audiencia de origen y destino:
-
-   * **Campo de audiencia de Source**:
-   * **Campo de audiencia de destino**:
+1. Utilice la sección Asignaciones de audiencias para seleccionar los campos que desea traer con la audiencia recién creada. Para ello, haga clic en **Agregar asignación de audiencia** y elija los campos de audiencia de origen y destino.
 
    Repita la operación para agregar tantas asignaciones de audiencia como sea necesario.
 
@@ -65,7 +62,7 @@ Siga estos pasos para configurar la actividad **Guardar audiencia**:
    * **Campo de identidad principal**: seleccione el campo que se usará para identificar los perfiles. Por ejemplo, su dirección de correo electrónico o número de teléfono.
    * **Área de nombres de identidad**: seleccione el área de nombres que se utilizará para identificar los perfiles, es decir, el tipo de datos que se utilizará como clave de identificación. Por ejemplo, si la dirección de correo electrónico se ha seleccionado como campo de identidad principal, se debe seleccionar el área de nombres de identidad **Correo electrónico**. Si el identificador único es el número de teléfono, se debe seleccionar el área de nombres de identidad **Teléfono**.
 
-Después de ejecutar la composición, la audiencia resultante se guarda en Adobe Experience Platform <!-- to check--> y se puede obtener acceso a ella desde el menú **Audiencias**.
+Después de ejecutar la composición, la audiencia resultante se guarda en Adobe Experience Platform y se puede acceder a ella desde el menú **Audiencias**. La audiencia creada incluye todos los campos seleccionados en la sección Asignaciones de audiencias. Puede activar la audiencia en cualquier destino admitido por Adobe Experience Platform.
 
 <!--
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Generar audiencia
 description: Aprenda a utilizar la actividad Generar audiencia
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 40%
+source-wordcount: '212'
+ht-degree: 35%
 
 ---
 
@@ -18,15 +18,10 @@ ht-degree: 40%
 >title="Actividad generar público"
 >abstract="La actividad **Generar público** le permite definir el público que entrará en la composición."
 
-La actividad **Generar público** le permite definir el público que entrará en la composición.
+La actividad **Generar audiencia** le permite definir la audiencia que entrará en la composición. Para definir la población del público destinatario, puede hacer lo siguiente:
 
-Para definir la población del público destinatario, puede hacer lo siguiente:
-
-<!--* Select an existing audience, created as a list in the client console.-->
-* Seleccione un público destinatario de Adobe Experience Platform.
-* Cree una nueva audiencia con el generador de modeladores de consultas definiendo y combinando criterios de filtrado.
-
-La actividad **Generar audiencia** se puede colocar al principio de la composición o después de cualquier otra actividad. Cualquier actividad se puede colocar después de **Generar audiencia**.
+* Seleccione una audiencia de Adobe Experience Platform existente.
+* Cree una nueva audiencia con el modelador de consultas definiendo y combinando criterios de filtrado.
 
 ## Configuración de la actividad Generar público {#build-audience-configuration}
 

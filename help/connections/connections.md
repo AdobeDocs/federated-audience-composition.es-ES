@@ -3,7 +3,7 @@ audience: end-user
 title: Crear y administrar conexiones con bases de datos federadas
 description: Aprenda a crear y administrar conexiones con bases de datos federadas
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 98689f24fc7eeffa4cdfa5418c160c13abba7527
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 5%
@@ -27,6 +27,7 @@ Si selecciona su tipo, tendrá acceso a otras propiedades para rellenar. [Obteng
 ![](assets/connections_details.png){zoomable="yes"}
 
 Según el tipo de base de datos, aprenda en los vínculos siguientes la información que necesita para configurar la conexión:
+
 * [Amazon Redshift](federated-db.md#amazon-redshift)
 * [Azure synapse](federated-db.md#azure-synapse-redshift)
 * [Google Big Query](federated-db.md#google-big-query)

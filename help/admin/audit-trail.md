@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción al seguimiento de auditoría
 description: Obtenga información sobre cómo monitorizar las bases de datos con la pista de auditoría
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: bdef7049ee78c512857adcf7d587066eaf80046e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 12%
+source-wordcount: '367'
+ht-degree: 11%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 12%
 
 La capacidad Audit trail proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en su entorno en tiempo real
 
-La función **[!UICONTROL Pista de auditoría]** registra constantemente en tiempo real un registro detallado de las acciones y eventos que tienen lugar en la instancia de Composición de datos de Adobe. Ofrece un método cómodo para acceder a un registro cronológico de datos, y abordar consultas como: el estado de los flujos de trabajo, las personas más recientes para modificarlos o las actividades realizadas por los usuarios dentro de la instancia.
+La función **[!UICONTROL Pista de auditoría]** registra constantemente en tiempo real un registro detallado de las acciones y eventos que tienen lugar en la instancia de Adobe Federated Composition. Ofrece un método cómodo para acceder a un registro cronológico de datos, y abordar consultas como: el estado de los flujos de trabajo, las personas más recientes para modificarlos o las actividades realizadas por los usuarios dentro de la instancia.
 
 +++ Más información sobre las Entidades disponibles de pista de auditoría
 
-* **Seguimiento de auditoría de esquemas de Source** le permite supervisar las actividades y las modificaciones recientes realizadas en los esquemas dentro de la instancia de composición de datos de Adobe.
+* **Seguimiento de auditoría de esquemas de Source** le permite supervisar las actividades y las modificaciones recientes realizadas en los esquemas en la instancia de Composición de audiencias federada de Adobe.
 
   Para obtener información detallada sobre los esquemas, consulte esta [página](../customer/schemas.md).
 
@@ -40,7 +40,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente en tiem
 
   Para obtener más información sobre los flujos de trabajo, consulte esta [página](../compositions/gs-compositions.md).
 
-* **Cuenta externa** le permite comprobar las modificaciones realizadas en las cuentas externas en la instancia de composición de datos de Adobe.
+* **Cuenta externa** le permite comprobar las modificaciones realizadas en las cuentas externas en la instancia de composición de audiencias de Adobe.
 
   Para obtener más información sobre la cuenta externa, consulte esta [página](../connections/federated-db.md).
 

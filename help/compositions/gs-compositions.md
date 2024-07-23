@@ -3,18 +3,18 @@ audience: end-user
 title: Introducción a las composiciones
 description: Aprenda a empezar con composiciones
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '287'
 ht-degree: 13%
 
 ---
 
 # Introducción a las composiciones {#compositions}
 
-## ¿Qué es una composición? {#what}
+## Qué es una composición {#what}
 
-La composición de datos de Adobe le permite crear composiciones, donde puede aprovechar varias actividades (dividir, excluir...) en un lienzo visual para crear audiencias. Una vez hecho, las audiencias resultantes se guardan en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en destinos como Journey Optimizer para clientes de destino.
+Adobe Composición de audiencias le permite crear composiciones, donde puede aprovechar varias actividades (dividir, excluir...) en un lienzo visual para crear audiencias. Una vez hecho, las audiencias resultantes se guardan en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en destinos como Journey Optimizer para clientes de destino. [Aprenda a trabajar con audiencias](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
@@ -43,7 +43,7 @@ Las composiciones pueden tener varios estados:
 
 * **[!UICONTROL Borrador]**: la composición se ha creado y guardado.
 * **[!UICONTROL En curso]**: la composición se ha ejecutado y se está ejecutando.
-* **[!UICONTROL Detenido]**: la ejecución de la composición se ha detenido.
+* **[!UICONTROL Detenido]**: la ejecución de la composición se ha completado y se ha detenido.
 * **[!UICONTROL En pausa]**: La ejecución de la composición se ha pausado.
 * **[!UICONTROL Erróneo]**: La ejecución de la composición ha encontrado un error. Abra la composición y acceda a los registros y tareas para identificar el error y resolverlo.
 

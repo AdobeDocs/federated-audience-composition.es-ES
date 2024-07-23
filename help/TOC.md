@@ -2,10 +2,10 @@
 user-guide-title: Composición de público federada
 title: Documentación de composición de audiencia federada de Adobe
 breadcrumb-title: Composición de público federada
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 39%
+source-wordcount: '133'
+ht-degree: 40%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 39%
 # Documentación de composición de audiencia federada {#using}
 
 + [Documentación de composición de audiencia federada](home.md)
++ [Notas de la versión](start/release-notes.md)
 + Introducción a la composición de audiencias federadas {#start}
-   + [Introducción ](start/get-started.md)
-   + [Notas de la versión](start/release-notes.md)
+   + [¿Qué es la composición de audiencia federada?](start/get-started.md)
    + [Trabajo con públicos](start/audiences.md)
 + Pasos de configuración {#config}
    + [Creación y administración de conexiones](connections/connections.md)
@@ -24,7 +24,7 @@ ht-degree: 39%
       + [Creación y configuración de esquemas](customer/schemas.md)
       + [Configuración de los modelos de datos](data-management/gs-models.md)
    + [Enriquezca las audiencias de Adobe Experience Platform con datos externos](connections/destinations.md)
-+ Composiciones {#compositions}
++ Componer públicos {#compositions}
    + [Introducción a las composiciones](compositions/gs-compositions.md)
    + Cree y ejecute su primera composición {#create-composition}
       + [Principios clave de la creación de una composición](compositions/gs-composition-creation.md)
@@ -51,4 +51,3 @@ ht-degree: 39%
    + [Editar expresiones](query/expression-editor.md)
 + Pista de auditoría {#audit-trail}
    + [Supervisión de bases de datos](admin/audit-trail.md)
-+ [&lt; Volver a la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)

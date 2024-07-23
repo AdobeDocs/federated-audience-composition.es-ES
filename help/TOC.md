@@ -2,7 +2,7 @@
 user-guide-title: Composición de público federada
 title: Documentación de composición de audiencia federada de Adobe
 breadcrumb-title: Composición de público federada
-source-git-commit: fdc057b751aac18a6b27bbaa2997fc7994566092
+source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 39%

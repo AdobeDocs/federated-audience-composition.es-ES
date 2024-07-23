@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a los esquemas
 description: Aprenda a empezar con esquemas
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '470'
 ht-degree: 20%
 
 ---
@@ -44,7 +44,8 @@ ht-degree: 20%
 
 Un esquema es una representación de una tabla de la base de datos. Es un objeto dentro de la aplicación que define cómo se asocian los datos a las tablas de la base de datos.
 
-Al crear un esquema, tendrá la posibilidad de manipular la tabla en FAC :
+Al crear un esquema, tendrá la posibilidad de manipular una representación de su tabla en FAC :
+
 - Asigne un nombre descriptivo para simplificar la comprensión del usuario
 - Decida la visibilidad de cada campo, según su uso real
 - Seleccione su clave principal para vincular esquemas entre ellos según sea necesario en el [modelo de datos](../data-management/gs-models.md#data-model-start)
@@ -70,6 +71,7 @@ Al agregar las tablas, para las que desea crear el esquema, tendrá acceso a sus
 ![](assets/schema_fields.png){zoomable="yes"}
 
 Para cada tabla, puede hacer lo siguiente:
+
 - cambie el nombre de la etiqueta de esquema dada
 - añadir una descripción
 - cambie el nombre de todos los campos y decida su visibilidad.
@@ -91,6 +93,7 @@ Haz clic en el botón **[!UICONTROL Editar]**.
 ![](assets/schema_edit.png){zoomable="yes"}
 
 Tendrá acceso a la misma posibilidad que al crear el esquema:
+
 - cambie el nombre de la etiqueta de esquema dada
 - añadir una descripción
 - cambie el nombre de todos los campos y decida su visibilidad.

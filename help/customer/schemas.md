@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a los esquemas
 description: Aprenda a empezar con esquemas
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 34%
+source-wordcount: '467'
+ht-degree: 20%
 
 ---
 
@@ -42,25 +42,46 @@ ht-degree: 34%
 
 ## ¿Qué es un esquema? {#schema-start}
 
-Un esquema es un objeto dentro de la aplicación que define cómo se vinculan los datos a las tablas de la base de datos.
-Un esquema hace referencia a una tabla.
+Un esquema es una representación de una tabla de la base de datos. Es un objeto dentro de la aplicación que define cómo se asocian los datos a las tablas de la base de datos.
+
+Al crear un esquema, tendrá la posibilidad de manipular la tabla en FAC :
+- Asigne un nombre descriptivo para simplificar la comprensión del usuario
+- Decida la visibilidad de cada campo, según su uso real
+- Seleccione su clave principal para vincular esquemas entre ellos según sea necesario en el [modelo de datos](../data-management/gs-models.md#data-model-start)
 
 ## Creación de un esquema {#schema-create}
 
+Para crear esquemas en FAC, siga los pasos a continuación:
 En la sección **[!UICONTROL DATOS FEDERADOS]**, vaya al vínculo **[!UICONTROL Modelos]**. Ahí encontrará la ficha **[!UICONTROL Esquema]**.
 Haga clic en el botón **[!UICONTROL Crear esquema]**.
 
 ![](assets/schema_create.png){zoomable="yes"}
 
-Seleccione la base de datos de origen en la lista desplegable y haga clic en la ficha **[!UICONTROL Agregar tablas]**
+Tendrá acceso a una nueva interfaz con una lista desplegable donde encontrará lo siguiente
+todas las bases de datos conectadas a la aplicación. Más información sobre [conexión a base de datos](../connections/connections.md#connections-fdb).
+Seleccione la base de datos de origen en la lista y haga clic en la ficha **[!UICONTROL Agregar tablas]**
 
 ![](assets/schema_tables.png){zoomable="yes"}
 
-Tendrá acceso a todas las tablas de la base de datos y para las que puede crear un esquema.
+Tendrá acceso a la lista de todas las tablas de la base de datos.
 
-Al agregar las tablas, tendrá acceso a sus campos y podrá administrar lo que realmente necesita.
+Al agregar las tablas, para las que desea crear el esquema, tendrá acceso a sus campos como se muestra a continuación.
 
 ![](assets/schema_fields.png){zoomable="yes"}
+
+Para cada tabla, puede hacer lo siguiente:
+- cambie el nombre de la etiqueta de esquema dada
+- añadir una descripción
+- cambie el nombre de todos los campos y decida su visibilidad.
+- seleccione la clave principal del esquema
+
+Por ejemplo, aquí se importa una tabla, justo después de la etiqueta add :
+
+![](assets/schema_lumaorder.png){zoomable="yes"}
+
+El esquema se puede definir de esta manera:
+
+![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## Edición de un esquema {#schema-edit}
 
@@ -69,9 +90,18 @@ Haz clic en el botón **[!UICONTROL Editar]**.
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
+Tendrá acceso a la misma posibilidad que al crear el esquema:
+- cambie el nombre de la etiqueta de esquema dada
+- añadir una descripción
+- cambie el nombre de todos los campos y decida su visibilidad.
+- seleccione la clave principal del esquema
+
+![](assets/schema_edit_orders.png){zoomable="yes"}
+
 ## Vista previa de datos en un esquema {#schema-preview}
 
 Para obtener una vista previa de los datos de la tabla representada por su esquema, vaya a la pestaña **[!UICONTROL Data]** como se muestra a continuación.
+Puede obtener el número total de grabaciones haciendo clic en el vínculo **[!UICONTROL Calcular]**.
 
 ![](assets/schema_data.png){zoomable="yes"}
 

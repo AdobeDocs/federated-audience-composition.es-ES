@@ -2,13 +2,13 @@
 audience: end-user
 title: Uso de la actividad Planificador
 description: Descubra más información sobre cómo utilizar la actividad Planificador
-source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
+exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 26%
+source-wordcount: '456'
+ht-degree: 23%
 
 ---
-
 
 # Planificador {#scheduler}
 
@@ -18,6 +18,10 @@ ht-degree: 26%
 >abstract="La actividad **Planificador** le permite programar cuándo comienza la composición de la audiencia. La actividad debe considerarse como un inicio programado. Solo puede utilizarse como primera actividad de una composición."
 
 La actividad **Scheduler** es una actividad **Flow control**. Permite programar cuándo se inicia la composición. La actividad debe considerarse como un inicio programado. Solo puede utilizarse como primera actividad de la composición.
+
+Si ha configurado una conexión con el destino de composición de datos federados, puede utilizar esta actividad para enviar audiencias de Adobe Experience Platform a frecuencias regulares. [Aprenda a enriquecer audiencias de Adobe Experience Platform con datos externos](../../connections/destinations.md)
+
+![](../assets/scheduler.png)
 
 ## Configure la actividad Planificador {#scheduler-configuration}
 
@@ -38,9 +42,7 @@ Siga estos pasos para configurar la actividad **Planificador**:
 1. Configure **Frecuencia de ejecución**:
 
    * **Una vez**: la composición se ejecuta una sola vez.
-
    * **Diario**: la composición se ejecuta a una hora específica una vez al día.
-
    * **Varias veces al día:** la composición se ejecuta regularmente varias veces al día. Puede configurar ejecuciones en momentos específicos o de forma periódica.
 
      >[!NOTE]
@@ -48,7 +50,6 @@ Siga estos pasos para configurar la actividad **Planificador**:
      >No programe una composición para que se ejecute durante más de 15 minutos, ya que podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
 
    * **Semanal**: la composición se ejecuta en un momento determinado una o varias veces a la semana.
-
    * **Mensual**: la composición se ejecuta en un momento determinado una o varias veces al mes. Puede seleccionar meses cuando necesite que se ejecute la composición. También puede configurar ejecuciones en días de semana del mes específicos, como el segundo martes de mes.
 
 1. Defina los detalles de ejecución según la frecuencia seleccionada. Los campos de detalle pueden variar según la frecuencia utilizada (tiempo, frecuencia de repetición, días especificados, etc.).
@@ -68,4 +69,3 @@ Siga estos pasos para configurar la actividad **Planificador**:
 <!--## Example{#scheduler-example}
 
 In the following example, the activity is configured so that the composition runs several times a day at 9 and 12 AM, every day of the week from October 1st, 2023 to January 1st, 2024.-->
-

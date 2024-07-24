@@ -3,13 +3,13 @@ audience: end-user
 title: Uso de la actividad de reconciliación
 description: Aprenda a utilizar la actividad de reconciliación
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 42%
+source-wordcount: '526'
+ht-degree: 43%
 
 ---
-
 
 # Reconciliación {#reconciliation}
 
@@ -37,7 +37,7 @@ La actividad **Reconciliation** permite definir el vínculo entre los datos de l
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-La actividad **Reconciliación** le permite vincular datos no identificados a recursos existentes. La operación de reconciliación implica que los datos a los que se une ya están en la base de datos. Por ejemplo, si desea reconciliar la información de compras que muestra qué producto se compró, a qué hora, por qué cliente, etc., el producto y el cliente ya deben existir en la base de datos.
+Permite vincular datos no identificados a recursos existentes. La operación de reconciliación implica que los datos a los que se une ya están en la base de datos. Por ejemplo, si desea reconciliar la información de compras que muestra qué producto se compró, a qué hora, por qué cliente, etc., el producto y el cliente ya deben existir en la base de datos.
 
 ## Configuración de la actividad Reconciliación {#reconciliation-configuration}
 

@@ -1,26 +1,42 @@
 ---
-title: Introducción a Federated Audience Composition
+title: Introducción a Experience Platform Federated Audience Composition
 description: Descubra qué es la Composición de audiencia federada de Adobe y cómo utilizarla en Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 3b4f5284cd65cd5cd30c4223fe2df3ffff7c0905
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 11%
+source-wordcount: '708'
+ht-degree: 8%
 
 ---
 
 # Introducción a Federated Audience Composition {#gs-fac}
 
-La Composición de audiencias federada es un complemento para Adobe Real-time Customer Data Platform y Adobe Journey Optimizer que le permite crear y enriquecer audiencias de sus almacenes de datos de terceros e importarlas a Adobe Experience Platform. Federated Audience Composition ofrece una solución fácil y potente para conectar su almacén de datos empresarial directamente en Adobe Real-time Customer Data Platform o Adobe Journey Optimizer y realizar consultas en las tablas de su almacén de datos.
+La Composición de audiencias federadas es un complemento para [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} y [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} que le permite generar y enriquecer audiencias de almacenes de datos de terceros e importarlas a Adobe Experience Platform. Federated Audience Composition ofrece una solución fácil y potente para conectar su almacén de datos empresarial directamente en Adobe Real-time Customer Data Platform o Adobe Journey Optimizer y realizar consultas en las tablas de su almacén de datos.
 
 La Composición de audiencias federada de Adobe ayuda a los usuarios de aplicaciones de Adobe Experience Platform a acceder a los datos de sus clientes almacenados en sus almacenes de datos y plataformas de almacenamiento en la nube como Amazon Redshift, Azure synapse Analytics y más. Los datos del cliente pueden almacenarse en varios almacenes de datos y ahora se puede acceder a ellos instantáneamente, sin replicación. Las plataformas compatibles se enumeran en [esta página](../connections/federated-db.md#supported-db).
+
+## Competencias {#rn-capabilities}
+
+La Composición de audiencias federada amplía el valor de Real-Time CDP y Journey Optimizer con un enfoque completo de la depuración y activación de audiencias:
+
+* Amplíe el acceso a conjuntos de datos críticos basados en almacenes para crear audiencias de alto valor: Utilice los almacenes de datos existentes como sistema principal de registro, al tiempo que aprovecha las mejores aplicaciones de su clase para potenciar las buenas experiencias de los clientes.
+
+* Compatibilidad completa para impulsar los casos de uso de participación: Composición de audiencias federada, emparejada con Real-Time CDP o Journey Optimizer, admite experiencias personalizadas iniciadas por la marca con audiencias federadas y ofrece experiencias en el momento activadas por eventos en tiempo real, combinadas con atributos de persona para satisfacer los requisitos de casos de uso entre equipos.
+
+* Minimizar el movimiento y la duplicación de datos: cree audiencias a partir de conjuntos de datos que residen en un almacén de datos empresarial sin copiar los datos subyacentes para administrar perfiles y audiencias de marketing procesables.
+
+* Utilice un solo sistema para flujos de trabajo impulsados por experiencias: Depure audiencias ingeridas y federadas en Adobe Experience Platform y coordine las experiencias salientes en todos los canales.
 
 ## Casos de uso {#rn-uc}
 
 A través de una interfaz de usuario fácil de usar para marketing, puede crear reglas de segmentos que consulten su almacén de datos para obtener una lista de usuarios que cumplan los requisitos de un segmento específico necesario para campañas de marketing, acceder a audiencias existentes en el almacén para su activación o enriquecer audiencias de Adobe Experience Platform con puntos de datos adicionales que existan en el almacén.
 
-En esta versión, hay dos casos de uso disponibles: Creación de audiencias y Enriquecimiento de audiencias.
+En esta versión, hay dos casos de uso disponibles:
+
+1. Creación de audiencias: cree nuevas audiencias a partir de conjuntos de datos empresariales sin copiar los datos subyacentes y actívelas con destinos creados previamente&#x200B;
+
+1. Enriquecimiento de audiencias: enriquece las audiencias existentes en Adobe Experience Platform utilizando datos de audiencia compuestos que se han federado desde Enterprise Data Warehouse. Estos datos no se mantendrán en los perfiles de cliente de Adobe Experience Platform.
 
 ![diagrama](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 

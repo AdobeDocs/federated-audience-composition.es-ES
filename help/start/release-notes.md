@@ -1,12 +1,12 @@
 ---
-title: Novedades de la composición de audiencias federada
+title: Novedades de la composición de audiencias federadas de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 4%
+source-wordcount: '338'
+ht-degree: 2%
 
 ---
 
@@ -16,15 +16,12 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->* Actualmente, la composición de audiencia federada solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+>Actualmente, la composición de audiencia federada de Adobe Experience Platform solo está disponible para un conjunto de organizaciones (disponibilidad limitada).
 >
->* Por ahora, la función no está disponible para los clientes que hayan comprado el complemento **Healthcare Shield**. [Más información](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
 
+La composición de audiencias federada es una función complementaria que proporciona a las empresas un acceso flexible y ampliado a los almacenes de datos empresariales para componer audiencias utilizando conjuntos de datos empresariales esenciales y potenciar las experiencias iniciadas por la marca y en el momento. Con este nuevo enfoque, como usuario de [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} y/o [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"}, puede federar los datos de audiencia directamente desde su almacén de datos existente para enriquecer las audiencias de Adobe Experience Platform en un sistema.
 
-La Composición de audiencia federada permite a las empresas componer datos para una mejor utilización en varios casos de uso. Con este nuevo enfoque, como usuario de [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} y/o [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"}, puede federar conjuntos de datos directamente desde su almacén de datos existente para enriquecer audiencias y atributos de Adobe Experience Platform, todo en un sistema.
-
-La composición de audiencias federada es un complemento que ofrece un acceso flexible y un alcance ampliado a los almacenes de datos empresariales para potenciar los casos de uso de personalización.
-En lugar de ingerir conjuntos de datos o audiencias en Adobe Experience Platform, ahora puede utilizar Federated Audience Composition para reducir el volumen de datos copiados desde el almacén de datos en Adobe Experience Platform, extrayendo del almacén audiencias y atributos específicos necesarios para determinados casos de uso de segmentación o activación, y garantizar que los datos confidenciales no se conserven fuera del almacén.
+La Composición de audiencias federada responde a las crecientes demandas del mercado para las empresas que necesitan la flexibilidad de componer audiencias con conjuntos de datos de almacén. Esto permite a las empresas reducir el movimiento de datos y, al mismo tiempo, poner los datos de audiencia esenciales a disposición de los equipos de marketing para satisfacer los requisitos de los casos de uso y potenciar las experiencias personalizadas. 
 
 Obtenga más información acerca de las funciones de la composición de audiencias federada en [esta página](get-started.md) y en las [preguntas más frecuentes](get-started.md#faq).
 
@@ -41,6 +38,8 @@ No hay permisos específicos para Composición de audiencia federada. El único 
 
 ## Requisitos previos y protecciones {#fac-guardrails}
 
+* La composición de audiencias federada es compatible con el Escudo de privacidad y seguridad y se puede utilizar en todos los segmentos verticales, excepto en el sector sanitario. Actualmente, la Composición de audiencias federada no se puede conceder con licencia a los clientes que deseen introducir datos de estado. [Más información](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
+
 * Sus direcciones IP deben añadirse a la lista de permitidos de para permitir el acceso a su almacén de datos y utilizar Federated Audience Composition. Para añadir sus direcciones IP a la lista de permitidos, póngase en contacto con el representante de Adobe.
 
-* Los derechos, limitaciones de productos y protecciones de rendimiento se enumeran en la [documentación de Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"}.
+* Los derechos, limitaciones de productos y protecciones de rendimiento enumerados en la [documentación de Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} se aplican a este complemento.

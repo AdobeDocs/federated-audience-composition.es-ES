@@ -3,9 +3,10 @@ audience: end-user
 title: Introducción a las bases de datos federadas
 description: Aprenda a crear y administrar sus bases de datos federadas
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: fe425bf6f2773e04948378fa34d82731126774f5
+exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 16%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 16%
 >title="Detalles de la base de datos federada"
 >abstract="Introduzca la configuración para conectarse a la nueva base de datos federada. Utilice el botón **[!UICONTROL Probar conexión]** para validar la configuración."
 
-La composición de audiencias federada permite al cliente crear y enriquecer audiencias de los almacenes de datos de terceros e importarlas a Adobe Experience Platform.
+La composición de audiencias federadas de Experience Platform permite al cliente crear y enriquecer audiencias de los almacenes de datos de terceros e importarlas a Adobe Experience Platform.
 
 Obtenga información sobre cómo crear, configurar, probar y guardar la conexión con la base de datos externa en esta página.
 
@@ -254,4 +255,3 @@ El conector admite las siguientes opciones:
 | Opción | Descripción |
 |---|---|
 | TimeZoneName | De forma predeterminada, vacío, lo que significa que se utiliza la zona horaria del sistema del servidor de aplicaciones de Campaign Classic. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. |
-

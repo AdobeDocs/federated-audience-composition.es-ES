@@ -3,13 +3,13 @@ audience: end-user
 title: Creación de composiciones
 description: Aprenda a crear composiciones
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 59%
 
 ---
-
 
 # Principios clave de la creación de una composición {#gs-composition-creation}
 
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## ¿Qué hay dentro de una composición? {#gs-composition-inside}
 
-La Composición de audiencia federada proporciona un lienzo visual que le permite crear audiencias aprovechando varias actividades (dividir, enriquecer, etc.).
+La composición de audiencias federadas de Experience Platform proporciona un lienzo visual que le permite crear audiencias aprovechando varias actividades (dividir, enriquecer, etc.).
 
 El diagrama de composición es una representación de lo que se supone que debe suceder. Describe las diversas tareas que se realizan y cómo se relacionan entre sí.
 

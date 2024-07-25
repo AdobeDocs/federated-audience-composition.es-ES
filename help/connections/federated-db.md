@@ -4,7 +4,7 @@ title: Introducción a las bases de datos federadas
 description: Aprenda a crear y administrar sus bases de datos federadas
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 16%
@@ -111,7 +111,7 @@ Utilice las bases de datos federadas para procesar la información almacenada en
 1. Una vez completada la configuración, haz clic en **[!UICONTROL Agregar]** para crear tu base de datos federada.
 
 | Opción | Descripción |
-|:-:|:-:|
+|---|---|
 | Autenticación | Tipo de autenticación admitida por el conector. Valor admitido actual: ActiveDirectoryMSI. Para obtener más información, consulte [Documento SQL](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Ejemplo de cadenas de conexión n°8) |
 
 
@@ -150,7 +150,7 @@ Utilice las bases de datos federadas para procesar la información almacenada en
 1. Una vez completada la configuración, haz clic en **[!UICONTROL Agregar]** para crear tu base de datos federada.
 
 | Opción | Descripción |
-|:-:|:-:|
+|---|---|
 | ProxyType | Tipo de proxy utilizado para conectarse a BigQuery mediante conectores ODBC y SDK. </br>HTTP (predeterminado), http_no_túnel, socks4 y socks5 son compatibles actualmente. |
 | ProxyHost | Nombre de host o dirección IP donde se puede contactar con el proxy. |
 | ProxyPort | Número de puerto en el que se ejecuta el proxy, p. ej. 8080 |

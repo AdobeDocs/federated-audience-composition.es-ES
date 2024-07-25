@@ -3,9 +3,9 @@ title: Preguntas frecuentes
 description: Preguntas frecuentes
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
+source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ A continuación se muestra una lista de preguntas más frecuentes sobre la Compo
 
 +++¿Cuáles son los permisos necesarios para acceder a Federated Audience Composition?
 
-No hay permisos específicos para Composición de audiencia federada. El único requisito previo para acceder a esta capacidad es haber adquirido el complemento Federated Audience Composition.
+La composición de audiencias federada requiere paquetes de Adobe Real-time Customer Data Platform y Adobe Journey Optimizer Prime o Ultimate. No hay permisos específicos para Composición de audiencia federada. El único requisito previo para acceder a esta capacidad es haber adquirido el complemento Federated Audience Composition.
 
 +++
 
@@ -61,7 +61,7 @@ Sí, una vez conectada, Federated Audience Composition puede utilizarse para des
 
 +++¿Hay algún almacenamiento temporal en la composición de audiencias federada?
 
-No, la composición de audiencia federada solo almacena metadatos (descripciones de esquema). No hay datos de clientes en transición. El flujo de exportación de audiencias se realiza directamente desde Adobe Experience Platform Audience Portal (a través de [Destination](../connections/destinations.md)) a la base de datos de clientes. El flujo de creación y actualización se realiza directamente desde la base de datos del almacén de datos hasta Adobe Experience Platform Audience Portal.
+No, la composición de audiencia federada solo almacena metadatos (descripciones de esquema). No hay datos de clientes en transición. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -76,7 +76,7 @@ Tenga en cuenta que la caducidad de los datos actuales para las audiencias gener
 
 * En el caso de un enriquecimiento de audiencia, el punto de partida es una audiencia de Adobe Experience Platform existente. Se pueden ver dos escenarios aquí:
    1. Incorporar atributos de carga útil de audiencia adicionales desde el almacén de datos federado: en este caso, los atributos adicionales que se agregan se incluyen como parte de esta definición de audiencia. La caducidad de los datos para las audiencias generadas de forma externa es la misma que se describe anteriormente, 30 días.
-   1. Refine la audiencia de Adobe Experience Platform existente en función de los atributos adicionales que existan en su almacén de datos. Por ejemplo, tiene una audiencia de clientes que han mostrado interés en un producto en particular en el sitio web durante los últimos dos meses. Ahora desea tomar esta audiencia y segmentarla aún más mediante la Composición de audiencia federada para incluir solo a los clientes que tienen una puntuación crediticia alta. La puntuación crediticia se considera confidencial y los puntos de datos de puntuación crediticia individuales no se copian del almacén de datos.
+   1. Refine la audiencia de Adobe Experience Platform existente en función de los atributos adicionales que existan en su almacén de datos. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 +++Si los datos de los patrones de casos de uso de Creación de audiencias y Enriquecimiento de audiencias no se mantienen, ¿cómo se almacenan temporalmente?

@@ -2,13 +2,13 @@
 title: Novedades de la composición de audiencias federada
 description: Últimas actualizaciones y notas de la versión
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: f5b7fa76719861761b423f61c5e3bba3d4d24c9b
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 4%
 
 ---
-
 
 # Notas de la versión {#rn-new}
 
@@ -29,6 +29,8 @@ En lugar de ingerir conjuntos de datos o audiencias en Adobe Experience Platform
 Obtenga más información acerca de las funciones de la composición de audiencias federada en [esta página](get-started.md) y en las [preguntas más frecuentes](get-started.md#faq).
 
 ## Acceso a la composición de audiencia federada {#fac-access}
+
+La composición de audiencias federada requiere paquetes de Adobe Real-time Customer Data Platform y Adobe Journey Optimizer Prime o Ultimate.
 
 No hay permisos específicos para Composición de audiencia federada. El único requisito previo para acceder a esta capacidad es haber adquirido el complemento Federated Audience Composition.
 

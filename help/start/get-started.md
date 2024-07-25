@@ -2,13 +2,13 @@
 title: Introducción a Federated Audience Composition
 description: Descubra qué es la Composición de audiencia federada de Adobe y cómo utilizarla en Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
+source-git-commit: 9397bac0fda54761b2ac3c29140d32a433cb514b
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 12%
+source-wordcount: '519'
+ht-degree: 11%
 
 ---
-
 
 # Introducción a Federated Audience Composition {#gs-fac}
 
@@ -39,6 +39,12 @@ Pasos clave:
 3. **Transformación de datos**: aplique técnicas de manipulación de datos para modificar el formato, la estructura o los valores de los elementos de datos y hacerlos compatibles o adecuados para aplicaciones o análisis específicos.
 
 4. **Uso de datos**: Cree, organice y genere audiencias. Aprenda a componer audiencias en [esta página](../compositions/gs-compositions.md). También puede actualizar o reutilizar audiencias existentes a través de Adobe Experience Platform Audience Portal y Destinations. Obtenga más información en [esta página](../connections/destinations.md)
+
+
+>[!NOTE]
+>
+>Después de ejecutar la maquetación, la audiencia resultante se guarda en Adobe Experience Platform como audiencia externa y está disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Es accesible desde el menú **Audiencias**. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>
 
 
 

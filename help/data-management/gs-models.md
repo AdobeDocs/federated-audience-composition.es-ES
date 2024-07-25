@@ -3,10 +3,11 @@ audience: end-user
 title: Introducción a los modelos de datos
 description: Obtenga información sobre cómo iniciar modelos de datos
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
+exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
+source-git-commit: 7a1b58f6a1cbf00dcf5841290073e90a838a0315
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 29%
+source-wordcount: '227'
+ht-degree: 28%
 
 ---
 
@@ -75,3 +76,7 @@ Rellene el formulario especificado para definir el vínculo:
 Todos los vínculos definidos para el modelo de datos se enumerarán de la siguiente manera:
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
+
+## Creación de un modelo de datos en vídeo {#data-model-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432020)

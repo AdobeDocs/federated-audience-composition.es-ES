@@ -2,13 +2,13 @@
 title: Preguntas frecuentes
 description: Preguntas frecuentes
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
+source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 2%
 
 ---
-
 
 # Preguntas frecuentes {#faq}
 
@@ -71,7 +71,7 @@ La composición de audiencias federada no mantiene una copia física de los dato
 
 Por ejemplo:
 
-* En el caso de una segmentación de audiencia, la audiencia se crea en su almacén y puede utilizar la composición de audiencia federada para tareas de composición y manipulación de datos adicionales antes de publicar la audiencia resultante y los atributos asociados mediante Adobe Experience Platform Audience Portal. La definición de audiencia y los atributos asociados se transfieren a Adobe Experience Platform.
+* En el caso de la creación de audiencias, esta se crea en el almacén y se puede utilizar la composición de audiencia federada para realizar tareas de composición y manipulación de datos adicionales antes de publicar la audiencia resultante y los atributos asociados mediante Adobe Experience Platform Audience Portal. La definición de audiencia y los atributos asociados se transfieren a Adobe Experience Platform.
 Tenga en cuenta que la caducidad de los datos actuales para las audiencias generadas externamente es de 30 días. Esta caducidad de los datos reduce la cantidad de datos sobrantes almacenados en una organización. Una vez transcurrido el periodo de caducidad de los datos, el conjunto de datos asociado sigue siendo visible dentro del inventario de conjuntos de datos, pero no puede activar la audiencia y el recuento de perfiles se mostrará como cero. Obtenga más información en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * En el caso de un enriquecimiento de audiencia, el punto de partida es una audiencia de Adobe Experience Platform existente. Se pueden ver dos escenarios aquí:
@@ -79,7 +79,7 @@ Tenga en cuenta que la caducidad de los datos actuales para las audiencias gener
    1. Refine la audiencia de Adobe Experience Platform existente en función de los atributos adicionales que existan en su almacén de datos. Por ejemplo, tiene una audiencia de clientes que han mostrado interés en un producto en particular en el sitio web durante los últimos dos meses. Ahora desea tomar esta audiencia y segmentarla aún más mediante la Composición de audiencia federada para incluir solo a los clientes que tienen una puntuación crediticia alta. La puntuación crediticia se considera confidencial y los puntos de datos de puntuación crediticia individuales no se copian del almacén de datos.
 +++
 
-+++Si los datos de los patrones de casos de uso de Segmentación de audiencia y Enriquecimiento de audiencia no se mantienen, ¿cómo se almacenan temporalmente?
++++Si los datos de los patrones de casos de uso de Creación de audiencias y Enriquecimiento de audiencias no se mantienen, ¿cómo se almacenan temporalmente?
 
 Los datos de audiencia resultantes no persisten indefinidamente en Adobe Experience Platform ni en Composición de audiencia federada. No se conservará más tiempo del requerido por su caso de uso. Los atributos de audiencia introducidos como parte de la carga útil de audiencia persisten únicamente como parte de la definición de audiencia. La duración de la persistencia se basa en el TTL para cualquier audiencia, el valor predeterminado es de 30 días.
 

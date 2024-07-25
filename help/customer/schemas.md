@@ -3,10 +3,11 @@ audience: end-user
 title: Introducción a los esquemas
 description: Aprenda a empezar con esquemas
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 20%
+source-wordcount: '438'
+ht-degree: 22%
 
 ---
 
@@ -44,76 +45,75 @@ ht-degree: 20%
 
 Un esquema es una representación de una tabla de la base de datos. Es un objeto dentro de la aplicación que define cómo se asocian los datos a las tablas de la base de datos.
 
-Al crear un esquema, tendrá la posibilidad de manipular una representación de su tabla en FAC :
+Al crear un esquema, puede definir una representación de la tabla en la composición de audiencia federada de Experience Platform:
 
-- Asigne un nombre descriptivo para simplificar la comprensión del usuario
-- Decida la visibilidad de cada campo, según su uso real
-- Seleccione su clave principal para vincular esquemas entre ellos según sea necesario en el [modelo de datos](../data-management/gs-models.md#data-model-start)
+* Asigne un nombre descriptivo para simplificar la comprensión del usuario
+* Decidir la visibilidad de cada campo, según su uso real
+* Seleccione su clave principal para vincular esquemas entre ellos según sea necesario en el [modelo de datos](../data-management/gs-models.md#data-model-start)
 
 ## Creación de un esquema {#schema-create}
 
-Para crear esquemas en FAC, siga los pasos a continuación:
-En la sección **[!UICONTROL DATOS FEDERADOS]**, vaya al vínculo **[!UICONTROL Modelos]**. Ahí encontrará la ficha **[!UICONTROL Esquema]**.
-Haga clic en el botón **[!UICONTROL Crear esquema]**.
+Para crear esquemas en Composición de audiencia federada, siga los pasos a continuación:
 
-![](assets/schema_create.png){zoomable="yes"}
+1. En la sección **[!UICONTROL DATOS FEDERADOS]**, vaya al vínculo **[!UICONTROL Modelos]**. Vaya a la pestaña **[!UICONTROL Esquema]** y haga clic en el botón **[!UICONTROL Crear esquema]**.
 
-Tendrá acceso a una nueva interfaz con una lista desplegable donde encontrará lo siguiente
-todas las bases de datos conectadas a la aplicación. Más información sobre [conexión a base de datos](../connections/connections.md#connections-fdb).
-Seleccione la base de datos de origen en la lista y haga clic en la ficha **[!UICONTROL Agregar tablas]**
+   ![](assets/schema_create.png){zoomable="yes"}
 
-![](assets/schema_tables.png){zoomable="yes"}
+   Este paso le permite acceder a una nueva pantalla con una lista desplegable en la que puede encontrar las bases de datos conectadas a su entorno. Obtenga más información acerca de la conexión a la base de datos en [esta sección](../connections/connections.md#connections-fdb).
 
-Tendrá acceso a la lista de todas las tablas de la base de datos.
+1. Seleccione la base de datos de origen en la lista y haga clic en la ficha **[!UICONTROL Agregar tablas]**.
 
-Al agregar las tablas, para las que desea crear el esquema, tendrá acceso a sus campos como se muestra a continuación.
+   ![](assets/schema_tables.png){zoomable="yes"}
 
-![](assets/schema_fields.png){zoomable="yes"}
+   Puede ver la lista de todas las tablas de la base de datos.
 
-Para cada tabla, puede hacer lo siguiente:
+1. Al agregar las tablas para las que desea crear el esquema, tiene acceso a sus campos como se muestra a continuación:
 
-- cambie el nombre de la etiqueta de esquema dada
-- añadir una descripción
-- cambie el nombre de todos los campos y decida su visibilidad.
-- seleccione la clave principal del esquema
+   ![](assets/schema_fields.png){zoomable="yes"}
 
-Por ejemplo, aquí se importa una tabla, justo después de la etiqueta add :
+   Para cada tabla, puede:
 
-![](assets/schema_lumaorder.png){zoomable="yes"}
+   * cambiar la etiqueta del esquema
+   * añadir una descripción
+   * cambie el nombre de todos los campos y establezca su visibilidad
+   * seleccione la clave principal del esquema
 
-El esquema se puede definir de esta manera:
+   Por ejemplo, para la siguiente tabla importada:
 
-![](assets/schema_lumaorders.png){zoomable="yes"}
+   ![](assets/schema_lumaorder.png){zoomable="yes"}
+
+   El esquema se puede definir de esta manera:
+
+   ![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## Edición de un esquema {#schema-edit}
 
-Para editar un esquema, haga clic en el nombre del esquema en la carpeta de esquemas. Tendrá acceso a la página siguiente.
-Haz clic en el botón **[!UICONTROL Editar]**.
+Para editar un esquema:
 
-![](assets/schema_edit.png){zoomable="yes"}
+1. Haga clic en el nombre del esquema en la carpeta de esquemas.
 
-Tendrá acceso a la misma posibilidad que al crear el esquema:
+1. Haz clic en el botón **[!UICONTROL Editar]**.
 
-- cambie el nombre de la etiqueta de esquema dada
-- añadir una descripción
-- cambie el nombre de todos los campos y decida su visibilidad.
-- seleccione la clave principal del esquema
+   ![](assets/schema_edit.png){zoomable="yes"}
 
-![](assets/schema_edit_orders.png){zoomable="yes"}
+   Puede acceder a las mismas opciones que al [crear un esquema](#schema-create).
+
+   ![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## Vista previa de datos en un esquema {#schema-preview}
 
 Para obtener una vista previa de los datos de la tabla representada por su esquema, vaya a la pestaña **[!UICONTROL Data]** como se muestra a continuación.
-Puede obtener el número total de grabaciones haciendo clic en el vínculo **[!UICONTROL Calcular]**.
+
+Haga clic en el vínculo **[!UICONTROL Calcular]** para obtener una vista previa del número total de grabaciones.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-Puede cambiar la Información general de datos haciendo clic en el botón **[!UICONTROL Configurar columnas]**.
+Haga clic en el botón **[!UICONTROL Configurar columnas]** para cambiar la visualización de datos.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## Eliminar un esquema {#schema-delete}
 
-Para eliminar un esquema, haga clic en el botón **[!UICONTROL Más]** y luego en **[!UICONTROL Eliminar]**.
+Para eliminar un esquema, haga clic en el botón **[!UICONTROL Más]** y, a continuación, elija **[!UICONTROL Eliminar]**.
 
 ![](assets/schema_delete.png){zoomable="yes"}

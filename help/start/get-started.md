@@ -3,7 +3,7 @@ title: Introducción a Federated Audience Composition
 description: Descubra qué es la Composición de audiencia federada de Adobe y cómo utilizarla en Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: d198b0cb3584d204b4c5c54a584049173add0603
+source-git-commit: 3b4f5284cd65cd5cd30c4223fe2df3ffff7c0905
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 11%
@@ -22,7 +22,7 @@ A través de una interfaz de usuario fácil de usar para marketing, puede crear 
 
 En esta versión, hay dos casos de uso disponibles: Creación de audiencias y Enriquecimiento de audiencias.
 
-![diagrama](assets/fac-use-cases.png){zoomable="yes"}{width="85%" align="center"}
+![diagrama](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Pasos clave {#gs-steps}
 

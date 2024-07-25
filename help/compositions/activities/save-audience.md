@@ -4,10 +4,10 @@ title: Uso de la actividad Guardar audiencia
 description: Aprenda a utilizar la actividad Guardar audiencia
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 18%
+source-wordcount: '451'
+ht-degree: 17%
 
 ---
 
@@ -62,7 +62,13 @@ Siga estos pasos para configurar la actividad **Guardar audiencia**:
    * **Campo de identidad principal**: seleccione el campo que se usará para identificar los perfiles. Por ejemplo, su dirección de correo electrónico o número de teléfono.
    * **Área de nombres de identidad**: seleccione el área de nombres que se utilizará para identificar los perfiles, es decir, el tipo de datos que se utilizará como clave de identificación. Por ejemplo, si la dirección de correo electrónico se ha seleccionado como campo de identidad principal, se debe seleccionar el área de nombres de identidad **Correo electrónico**. Si el identificador único es el número de teléfono, se debe seleccionar el área de nombres de identidad **Teléfono**.
 
-Después de ejecutar la composición, la audiencia resultante se guarda en Adobe Experience Platform y se puede acceder a ella desde el menú **Audiencias**. La audiencia creada incluye todos los campos seleccionados en la sección Asignaciones de audiencias. Puede activar la audiencia en cualquier destino admitido por Adobe Experience Platform.
+## Acceso a la audiencia en Adobe Experience Platform {#access-audience}
+
+Después de ejecutar la maquetación, la audiencia resultante se guarda en Adobe Experience Platform como audiencia externa y está disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Es accesible desde el menú **Audiencias**. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+La audiencia creada incluye todos los campos seleccionados en la sección Asignaciones de audiencias. Puede activar la audiencia en cualquier destino admitido por Adobe Experience Platform.
+
+[Más información](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

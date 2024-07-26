@@ -4,9 +4,9 @@ title: Enriquezca las audiencias de Adobe Experience Platform con datos externos
 description: Aprenda a refinar y enriquecer las audiencias de Adobe Experience Platform con datos de sus bases de datos federadas mediante el destino de composición de audiencias federadas.
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
+source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '566'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,10 @@ Adobe Experience Platform permite la integración perfecta de audiencias desde A
 
 Para ello, debe configurar una nueva conexión en Adobe Experience Platform al destino de composición de audiencia federada de Adobe. Puede utilizar un planificador para enviar una audiencia determinada a frecuencias regulares y seleccionar los atributos específicos que desea incluir, como los ID para la reconciliación de datos. Si ha aplicado políticas de gobernanza y privacidad a su audiencia, se conservarán y se devolverán al portal de audiencia una vez que se haya actualizado la audiencia.
 
-Por ejemplo, si almacena puntuaciones de crédito de clientes en su almacén de datos y tiene una audiencia de Adobe Experience Platform dirigida a clientes interesados en un producto específico en los últimos dos meses, puede refinar esta audiencia según las puntuaciones de crédito usando el destino de Composición de audiencia federada. Este proceso le permite filtrar la audiencia para incluir solo perfiles con puntuaciones de crédito altas sin transferir datos de puntuación de crédito confidenciales desde el almacén de datos.
+Por ejemplo, supongamos que almacena información de compra en su almacén de datos y tiene una audiencia de Adobe Experience Platform dirigida a los clientes interesados en un producto específico en los últimos dos meses. Con el destino de composición de audiencia federada, puede:
+
+* Refine la audiencia en función de la información de compra. Por ejemplo, puede filtrar la audiencia para dirigirse a los clientes que hayan realizado una compra de más de 150 $.
+* Enriquezca la audiencia con campos relacionados con las compras, como el nombre del producto y la cantidad comprada.
 
 Los pasos principales para enviar audiencias de Adobe Experience Platform a la Composición de audiencias federada de Adobe son los siguientes:
 

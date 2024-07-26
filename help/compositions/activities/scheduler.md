@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad Planificador
 description: Descubra más información sobre cómo utilizar la actividad Planificador
 exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 23%
@@ -19,7 +19,7 @@ ht-degree: 23%
 
 La actividad **Scheduler** es una actividad **Flow control**. Permite programar cuándo se inicia la composición. La actividad debe considerarse como un inicio programado. Solo puede utilizarse como primera actividad de la composición.
 
-Si ha configurado una conexión con el destino de composición de datos federados, puede utilizar esta actividad para enviar audiencias de Adobe Experience Platform a frecuencias regulares. [Aprenda a enriquecer audiencias de Adobe Experience Platform con datos externos](../../connections/destinations.md)
+Si ha configurado una conexión con el destino de composición de audiencias federadas, puede utilizar esta actividad para enviar audiencias de Adobe Experience Platform a frecuencias regulares. [Aprenda a enriquecer audiencias de Adobe Experience Platform con datos externos](../../connections/destinations.md)
 
 ![](../assets/scheduler.png)
 

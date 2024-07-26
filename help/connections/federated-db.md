@@ -4,10 +4,10 @@ title: Introducción a las bases de datos federadas
 description: Aprenda a crear y administrar sus bases de datos federadas
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
+source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 16%
+source-wordcount: '1566'
+ht-degree: 15%
 
 ---
 
@@ -68,7 +68,11 @@ Utilice las bases de datos federadas para procesar la información almacenada en
 
    * **[!UICONTROL Base de datos]**: Nombre de la base de datos si no se especifica en DSN. Se puede dejar vacío si se especifica en el DSN
 
-   * **[!UICONTROL Esquema de trabajo]**: Nombre de su esquema de trabajo. [Más información](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL Esquema de trabajo]**: Nombre del esquema de base de datos que se va a utilizar para las tablas de trabajo. [Más información](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+     >[!NOTE]
+     >
+     >Puede utilizar cualquier esquema de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre que tenga el permiso necesario para conectarse a este esquema.
 
 1. Seleccione la opción **[!UICONTROL Probar la conexión]** para comprobar la configuración.
 
@@ -188,7 +192,11 @@ Utilice las bases de datos federadas para procesar la información almacenada en
 
    * **[!UICONTROL Base de datos]** (opcional): escriba el nombre de la base de datos si no se especifica en el DSN.
 
-   * **[!UICONTROL Esquema de trabajo]** (opcional): escriba el nombre del esquema de trabajo.
+   * **[!UICONTROL Esquema de trabajo]** (opcional): escriba el nombre del esquema de la base de datos que se utilizará para las tablas de trabajo.
+
+     >[!NOTE]
+     >
+     >Puede utilizar cualquier esquema de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre que tenga el permiso necesario para conectarse a este esquema.
 
    * **[!UICONTROL Clave privada]**: Haga clic en el campo **[!UICONTROL Clave privada]** para seleccionar los archivos .pem de la carpeta de configuración regional.
 
@@ -240,7 +248,11 @@ Utilice las bases de datos federadas para procesar la información almacenada en
 
    * **[!UICONTROL Base de datos]** (opcional): escriba el nombre de la base de datos si no se especifica en el DSN.
 
-   * **[!UICONTROL Esquema de trabajo]** (opcional): escriba el nombre del esquema de trabajo.
+   * **[!UICONTROL Esquema de trabajo]** (opcional): escriba el nombre del esquema de la base de datos que se utilizará para las tablas de trabajo.
+
+     >[!NOTE]
+     >
+     >Puede utilizar cualquier esquema de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre que tenga el permiso necesario para conectarse a este esquema.
 
    * **[!UICONTROL Opciones]**: el conector admite las opciones detalladas en la tabla siguiente.
 

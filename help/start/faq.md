@@ -3,9 +3,9 @@ title: Preguntas frecuentes
 description: Preguntas frecuentes sobre la composición de audiencias federada de Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '816'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,7 @@ Los datos de audiencia resultantes no persisten indefinidamente en Adobe Experie
 
 +++¿Puedo eliminar una audiencia cargada personalizada?
 
-Puede eliminar audiencias que no se utilicen en la activación descendente directamente en Audience Portal simplemente seleccionando Eliminar en el menú de acciones. Obtenga más información en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.
+No, en la versión actual no puede eliminar las audiencias cargadas personalizadas. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
 
 +++
 

@@ -4,9 +4,9 @@ title: Trabajo con públicos
 description: Aprenda a trabajar con audiencias
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 58cbd9c38bbeab1fb8a18cbb30de282ed798ffb0
+source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 2%
 
 ---
@@ -17,11 +17,11 @@ La composición de audiencias federada de Experience Platform le permite [crear 
 
 A continuación, puede activar estas audiencias en cualquier destino admitido por Adobe Experience Platform.
 
-### Creación de audiencias mediante composiciones {#creation}
+## Creación de audiencias mediante composiciones {#creation}
 
 Para crear audiencias utilizando la composición de audiencia federada, debe crear una composición que incluya una actividad **[!UICONTROL Guardar audiencia]**. Esta actividad le permite guardar la audiencia en Audience Portal y seleccionar campos de las bases de datos externas para incluirlos en la audiencia. [Aprenda a configurar una actividad Guardar audiencia](../compositions/activities/save-audience.md)
 
-La audiencia creada con Composición de datos federada de Adobe incluye todos los campos seleccionados en la actividad **{!UICONTROL Guardar audiencia}** y se almacenan en el Portal de audiencias junto con todas las audiencias de Adobe Experience Platform.
+Las audiencias creadas con Composición de datos federada de Adobe incluyen todos los campos seleccionados en la actividad **[!UICONTROL Guardar audiencia]** y se almacenan en Audience Portal junto con todas las audiencias de Adobe Experience Platform.
 
 Después de ejecutar la maquetación, la audiencia resultante se guarda en Adobe Experience Platform como audiencia externa y está disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer.
 

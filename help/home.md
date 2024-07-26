@@ -1,9 +1,9 @@
 ---
 title: Página de inicio de documentación de composición de audiencia federada de Adobe Experience Platform
-description: Esta es la descripción general del artículo.
+description: Documentación del complemento Composición de audiencia federada
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: a56ae63a7f8da28dce0ba4f1be8d0d650477ec2f
+source-git-commit: 01ecc3abb201f241c68ee2a0ce9c0f4f0a50fad7
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 5%

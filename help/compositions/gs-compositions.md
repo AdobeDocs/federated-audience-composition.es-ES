@@ -3,9 +3,10 @@ audience: end-user
 title: Introducción a las composiciones
 description: Aprenda a empezar con composiciones
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
+exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '290'
 ht-degree: 13%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 13%
 
 ## Qué es una composición {#what}
 
-Adobe Composición de audiencias le permite crear composiciones, donde puede aprovechar varias actividades (dividir, excluir...) en un lienzo visual para crear audiencias. Una vez hecho, las audiencias resultantes se guardan en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en destinos como Journey Optimizer para clientes de destino. [Aprenda a trabajar con audiencias](../start/audiences.md)
+Adobe Composición de audiencias le permite crear composiciones, donde puede aprovechar varias actividades (dividir, excluir...) en un lienzo visual para crear audiencias. Una vez hecho, las audiencias resultantes se guardan en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en destinos de Adobe Experience Platform y Adobe Journey Optimizer para segmentar clientes. [Aprenda a trabajar con audiencias](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

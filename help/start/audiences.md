@@ -4,9 +4,9 @@ title: Trabajo con públicos
 description: Aprenda a trabajar con audiencias
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '307'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 La composición de audiencias federada de Experience Platform le permite [crear composiciones](../compositions/gs-compositions.md), donde puede aprovechar diversas actividades en un lienzo visual para crear audiencias y almacenarlas en el portal de audiencias de Adobe Experience Platform.
 
-A continuación, puede activar estas audiencias en cualquier destino admitido por Adobe Experience Platform.
+A continuación, puede segmentar estas audiencias en Journey Optimizer o activarlas en cualquier destino admitido por Adobe Experience Platform.
 
 ## Creación de audiencias mediante composiciones {#creation}
 

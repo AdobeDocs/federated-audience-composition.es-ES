@@ -3,9 +3,9 @@ title: Novedades de la composición de audiencias federadas de Experience Platfo
 description: Últimas actualizaciones y notas de la versión
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 5d8d0c1195abf6ba28291be2f38a67ef4123964f
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -23,23 +23,7 @@ La composición de audiencias federada es una función complementaria que propor
 
 La Composición de audiencias federada responde a las crecientes demandas del mercado para las empresas que necesitan la flexibilidad de componer audiencias con conjuntos de datos de almacén. Esto permite a las empresas reducir el movimiento de datos y, al mismo tiempo, poner los datos de audiencia esenciales a disposición de los equipos de marketing para satisfacer los requisitos de los casos de uso y potenciar las experiencias personalizadas. 
 
-Obtenga más información acerca de las funciones de la composición de audiencias federada en [esta página](get-started.md) y en las [preguntas más frecuentes](get-started.md#faq).
+Obtenga más información acerca de las funciones de la composición de audiencias federada en [esta página](get-started.md) y en las [preguntas más frecuentes](faq.md).
 
-## Acceso a la composición de audiencia federada {#fac-access}
+Encontrará información detallada sobre los requisitos previos para acceder a las composiciones de audiencias federadas y las protecciones actuales en [esta página](access-prerequisites.md).
 
-La composición de audiencias federada requiere paquetes de Adobe Real-time Customer Data Platform y Adobe Journey Optimizer Prime o Ultimate.
-
-No hay permisos específicos para Composición de audiencia federada. El único requisito previo para acceder a esta capacidad es haber adquirido el complemento Federated Audience Composition.
-
->[!AVAILABILITY]
->
->Una vez que el usuario haya recibido la notificación de correo electrónico de bienvenida del Adobe, la interfaz podría tardar unas horas más en actualizarse y las funciones disponibles para el usuario.
->
-
-## Requisitos previos y protecciones {#fac-guardrails}
-
-* La composición de audiencias federada es compatible con el Escudo de privacidad y seguridad y se puede utilizar en todos los segmentos verticales, excepto en el sector sanitario. Actualmente, la Composición de audiencias federada no se puede conceder con licencia a los clientes que deseen introducir datos de estado. [Más información](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
-
-* Sus direcciones IP deben añadirse a la lista de permitidos de para permitir el acceso a su almacén de datos y utilizar Federated Audience Composition. Para añadir sus direcciones IP a la lista de permitidos, póngase en contacto con el representante de Adobe.
-
-* Los derechos, limitaciones de productos y protecciones de rendimiento enumerados en la [documentación de Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} se aplican a este complemento.

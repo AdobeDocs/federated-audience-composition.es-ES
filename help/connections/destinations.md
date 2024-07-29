@@ -4,9 +4,9 @@ title: Enriquezca las audiencias de Adobe Experience Platform con datos externos
 description: Aprenda a refinar y enriquecer las audiencias de Adobe Experience Platform con datos de sus bases de datos federadas mediante el destino de composición de audiencias federadas.
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '573'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,7 @@ Los pasos principales para enviar audiencias de Adobe Experience Platform a la C
 
    ![](assets/destination-configure.png)
 
-   La sección **[!UICONTROL Alertas]** le permite habilitar alertas para recibir notificaciones sobre el estado del flujo de datos a su destino. Para obtener más información sobre las alertas, consulte la guía sobre [suscripción a alertas de destinos mediante la interfaz de usuario](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts).
+   La sección **[!UICONTROL Alertas]** le permite habilitar alertas para recibir notificaciones sobre el estado del flujo de datos a su destino. Para obtener más información sobre las alertas, consulte la documentación de Adobe Experience Platform sobre la suscripción de [a alertas de destinos mediante la interfaz de usuario](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. En el paso **[!UICONTROL Política de gobernanza y acciones de aplicación]**, puede definir las políticas de gobernanza de datos y asegurarse de que los datos utilizados sean compatibles cuando las audiencias se envíen y estén activas.
 
@@ -57,11 +57,12 @@ Los pasos principales para enviar audiencias de Adobe Experience Platform a la C
 
    >[!NOTE]
    >
-   >Encontrará información detallada sobre cómo configurar la programación y los nombres de archivo en la documentación de Adobe Experience Platform:
-   >* [Programar exportación de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling)
-   >* [Configurar nombres de archivo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names)
+   >Encontrará información detallada sobre cómo configurar la programación y los nombres de archivo en las siguientes secciones de la documentación de Adobe Experience Platform:
+   >
+   >* [Programar exportación de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [Configurar nombres de archivo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. En el paso **[!UICONTROL Asignación]**, seleccione qué campos de atributo e identidad desea exportar para sus audiencias. Para obtener más información, vea el [paso de asignación](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping) en la documentación de Adobe Experience Platform.
+1. En el paso **[!UICONTROL Asignación]**, seleccione qué campos de atributo e identidad desea exportar para sus audiencias. Para obtener más información, vea el [paso de asignación](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} en la documentación de Adobe Experience Platform.
 
    ![](assets/destination-attributes.png)
 

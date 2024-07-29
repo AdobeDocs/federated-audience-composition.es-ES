@@ -3,7 +3,7 @@ title: Página de inicio de documentación de composición de audiencia federada
 description: Documentación del complemento Composición de audiencia federada
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 01ecc3abb201f241c68ee2a0ce9c0f4f0a50fad7
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 5%
@@ -58,7 +58,7 @@ Adición y configuración de actividades (división, enriquecimiento, consulta, 
     </div>
     </td>
     <td>
-    <a href="start/get-started.md#faq"><img src="assets/do-not-localize/start-faq.png"></a>
+    <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
     <div><strong>Preguntas más frecuentes</strong><br/>acerca de la composición de audiencias federadas.</div>
     </td>
   </tr>
@@ -66,7 +66,7 @@ Adición y configuración de actividades (división, enriquecimiento, consulta, 
     <td><a href="start/get-started.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="data-management/gs-models.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="compositions/gs-compositions.md"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="start/get-started.md#faq"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 

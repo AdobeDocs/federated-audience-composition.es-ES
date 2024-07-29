@@ -3,10 +3,11 @@ audience: end-user
 title: Introducción al seguimiento de auditoría
 description: Obtenga información sobre cómo monitorizar las bases de datos con la pista de auditoría
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 11%
+source-wordcount: '365'
+ht-degree: 12%
 
 ---
 
@@ -52,7 +53,7 @@ Para acceder a la **[!UICONTROL pista de auditoría]** de su instancia:
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Pista de auditoría]**.
 
-1. La ventana **[!UICONTROL Pista de auditoría]** se abre con la lista de sus entidades. La interfaz de usuario web de Adobe Campaign audita las acciones de creación, edición y eliminación de flujos de trabajo, opciones, envíos y esquemas.
+1. La ventana **[!UICONTROL Pista de auditoría]** se abre con la lista de sus entidades. Composición de audiencia federada audita las acciones de creación, edición y eliminación para flujos de trabajo, opciones, envíos y esquemas.
 
    ![](assets/audit_trail.png)
 

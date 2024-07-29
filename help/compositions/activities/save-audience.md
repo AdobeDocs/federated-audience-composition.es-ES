@@ -4,10 +4,10 @@ title: Uso de la actividad Guardar audiencia
 description: Aprenda a utilizar la actividad Guardar audiencia
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 17%
+source-wordcount: '462'
+ht-degree: 16%
 
 ---
 
@@ -68,7 +68,7 @@ Después de ejecutar la maquetación, la audiencia resultante se guarda en Adobe
 
 La audiencia creada incluye todos los campos seleccionados en la sección Asignaciones de audiencias. Puede segmentar esta audiencia en Journey Optimizer o activarla en cualquier destino admitido por Adobe Experience Platform.
 
-[Más información](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

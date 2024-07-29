@@ -3,9 +3,9 @@ title: Introducción a Experience Platform Federated Audience Composition
 description: Descubra qué es la Composición de audiencia federada de Adobe y cómo utilizarla en Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '722'
 ht-degree: 8%
 
 ---
@@ -56,27 +56,24 @@ Pasos clave:
 
 4. **Uso de datos**: Cree, organice y genere audiencias. Aprenda a componer audiencias en [esta página](../compositions/gs-compositions.md). También puede actualizar o reutilizar audiencias existentes a través de Adobe Experience Platform Audience Portal y Destinations. Obtenga más información en [esta página](../connections/destinations.md)
 
-
 >[!NOTE]
 >
 >Después de ejecutar la maquetación, la audiencia resultante se guarda en Adobe Experience Platform como audiencia externa y está disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Es accesible desde el menú **Audiencias**. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
->
-
-
 
 ## Más información {#learn}
 
 <!-- Workflow + Workflow activities-->
 
-Ver las preguntas más frecuentes en [esta página](faq.md).
+
+Obtenga información sobre cómo acceder a la composición de audiencias federadas, las protecciones y las limitaciones en [esta página](access-prerequisites.md).
+
+Vea también las preguntas más frecuentes en [esta página](faq.md).
+
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
 >title="Configuración de ejecución"
 >abstract="En esta sección puede configurar opciones relacionadas con la ejecución del flujo de trabajo, como el número de días que se conserva el historial de composición."
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"

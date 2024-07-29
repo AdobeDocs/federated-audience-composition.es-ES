@@ -2,10 +2,10 @@
 user-guide-title: Composición de audiencia federada de Experience Platform
 title: Documentación de composición de audiencia federada de Experience Platform
 breadcrumb-title: Composición de audiencia federada de Experience Platform
-source-git-commit: bfb13da161d966ec82d147c2d4c293b80fcf071d
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 35%
+source-wordcount: '148'
+ht-degree: 34%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 35%
 + [Notas de la versión](start/release-notes.md)
 + Introducción a la composición de audiencias federadas {#start}
    + [¿Qué es la composición de audiencia federada?](start/get-started.md)
+   + [Requisitos previos y protecciones](start/access-prerequisites.md)
    + [Trabajo con públicos](start/audiences.md)
    + [Preguntas frecuentes](start/faq.md)
 + Pasos de configuración {#config}

@@ -1,19 +1,17 @@
 ---
-title: Acceder a composición de audiencia federada
-description: Obtenga información sobre cómo acceder a la Composición de audiencias federada.
+title: Requisitos previos y protecciones para la composición de audiencias federada
+description: Conozca los requisitos previos, permisos y protecciones para la Composición de audiencias federada
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
 
-# Acceder a composición de audiencia federada {#fac-access}
+# Requisitos previos y protecciones {#fac-access}
 
-## Paquetes y complementos {#package}
-
-La composición de audiencias federada requiere paquetes de Adobe Real-time Customer Data Platform y Adobe Journey Optimizer Prime o Ultimate. Para acceder a esta funcionalidad, debe haber adquirido el complemento Federated Audience Composition.
+La composición de audiencias federada requiere paquetes de Adobe Real-time Customer Data Platform o Adobe Journey Optimizer **Prime** o **Ultimate**. Para acceder a esta funcionalidad, debe haber adquirido el complemento Federated Audience Composition.
 
 >[!AVAILABILITY]
 >

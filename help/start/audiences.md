@@ -4,9 +4,9 @@ title: Trabajo con públicos
 description: Aprenda a trabajar con audiencias
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '311'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Las audiencias creadas con Composición de datos federada de Adobe incluyen todo
 
 Después de ejecutar la maquetación, la audiencia resultante se guarda en Adobe Experience Platform como audiencia externa y está disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer.
 
-Puede activar estas audiencias en cualquier destino admitido por Adobe Experience Platform. [Aprenda a trabajar con destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+Puede activar estas audiencias en cualquier destino admitido por Adobe Experience Platform. Aprenda a trabajar con destinos en [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 
 >[!NOTE]
 >
@@ -39,6 +39,6 @@ La ficha **[!UICONTROL Examinar]** enumera todas las audiencias existentes almac
 
 ![](assets/audiences-list.png)
 
-Para obtener más información sobre cómo trabajar con audiencias en Adobe Experience Platform, consulte [Documentación del portal de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal)
+Para obtener más información sobre cómo trabajar con audiencias en Adobe Experience Platform, consulte [Documentación del portal de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

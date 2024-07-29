@@ -3,13 +3,13 @@ audience: end-user
 title: Uso de la actividad de anulación de duplicación
 description: Aprenda a utilizar la actividad de anulación de duplicación
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 61%
+ht-degree: 46%
 
 ---
-
 
 # Anulación de duplicación {#deduplication}
 
@@ -47,13 +47,13 @@ Siga estos pasos para configurar la actividad **Deduplication**:
 
    ![](../assets/deduplication.png)
 
-1. En la sección **[!UICONTROL Configuración de anulación de duplicación]**, seleccione el número de **[!UICONTROL duplicados únicos que desea conservar]**. El valor predeterminado de este campo es 1. El valor 0 le permite mantener todos los duplicados.
+1. En la sección **[!UICONTROL Configuración de anulación de duplicación]**, seleccione el número de **[!UICONTROL duplicados únicos que desea conservar]**. El valor predeterminado de este campo es **1**. El valor **0** le permite conservar todos los duplicados.
 
    Por ejemplo, si los registros A y B se consideran duplicados del registro Y, y un registro C se considera un duplicado del registro Z:
 
-   * Si el valor del campo es 1: solo se guardan los registros Y y Z.
-   * Si el valor del campo es 0: se guardan todos los registros.
-   * Si el valor del campo es 2: se conservan los registros C y Z y se conservan dos registros de A, B e Y, al azar o en función del método de deduplicación seleccionado posteriormente.
+   * Si el valor del campo es **1**: solo se guardan los registros Y y Z.
+   * Si el valor del campo es **0**: se guardan todos los registros.
+   * Si el valor del campo es **2**: se guardan los registros C y Z y se guardan dos registros de A, B e Y, al azar o en función del método de deduplicación seleccionado posteriormente.
 
 1. Seleccione el **[!UICONTROL método de deduplicación]** que se va a utilizar:
 

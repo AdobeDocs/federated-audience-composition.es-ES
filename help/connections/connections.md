@@ -3,42 +3,50 @@ audience: end-user
 title: Crear y administrar conexiones con bases de datos federadas
 description: Aprenda a crear y administrar conexiones con bases de datos federadas
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
+exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 5%
+source-wordcount: '220'
+ht-degree: 4%
 
 ---
 
 # Creación de conexiones {#connections-fdb}
 
-Trabajar con una base de datos federada directamente en AEP implica establecer una conexión con ella.
+La composición de audiencias federadas de Experience Platform permite al cliente crear y enriquecer audiencias de los almacenes de datos de terceros e importarlas a Adobe Experience Platform.
 
-Para configurar una conexión con su base de datos, vaya a la sección **[!UICONTROL DATOS FEDERADOS]** y en el vínculo **[!UICONTROL Bases de datos federadas]**, haga clic en el botón **[!UICONTROL Agregar base de datos federada]**.
+Para trabajar con la base de datos federada y Adobe Experience Platform, primero debe establecer una conexión. Esta conexión se configura en una interfaz de usuario dedicada disponible en la interfaz de usuario de Adobe Experience Platform, como se detalla en esta página.
 
-![](assets/connections_list.png){zoomable="yes"}
+Para configurar una conexión con la base de datos, siga estos pasos:
 
-Tendrá acceso a la ventana de la conexión **[!UICONTROL Properties]**, con el nombre y el tipo de su base de datos.
+1. Vaya a la sección **[!UICONTROL DATOS FEDERADOS]** en el carril izquierdo.
 
-![](assets/connections_name.png){zoomable="yes"}
+1. En el vínculo **[!UICONTROL Bases de datos federadas]**, haga clic en el botón **[!UICONTROL Agregar base de datos federada]**.
 
-Si selecciona su tipo, tendrá acceso a otras propiedades para rellenar. [Obtenga más información aquí acerca de las bases de datos compatibles](federated-db.md).
+   ![](assets/connections_list.png){zoomable="yes"}
 
-![](assets/connections_details.png){zoomable="yes"}
+1. Establezca la conexión **[!UICONTROL Properties]**, con el nombre y el tipo de su base de datos.
 
-Según el tipo de base de datos, aprenda en los vínculos siguientes la información que necesita para configurar la conexión:
+   ![](assets/connections_name.png){zoomable="yes"}
 
-* [Amazon Redshift](federated-db.md#amazon-redshift)
-* [Azure synapse](federated-db.md#azure-synapse-redshift)
-* [Google Big Query](federated-db.md#google-big-query)
-* [Snowflake](federated-db.md#snowflake)
-* [Vertica Analytics](federated-db.md#vertica-analytics)
+   Al seleccionar su tipo, puede acceder a otras propiedades para rellenarlas. Obtenga más información aquí acerca de las bases de datos compatibles en [esta página](federated-db.md).
 
-Después de completar los detalles, haga clic en el botón **[!UICONTROL Probar conexión]** y en el botón **[!UICONTROL Implementar funciones]**.
-Finalice la creación de la conexión haciendo clic en el botón **[!UICONTROL Guardar]**.
+   ![](assets/connections_details.png){zoomable="yes"}
 
-![](assets/connections_testdeploy.png){zoomable="yes"}
+   Los ajustes de configuración dependen del tipo de base de datos. Examine los vínculos siguientes para acceder a los detalles que necesita para configurar la conexión:
 
-Tendrá una descripción general de la conexión a base de datos federada como esta:
+   * [Amazon Redshift](federated-db.md#amazon-redshift)
+   * [Azure synapse](federated-db.md#azure-synapse-redshift)
+   * [Google Big Query](federated-db.md#google-big-query)
+   * [Snowflake](federated-db.md#snowflake)
+   * [Vertica Analytics](federated-db.md#vertica-analytics)
 
-![](assets/connections_overview.png){zoomable="yes"}
+1. Después de completar los detalles, haga clic en el botón **[!UICONTROL Probar conexión]** y en el botón **[!UICONTROL Implementar funciones]**.
+
+1. Finalice la creación de la conexión haciendo clic en el botón **[!UICONTROL Guardar]**.
+
+   ![](assets/connections_testdeploy.png){zoomable="yes"}
+
+   A continuación, se muestra una descripción general de la conexión de base de datos federada:
+
+   ![](assets/connections_overview.png){zoomable="yes"}

@@ -4,7 +4,7 @@ title: Creación de composiciones
 description: Aprenda a crear composiciones
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 59%
@@ -18,7 +18,7 @@ ht-degree: 59%
 >title="Propiedades de la composición"
 >abstract="En esta pantalla, elija la plantilla que desea utilizar para crear la composición y especifique una etiqueta. Expanda la sección OPCIONES ADICIONALES para configurar más opciones, como el nombre interno de la composición, su carpeta, zona horaria y grupo de supervisores. Se recomienda encarecidamente seleccionar un grupo de supervisores para que los operadores sean alertados si se produce un error."
 
-## ¿Qué hay dentro de una composición? {#gs-composition-inside}
+## Qué hay dentro de una composición {#gs-composition-inside}
 
 La composición de audiencias federadas de Experience Platform proporciona un lienzo visual que le permite crear audiencias aprovechando varias actividades (dividir, enriquecer, etc.).
 

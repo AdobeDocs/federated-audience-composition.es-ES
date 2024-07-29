@@ -4,10 +4,10 @@ title: Uso de la actividad División
 description: Descubra más información sobre cómo utilizar la actividad Split
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 79%
+source-wordcount: '925'
+ht-degree: 76%
 
 ---
 
@@ -60,7 +60,7 @@ La actividad **División** permite segmentar las poblaciones entrantes en varios
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Habilitar la superposición de poblaciones de salida"
->abstract="La opción **[!UICONTROL Habilitar la superposición de poblaciones de salida]** permite administrar poblaciones que pertenecen a varios subconjuntos. Cuando el cuadro no está marcado, la actividad de división garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes. Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. Adobe Campaign recomienda utilizar criterios exclusivos."
+>abstract="La opción **[!UICONTROL Habilitar la superposición de poblaciones de salida]** permite administrar poblaciones que pertenecen a varios subconjuntos. Cuando el cuadro no está marcado, la actividad de división garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes. Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. "
 
 Siga estos pasos para configurar la actividad **División**:
 
@@ -101,7 +101,7 @@ Siga estos pasos para configurar la actividad **División**:
 1. La opción **[!UICONTROL Enable overlapping of output populations]** permite administrar poblaciones que pertenecen a varios subconjuntos:
 
    * Cuando el cuadro no está marcado, la actividad de división garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes.
-   * Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. Adobe Campaign recomienda utilizar criterios exclusivos.
+   * Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. La práctica recomendada es utilizar criterios exclusivos.
 
 La actividad está configurada. En la ejecución, la población se segmenta en los diferentes subconjuntos, en el orden en que se hayan agregado a la actividad.
 

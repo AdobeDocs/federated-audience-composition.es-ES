@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Introducción a las bases de datos federadas
-description: Obtenga información sobre cómo crear y administrar sus bases de datos federadas
+title: Configuración de las bases de datos federadas
+description: Obtenga información sobre cómo configurar las bases de datos federadas
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 11%
+source-wordcount: '1579'
+ht-degree: 10%
 
 ---
 
-# Introducción a las bases de datos federadas {#federated-db}
+# Configuración de las bases de datos federadas {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
@@ -30,7 +30,7 @@ ht-degree: 11%
 
 La composición de audiencias federadas de Experience Platform permite al cliente crear y enriquecer audiencias de los almacenes de datos de terceros e importarlas a Adobe Experience Platform.
 
-Obtenga información sobre cómo crear, configurar, probar y guardar la conexión con la base de datos externa en esta página.
+Aprenda a crear, configurar, probar y guardar la conexión con la base de datos externa en [esta página](connections.md). A continuación, se encuentra la lista de bases de datos compatibles y la configuración detallada para cada una de ellas.
 
 ## Bases de datos compatibles {#supported-db}
 
@@ -68,7 +68,7 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
    * **[!UICONTROL Base de datos]**: Nombre de la base de datos si no se especifica en DSN. Se puede dejar vacío si se especifica en el DSN
 
-   * **[!UICONTROL Esquema de trabajo]**: Nombre del esquema de base de datos que se va a utilizar para las tablas de trabajo. [Más información](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL Esquema de trabajo]**: Nombre del esquema de base de datos que se va a utilizar para las tablas de trabajo. Obtenga más información en [Documentación de Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
@@ -116,7 +116,7 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 | Opción | Descripción |
 |---|---|
-| Autenticación | Tipo de autenticación admitida por el conector. Valor admitido actual: ActiveDirectoryMSI. Para obtener más información, consulte [Documento SQL](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Ejemplo de cadenas de conexión n°8) |
+| Autenticación | Tipo de autenticación admitida por el conector. Valor admitido actual: ActiveDirectoryMSI. Para obtener más información, consulte [Documentación de Microsoft SQL](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Ejemplo de cadenas de conexión n°8) |
 
 
 ## Google Big Query {#google-big-query}
@@ -137,11 +137,11 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 1. Configure las opciones de autenticación de Google Big Query:
 
-   * **[!UICONTROL Cuenta de servicio]**: escribe el correo electrónico de tu **[!UICONTROL cuenta de servicio]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+   * **[!UICONTROL Cuenta de servicio]**: escribe el correo electrónico de tu **[!UICONTROL cuenta de servicio]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Proyecto]**: Escriba el nombre de su **[!UICONTROL Proyecto]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+   * **[!UICONTROL Proyecto]**: Escriba el nombre de su **[!UICONTROL Proyecto]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
-   * **[!UICONTROL Conjunto de datos]**: escriba el nombre de su **[!UICONTROL Conjunto de datos]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro).
+   * **[!UICONTROL Conjunto de datos]**: escriba el nombre de su **[!UICONTROL Conjunto de datos]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
    * **[!UICONTROL Ruta del archivo de claves]**: Cargue el archivo de claves en el servidor. Solo se aceptan archivos .json.
 
@@ -214,11 +214,11 @@ El conector admite las siguientes opciones:
 |---|---|
 | esquema de trabajo | Esquema de base de datos que se va a utilizar para tablas de trabajo |
 | almacén | Nombre del almacén predeterminado que se va a utilizar. Anula el valor predeterminado del usuario. |
-| TimeZoneName | De forma predeterminada, vacío, lo que significa que se utiliza el servidor de aplicaciones de zona horaria del sistema. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. <br>[Para obtener más información, consulte esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | Parámetro de sesión WEEK_START. De forma predeterminada, se establece en 0. <br>[Para obtener más información, consulte esta página](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
-| UseCachedResult | Parámetro de sesión USE_CACHED_RESULTS. De forma predeterminada, se establece en TRUE. Esta opción se puede utilizar para deshabilitar los resultados en caché del Snowflake. <br>[Para obtener más información, consulte esta página](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+| TimeZoneName | De forma predeterminada, vacío, lo que significa que se utiliza el servidor de aplicaciones de zona horaria del sistema. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. <br>Para obtener más información, consulte [esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
+| WeekStart | Parámetro de sesión WEEK_START. De forma predeterminada, se establece en 0. <br>Para obtener más información, consulte [esta página](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
+| UseCachedResult | Parámetro de sesión USE_CACHED_RESULTS. De forma predeterminada, se establece en TRUE. Esta opción se puede utilizar para deshabilitar los resultados en caché del Snowflake. <br>Para obtener más información, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Número de subprocesos que se utilizarán para el cargador en bloque del Snowflake; si hay más subprocesos, se obtiene un mejor rendimiento para cargas en bloque más grandes. De forma predeterminada, se establece en 1. El número se puede ajustar en función del número de hilos de la máquina. |
-| chunkSize | Determina el tamaño de archivo del fragmento del cargador en bloque. De forma predeterminada, se establece en 128 MB. Se puede modificar para obtener un rendimiento más óptimo, cuando se utiliza con bulkThreads. Los hilos más activos simultáneamente significan un mejor rendimiento. <br>Para obtener más información, consulte [Documentación del Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
+| chunkSize | Determina el tamaño de archivo del fragmento del cargador en bloque. De forma predeterminada, se establece en 128 MB. Se puede modificar para obtener un rendimiento más óptimo, cuando se utiliza con bulkThreads. Los hilos más activos simultáneamente significan un mejor rendimiento. <br>Para obtener más información, consulte [Documentación del Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Nombre de la fase interna preaprovisionada. Se utilizará en la carga masiva en lugar de crear una nueva etapa temporal. |
 
 

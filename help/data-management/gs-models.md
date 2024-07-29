@@ -4,10 +4,10 @@ title: Introducción a los modelos de datos
 description: Obtenga información sobre cómo iniciar modelos de datos
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 28%
+source-wordcount: '291'
+ht-degree: 22%
 
 ---
 
@@ -37,11 +37,19 @@ ht-degree: 28%
 
 ## ¿Qué es un modelo de datos? {#data-model-start}
 
-Un modelo de datos es un conjunto de esquemas, audiencias y los vínculos entre ellos.
+Un modelo de datos es un conjunto de esquemas, audiencias y los vínculos entre ellos. Se utiliza para federar audiencias con datos de bases de datos.
 
 Más información sobre [esquemas](../customer/schemas.md#schema-start).
 
 Más información sobre [audiencias](../start/audiences.md).
+
+Por ejemplo, puede ver debajo una representación de un modelo de datos: las tablas con su nombre y los vínculos entre ellas.
+
+![](assets/datamodel.png){zoomable="yes"}
+
+En la Composición de audiencias federada, es posible crear muchos modelos de datos.
+
+Su creación se basará en el caso de uso: elige las tablas necesarias y las vincula según sus necesidades.
 
 ## Creación de un modelo de datos {#data-model-create}
 

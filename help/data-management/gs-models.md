@@ -4,10 +4,10 @@ title: Introducción a los modelos de datos
 description: Obtenga información sobre cómo iniciar modelos de datos
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
+source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 22%
+source-wordcount: '380'
+ht-degree: 17%
 
 ---
 
@@ -79,9 +79,17 @@ Para crear vínculos entre tablas del modelo de datos, siga estos pasos:
 
    ![](assets/datamodel_link.png){zoomable="yes"}
 
-   Todos los vínculos definidos para el modelo de datos se enumeran a continuación:
+   **Cardinalidad**
 
-   ![](assets/datamodel_alllinks.png){zoomable="yes"}
+   * 1-N: una incidencia de la tabla de origen puede tener varias incidencias correspondientes de la tabla de destino, pero una incidencia de la tabla de destino puede tener como máximo una incidencia correspondiente de la tabla de origen.
+
+   * N-1: una incidencia de la tabla de destino puede tener varias incidencias correspondientes de la tabla de origen, pero una incidencia de la tabla de origen puede tener como máximo una incidencia correspondiente de la tabla de destino.
+
+   * 1-1: una incidencia de la tabla de origen puede tener como máximo una incidencia correspondiente de la tabla de destino.
+
+Todos los vínculos definidos para el modelo de datos se enumeran a continuación:
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 ## Cómo realizar el vídeo {#data-model-video}
 

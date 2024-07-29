@@ -2,10 +2,10 @@
 user-guide-title: Composición de audiencia federada de Experience Platform
 title: Documentación de composición de audiencia federada de Experience Platform
 breadcrumb-title: Composición de audiencia federada de Experience Platform
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 34%
+source-wordcount: '145'
+ht-degree: 36%
 
 ---
 
@@ -51,5 +51,4 @@ ht-degree: 34%
    + [Uso del modelador de consultas](query/query-modeler-overview.md)
    + [Genere su primera consulta](query/build-query.md)
    + [Editar expresiones](query/expression-editor.md)
-+ Pista de auditoría {#audit-trail}
-   + [Supervisión de bases de datos](admin/audit-trail.md)
++ [Pista de auditoría](admin/audit-trail.md)

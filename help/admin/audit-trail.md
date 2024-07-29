@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Introducción al seguimiento de auditoría
-description: Obtenga información sobre cómo monitorizar las bases de datos con la pista de auditoría
+title: Pista de auditoría
+description: Conozca cómo se registran las acciones y los eventos y cómo se puede acceder a ellos en la pista de auditoría
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 12%
+source-wordcount: '369'
+ht-degree: 3%
 
 ---
 
-# Introducción al seguimiento de auditoría {#audit-trail}
+# Pista de auditoría {#audit-trail}
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="Seguimiento de auditoría"
->abstract="La capacidad de seguimiento de auditoría proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en su entorno en tiempo real."
+>abstract="La capacidad Pista de auditoría proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en su entorno de composición de audiencia federada de Adobe Experience Platform en tiempo real."
 
 La capacidad Audit trail proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en su entorno en tiempo real
 

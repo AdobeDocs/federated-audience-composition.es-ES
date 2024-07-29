@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Introducción a las bases de datos federadas
-description: Aprenda a crear y administrar sus bases de datos federadas
+description: Obtenga información sobre cómo crear y administrar sus bases de datos federadas
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
+source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 15%
+source-wordcount: '1560'
+ht-degree: 11%
 
 ---
 
@@ -44,7 +44,7 @@ Con Federated Audience Composition, puede conectarse a las siguientes bases de d
 
 ## Amazon Redshift {#amazon-redshift}
 
-Utilice las bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Amazon Redshift.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Amazon Redshift.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -82,7 +82,7 @@ Utilice las bases de datos federadas para procesar la información almacenada en
 
 ## Azure synapse Redshift {#azure-synapse-redshift}
 
-Utilice las bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Azure synapse Redshift.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Azure synapse Redshift.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -121,7 +121,7 @@ Utilice las bases de datos federadas para procesar la información almacenada en
 
 ## Google Big Query {#google-big-query}
 
-Utilice las bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Google Big Query.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Google Big Query.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -168,7 +168,7 @@ Utilice las bases de datos federadas para procesar la información almacenada en
 
 ## Snowflake {#snowflake}
 
-Utilice las bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso al Snowflake.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso al Snowflake.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -214,7 +214,7 @@ El conector admite las siguientes opciones:
 |---|---|
 | esquema de trabajo | Esquema de base de datos que se va a utilizar para tablas de trabajo |
 | almacén | Nombre del almacén predeterminado que se va a utilizar. Anula el valor predeterminado del usuario. |
-| TimeZoneName | De forma predeterminada, vacío, lo que significa que se utiliza la zona horaria del sistema del servidor de aplicaciones de Campaign Classic. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. <br>[Para obtener más información, consulte esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| TimeZoneName | De forma predeterminada, vacío, lo que significa que se utiliza el servidor de aplicaciones de zona horaria del sistema. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. <br>[Para obtener más información, consulte esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
 | WeekStart | Parámetro de sesión WEEK_START. De forma predeterminada, se establece en 0. <br>[Para obtener más información, consulte esta página](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
 | UseCachedResult | Parámetro de sesión USE_CACHED_RESULTS. De forma predeterminada, se establece en TRUE. Esta opción se puede utilizar para deshabilitar los resultados en caché del Snowflake. <br>[Para obtener más información, consulte esta página](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 | bulkThreads | Número de subprocesos que se utilizarán para el cargador en bloque del Snowflake; si hay más subprocesos, se obtiene un mejor rendimiento para cargas en bloque más grandes. De forma predeterminada, se establece en 1. El número se puede ajustar en función del número de hilos de la máquina. |
@@ -224,7 +224,7 @@ El conector admite las siguientes opciones:
 
 ## Vertica Analytics {#vertica-analytics}
 
-Utilice las bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a las Verticas analytics.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a las Verticas analytics.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -266,4 +266,4 @@ El conector admite las siguientes opciones:
 
 | Opción | Descripción |
 |---|---|
-| TimeZoneName | De forma predeterminada, vacío, lo que significa que se utiliza la zona horaria del sistema del servidor de aplicaciones de Campaign Classic. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. |
+| TimeZoneName | De forma predeterminada, vacío, lo que significa que se utiliza la zona horaria del sistema del servidor de aplicaciones. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. |

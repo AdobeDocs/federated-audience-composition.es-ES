@@ -3,9 +3,9 @@ title: Preguntas frecuentes
 description: Preguntas frecuentes sobre la composición de audiencias federada de Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '834'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,9 @@ A continuación se muestra una lista de preguntas más frecuentes sobre la Compo
 
 +++¿Cuáles son los permisos necesarios para acceder a Federated Audience Composition?
 
-La composición de audiencias federada requiere paquetes de Adobe Real-time Customer Data Platform y Adobe Journey Optimizer Prime o Ultimate. No hay permisos específicos para Composición de audiencia federada. El único requisito previo para acceder a esta capacidad es haber adquirido el complemento Federated Audience Composition.
+La composición de audiencias federada requiere paquetes de Adobe Real-time Customer Data Platform y Adobe Journey Optimizer Prime o Ultimate. También debe haber adquirido el complemento Federated Audience Composition.
+
+Para utilizar la Composición de audiencia de audiencia federada, cada usuario debe agregarse a un perfil específico creado para cada zona protegida. Para obtener más información, consulte la página [Composición de audiencias federadas de acceso](access-prerequisites.md).
 
 +++
 

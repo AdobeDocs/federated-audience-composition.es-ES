@@ -2,7 +2,7 @@
 title: Requisitos previos y protecciones para la composición de audiencias federada
 description: Conozca los requisitos previos, permisos y protecciones para la Composición de audiencias federada
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 2%
@@ -27,7 +27,7 @@ Por ejemplo, si se activa una nueva zona protegida denominada &quot;fac-test&quo
 
 Para permitir que Federated Audience Composition acceda de forma segura a sus bases de datos, póngase en contacto con su representante de Adobe para obtener las direcciones IP de los servidores de Federated Audience Composition que accederán a ellas.
 
-Añada estas direcciones IP a su lista de permitidos para conceder acceso a Composición de audiencia federada.&quot;
+Añada estas direcciones IP a la lista de permitidos para conceder acceso a Composición de audiencias federada.
 
 ## Mecanismos de protección y limitaciones {#fac-guardrails}
 

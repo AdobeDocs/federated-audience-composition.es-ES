@@ -4,15 +4,14 @@ title: Introducción a los esquemas
 description: Aprenda a empezar con esquemas
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 23%
+source-wordcount: '450'
+ht-degree: 22%
 
 ---
 
 # Introducción a los esquemas {#schemas}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -40,7 +39,6 @@ ht-degree: 23%
 >title="Seleccione la base de datos fuente que desea filtrar"
 >abstract="Puede filtrar los esquemas en función de su fuente. Seleccione una o varias bases de datos federadas para mostrar sus esquemas."
 
-
 ## ¿Qué es un esquema? {#schema-start}
 
 Un esquema es una representación de una tabla de la base de datos. Es un objeto dentro de la aplicación que define cómo se asocian los datos a las tablas de la base de datos.
@@ -50,6 +48,10 @@ Al crear un esquema, puede definir una representación de la tabla en la composi
 * Asigne un nombre descriptivo para simplificar la comprensión del usuario
 * Decidir la visibilidad de cada campo, según su uso real
 * Seleccione su clave principal para vincular esquemas entre ellos según sea necesario en el [modelo de datos](../data-management/gs-models.md#data-model-start)
+
+>[!IMPORTANT]
+>
+>Se recomienda utilizar esquemas de base de datos federados distintos para cada zona protegida.
 
 ## Creación de un esquema {#schema-create}
 

@@ -6,7 +6,7 @@ exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 23%
+ht-degree: 29%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Actividad planificador"
->abstract="La actividad **Planificador** le permite programar cuándo comienza la composición de la audiencia. La actividad debe considerarse como un inicio programado. Solo puede utilizarse como primera actividad de una composición."
+>abstract="La actividad **Planificador** permite programar cuándo se inicia la composición de público. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad de una composición."
 
 La actividad **Scheduler** es una actividad **Flow control**. Permite programar cuándo se inicia la composición. La actividad debe considerarse como un inicio programado. Solo puede utilizarse como primera actividad de la composición.
 

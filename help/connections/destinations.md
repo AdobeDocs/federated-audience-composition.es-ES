@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Enriquezca las audiencias de Adobe Experience Platform con datos externos
+title: Enriquecimiento de públicos de Adobe Experience Platform con datos externos
 description: Aprenda a refinar y enriquecer las audiencias de Adobe Experience Platform con datos de sus bases de datos federadas mediante el destino de composición de audiencias federadas.
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
-# Enriquezca las audiencias de Adobe Experience Platform con datos externos {#connect-aep-fac}
+# Enriquecimiento de públicos de Adobe Experience Platform con datos externos {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"

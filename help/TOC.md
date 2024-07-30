@@ -5,7 +5,7 @@ breadcrumb-title: Composición de audiencia federada de Experience Platform
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 36%
+ht-degree: 80%
 
 ---
 
@@ -14,36 +14,36 @@ ht-degree: 36%
 
 + [Documentación de composición de audiencia federada de Experience Platform](home.md)
 + [Notas de la versión](start/release-notes.md)
-+ Introducción a la composición de audiencias federadas {#start}
-   + [¿Qué es la composición de audiencia federada?](start/get-started.md)
++ Introducción a composición de público federado {#start}
+   + [¿Qué es una composición de público federado?](start/get-started.md)
    + [Requisitos previos y protecciones](start/access-prerequisites.md)
-   + [Trabajo con públicos](start/audiences.md)
+   + [Trabajar con públicos](start/audiences.md)
    + [Preguntas frecuentes](start/faq.md)
-+ Pasos de configuración {#config}
++ Pasos para la configuración {#config}
    + [Creación y administración de conexiones](connections/connections.md)
-   + [Configurar las bases de datos federadas](connections/federated-db.md)
+   + [Configuración de las bases de datos federadas](connections/federated-db.md)
    + Modelos de datos y esquemas{#datamodel}
       + [Creación y configuración de esquemas](customer/schemas.md)
-      + [Configuración de los modelos de datos](data-management/gs-models.md)
-   + [Enriquezca las audiencias de Adobe Experience Platform con datos externos](connections/destinations.md)
+      + [Configuración de modelos de datos](data-management/gs-models.md)
+   + [Enriquecimiento de públicos de Adobe Experience Platform con datos externos](connections/destinations.md)
 + Componer públicos {#compositions}
    + [Introducción a las composiciones](compositions/gs-compositions.md)
    + Cree y ejecute su primera composición {#create-composition}
       + [Principios clave de la creación de una composición](compositions/gs-composition-creation.md)
       + [Crear y configurar la composición](compositions/create-composition.md)
       + [Organización de actividades](compositions/orchestrate-activities.md)
-      + [Inicio y supervisión de la composición](compositions/start-monitor-composition.md)
-   + Trabajar con actividades {#activities}
+      + [Inicie y monitorice su composición](compositions/start-monitor-composition.md)
+   + Trabajo con actividades {#activities}
       + [Lista de actividades](compositions/activities/about-activities.md)
       + [AND-Join](compositions/activities/and-join.md)
-      + [Generar público destinatario](compositions/activities/build-audience.md)
-      + [Cambio de dimensión](compositions/activities/change-dimension.md)
+      + [Generar público](compositions/activities/build-audience.md)
+      + [Cambiar dimensión](compositions/activities/change-dimension.md)
       + [Combinar](compositions/activities/combine.md)
       + [Anulación de duplicación](compositions/activities/deduplication.md)
       + [Enriquecimiento](compositions/activities/enrichment.md)
       + [Bifurcación](compositions/activities/fork.md)
       + [Reconciliación](compositions/activities/reconciliation.md)
-      + [Guardado de público](compositions/activities/save-audience.md)
+      + [Guardar público](compositions/activities/save-audience.md)
       + [Planificador](compositions/activities/scheduler.md)
       + [División](compositions/activities/split.md)
       + [Espera](compositions/activities/wait.md)

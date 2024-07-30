@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Trabajo con públicos
-description: Aprenda a trabajar con audiencias
+title: Trabajar con públicos
+description: Descubra cómo trabajar con públicos
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 2%
+ht-degree: 25%
 
 ---
 
-# Trabajo con públicos {#gs-audiences}
+# Trabajar con públicos {#gs-audiences}
 
 La composición de audiencias federada de Experience Platform le permite [crear composiciones](../compositions/gs-compositions.md), donde puede aprovechar diversas actividades en un lienzo visual para crear audiencias y almacenarlas en el portal de audiencias de Adobe Experience Platform.
 
@@ -29,16 +29,16 @@ Puede activar estas audiencias en cualquier destino admitido por Adobe Experienc
 
 >[!NOTE]
 >
->Las audiencias creadas con Composición de audiencia federada de Adobe no se pueden editar. Para realizar modificaciones en una de estas audiencias, debe crear una audiencia nueva con una composición.
+>Los públicos creados con la composición de público federado de Adobe no se pueden editar. Para realizar modificaciones en uno de estos públicos, debe crear un público nuevo con una composición.
 
 ## Acceso a la audiencia en Adobe Experience Platform {#access-audience}
 
 Se puede acceder a las audiencias creadas con Composición de audiencia federada desde el Portal de audiencias, desde el menú **Audiencias**.
 
-La ficha **[!UICONTROL Examinar]** enumera todas las audiencias existentes almacenadas en Adobe Experience Platform. Puede identificar audiencias de Composición de audiencia federada en la lista usando la columna **[!UICONTROL Origen]** o los filtros disponibles en el panel izquierdo.
+La pestaña **[!UICONTROL Examinar]** lista todos los públicos existentes almacenados en Adobe Experience Platform. Puede identificar los públicos de la composición de público federado en la lista mediante la columna **[!UICONTROL Origen]** o los filtros disponibles en el panel izquierdo.
 
 ![](assets/audiences-list.png)
 
-Para obtener más información sobre cómo trabajar con audiencias en Adobe Experience Platform, consulte [Documentación del portal de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Para obtener más información sobre cómo trabajar con audiencias en Adobe Experience Platform, consulte [Documentación del portal de audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

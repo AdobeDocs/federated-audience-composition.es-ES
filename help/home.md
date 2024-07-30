@@ -6,21 +6,21 @@ exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 5%
+ht-degree: 85%
 
 ---
 
-# Documentación de composición de audiencia federada  {#fac-home}
+# Documentación de composición de público federado  {#fac-home}
 
-Le damos la bienvenida a la documentación de composición de audiencias federada de Adobe Experience Platform.
+Bienvenido a la documentación de la composición de público federado de Adobe Experience Platform.
 
-La composición de audiencias federada de Experience Platform proporciona a los usuarios de Adobe Real-Time CDP y Adobe Journey Optimizer flexibilidad y eficacia en la administración de datos. Con Federated Audience Composition, puede acceder a su almacén de datos empresarial mediante una interfaz de usuario fácil de usar para expertos en marketing para crear audiencias y aprovechar conjuntos de datos en flujos de trabajo de Adobe Experience Platform sin mantener los datos empresariales subyacentes. Esto le ayuda a reducir el movimiento de datos al acceder a almacenes de datos para casos de uso de experiencia.
+La composición de audiencias federada de Experience Platform proporciona a los usuarios de Adobe Real-Time CDP y Adobe Journey Optimizer flexibilidad y eficacia en la administración de datos. Con la composición de público federado puede acceder a su almacén de datos empresariales mediante la interfaz de usuario para expertos en marketing fácil de usar para generar públicos y aprovechar los conjuntos de datos en los flujos de trabajo de Adobe Experience Platform sin mantener los datos empresariales subyacentes. Esto ayuda a reducir el movimiento de datos al acceder a los almacenes de datos para casos de uso de Experience.
 
 >[!BEGINTABS]
 
 >[!TAB Novedades]
 
-La Composición de audiencias federada permite crear, refinar y enriquecer audiencias a través de composiciones federadas, utilizando datos sin procesar de almacenes de datos externos.
+La composición de público federado permite crear, refinar y enriquecer públicos a través de composiciones federadas, utilizando datos sin procesar de almacenes de datos externos.
 
 [![Imagen](assets/learn-more-button.svg)](start/release-notes.md)
 
@@ -30,9 +30,9 @@ Cree, configure, pruebe y guarde la conexión con la base de datos externa.
 
 [![Imagen](assets/learn-more-button.svg)](connections/federated-db.md)
 
->[!TAB Componer una audiencia]
+>[!TAB Crear un público]
 
-Adición y configuración de actividades (división, enriquecimiento, consulta, etc.) para crear composiciones y crear su audiencia.
+Añada y configure actividades (división, enriquecimiento, consulta, etc.) para generar las composiciones y crear su público.
 
 [![image](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -44,22 +44,22 @@ Adición y configuración de actividades (división, enriquecimiento, consulta, 
   <tr style="border: 0;">
     <td>
     <a href="start/get-started.md"><img src="assets/do-not-localize/start-quick.png"></a>
-    <div><strong>Introducción</strong><br/>Aprenda a crear y actualizar audiencias de Adobe Experience Platform directamente desde la base de datos, sin ningún proceso de ingesta.
+    <div><strong>Introducción</strong><br/>Aprenda a crear y actualizar públicos de Adobe Experience Platform directamente desde la base de datos, sin ningún proceso de ingesta.
     </div>
     </td>
     <td>
     <a href="data-management/gs-models.md"><img src="assets/do-not-localize/start-profiles.png"></a>
-    <div><strong>Datos de audiencia</strong><br/>Prepare y asigne sus datos en un modelo de datos personalizado y ampliable.
+    <div><strong>Datos del público</strong><br/>Prepare y asigne sus datos en un modelo de datos personalizado y ampliable.
     </div>
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Componer una audiencia</strong><br/>Agregar y configurar actividades (Dividir, Enriquecimiento, Consulta, etc.) para crear composiciones y crear su primera audiencia federada.
+    <div><strong>Componer un público</strong><br/>Añada y configure las actividades (división, enriquecimiento, consulta, etc.) para generar composiciones y crear su primer público federado.
     </div>
     </td>
     <td>
     <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
-    <div><strong>Preguntas más frecuentes</strong><br/>acerca de la composición de audiencias federadas.</div>
+    <div><strong>Preguntas frecuentes</strong><br/>Preguntas frecuentes acerca de la composición de público federado.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -73,4 +73,4 @@ Adición y configuración de actividades (división, enriquecimiento, consulta, 
 
 ## Recursos adicionales  {#additional-resources}
 
-[Documentación de Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Documentación del portal de audiencia de Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+[Documentación de Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home){target="_blank"} - [Documentación de Adobe Audience Portal](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutoriales](https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}

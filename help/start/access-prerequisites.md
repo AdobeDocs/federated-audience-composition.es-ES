@@ -2,9 +2,9 @@
 title: Requisitos previos y protecciones para la composición de audiencias federada
 description: Conozca los requisitos previos, permisos y protecciones para la Composición de audiencias federada
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 61ad8899f7de601b64c7b42cb873a172fcaea145
+source-git-commit: 75fa26d74931d63c94e138fe29d85088932acd7f
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '266'
 ht-degree: 13%
 
 ---
@@ -31,7 +31,7 @@ Añada estas direcciones IP a la lista de permitidos para conceder acceso a Comp
 
 ## Mecanismos de protección y limitaciones {#fac-guardrails}
 
-* El uso de audiencias y atributos de Federated Audience Composition no está disponible actualmente con Healthcare Shield y Privacy and Security Shield.
+* El uso de Federated Audience Composition no está disponible actualmente con Healthcare Shield y Privacy and Security Shield.
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->

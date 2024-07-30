@@ -4,10 +4,10 @@ title: Introducción a los esquemas
 description: Aprenda a empezar con esquemas
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
+source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 23%
+source-wordcount: '451'
+ht-degree: 22%
 
 ---
 
@@ -48,6 +48,11 @@ Al crear un esquema, puede definir una representación de la tabla en la composi
 * Asigne un nombre descriptivo para simplificar la comprensión del usuario
 * Decidir la visibilidad de cada campo, según su uso real
 * Seleccione su clave principal para vincular esquemas entre ellos según sea necesario en el [modelo de datos](../data-management/gs-models.md#data-model-start)
+
+>[!CAUTION]
+>
+>Al conectar varios entornos limitados con la misma base de datos, debe utilizar esquemas de trabajo diferentes.
+>
 
 ## Creación de un esquema {#schema-create}
 

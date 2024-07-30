@@ -4,10 +4,10 @@ title: Configuración de las bases de datos federadas
 description: Obtenga información sobre cómo configurar las bases de datos federadas
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 10%
+source-wordcount: '1621'
+ht-degree: 9%
 
 ---
 
@@ -73,6 +73,8 @@ Utilice bases de datos federadas para procesar la información almacenada en una
      >[!NOTE]
      >
      >Puede utilizar cualquier esquema de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre que tenga el permiso necesario para conectarse a este esquema.
+     >
+     >**Deben usarse esquemas de trabajo distintos** al conectar varias zonas protegidas con la misma base de datos.
 
 1. Seleccione la opción **[!UICONTROL Probar la conexión]** para comprobar la configuración.
 
@@ -197,6 +199,8 @@ Utilice bases de datos federadas para procesar la información almacenada en una
      >[!NOTE]
      >
      >Puede utilizar cualquier esquema de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre que tenga el permiso necesario para conectarse a este esquema.
+     >
+     >**Deben usarse esquemas de trabajo distintos** al conectar varias zonas protegidas con la misma base de datos.
 
    * **[!UICONTROL Clave privada]**: Haga clic en el campo **[!UICONTROL Clave privada]** para seleccionar los archivos .pem de la carpeta de configuración regional.
 
@@ -253,6 +257,8 @@ Utilice bases de datos federadas para procesar la información almacenada en una
      >[!NOTE]
      >
      >Puede utilizar cualquier esquema de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre que tenga el permiso necesario para conectarse a este esquema.
+     >
+     >**Deben usarse esquemas de trabajo distintos** al conectar varias zonas protegidas con la misma base de datos.
 
    * **[!UICONTROL Opciones]**: el conector admite las opciones detalladas en la tabla siguiente.
 

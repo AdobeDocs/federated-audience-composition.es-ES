@@ -3,9 +3,9 @@ title: Introducción a Experience Platform Federated Audience Composition
 description: Descubra qué es la composición de público federado de Adobe y cómo utilizarla en Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 57%
 
 ---
@@ -44,7 +44,7 @@ En esta versión, hay dos casos de uso disponibles:
 
 La composición de público federado de Adobe le permite crear y actualizar los públicos de Adobe Experience Platform directamente desde la base de datos, sin ningún proceso de ingesta.
 
-![diagrama](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
+<!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
 Pasos clave:
 

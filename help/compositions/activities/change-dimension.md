@@ -11,7 +11,7 @@ ht-degree: 42%
 
 ---
 
-# Cambio de dimensión {#change-dimension}
+# Cambiar dimensión {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"

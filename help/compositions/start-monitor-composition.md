@@ -7,11 +7,11 @@ exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
 source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
 source-wordcount: '635'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Inicio y supervisión de la composición {#start-monitor}
+# Inicie y monitorice su composición {#start-monitor}
 
 Una vez creada la composición y diseñadas las tareas que se van a realizar en el lienzo, puede iniciarla y supervisar cómo se está ejecutando.
 

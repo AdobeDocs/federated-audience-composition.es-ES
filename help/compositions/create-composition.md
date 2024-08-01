@@ -3,13 +3,13 @@ audience: end-user
 title: Creación de composiciones
 description: Aprenda a crear composiciones
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
-
 
 # Crear y configurar la composición {#create}
 

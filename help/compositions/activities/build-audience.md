@@ -3,15 +3,15 @@ audience: end-user
 title: Uso de la actividad Generar audiencia
 description: Aprenda a utilizar la actividad Generar audiencia
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
+exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 30%
 
 ---
 
-
-# Generar público destinatario {#build-audience}
+# Generar público {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"

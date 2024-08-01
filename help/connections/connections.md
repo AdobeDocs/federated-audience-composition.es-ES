@@ -7,7 +7,7 @@ exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -36,8 +36,8 @@ Para configurar una conexión con la base de datos, siga estos pasos:
    Los ajustes de configuración dependen del tipo de base de datos. Examine los vínculos siguientes para acceder a los detalles que necesita para configurar la conexión:
 
    * [Amazon Redshift](federated-db.md#amazon-redshift)
-   * [Azure synapse](federated-db.md#azure-synapse-redshift)
-   * [Google Big Query](federated-db.md#google-big-query)
+   * [Azure Synapse](federated-db.md#azure-synapse-redshift)
+   * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
 

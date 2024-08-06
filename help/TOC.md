@@ -1,18 +1,18 @@
 ---
-user-guide-title: Composición de audiencia federada de Experience Platform
-title: Documentación de composición de audiencia federada de Experience Platform
-breadcrumb-title: Composición de audiencia federada de Experience Platform
+user-guide-title: Composición de público federado de Experience Platform
+title: Documentación de la composición de público federado de Experience Platform
+breadcrumb-title: Composición de público federado de Experience Platform
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Documentación de composición de audiencia federada de Experience Platform {#using}
+# Documentación de la composición de público federado de Experience Platform {#using}
 
-+ [Documentación de composición de audiencia federada de Experience Platform](home.md)
++ [Documentación de la composición de público federado de Experience Platform](home.md)
 + [Notas de la versión](start/release-notes.md)
 + Introducción a composición de público federado {#start}
    + [¿Qué es una composición de público federado?](start/get-started.md)

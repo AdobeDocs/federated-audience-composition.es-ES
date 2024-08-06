@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Configuración de las bases de datos federadas
-description: Obtenga información sobre cómo configurar las bases de datos federadas
+title: Configuración de las bases de datos federados
+description: Aprenda sobre la configuración de las bases de datos federados
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1621'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-# Configuración de las bases de datos federadas {#federated-db}
+# Configuración de las bases de datos federados {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
->title="Bases de datos federadas"
->abstract="Las conexiones existentes a bases de datos federadas se muestran en esta pantalla. Para crear una conexión nueva, haga clic en el botón **[!UICONTROL Añadir base de datos federada]**."
+>title="Bases de datos federados"
+>abstract="En esta pantalla se muestran las conexiones con las bases de datos federados. Para crear una conexión nueva, haga clic en el botón **[!UICONTROL Añadir base de datos federada]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -28,9 +28,9 @@ ht-degree: 74%
 >title="Detalles de la base de datos federada"
 >abstract="Introduzca la configuración para conectarse a la nueva base de datos federada. Utilice el botón **[!UICONTROL Probar conexión]** para validar la configuración."
 
-La composición de audiencias federadas de Experience Platform permite al cliente crear y enriquecer audiencias de los almacenes de datos de terceros e importarlas a Adobe Experience Platform.
+La composición de público federado de Experience Platform permite al cliente generar y enriquecer los públicos de los almacenes de datos de terceros e importarlos a Adobe Experience Platform.
 
-Aprenda a crear, configurar, probar y guardar la conexión con la base de datos externa en [esta página](connections.md). A continuación, se encuentra la lista de bases de datos compatibles y la configuración detallada para cada una de ellas.
+En [esta página](connections.md) aprenda a crear, configurar, probar y guardar la conexión a la base de datos externos. A continuación, se muestra la lista de bases de datos compatibles y la configuración detallada de cada una.
 
 ## Bases de datos compatibles {#supported-db}
 
@@ -38,13 +38,13 @@ Con la Composición de público federado, puede conectarse a las siguientes base
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse](#azure-synapse-redshift)
-* [Google BigQuery](#google-big-query)
+* [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 
 ## Amazon Redshift {#amazon-redshift}
 
-Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Amazon Redshift.
+Utilice las bases de datos federados para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Amazon Redshift.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -68,13 +68,13 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
    * **[!UICONTROL Base de datos]**: escriba el nombre de la base de datos si no está especificada en el DSN. Se puede dejar vacío si ya está especificada en el DSN
 
-   * **[!UICONTROL Esquema de trabajo]**: Nombre del esquema de base de datos que se va a utilizar para las tablas de trabajo. Obtenga más información en [Documentación de Amazon](https://docs.aws.amazon.com/es_es/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
+   * **[!UICONTROL Esquema de trabajo]**: nombre del esquema de la base de datos que se utilizará para las tablas de trabajo. Obtenga más información en la [documentación de Amazon](https://docs.aws.amazon.com/es_es/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
-     >Puede utilizar cualquier esquema de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre que tenga el permiso necesario para conectarse a este esquema.
+     >Puede utilizar cualquier esquema de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre que tenga el permiso necesario para conectarse a ese esquema.
      >
-     >**Deben usarse esquemas de trabajo distintos** al conectar varias zonas protegidas con la misma base de datos.
+     >**Deben usarse esquemas de trabajo diferenciados** al conectar varias zonas protegidas a la misma base de datos.
 
 1. Seleccione la opción **[!UICONTROL Probar la conexión]** para verificar la configuración.
 
@@ -84,7 +84,7 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 ## Azure Synapse Redshift {#azure-synapse-redshift}
 
-Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Azure Synapse Redshift.
+Utilice las bases de datos federados para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Azure Synapse Redshift.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -118,12 +118,12 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 | Opción | Descripción |
 |---|---|
-| Autenticación | Tipo de autenticación admitida por el conector. Valor actual admitido: ActiveDirectoryMSI. Para obtener más información, consulte [Documentación de Microsoft SQL](https://learn.microsoft.com/es-es/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Ejemplo de cadenas de conexión n°8) |
+| Autenticación | Tipo de autenticación admitida por el conector. Valor actual admitido: ActiveDirectoryMSI. Para obtener más información, consulte la [documentación de Microsoft SQL](https://learn.microsoft.com/es-es/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Ejemplo de cadenas de conexión n.° 8) |
 
 
-## Google BigQuery {#google-big-query}
+## Google Big Query {#google-big-query}
 
-Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Google BigQuery.
+Utilice las bases de datos federados para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Google BigQuery.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -139,11 +139,11 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 1. Configure las opciones de autenticación de Google BigQuery:
 
-   * **[!UICONTROL Cuenta de servicio]**: escriba el correo electrónico de su **[!UICONTROL cuenta de servicio]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/iam/docs/service-accounts-create?hl=es-419){target="_blank"}.
+   * **[!UICONTROL Cuenta de servicio]**: escriba el correo electrónico de su **[!UICONTROL cuenta de servicio]**. Para obtener más información, consulte la [documentación de Google Cloud](https://cloud.google.com/iam/docs/service-accounts-create?hl=es-419){target="_blank"}.
 
-   * **[!UICONTROL Proyecto]**: escriba el nombre de su **[!UICONTROL Proyecto]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects?hl=es-419){target="_blank"}.
+   * **[!UICONTROL Proyecto]**: escriba el nombre de su **[!UICONTROL Proyecto]**. Para obtener más información, consulte la [documentación de Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects?hl=es-419){target="_blank"}.
 
-   * **[!UICONTROL Conjunto de datos]**: escriba el nombre de su **[!UICONTROL conjunto de datos]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
+   * **[!UICONTROL Conjunto de datos]**: escriba el nombre de su **[!UICONTROL conjunto de datos]**. Para obtener más información, consulte la [documentación de Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
    * **[!UICONTROL Ruta del archivo de clave]**: cargue el archivo de clave en el servidor. Solo se admiten archivos .json.
 
@@ -170,7 +170,7 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 ## Snowflake {#snowflake}
 
-Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Snowflake.
+Utilice las bases de datos federados para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Snowflake.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -198,9 +198,9 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
      >[!NOTE]
      >
-     >Puede utilizar cualquier esquema de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre que tenga el permiso necesario para conectarse a este esquema.
+     >Puede utilizar cualquier esquema de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre que tenga el permiso necesario para conectarse a ese esquema.
      >
-     >**Deben usarse esquemas de trabajo distintos** al conectar varias zonas protegidas con la misma base de datos.
+     >**Deben usarse esquemas de trabajo diferenciados** al conectar varias zonas protegidas a la misma base de datos.
 
    * **[!UICONTROL Clave privada]**: haga clic en el campo **[!UICONTROL Clave privada]** para seleccionar los archivos .pem de la carpeta de configuración regional.
 
@@ -218,17 +218,17 @@ El conector admite las siguientes opciones:
 |---|---|
 | esquema de trabajo | Esquema de base de datos que se va a utilizar para tablas de trabajo |
 | almacén | Nombre del almacén predeterminado que se va a utilizar. Anula el valor predeterminado del usuario. |
-| TimeZoneName | De forma predeterminada, vacío, lo que significa que se utiliza el servidor de aplicaciones de zona horaria del sistema. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. <br>Para obtener más información, consulte [esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
+| TimeZoneName | Al estar vacío de forma predeterminada, se utiliza la zona horaria del sistema del servidor de aplicaciones. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. <br>Para obtener más información, consulte [esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
 | WeekStart | Parámetro de sesión WEEK_START. De forma predeterminada, se establece en 0. <br>Para obtener más información, consulte [esta página](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
 | UseCachedResult | Parámetro de sesión USE_CACHED_RESULTS. De forma predeterminada, se establece en TRUE. Esta opción se puede utilizar para deshabilitar los resultados almacenados en caché de Snowflake. <br>Para obtener más información, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Número de hilos que se utilizan para el cargador masivo de Snowflake; a mayor número de hilos, mejor es el rendimiento con las cargas masivas más grandes. De forma predeterminada, se establece en 1. El número se puede ajustar en función del número de hilos del equipo. |
-| chunkSize | Determina el tamaño de archivo del fragmento del cargador masivo. De forma predeterminada, se establece en 128 MB. Se puede modificar para un rendimiento óptimo cuando se utiliza con bulkThreads. Los hilos más activos simultáneamente ofrecen un mejor rendimiento. <br>Para obtener más información, consulte [Documentación del Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
+| chunkSize | Determina el tamaño de archivo del fragmento del cargador masivo. De forma predeterminada, se establece en 128 MB. Se puede modificar para un rendimiento óptimo cuando se utiliza con bulkThreads. Los hilos más activos simultáneamente ofrecen un mejor rendimiento. <br>Para obtener más información, consulte la [documentación de Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Nombre de la fase interna de aprovisionamiento previo. Se utiliza en la carga masiva en lugar de crear una nueva fase temporal. |
 
 
 ## Vertica Analytics {#vertica-analytics}
 
-Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Vertica Analytics.
+Utilice las bases de datos federados para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Vertica Analytics.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -256,9 +256,9 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
      >[!NOTE]
      >
-     >Puede utilizar cualquier esquema de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre que tenga el permiso necesario para conectarse a este esquema.
+     >Puede utilizar cualquier esquema de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre que tenga el permiso necesario para conectarse a ese esquema.
      >
-     >**Deben usarse esquemas de trabajo distintos** al conectar varias zonas protegidas con la misma base de datos.
+     >**Deben usarse esquemas de trabajo diferenciados** al conectar varias zonas protegidas de la misma base de datos.
 
    * **[!UICONTROL Opciones]**: el conector admite las opciones detalladas en la tabla siguiente.
 
@@ -272,4 +272,4 @@ El conector admite las siguientes opciones:
 
 | Opción | Descripción |
 |---|---|
-| TimeZoneName | De forma predeterminada, vacío, lo que significa que se utiliza la zona horaria del sistema del servidor de aplicaciones. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. |
+| TimeZoneName | Al estar vacío de forma predeterminada, se utiliza la zona horaria del sistema del servidor de aplicaciones. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. |

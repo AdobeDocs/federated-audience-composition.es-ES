@@ -1,25 +1,25 @@
 ---
 title: Preguntas frecuentes
-description: Preguntas frecuentes sobre la composición de audiencias federada de Adobe Experience Platform
+description: Preguntas frecuentes sobre la composición de público federado de Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Preguntas frecuentes {#faq}
 
-A continuación se muestra una lista de preguntas más frecuentes sobre la Composición de audiencias federada de Adobe Experience Platform. Encuentre las preguntas frecuentes globales sobre el Servicio de segmentación de Adobe Experience Platform en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq){target="_blank"}.
+A continuación se muestra una lista de preguntas frecuentes sobre la composición de público federado de Adobe Experience Platform. Encuentre las preguntas frecuentes globales sobre el Servicio de segmentación de Adobe Experience Platform en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq){target="_blank"}.
 
 
 +++¿Cuáles son los permisos necesarios para acceder a la composición de público federado?
 
-La composición de audiencias federada requiere paquetes de Adobe Real-time Customer Data Platform y Adobe Journey Optimizer Prime o Ultimate. También debe haber adquirido el complemento Federated Audience Composition.
+La composición de público federado requiere los paquetes de Adobe Real-time Customer Data Platform y Adobe Journey Optimizer Prime o Ultimate. También debe haber adquirido el complemento Composición de público federado.
 
-Para utilizar la Composición de audiencia de audiencia federada, cada usuario debe agregarse a un perfil específico creado para cada zona protegida. Para obtener más información, consulte la página [Composición de audiencias federadas de acceso](access-prerequisites.md).
+Para utilizar la composición de público federado, cada usuario debe añadirse a un perfil específico creado para cada zona protegida. Para obtener más información, consulte la página [Acceso a composición de público federado](access-prerequisites.md).
 
 +++
 
@@ -29,7 +29,7 @@ En esta versión, la composición de público federado es compatible con lo sigu
 
 * Amazon Redshift
 * Azure Synapse
-* Google BigQuery
+* Google Big Query
 * Snowflake
 * Vertica Analytics
 
@@ -63,7 +63,7 @@ Sí, una vez establecida la conexión, la composición de público federado pued
 
 +++¿Hay algún almacenamiento temporal en la composición de público federado?
 
-No, la composición de público federado solo almacena metadatos (descripciones de esquema). No hay datos de clientes en transición. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
+No, la composición de público federado solo almacena metadatos (descripciones de esquema). No hay transición alguna de datos de clientes. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -73,15 +73,15 @@ La composición de público federado no mantiene ninguna copia física de los da
 
 Por ejemplo:
 
-* En el caso de la creación de audiencias, esta se crea en el almacén y se puede utilizar la composición de audiencia federada para realizar tareas de composición y manipulación de datos adicionales antes de publicar la audiencia resultante y los atributos asociados mediante Adobe Experience Platform Audience Portal. La definición de público y los atributos asociados se transfieren a Adobe Experience Platform.
+* En caso de una creación de público, el público se crea en su almacén y puede utilizar la composición de público federado para tareas de composición y manipulación de datos adicionales antes de publicar el público resultante y los atributos asociados mediante Adobe Experience Platform Audience Portal. La definición de público y los atributos asociados se transfieren a Adobe Experience Platform.
 Tenga en cuenta que la caducidad de los datos actuales para los públicos generados externamente es de 30 días. La caducidad de los datos reduce la cantidad excesiva de datos que se almacena en una organización. Una vez transcurrido el período de caducidad de los datos, el conjunto de datos asociado sigue siendo visible dentro del inventario de conjuntos de datos, pero ya no es posible activar el público y el recuento de perfiles se mostrará como cero. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * En caso de un enriquecimiento de público, el punto de partida es el público existente de Adobe Experience Platform. Aquí se pueden ver dos escenarios:
    1. Incorporar atributos adicionales de carga útil del público desde el almacén de datos federado: en este caso, los atributos adicionales que se añaden provienen de la definición del público. La caducidad de los datos para los públicos generados de forma externa es la misma que la mencionada anteriormente: 30 días.
-   1. Refine la audiencia de Adobe Experience Platform existente en función de los atributos adicionales que existan en su almacén de datos. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
+   1. Refine el público existente de Adobe Experience Platform en función de los atributos adicionales que existan en su almacén de datos. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
-+++Si los datos de los patrones de casos de uso de Creación de audiencias y Enriquecimiento de audiencias no se mantienen, ¿cómo se almacenan temporalmente?
++++Si los datos de los patrones de casos de uso de Creación y Enriquecimiento de público no se mantienen, ¿cómo se almacenan temporalmente?
 
 Los datos de público resultantes no se mantienen indefinidamente en Adobe Experience Platform ni en la composición de público federado. No se conservará más tiempo del requerido por su caso de uso. Los atributos de público introducidos como parte de la carga útil del público se mantienen únicamente como parte de la definición del público. La duración de conservación se basa en el TTL definido para cualquier público, el valor predeterminado es de 30 días.
 
@@ -89,7 +89,7 @@ Los datos de público resultantes no se mantienen indefinidamente en Adobe Exper
 
 +++¿Puedo eliminar un público cargado personalizado?
 
-No, en la versión actual no puede eliminar las audiencias cargadas personalizadas. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
+No, en la versión actual no puede eliminar los públicos cargados personalizados. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
 
 +++
 

@@ -1,12 +1,12 @@
 ---
-title: Página de inicio de documentación de composición de audiencia federada de Adobe Experience Platform
-description: Documentación del complemento Composición de audiencia federada
+title: Página de inicio de la documentación de composición de público federado de Experience Platform
+description: Documentación del complemento de composición de público federado
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 Bienvenido a la documentación de la composición de público federado de Adobe Experience Platform.
 
-La composición de audiencias federada de Experience Platform proporciona a los usuarios de Adobe Real-Time CDP y Adobe Journey Optimizer flexibilidad y eficacia en la administración de datos. Con la composición de público federado puede acceder a su almacén de datos empresariales mediante la interfaz de usuario para expertos en marketing fácil de usar para generar públicos y aprovechar los conjuntos de datos en los flujos de trabajo de Adobe Experience Platform sin mantener los datos empresariales subyacentes. Esto ayuda a reducir el movimiento de datos al acceder a los almacenes de datos para casos de uso de Experience.
+La composición de público federado de Experience Platform proporciona flexibilidad y eficacia en la administración de datos a los usuarios de Adobe Real-Time CDP y Adobe Journey Optimizer. Con la composición de público federado puede acceder a su almacén de datos empresariales mediante la interfaz de usuario para expertos en marketing fácil de usar para generar públicos y aprovechar los conjuntos de datos en los flujos de trabajo de Adobe Experience Platform sin mantener los datos empresariales subyacentes. Esto ayuda a reducir el movimiento de datos al acceder a los almacenes de datos para casos de uso de Experience.
 
 >[!BEGINTABS]
 

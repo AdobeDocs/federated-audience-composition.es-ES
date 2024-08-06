@@ -1,32 +1,32 @@
 ---
-title: Introducción a Experience Platform Federated Audience Composition
+title: Introducción a la composición de público federado de Experience Platform
 description: Descubra qué es la composición de público federado de Adobe y cómo utilizarla en Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # Introducción a la composición de público federado {#gs-fac}
 
-La Composición de audiencias federadas es un complemento para [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home){target="_blank"} y [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} que le permite generar y enriquecer audiencias de almacenes de datos de terceros e importarlas a Adobe Experience Platform. La composición de público federado ofrece una solución fácil y potente para conectar su almacén de datos empresariales directamente con Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer y para realizar consultas en las tablas de su almacén de datos.
+La composición de público federado es un complemento para [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home){target="_blank"} y [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} que le permite generar públicos de sus almacenes de datos de terceros, enriquecerlos e importarlos a Adobe Experience Platform. La composición de público federado ofrece una solución fácil y potente para conectar su almacén de datos empresariales directamente con Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer y para realizar consultas en las tablas de su almacén de datos.
 
 La composición de público federado de Adobe ayuda a los usuarios de las aplicaciones de Adobe Experience Platform a acceder a sus datos de clientes almacenados en sus almacenes de datos y plataformas de almacenamiento en la nube como Amazon Redshift, Azure Synapse Analytics y más. Los datos de clientes pueden almacenarse en varios almacenes de datos y ahora se puede acceder a ellos instantáneamente, sin necesidad de replicación. Las plataformas admitidas se enumeran en [esta página](../connections/federated-db.md#supported-db).
 
 ## Competencias {#rn-capabilities}
 
-La Composición de audiencias federada amplía el valor de Real-Time CDP y Journey Optimizer con un enfoque completo de la depuración y activación de audiencias:
+La composición de público federado amplía el valor de Real-Time CDP y Journey Optimizer gracias al enfoque integral sobre la organización y activación del público:
 
-* Amplíe el acceso a conjuntos de datos críticos basados en almacenes para crear audiencias de alto valor: Utilice los almacenes de datos existentes como sistema principal de registro, al tiempo que aprovecha las mejores aplicaciones de su clase para potenciar las buenas experiencias de los clientes.
+* Amplía el acceso a los conjuntos de datos críticos basados en almacenes para crear públicos de gran valor: utilice los almacenes de datos existentes como sistema principal de registro y aproveche las mejores aplicaciones para potenciar extraordinarias experiencias de cliente.
 
-* Compatibilidad completa para impulsar los casos de uso de participación: Composición de audiencias federada, emparejada con Real-Time CDP o Journey Optimizer, admite experiencias personalizadas iniciadas por la marca con audiencias federadas y ofrece experiencias en el momento activadas por eventos en tiempo real, combinadas con atributos de persona para satisfacer los requisitos de casos de uso entre equipos.
+* Compatibilidad completa para potenciar los casos de uso de participación: la composición de público federado, junto con Real-Time CDP o Journey Optimizer, admite experiencias personalizadas iniciadas por la marca con públicos federados y ofrece experiencias activadas por eventos en tiempo real, en combinación con atributos de persona para satisfacer los requisitos de casos de uso entre equipos.
 
-* Minimizar el movimiento y la duplicación de datos: cree audiencias a partir de conjuntos de datos que residen en un almacén de datos empresarial sin copiar los datos subyacentes para administrar perfiles y audiencias de marketing procesables.
+* Minimiza el movimiento y la duplicación de datos: cree públicos a partir de conjuntos de datos que residen en un almacén de datos empresariales sin copiar los datos subyacentes para administrar perfiles de marketing y públicos procesables.
 
-* Utilice un solo sistema para flujos de trabajo impulsados por experiencias: Depure audiencias ingeridas y federadas en Adobe Experience Platform y coordine las experiencias salientes en todos los canales.
+* Utilización de un solo sistema para flujos de trabajo basados en experiencias: organice públicos federados e ingeridos en Adobe Experience Platform y coordine las experiencias de salida en todos los canales.
 
 ## Casos de uso {#rn-uc}
 
@@ -34,9 +34,9 @@ A través de una interfaz de usuario para expertos en marketing fácil de usar, 
 
 En esta versión, hay dos casos de uso disponibles:
 
-1. Creación de audiencias: cree nuevas audiencias a partir de conjuntos de datos empresariales sin copiar los datos subyacentes y actívelas con destinos creados previamente&#x200B;
+1. Creación de públicos: genere nuevos públicos a partir de conjuntos de datos empresariales sin tener que copiar los datos subyacentes y active esos públicos con destinos prediseñados.
 
-1. Enriquecimiento de audiencias: enriquece las audiencias existentes en Adobe Experience Platform utilizando datos de audiencia compuestos que se han federado desde Enterprise Data Warehouse. Estos datos no se mantendrán en los perfiles de cliente de Adobe Experience Platform.
+1. Enriquecimiento de público: enriquezca los públicos existentes en Adobe Experience Platform utilizando datos de público compuestos que se hayan federado desde el almacén de datos empresariales. Estos datos no se mantendrán en los perfiles de clientes de Adobe Experience Platform.
 
 ![diagrama](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -58,16 +58,16 @@ Pasos clave:
 
 >[!NOTE]
 >
->Después de ejecutar la maquetación, la audiencia resultante se guarda en Adobe Experience Platform como audiencia externa y está disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Es accesible desde el menú **Audiencias**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Después de ejecutar la composición, el público resultante se guarda en Adobe Experience Platform como público externo, estará disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Se puede acceder desde el menú **Públicos**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Más información {#learn}
 
 <!-- Workflow + Workflow activities-->
 
 
-Obtenga información sobre cómo acceder a la composición de audiencias federadas, las protecciones y las limitaciones en [esta página](access-prerequisites.md).
+Obtenga más información para acceder a la composición de público federado, y sus protecciones y limitaciones en [esta página](access-prerequisites.md).
 
-Vea también las preguntas más frecuentes en [esta página](faq.md).
+También puede consultar las preguntas frecuentes en [esta página](faq.md).
 
 
 >[!CONTEXTUALHELP]

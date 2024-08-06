@@ -1,17 +1,17 @@
 ---
-title: Requisitos previos y protecciones para la composición de audiencias federada
-description: Conozca los requisitos previos, permisos y protecciones para la Composición de audiencias federada
+title: Requisitos previos y protecciones para la composición de público federado
+description: Conozca los requisitos previos, permisos y protecciones para la composición de público federado
 badge: label="Disponibilidad limitada" type="Informative"
 source-git-commit: 07170ee709c9e3c4ad0bb2390aa0d44adae3b059
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # Requisitos previos y protecciones {#fac-access}
 
-La composición de audiencias federada requiere paquetes de Adobe Real-time Customer Data Platform o Adobe Journey Optimizer **Prime** o **Ultimate**. Para acceder a esta funcionalidad, debe haber adquirido el complemento Federated Audience Composition.
+La composición de público federado requiere los paquetes de Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer **Prime**, o **Ultimate**. Para acceder a esta función es preciso haber adquirido el complemento Composición de público federado.
 
 >[!AVAILABILITY]
 >
@@ -19,21 +19,21 @@ La composición de audiencias federada requiere paquetes de Adobe Real-time Cust
 
 ## Permisos {#permissions}
 
-Al adquirir el complemento Composición de audiencia federada, se crea un perfil de producto para cada zona protegida activa en ese momento. Este perfil de producto se crea en el Admin Console en la tarjeta de producto **Adobe Experience Platform** y sigue esta convención de nombres: `ACP_FAC - <<SandboxName>> - admin.` Para acceder a la Composición de audiencia federada para una zona protegida específica, los usuarios deben agregarse al perfil de producto creado para esa zona protegida.
+Al adquirir el complemento Composición de público federado, se crea un perfil de producto para cada zona protegida activa en ese momento. Este perfil de producto se crea en Admin Console, en la tarjeta de producto **Adobe Experience Platform** y sigue la convención de nomenclatura siguiente: `ACP_FAC - <<SandboxName>> - admin.` para acceder a la Composición de público federado para una zona protegida específica, los usuarios deben agregarse al perfil de producto creado para esa zona protegida.
 
-Por ejemplo, si se activa una nueva zona protegida denominada &quot;fac-test&quot;, se crea un perfil de producto correspondiente &quot;ACP_FAC - fac-test - admin&quot;. Para acceder a la Composición de audiencia federada con esta zona protegida, los usuarios deben añadirse a este perfil de producto.
+Por ejemplo, si se activa una nueva zona protegida denominada «fac-test», se crea un perfil «ACP_FAC - fac-test - admin» de producto correspondiente. Para acceder a la composición de público federado con esta zona protegida, los usuarios deben añadirse a este perfil de producto.
 
-## Listado de IP permitidas {#ip}
+## Lista de IP permitidas {#ip}
 
-Para permitir que Federated Audience Composition acceda de forma segura a sus bases de datos, póngase en contacto con su representante de Adobe para obtener las direcciones IP de los servidores de Federated Audience Composition que accederán a ellas.
+Para permitir que Composición de público federado acceda de forma segura a sus bases de datos, póngase en contacto con su representante de Adobe para obtener las direcciones IP de los servidores de composición de público federado que accederán a ellas.
 
-Añada estas direcciones IP a la lista de permitidos para conceder acceso a Composición de audiencias federada.
+Añada estas direcciones IP a la lista de permitidos para conceder acceso a composición de público federado.
 
 ## Mecanismos de protección y limitaciones {#fac-guardrails}
 
-* La composición de audiencias federada no está disponible en este momento para los clientes [que están ingiriendo datos de mantenimiento](https://experienceleague.adobe.com/es/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"} y para los clientes de Adobe Journey Optimizer Privacy and Security Shield. [Más información](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}.
+* En estos momentos, la composición de público federado no está disponible para los clientes [que están ingiriendo datos de mantenimiento](https://experienceleague.adobe.com/es/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"} ni para los clientes del programa de protección de la seguridad y la privacidad de Adobe Journey Optimizer. [Más información](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}.
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
-* Los derechos, limitaciones de productos y protecciones de rendimiento enumerados en la [documentación de Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails){target="_blank"} se aplican a este complemento.
+* Los derechos, limitaciones de productos y protecciones de rendimiento se enumeran en la [documentación de Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails){target="_blank"}.

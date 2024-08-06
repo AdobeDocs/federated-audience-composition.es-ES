@@ -5,9 +5,9 @@ description: Obtenga más información acerca de cómo empezar con las composici
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 ## ¿Qué es una composición? {#what}
 
-La composición de público de Adobe le permite crear composiciones, donde puede aprovechar diversas actividades (división, exclusión, etc.) en un lienzo visual para crear públicos. Una vez hecho, las audiencias resultantes se guardan en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en destinos de Adobe Experience Platform y Adobe Journey Optimizer para segmentar clientes. [Descubra cómo trabajar con públicos](../start/audiences.md)
+La composición de público de Adobe le permite crear composiciones, donde puede aprovechar diversas actividades (división, exclusión, etc.) en un lienzo visual para crear públicos. Cuando haya finalizado, los públicos resultantes se guardan en Adobe Experience Platform junto con los públicos existentes y se podrán aprovechar en destinos de Adobe Experience Platform y Journey Optimizer para dirigirse a los clientes. [Descubra cómo trabajar con públicos](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

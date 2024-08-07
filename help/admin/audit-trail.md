@@ -7,7 +7,7 @@ exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="Seguimiento de auditoría"
->abstract="La capacidad Pista de auditoría proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en su entorno de composición de audiencia federada de Adobe Experience Platform en tiempo real."
+>abstract="La capacidad de seguimiento de auditoría proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en tiempo real en su entorno de composición de público federado de Adobe Experience Platform."
 
 La capacidad Audit trail proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en su entorno en tiempo real
 

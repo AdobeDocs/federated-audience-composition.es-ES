@@ -7,7 +7,7 @@ exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 76%
 
 La actividad **División** permite segmentar las poblaciones entrantes en varios subconjuntos en función de diferentes criterios de selección, como las reglas de filtrado o el tamaño de la población.
 
-## Configuración de la actividad División {#split-configuration}
+## Configuración de la actividad división {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
->title="Segmentos para actividad de división"
+>title="Segmentos para la actividad división"
 >abstract="Añada todos los subconjuntos que quiera para segmentar la población entrante.<br/></br>Cuando se ejecuta la actividad **División**, la población se segmenta en los diferentes subconjuntos en el orden en el que se añaden a la actividad. Antes de iniciar la composición, asegúrese de haber ordenado los subconjuntos en el orden que mejor se adapte a sus necesidades mediante los botones de flecha."
 
 >[!CONTEXTUALHELP]
@@ -34,12 +34,12 @@ La actividad **División** permite segmentar las poblaciones entrantes en varios
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_limit"
->title="Límite de la actividad de división"
+>title="Límite de la actividad división"
 >abstract="Para limitar el número de perfiles seleccionados por el subconjunto, active la opción **[!UICONTROL Habilitar límite]** y especifique el número o los porcentajes de la población que desea incluir."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_sorting"
->title="Ordenación de la actividad de división"
+>title="Ordenación de la actividad división"
 >abstract="Al establecer un límite de población para un subconjunto, puede clasificar los perfiles seleccionados en función de un atributo de perfil específico, en orden ascendente o descendente. Para ello, active la opción **Habilitar ordenación**. Por ejemplo, puede restringir un subconjunto para incluir solo los 50 perfiles con la cantidad de compra más alta."
 
 >[!CONTEXTUALHELP]
@@ -49,7 +49,7 @@ La actividad **División** permite segmentar las poblaciones entrantes en varios
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_generatesubsets"
->title="Generar todos los subconjuntos de la misma tabla"
+>title="Generar todos los subconjuntos en la misma tabla"
 >abstract="Active esta opción para agrupar todos los subconjuntos en una sola transición de salida."
 
 >[!CONTEXTUALHELP]
@@ -59,8 +59,8 @@ La actividad **División** permite segmentar las poblaciones entrantes en varios
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
->title="Habilitar la superposición de poblaciones de salida"
->abstract="La opción **[!UICONTROL Habilitar la superposición de poblaciones de salida]** permite administrar poblaciones que pertenecen a varios subconjuntos. Cuando el cuadro no está marcado, la actividad de división garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes. Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. "
+>title="Habilitar superposición de poblaciones de salida"
+>abstract="La opción **[!UICONTROL Habilitar superposición de poblaciones de salida]** permite administrar poblaciones que pertenecen a varios subconjuntos. Cuando el cuadro no está marcado, la actividad de división garantiza que los destinatarios no puedan estar presentes en varias transiciones de salida, aunque cumplan los criterios de varios subconjuntos. Los destinatarios se encuentran en el destino de la primera pestaña con criterios coincidentes. Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. "
 
 Siga estos pasos para configurar la actividad **División**:
 
@@ -100,7 +100,7 @@ Siga estos pasos para configurar la actividad **División**:
 
 1. La opción **[!UICONTROL Enable overlapping of output populations]** permite administrar poblaciones que pertenecen a varios subconjuntos:
 
-   * Cuando el cuadro no está marcado, la actividad de división garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes.
+   * Cuando el cuadro no está marcado, la actividad de división garantiza que los destinatarios no puedan estar presentes en varias transiciones de salida, aunque cumplan los criterios de varios subconjuntos. Los destinatarios se encuentran en el destino de la primera pestaña con criterios coincidentes.
    * Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. La práctica recomendada es utilizar criterios exclusivos.
 
 La actividad está configurada. En la ejecución, la población se segmenta en los diferentes subconjuntos, en el orden en que se hayan agregado a la actividad.

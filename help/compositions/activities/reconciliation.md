@@ -4,10 +4,10 @@ title: Uso de la actividad de reconciliación
 description: Aprenda a utilizar la actividad de reconciliación
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 43%
+ht-degree: 41%
 
 ---
 
@@ -64,7 +64,7 @@ Permite vincular datos no identificados a recursos existentes. La operación de 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="Atributo de reconciliación"
->abstract="Seleccione el atributo que desee utilizar para reconciliar los datos y confirme."
+>abstract="Seleccione el atributo que desea utilizar para reconciliar los datos y confirmar."
 
 Siga estos pasos para configurar la actividad **Reconciliation**:
 
@@ -87,7 +87,7 @@ Siga estos pasos para configurar la actividad **Reconciliation**:
 
       ![](../assets/reconciliation-advanced.png)
 
-1. Puede filtrar los datos para conciliarlos usando el botón **Crear filtro**. Esto permite crear una condición personalizada mediante el modelador de consultas.
+1. Puede filtrar los datos para reconciliarlos usando el botón **Crear filtro**. Esto permite crear una condición personalizada mediante el modelador de consultas.
 
 De forma predeterminada, los datos no conciliados se mantienen en la transición saliente y están disponibles en la tabla de trabajo para su uso futuro. Para quitar los datos no reconciliados, desactive la opción **Mantener datos no reconciliados**.
 

@@ -4,7 +4,7 @@ title: Creación de composiciones
 description: Aprenda a crear composiciones
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 23%

@@ -3,7 +3,7 @@ title: Introducción a la composición de público federado de Experience Platfo
 description: Descubra qué es la composición de público federado de Adobe y cómo utilizarla en Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 59b1bf080e06cfc33ea54cd914479f8ec2e182a7
+source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 97%
@@ -38,7 +38,7 @@ En esta versión, hay dos casos de uso disponibles:
 
 1. Enriquecimiento de público: enriquezca los públicos existentes en Adobe Experience Platform utilizando datos de público compuestos que se hayan federado desde el almacén de datos empresariales. Estos datos no se mantendrán en los perfiles de clientes de Adobe Experience Platform.
 
-![diagrama](assets/fac-use-cases-1.png){zoomable="yes"}{width="75%" align="center"}
+![diagrama](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Pasos clave {#gs-steps}
 

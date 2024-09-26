@@ -26,7 +26,7 @@ Esta actividad solo activa su transición saliente una vez que se activan todas 
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join_merging"
->title="Configurar la actividad de AND-join"
+>title="Configuración de la actividad And-join"
 >abstract="Seleccione las actividades que desea unir. En el menú desplegable **[!UICONTROL Conjunto principal]**, elija qué población de transición entrante desea conservar."
 
 Siga estos pasos para configurar la actividad **Combinación-Y**:

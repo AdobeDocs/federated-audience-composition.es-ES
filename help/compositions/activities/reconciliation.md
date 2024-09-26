@@ -7,7 +7,7 @@ exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
 source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 41%
+ht-degree: 43%
 
 ---
 
@@ -64,7 +64,7 @@ Permite vincular datos no identificados a recursos existentes. La operación de 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="Atributo de reconciliación"
->abstract="Seleccione el atributo que desea utilizar para reconciliar los datos y confirmar."
+>abstract="Seleccione el atributo que desee utilizar para reconciliar los datos y confirme."
 
 Siga estos pasos para configurar la actividad **Reconciliation**:
 

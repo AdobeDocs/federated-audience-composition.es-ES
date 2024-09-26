@@ -7,7 +7,7 @@ exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 22%
+ht-degree: 31%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
->title="Espacio de nombres de identidad"
+>title="Área de nombres de identidad"
 >abstract="Seleccione el área de nombres que se utilizará para los perfiles."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces" text="Más información en la Documentación de Experience Platform"
 
@@ -62,9 +62,9 @@ Siga estos pasos para configurar la actividad **Guardar audiencia**:
    * **Campo de identidad principal**: seleccione el campo que se usará para identificar los perfiles. Por ejemplo, su dirección de correo electrónico o número de teléfono.
    * **Área de nombres de identidad**: seleccione el área de nombres que se utilizará para identificar los perfiles, es decir, el tipo de datos que se utilizará como clave de identificación. Por ejemplo, si la dirección de correo electrónico se ha seleccionado como campo de identidad principal, se debe seleccionar el área de nombres de identidad **Correo electrónico**. Si el identificador único es el número de teléfono, se debe seleccionar el área de nombres de identidad **Teléfono**.
 
-## Acceso a la audiencia en Adobe Experience Platform {#access-audience}
+## Acceso al público en Adobe Experience Platform {#access-audience}
 
-Después de ejecutar la maquetación, la audiencia resultante se guarda en Adobe Experience Platform como audiencia externa y está disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Es accesible desde el menú **Audiencias**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Después de ejecutar la composición, el público resultante se guarda en Adobe Experience Platform como público externo, estará disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Se puede acceder desde el menú **Públicos**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 La audiencia creada incluye todos los campos seleccionados en la sección Asignaciones de audiencias. Puede segmentar esta audiencia en Journey Optimizer o activarla en cualquier destino admitido por Adobe Experience Platform.
 

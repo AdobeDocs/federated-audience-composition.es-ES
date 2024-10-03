@@ -5,9 +5,9 @@ description: Aprenda sobre la configuración de las bases de datos federados
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1622'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Con la Composición de público federado, puede conectarse a las siguientes base
 
 ## Amazon Redshift {#amazon-redshift}
 
-Utilice las bases de datos federados para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Amazon Redshift.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Amazon Redshift.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -84,7 +84,7 @@ Utilice las bases de datos federados para procesar la información almacenada en
 
 ## Azure Synapse Analytics {#azure-synapse}
 
-Utilice las bases de datos federados para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Azure synapse Analytics.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Azure Synapse Analytics.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -94,11 +94,11 @@ Utilice las bases de datos federados para procesar la información almacenada en
 
 1. Escriba el **[!UICONTROL Nombre]** de su base de datos federada.
 
-1. En el menú desplegable **[!UICONTROL Tipo]**, seleccione Análisis de Azure synapse.
+1. En el menú desplegable **[!UICONTROL Tipo]**, seleccione Azure Synapse Analytics.
 
    ![](assets/federated_database_4.png)
 
-1. Configure las opciones de autenticación de Azure synapse Analytics:
+1. Configure las opciones de autenticación de Azure Synapse Analytics:
 
    * **[!UICONTROL Servidor]**: escriba la URL del servidor de Azure Synapse.
 
@@ -123,7 +123,7 @@ Utilice las bases de datos federados para procesar la información almacenada en
 
 ## Google Big Query {#google-big-query}
 
-Utilice las bases de datos federados para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Google BigQuery.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Google BigQuery.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -141,7 +141,7 @@ Utilice las bases de datos federados para procesar la información almacenada en
 
    * **[!UICONTROL Cuenta de servicio]**: escriba el correo electrónico de su **[!UICONTROL cuenta de servicio]**. Para obtener más información, consulte la [documentación de Google Cloud](https://cloud.google.com/iam/docs/service-accounts-create?hl=es-419){target="_blank"}.
 
-   * **[!UICONTROL Proyecto]**: Escriba el identificador de su **[!UICONTROL Proyecto]**. Para obtener más información, consulte la [documentación de Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects?hl=es-419){target="_blank"}.
+   * **[!UICONTROL Proyecto]**: escriba el ID de su **[!UICONTROL Proyecto]**. Para obtener más información, consulte la [documentación de Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects?hl=es-419){target="_blank"}.
 
    * **[!UICONTROL Conjunto de datos]**: escriba el nombre de su **[!UICONTROL conjunto de datos]**. Para obtener más información, consulte la [documentación de Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
@@ -170,7 +170,7 @@ Utilice las bases de datos federados para procesar la información almacenada en
 
 ## Snowflake {#snowflake}
 
-Utilice las bases de datos federados para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Snowflake.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Snowflake.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -228,7 +228,7 @@ El conector admite las siguientes opciones:
 
 ## Vertica Analytics {#vertica-analytics}
 
-Utilice las bases de datos federados para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Vertica Analytics.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Vertica Analytics.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 

@@ -4,9 +4,9 @@ description: Descubra qué es la composición de público federado de Adobe y c�
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ A través de una interfaz de usuario para expertos en marketing fácil de usar, 
 
 En esta versión, hay dos casos de uso disponibles:
 
-1. Creación de audiencias: cree nuevas audiencias a partir de conjuntos de datos empresariales sin copiar los datos subyacentes y actívelas con destinos creados previamente.
+1. Creación de públicos: genere nuevos públicos a partir de conjuntos de datos empresariales sin tener que copiar los datos subyacentes y active esos públicos con destinos prediseñados.
 
 1. Enriquecimiento de público: enriquezca los públicos existentes en Adobe Experience Platform utilizando datos de público compuestos que se hayan federado desde el almacén de datos empresariales. Estos datos no se mantendrán en los perfiles de clientes de Adobe Experience Platform.
 

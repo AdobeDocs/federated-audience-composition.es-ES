@@ -4,10 +4,10 @@ title: Enriquecimiento de públicos de Adobe Experience Platform con datos exter
 description: Aprenda a refinar y enriquecer las audiencias de Adobe Experience Platform con datos de sus bases de datos federadas mediante el destino de composición de audiencias federadas.
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 

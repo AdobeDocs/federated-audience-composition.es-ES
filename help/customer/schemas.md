@@ -4,10 +4,10 @@ title: Introducción a los esquemas
 description: Aprenda a empezar con esquemas
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 

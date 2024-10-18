@@ -4,10 +4,10 @@ title: Configuración de las bases de datos federados
 description: Aprenda sobre la configuración de las bases de datos federados
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: ht
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="Propiedades de la base de datos federada"
+>title="Propiedades de base de datos federada"
 >abstract="Introduzca el nombre de la nueva base de datos federada y seleccione su tipo."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
->title="Detalles de la base de datos federada"
+>title="Detalles de base de datos federada"
 >abstract="Introduzca la configuración para conectarse a la nueva base de datos federada. Utilice el botón **[!UICONTROL Probar conexión]** para validar la configuración."
 
 La composición de público federado de Experience Platform permite al cliente generar y enriquecer los públicos de los almacenes de datos de terceros e importarlos a Adobe Experience Platform.

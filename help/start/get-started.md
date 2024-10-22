@@ -3,10 +3,10 @@ title: Introducción a la composición de público federado de Experience Platfo
 description: Descubra qué es la composición de público federado de Adobe y cómo utilizarla en Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 92%
+source-wordcount: '933'
+ht-degree: 87%
 
 ---
 
@@ -119,3 +119,31 @@ También puede consultar las preguntas frecuentes en [esta página](faq.md).
 >id="dc_orchestration_build_audience_dimension"
 >title="Seleccionar la dimensión de segmentación"
 >abstract="La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, en el caso de los correos electrónicos y SMS, el destinatario se selecciona en la tabla integrada Destinatarios. Para las notificaciones push, la dimensión de destino predeterminada son las aplicaciones del suscriptor."
+
+
+<!-- save profile IDs-->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile"
+>title="Guardar perfil"
+>abstract="Guardar perfil"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Guardar perfil Seleccionar esquema de AEP"
+>abstract="Guardar perfil Seleccionar esquema de AEP"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_aepschemalist"
+>title="Guardar lista de esquemas de AEP de perfil"
+>abstract="Guardar lista de esquemas de AEP de perfil"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepattribute"
+>title="Guardar atributo de esquema de AEP de perfil"
+>abstract="Guardar atributo de esquema de AEP de perfil"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectprimaryfield"
+>title="Guardar campo de identificación principal de selección de perfil"
+>abstract="Guardar campo de identificación principal de selección de perfil"

@@ -4,29 +4,16 @@ title: Uso de la actividad Consulta incremental
 description: Aprenda a utilizar la actividad Consulta incremental
 hide: true
 hidefromtoc: true
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 26%
+source-wordcount: '546'
+ht-degree: 19%
 
 ---
 
 # Consulta incremental {#incremental-query}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery"
->title="Consulta incremental"
->abstract="La actividad **Consulta incremental** le permite consultar la base de datos utilizando el Modeler de consulta. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto permite buscar solo elementos nuevos."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_history"
->title="Historial de consultas incrementales"
->abstract="Historial de consultas incrementales"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_processeddata"
->title="Datos procesados de consulta incremental"
->abstract="Datos procesados de consulta incremental"
+<!-- Warning : contextual help IDs are declared in /start/get-started.md-->
 
 La actividad **Incremental query** le permite consultar la base de datos de forma programada. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto permite buscar solo elementos nuevos.
 

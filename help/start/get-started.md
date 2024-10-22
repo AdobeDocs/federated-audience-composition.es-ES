@@ -3,10 +3,10 @@ title: Introducción a la composición de público federado de Experience Platfo
 description: Descubra qué es la composición de público federado de Adobe y cómo utilizarla en Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+workflow-type: tm+mt
+source-wordcount: '887'
+ht-degree: 92%
 
 ---
 
@@ -86,3 +86,36 @@ También puede consultar las preguntas frecuentes en [esta página](faq.md).
 >id="dc_federated_database_create_link"
 >title="Crear un vínculo"
 >abstract="Defina la configuración del vínculo."
+
+
+<!-- incremental query IDs -->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery"
+>title="Consulta incremental"
+>abstract="La actividad **Consulta incremental** le permite consultar la base de datos utilizando el Modeler de consulta. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto permite buscar solo elementos nuevos."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_history"
+>title="Historial de consultas incrementales"
+>abstract="Historial de consultas incrementales"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_processeddata"
+>title="Datos procesados de consulta incremental"
+>abstract="Datos procesados de consulta incremental"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_standard"
+>title="Modo de consulta incremental"
+>abstract="La consulta incremental permite ejecutar la misma consulta varias veces al excluir los resultados de ejecuciones anteriores para cada nueva ejecución."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_custom"
+>title="Modo de consulta incremental"
+>abstract="La consulta incremental le permite ejecutar la misma consulta varias veces solo teniendo en cuenta los resultados donde el campo de fecha es posterior o igual a la última fecha de ejecución de la actividad de consulta incremental."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_build_audience_dimension"
+>title="Seleccionar la dimensión de segmentación"
+>abstract="La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, en el caso de los correos electrónicos y SMS, el destinatario se selecciona en la tabla integrada Destinatarios. Para las notificaciones push, la dimensión de destino predeterminada son las aplicaciones del suscriptor."

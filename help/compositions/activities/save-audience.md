@@ -4,9 +4,9 @@ title: Uso de la actividad Guardar audiencia
 description: Aprenda a utilizar la actividad Guardar audiencia
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 62c6eac92bf5817840f55d9b4e981abd6c42ebaa
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '475'
 ht-degree: 31%
 
 ---
@@ -38,6 +38,10 @@ ht-degree: 31%
 La actividad **Guardar audiencia** le permite crear una audiencia nueva a partir de la población calculada en sentido ascendente en una composición. Las audiencias creadas se agregan a la lista de audiencias de Adobe Experience Platform y están disponibles a través del menú **Audiencias**. [Descubra cómo trabajar con públicos](../../start/audiences.md)
 
 Esta actividad se utiliza esencialmente para mantener los grupos de población calculados en la misma composición, convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **audiencia de compilación** o una actividad **Combinar**.
+
+>[!IMPORTANT]
+>
+>La actividad **Guardar audiencia** requiere un esquema y un conjunto de datos habilitados para el perfil. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 
 ## Configuración de la actividad Guardar audiencia {#save-audience-configuration}
 

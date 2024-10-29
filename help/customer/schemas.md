@@ -4,10 +4,10 @@ title: Introducción a los esquemas
 description: Aprenda a empezar con esquemas
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 20%
+source-wordcount: '515'
+ht-degree: 19%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="Seleccione la base de datos fuente que desea filtrar"
->abstract="Puede filtrar los esquemas en función de su fuente. Seleccione una o varias bases de datos federadas para mostrar sus esquemas."
+>abstract="Puede filtrar los esquemas en función de su fuente. Selecciona una o varias bases de datos federadas para mostrar sus esquemas."
 
 ## ¿Qué es un esquema? {#schema-start}
 
@@ -91,9 +91,9 @@ Para crear esquemas en Composición de audiencia federada, siga los pasos a cont
 
 ## Edición de un esquema {#schema-edit}
 
-Para editar un esquema:
+Para editar un esquema, siga estos pasos:
 
-1. Haga clic en el nombre del esquema en la carpeta de esquemas.
+1. Haga clic en el nombre del esquema en la lista.
 
 1. Haz clic en el botón **[!UICONTROL Editar]**.
 
@@ -102,6 +102,7 @@ Para editar un esquema:
    Puede acceder a las mismas opciones que al [crear un esquema](#schema-create).
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
+
 
 ## Vista previa de datos en un esquema {#schema-preview}
 
@@ -114,6 +115,16 @@ Haga clic en el vínculo **[!UICONTROL Calcular]** para obtener una vista previa
 Haga clic en el botón **[!UICONTROL Configurar columnas]** para cambiar la visualización de datos.
 
 ![](assets/schema_columns.png){zoomable="yes"}
+
+
+## Actualizar un esquema {#schema-refresh}
+
+Las tablas de una base de datos federada se pueden actualizar, agregar o quitar. En estos casos, debe actualizar el esquema en Adobe Experience Platform para alinearlo con los cambios más recientes. Para ello, haga clic en los tres puntos junto al nombre del esquema que desea actualizar y seleccione **Actualizar esquema**.
+
+También puede actualizar la definición del esquema al editarla.
+
+![](assets/schema_refresh.png){zoomable="yes"}
+
 
 ## Eliminar un esquema {#schema-delete}
 

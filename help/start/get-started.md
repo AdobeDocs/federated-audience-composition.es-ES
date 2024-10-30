@@ -4,9 +4,9 @@ description: Descubra qué es la composición de público federado de Adobe y c�
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -107,12 +107,12 @@ También puede consultar las preguntas frecuentes en [esta página](faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_standard"
->title="Modo de consulta incremental"
+>title="Historial de consultas incrementales"
 >abstract="La consulta incremental permite ejecutar la misma consulta varias veces al excluir los resultados de ejecuciones anteriores para cada nueva ejecución."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_custom"
->title="Modo de consulta incremental"
+>title="Historial de consultas incrementales"
 >abstract="La consulta incremental le permite ejecutar la misma consulta varias veces solo teniendo en cuenta los resultados donde el campo de fecha es posterior o igual a la última fecha de ejecución de la actividad de consulta incremental."
 
 >[!CONTEXTUALHELP]
@@ -145,5 +145,5 @@ También puede consultar las preguntas frecuentes en [esta página](faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectprimaryfield"
->title="Guardar campo de identificación principal de selección de perfil"
->abstract="Guardar campo de identificación principal de selección de perfil"
+>title="Guardar campo de identificación principal de seleccionar perfil"
+>abstract="Guardar campo de identificación principal de seleccionar perfil"

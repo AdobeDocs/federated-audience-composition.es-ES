@@ -4,7 +4,7 @@ title: Creación de composiciones
 description: Aprenda a crear composiciones
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 1a90702a02e30712e95fdf48342f1dea3b92e360
+source-git-commit: bd3223a77f490a43487e21662d8f766d4f9b06fc
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 22%
@@ -29,8 +29,8 @@ El primer paso para crear una composición es definir su etiqueta y configurar a
 
 1. Haga clic en **[!UICONTROL Crear]**. Se muestra el lienzo de composición. Ahora puede configurar la composición agregando tantas actividades como sea necesario para adaptarlas a sus necesidades antes de ejecutarla:
 
-   * [Aprenda a organizar actividades](#action-activities)
-   * [Aprenda a iniciar y supervisar una composición](#save)
+   * [Aprenda a organizar actividades](orchestrate-activities.md)
+   * [Aprenda a iniciar y supervisar una composición](start-monitor-composition.md)
 
 ## Configuración de los ajustes de la composición {#settings}
 

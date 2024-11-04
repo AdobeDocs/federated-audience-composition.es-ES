@@ -5,9 +5,9 @@ description: Aprenda sobre la configuración de las bases de datos federados
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1897'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 >[!NOTE]
 >
->Se admite el acceso seguro al almacén de datos de Snowflake externo a través de un vínculo privado. Tenga en cuenta que la cuenta de Snowflake debe estar alojada en Amazon Web Service (AWS) y ubicada en la misma región que el entorno de Composición de audiencia federada. Póngase en contacto con su representante de Adobe para obtener ayuda sobre la configuración del acceso seguro a su cuenta de Snowflake.
+>Se admite el acceso seguro al almacén de datos externo de Snowflake a través de un vínculo privado. Tenga presente que la cuenta de Snowflake debe estar alojada en Amazon Web Services (AWS) y ubicada en la misma región que el entorno de composición de público federado. Póngase en contacto con su representante de Adobe para obtener ayuda sobre la configuración del acceso seguro a su cuenta de Snowflake.
 >
 
 Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Snowflake.
@@ -279,7 +279,7 @@ El conector admite la siguiente opción:
 
 ## Databricks {#databricks}
 
-Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Databricks.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Databricks.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -289,21 +289,21 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 1. Escriba el **[!UICONTROL Nombre]** de su base de datos federada.
 
-1. En la lista desplegable **[!UICONTROL Tipo]**, seleccione Databricks.
+1. En el menú desplegable **[!UICONTROL Tipo]**, seleccione Databricks.
 
    ![](assets/databricks-config.png)
 
 1. Configure las opciones de autenticación de Databricks:
 
-   * **[!UICONTROL Servidor]**: Agregue el nombre de su servidor Databricks.
+   * **[!UICONTROL Servidor]**: añada el nombre del servidor de Databricks.
 
-   * **[!UICONTROL Ruta HTTP]**: agregue la ruta al clúster o al almacén. [Más información](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+   * **[!UICONTROL Ruta HTTP]**: añada la ruta al clúster o a Data Warehouse. [Más información](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
 
-   * **[!UICONTROL Contraseña]**: Agregue el token de acceso de la cuenta. [Más información](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+   * **[!UICONTROL Contraseña]**: añada el token de acceso de la cuenta. [Más información](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
 
-   * **[!UICONTROL Catálogo]**: agregue el campo para el catálogo Databricks.
+   * **[!UICONTROL Catálogo]**: añada el campo para el catálogo de Databricks.
 
-   * **[!UICONTROL Esquema de trabajo]**: Nombre del esquema de base de datos que se va a utilizar para las tablas de trabajo.
+   * **[!UICONTROL Esquema de trabajo]**: nombre del esquema de la base de datos que se utilizará para las tablas de trabajo.
 
      >[!NOTE]
      >

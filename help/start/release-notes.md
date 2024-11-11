@@ -3,8 +3,8 @@ title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
-workflow-type: ht
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
@@ -13,6 +13,13 @@ ht-degree: 100%
 # Notas de la versión {#rn-new}
 
 [!DNL Federated Audience Composition] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan en estas notas de la versión. [!DNL Federated Audience Composition] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información acerca de estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
+
+
+>[!AVAILABILITY]
+>
+>Ahora mismo, la composición de público federado de Adobe Experience Platform solo está disponible para un conjunto de organizaciones (disponibilidad limitada). 
+>
+
 
 ## Versión de octubre de 2024 {#fac-24-10}
 
@@ -46,10 +53,6 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 ## Versión de julio de 2024: composición de público federado (disponibilidad limitada) {#fac-la}
 
->[!AVAILABILITY]
->
->Ahora mismo, la composición de público federado de Adobe Experience Platform solo está disponible para un conjunto de organizaciones (disponibilidad limitada). 
->
 
 La composición de público federado es una función complementaria que proporciona a las empresas un acceso flexible y ampliado a los almacenes de datos empresariales para componer públicos utilizando conjuntos de datos empresariales esenciales y potenciar las experiencias iniciadas por la marca y en el momento. Con este nuevo enfoque, como usuario de [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home){target="_blank"} o [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"}, puede federar los datos de público directamente desde su almacén de datos existente para enriquecer los públicos de Adobe Experience Platform en un solo sistema.
 

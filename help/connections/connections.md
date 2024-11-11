@@ -4,16 +4,16 @@ title: Crear y administrar conexiones con bases de datos federadas
 description: Obtenga información sobre cómo crear y administrar conexiones con bases de datos federadas
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 6191b9849200723d00398644d038af5b082e7964
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 16%
+source-wordcount: '228'
+ht-degree: 5%
 
 ---
 
 # Creación de conexiones {#connections-fdb}
 
-La composición de público federado de Experience Platform permite al cliente generar y enriquecer los públicos de los almacenes de datos de terceros e importarlos a Adobe Experience Platform.
+La composición de audiencias federadas de Experience Platform permite al cliente crear y enriquecer audiencias de los almacenes de datos de terceros e importarlas a Adobe Experience Platform. Los almacenes de datos admitidos se enumeran en [esta sección](../start/access-prerequisites.md#supported-systems).
 
 Para trabajar con la base de datos federada y Adobe Experience Platform, primero debe establecer una conexión. Esta conexión se configura en una interfaz de usuario dedicada disponible en la interfaz de usuario de Adobe Experience Platform, como se detalla en esta página.
 

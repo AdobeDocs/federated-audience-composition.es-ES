@@ -2,10 +2,11 @@
 title: Requisitos previos y protecciones para la composición de público federado
 description: Conozca los requisitos previos, permisos y protecciones para la composición de público federado
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 07170ee709c9e3c4ad0bb2390aa0d44adae3b059
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +17,19 @@ La composición de público federado requiere los paquetes de Adobe Real-Time Cu
 >[!AVAILABILITY]
 >
 >Una vez recibido el correo electrónico de bienvenida de Adobe, la interfaz se actualiza y las funciones estarán disponibles para el usuario luego de unas horas.
+
+## Sistemas compatibles {#supported-systems}
+
+La Composición de audiencia federada admite los siguientes almacenes de nube:
+
+* Amazon Redshift
+* Azure Synapse
+* Databricks
+* Google Big Query
+* Snowflake
+* Vertica Analytics
+
+Aprenda a crear una conexión con estos sistemas en [esta página](../connections/connections.md).
 
 ## Permisos {#permissions}
 

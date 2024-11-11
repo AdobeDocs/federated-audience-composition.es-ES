@@ -3,10 +3,10 @@ title: Preguntas frecuentes
 description: Preguntas frecuentes sobre la composición de público federado de Adobe Experience Platform
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
-workflow-type: ht
-source-wordcount: '834'
-ht-degree: 100%
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 91%
 
 ---
 
@@ -25,20 +25,14 @@ Para utilizar la composición de público federado, cada usuario debe añadirse 
 
 +++¿Cuáles son los almacenes en la nube admitidos?
 
-En esta versión, la composición de público federado es compatible con lo siguiente:
-
-* Amazon Redshift
-* Azure Synapse
-* Google Big Query
-* Snowflake
-* Vertica Analytics
+La lista de sistemas admitidos con Federated Audience Composition está disponible en [esta página](../start/access-prerequisites.md#supported-systems).
 
 +++
 
 
 +++¿Se pueden consultar varios almacenes de datos en la misma composición?
 
-Sí, es posible consultar varios almacenes en la misma composición y combinar datos de varias fuentes. Normalmente, cada [actividad de composición](../compositions/orchestrate-activities.md) (consulta, enriquecimiento, división, etc.) ejecuta una o varias instrucciones SQL en función de la configuración de la actividad, las bases de datos de destino (puede haber varios casos de acceso de datos federado) y los resultados de una o más tablas de trabajo con el resultado de la ejecución. Estas tablas de trabajo se utilizan como entrada para actividades consecutivas.
+Sí, es posible consultar varios almacenes en la misma composición y combinar datos de varias fuentes. Normalmente, cada [actividad de composición](../compositions/orchestrate-activities.md) (Consulta, Enriquecimiento, División, etc.) ejecuta una o varias instrucciones SQL en función de la configuración de la actividad, las bases de datos de destino (puede haber varios casos de acceso de datos federado) y los resultados de una o más tablas de trabajo con el resultado de la ejecución. Estas tablas de trabajo se utilizan como entrada para actividades consecutivas.
 
 +++
 
@@ -46,8 +40,6 @@ Sí, es posible consultar varios almacenes en la misma composición y combinar d
 
 No, es decisión suya si desea configurar el acceso a una base de datos o esquema dedicado o compartido. Le recomendamos que cree un esquema para la composición de público federado y que copie/comparta únicamente conjuntos de datos de casos empresariales.
 +++
-
-
 
 +++¿Tengo acceso a todas las tablas del esquema dedicado?
 
@@ -59,7 +51,6 @@ Sí, una vez establecida la conexión, la composición de público federado pued
 * Ocultar las columnas innecesarias
 * Guardar la descripción de esas tablas
 +++
-
 
 +++¿Hay algún almacenamiento temporal en la composición de público federado?
 
@@ -89,7 +80,7 @@ Los datos de público resultantes no se mantienen indefinidamente en Adobe Exper
 
 +++¿Puedo eliminar un público cargado personalizado?
 
-No, en la versión actual no puede eliminar los públicos cargados personalizados. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
+No, en la versión actual no puede eliminar las audiencias cargadas personalizadas.-->
 
 +++
 
@@ -98,11 +89,3 @@ No, en la versión actual no puede eliminar los públicos cargados personalizado
 No, el servicio de identidad no se utiliza durante una composición. Los datos entre las distintas fuentes utilizadas en la composición se unen mediante una lógica definida por el usuario (tal y como se expresa en el modelo subyacente), por ejemplo, ID de CRM, número de cuenta de usuario, etc. Debe seleccionar la identidad que se utiliza como identificador en el público para poder seleccionarla en el almacén de datos. En un público resultante de la composición de público federado, debe identificar el espacio de nombres de identidad para la identidad en el conjunto de datos resultante.
 
 +++
-
-<!--
-+++If I want to combine federated data with datasets that live in Adobe Experience Platform, how is this done?
-
-Likewise, the Identity Service is not being leveraged in this scenario either. The data model underpinning a composition needs to express how the data warehouse data and the audience to be enriched are related. e.g. assume an existing audience in Adobe Experience Platform contains several attributes, among which is the CRM ID. Assume transactional data is in the data warehouse containing purchases with various attributes, including the CRM ID of the purchaser. The end-user would have to specify that the CRM ID for both objects is used to stitch the two objects together.
-
-+++
--->

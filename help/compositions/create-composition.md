@@ -2,11 +2,10 @@
 audience: end-user
 title: Creación de composiciones
 description: Aprenda a crear composiciones
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: bd3223a77f490a43487e21662d8f766d4f9b06fc
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '499'
 ht-degree: 22%
 
 ---

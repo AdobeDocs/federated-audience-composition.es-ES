@@ -2,11 +2,10 @@
 audience: end-user
 title: Pista de auditoría
 description: Conozca cómo se registran las acciones y los eventos y cómo se puede acceder a ellos en la pista de auditoría
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 11%
 
 ---

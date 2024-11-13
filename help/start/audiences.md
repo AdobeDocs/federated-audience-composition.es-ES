@@ -2,11 +2,10 @@
 audience: end-user
 title: Trabajar con públicos
 description: Descubra cómo trabajar con públicos
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
-source-wordcount: '311'
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '309'
 ht-degree: 100%
 
 ---

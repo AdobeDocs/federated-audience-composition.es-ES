@@ -2,12 +2,11 @@
 audience: end-user
 title: Enriquecimiento de públicos de Adobe Experience Platform con datos externos
 description: Aprenda a refinar y enriquecer las audiencias de Adobe Experience Platform con datos de sus bases de datos federadas mediante el destino de composición de audiencias federadas.
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 5%
+source-wordcount: '571'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Crear un destino"
->abstract="Introduzca la configuración para conectarse a la nueva base de datos federada. Utilice el botón **[!UICONTROL Conectar con destino]** para validar la configuración."
+>abstract="Introduce la configuración para conectarte a la nueva base de datos federada. Utilice el botón **[!UICONTROL Conectar con destino]** para validar la configuración."
 
 Adobe Experience Platform permite la integración perfecta de audiencias desde Audience Portal con sus bases de datos externas mediante **Adobe de destino de composición de audiencia federada**. Con esta integración, puede aprovechar las audiencias existentes en las composiciones y enriquecerlas o refinarlas con datos de bases de datos externas para crear nuevas audiencias.
 

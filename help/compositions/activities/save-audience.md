@@ -2,11 +2,10 @@
 audience: end-user
 title: Uso de la actividad Guardar audiencia
 description: Aprenda a utilizar la actividad Guardar audiencia
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 62c6eac92bf5817840f55d9b4e981abd6c42ebaa
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '473'
 ht-degree: 31%
 
 ---

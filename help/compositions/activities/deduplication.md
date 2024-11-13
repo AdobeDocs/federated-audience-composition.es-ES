@@ -2,11 +2,10 @@
 audience: end-user
 title: Uso de la actividad de anulación de duplicación
 description: Aprenda a utilizar la actividad de anulación de duplicación
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '563'
 ht-degree: 46%
 
 ---

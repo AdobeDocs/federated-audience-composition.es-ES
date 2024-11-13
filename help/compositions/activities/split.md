@@ -2,11 +2,10 @@
 audience: end-user
 title: Uso de la actividad División
 description: Descubra más información sobre cómo utilizar la actividad Split
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '923'
 ht-degree: 78%
 
 ---

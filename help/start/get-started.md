@@ -1,11 +1,10 @@
 ---
 title: Introducción a la composición de público federado de Experience Platform
 description: Descubra qué es la composición de público federado de Adobe y cómo utilizarla en Adobe Experience Platform
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
-workflow-type: ht
-source-wordcount: '933'
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '931'
 ht-degree: 100%
 
 ---

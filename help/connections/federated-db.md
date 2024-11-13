@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Configuración de las bases de datos federados
+title: Configuración de las bases de datos federadas
 description: Aprenda sobre la configuración de las bases de datos federados
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1897'
 ht-degree: 100%
 
 ---
 
-# Configuración de las bases de datos federados {#federated-db}
+# Configuración de las bases de datos federadas {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"

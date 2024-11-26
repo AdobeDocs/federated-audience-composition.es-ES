@@ -3,9 +3,9 @@ title: Página de inicio de la documentación de composición de público federa
 description: Documentación del complemento de composición de público federado
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Cree, configure, pruebe y guarde la conexión con la base de datos externa.
 
 >[!TAB Crear un público]
 
-Añada y configure actividades (Split, Enrichment, Query, etc.) para crear composiciones y crear su audiencia.
+Añada y configure actividades (división, enriquecimiento, consulta, etc.) para crear composiciones y crear su público.
 
 [![image](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -53,7 +53,7 @@ Añada y configure actividades (Split, Enrichment, Query, etc.) para crear compo
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Componga una audiencia</strong><br/>Agregue y configure actividades (División, Enriquecimiento, Consulta, etc.) para crear composiciones y crear su primera audiencia federada.
+    <div><strong>Cree un público</strong><br/>Añada y configure actividades (división, enriquecimiento, consulta, etc.) para crear composiciones y crear su primer público federado.
     </div>
     </td>
     <td>

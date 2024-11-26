@@ -3,9 +3,9 @@ title: Preguntas frecuentes
 description: Preguntas frecuentes sobre la composición de público federado de Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ Para utilizar la composición de público federado, cada usuario debe añadirse 
 
 +++¿Cuáles son los almacenes en la nube admitidos?
 
-La lista de sistemas admitidos con Federated Audience Composition está disponible en [esta página](../start/access-prerequisites.md#supported-systems).
+La lista de sistemas admitidos con la composición de público federado está disponible en [esta página](../start/access-prerequisites.md#supported-systems).
 
 +++
 
 
 +++¿Se pueden consultar varios almacenes de datos en la misma composición?
 
-Sí, es posible consultar varios almacenes en la misma composición y combinar datos de varias fuentes. Normalmente, cada [actividad de composición](../compositions/orchestrate-activities.md) (Consulta, Enriquecimiento, División, etc.) ejecuta una o varias instrucciones SQL en función de la configuración de la actividad, las bases de datos de destino (puede haber varios casos de acceso de datos federado) y los resultados de una o más tablas de trabajo con el resultado de la ejecución. Estas tablas de trabajo se utilizan como entrada para actividades consecutivas.
+Sí, es posible consultar varios almacenes en la misma composición y combinar datos de varias fuentes. Normalmente, cada [actividad de composición](../compositions/orchestrate-activities.md) (consulta, enriquecimiento, división, etc.) ejecuta una o varias instrucciones SQL en función de la configuración de la actividad, las bases de datos de destino (puede haber varios casos de acceso de datos federado) y los resultados de una o más tablas de trabajo con el resultado de la ejecución. Estas tablas de trabajo se utilizan como entrada para actividades consecutivas.
 
 +++
 
@@ -79,7 +79,7 @@ Los datos de público resultantes no se mantienen indefinidamente en Adobe Exper
 
 +++¿Puedo eliminar un público cargado personalizado?
 
-No, en la versión actual no puede eliminar las audiencias cargadas personalizadas.-->
+No, en la versión actual no puede eliminar los públicos cargados personalizados. -->
 
 +++
 

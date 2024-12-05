@@ -3,9 +3,9 @@ title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 96931b019e840d6f0351c9b2349eeffcdd4a55b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 88%
 
 ### Mejoras {#fac-24-11-improvements}
 
-Esta versión incorpora la siguiente mejora.
+Esta versión incorpora la mejora que se indica a continuación.
 
-* **lista de permitidos de direcciones IP**
+* **Lista de direcciones IP permitidas**
 
-  Al agregar una base de datos federada en la interfaz de usuario de Adobe Experience Platform, ahora puede ver directamente las direcciones IP asociadas con las instancias de Composición de audiencia federada. Esto le permite copiar y autorizar fácilmente estas IP para conectarse a la base de datos y mejorar la seguridad y la flexibilidad. [Más información](../connections/connections.md)
+  Al añadir una base de datos federada en la interfaz de usuario de Adobe Experience Platform, ahora puede ver directamente las direcciones IP asociadas con las instancias de Composición de público federado. Esto le permite copiar y autorizar fácilmente estas IP para conectarse a la base de datos y tener mayor seguridad y flexibilidad. [Más información](../connections/connections.md)
 
 ## Versión de octubre de 2024 {#fac-24-10}
 

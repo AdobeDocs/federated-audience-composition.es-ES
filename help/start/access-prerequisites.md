@@ -2,10 +2,10 @@
 title: Requisitos previos y protecciones para la composición de público federado
 description: Conozca los requisitos previos, permisos y protecciones para la composición de público federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 8d498adf9f8998639e39f8f98de098682f828628
+source-git-commit: d26fa10fa7e28c1515a625e2e0b10a000aa2d7d5
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 86%
+source-wordcount: '311'
+ht-degree: 82%
 
 ---
 
@@ -50,7 +50,7 @@ Añada estas direcciones IP a la lista de permitidos para conceder acceso a comp
 
 ## Mecanismos de protección y limitaciones {#fac-guardrails}
 
-* En estos momentos, la composición de público federado no está disponible para los clientes [que están ingiriendo datos de mantenimiento](https://experienceleague.adobe.com/es/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"} ni para los clientes del programa de protección de la seguridad y la privacidad de Adobe Journey Optimizer. [Más información](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}.
+* La composición de audiencias federada no está disponible actualmente para los clientes [que están ingiriendo datos de mantenimiento](https://experienceleague.adobe.com/es/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}<!-- and to Adobe Journey Optimizer Privacy and Security Shield customers-->. [Más información](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->

@@ -2,10 +2,10 @@
 title: Preguntas frecuentes
 description: Preguntas frecuentes sobre la composición de público federado de Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+source-git-commit: 1bdab901b7aae3019b672a34eab184405c927f56
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 82%
 
 ---
 
@@ -79,12 +79,26 @@ Los datos de público resultantes no se mantienen indefinidamente en Adobe Exper
 
 +++¿Puedo eliminar un público cargado personalizado?
 
-No, en la versión actual no puede eliminar los públicos cargados personalizados. -->
+No, en la versión actual no puede eliminar los públicos cargados personalizados. 
 
 +++
 
 +++Si combino datos de varias fuentes, ¿cómo se unen esos datos? ¿Se usa el servicio de identidad?
 
 No, el servicio de identidad no se utiliza durante una composición. Los datos entre las distintas fuentes utilizadas en la composición se unen mediante una lógica definida por el usuario (tal y como se expresa en el modelo subyacente), por ejemplo, ID de CRM, número de cuenta de usuario, etc. Debe seleccionar la identidad que se utiliza como identificador en el público para poder seleccionarla en el almacén de datos. En un público resultante de la composición de público federado, debe identificar el espacio de nombres de identidad para la identidad en el conjunto de datos resultante.
+
++++
+
++++¿Cómo se respetan las preferencias de consentimiento del cliente para las audiencias generadas externamente que se importan en la Composición de audiencias federada?
+
+A medida que los datos del cliente se capturan desde varios canales, la vinculación de identidad y las políticas de combinación permiten que estos datos se consoliden en un único perfil del cliente en tiempo real. La información sobre las preferencias de consentimiento de los clientes se almacena y evalúa en el nivel de perfil.
+
+Los destinos descendentes de Real-Time CDP y Journey Optimizer comprueban en cada perfil las preferencias de consentimiento antes de la activación. La información de consentimiento de cada perfil se compara con los requisitos de consentimiento para un destino en particular. Si el perfil no cumple los requisitos, no se envía a un destino.
+
+Cuando se incorpora una audiencia externa en Federated Audience Composition, se concilia con los perfiles existentes utilizando un ID principal como correo electrónico o ECID. Como resultado, las políticas de consentimiento existentes permanecerán en vigor durante toda la activación.
+
+>[!NOTE]
+>
+>Dado que las variables de carga útil no se almacenan en el perfil sino en el lago de datos, no debe incluir información de consentimiento en las audiencias generadas externamente. En su lugar, utilice otros canales de ingesta de Adobe Experience Platform en los que se importen datos de perfil.
 
 +++

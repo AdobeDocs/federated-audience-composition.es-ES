@@ -2,10 +2,10 @@
 title: Preguntas frecuentes
 description: Preguntas frecuentes sobre la composición de público federado de Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: f06414fbacc2e11a374313f3614f76a10eeadc0b
+source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '827'
+ht-degree: 100%
 
 ---
 
@@ -88,17 +88,18 @@ No, en la versión actual no puede eliminar los públicos cargados personalizado
 No, el servicio de identidad no se utiliza durante una composición. Los datos entre las distintas fuentes utilizadas en la composición se unen mediante una lógica definida por el usuario (tal y como se expresa en el modelo subyacente), por ejemplo, ID de CRM, número de cuenta de usuario, etc. Debe seleccionar la identidad que se utiliza como identificador en el público para poder seleccionarla en el almacén de datos. En un público resultante de la composición de público federado, debe identificar el espacio de nombres de identidad para la identidad en el conjunto de datos resultante.
 
 +++
+<!--
++++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 
-+++¿Cómo se respetan las preferencias de consentimiento del cliente para las audiencias generadas externamente que se importan en la Composición de audiencias federada?
+As customer data is captured from multiple channels, identity stitching and merge policies allow this data to be consolidated in a single Real-Time Customer Profile. Information on the customers' consent preferences are stored and evaluated at the profile level.
 
-A medida que los datos del cliente se capturan desde varios canales, la vinculación de identidad y las políticas de combinación permiten que estos datos se consoliden en un único perfil del cliente en tiempo real. La información sobre las preferencias de consentimiento de los clientes se almacena y evalúa en el nivel de perfil.
+Downstream Real-Time CDP and Journey Optimizer destinations check each profile for consent preferences prior to activation. Each profile's consent information is compared against consent requirements for a particular destination. If the profile does not satisfy the requirements, that profile is not sent to a destination.
 
-Los destinos descendentes de Real-Time CDP y Journey Optimizer comprueban en cada perfil las preferencias de consentimiento antes de la activación. La información de consentimiento de cada perfil se compara con los requisitos de consentimiento para un destino en particular. Si el perfil no cumple los requisitos, no se envía a un destino.
-
-Cuando se incorpora una audiencia externa en Federated Audience Composition, se concilia con los perfiles existentes utilizando un ID principal como correo electrónico o ECID. Como resultado, las políticas de consentimiento existentes permanecerán en vigor durante toda la activación.
+When an external audience is ingested into Federated Audience Composition, it is reconciliated with existing profiles using a primary ID such as email or ECID. As a result, the existing consent policies will remain in force throughout activation.
 
 >[!NOTE]
 >
->Dado que las variables de carga útil no se almacenan en el perfil sino en el lago de datos, no debe incluir información de consentimiento en las audiencias generadas externamente. En su lugar, utilice otros canales de ingesta de Adobe Experience Platform en los que se importen datos de perfil.
+>Since the payload variables are not stored in the profile but in the data lake, you should not include consent information in externally generated audiences. Instead, use other Adobe Experience Platform ingestion channels where profile data is imported.
 
 +++
+-->

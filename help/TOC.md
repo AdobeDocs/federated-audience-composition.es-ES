@@ -2,10 +2,10 @@
 user-guide-title: Composición de público federado de Experience Platform
 title: Documentación de la composición de público federado de Experience Platform
 breadcrumb-title: Composición de público federado de Experience Platform
-source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: ht
-source-wordcount: '145'
-ht-degree: 100%
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 100%
 + Introducción a composición de público federado {#start}
    + [¿Qué es una composición de público federado?](start/get-started.md)
    + [Requisitos previos y protecciones](start/access-prerequisites.md)
+   + [Acceder a composición de audiencia federada](start/feature-access.md)
    + [Trabajar con públicos](start/audiences.md)
    + [Preguntas frecuentes](start/faq.md)
 + Pasos para la configuración {#config}
@@ -39,7 +40,7 @@ ht-degree: 100%
       + [Generar público](compositions/activities/build-audience.md)
       + [Cambiar dimensión](compositions/activities/change-dimension.md)
       + [Combinar](compositions/activities/combine.md)
-      + [Anulación de duplicación](compositions/activities/deduplication.md)
+      + [Deduplicación](compositions/activities/deduplication.md)
       + [Enriquecimiento](compositions/activities/enrichment.md)
       + [Bifurcación](compositions/activities/fork.md)
       + [Reconciliación](compositions/activities/reconciliation.md)

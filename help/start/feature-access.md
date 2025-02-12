@@ -1,7 +1,8 @@
 ---
 title: Acceder a composición de audiencia federada
 description: Obtenga información acerca de los permisos necesarios para Federated Audience Composition
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
+source-git-commit: 224dc190e998298c68bf60567bbb280b652355a2
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 36%
@@ -20,7 +21,7 @@ Por ejemplo, si se activa una nueva zona protegida denominada «fac-test», se c
 
 >[!AVAILABILITY]
 >
->Los permisos están disponibles como parte de la versión de febrero.
+>Los permisos están disponibles como parte de la versión de marzo.
 
 Para obtener acceso a **Federated Audience Composition**, primero debe asegurarse de que el permiso **Administrar datos federados** esté asignado a las funciones correspondientes. Estas funciones deben asignarse a los usuarios que necesiten acceso a **Federated Audience Composition**.
 
@@ -53,5 +54,3 @@ Para asignar esta función a nuevos usuarios:
 1. Introduzca el nombre o la dirección de correo electrónico del usuario o seleccione en la lista disponible. Una vez finalizado, haga clic en **[!UICONTROL Guardar]**.
 
 El usuario recibirá un correo electrónico con instrucciones para acceder a su instancia. Si el usuario no estaba ya creado, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/users).
-
-

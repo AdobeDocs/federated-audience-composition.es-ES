@@ -3,10 +3,10 @@ audience: end-user
 title: Enriquecimiento de públicos de Adobe Experience Platform con datos externos
 description: Aprenda a refinar y enriquecer las audiencias de Adobe Experience Platform con datos de sus bases de datos federadas mediante el destino de composición de audiencias federadas.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 6%
+source-wordcount: '586'
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 >title="Crear un destino"
 >abstract="Introduce la configuración para conectarte a la nueva base de datos federada. Utilice el botón **[!UICONTROL Conectar con destino]** para validar la configuración."
 
-Adobe Experience Platform permite la integración perfecta de audiencias desde Audience Portal con sus bases de datos externas mediante **Adobe de destino de composición de audiencia federada**. Con esta integración, puede aprovechar las audiencias existentes en las composiciones y enriquecerlas o refinarlas con datos de bases de datos externas para crear nuevas audiencias.
+Adobe Experience Platform permite la integración perfecta de audiencias desde Audience Portal con sus bases de datos externas mediante **Adobe Federated Audience Composition destination**. Con esta integración, puede aprovechar las audiencias existentes en las composiciones y enriquecerlas o refinarlas con datos de bases de datos externas para crear nuevas audiencias.
 
 Para ello, debe configurar una nueva conexión en Adobe Experience Platform al destino de composición de audiencia federada de Adobe. Puede utilizar un planificador para enviar una audiencia determinada a frecuencias regulares y seleccionar los atributos específicos que desea incluir, como los ID para la reconciliación de datos. Si ha aplicado políticas de gobernanza y privacidad a su audiencia, se conservarán y se devolverán al portal de audiencia una vez que se haya actualizado la audiencia.
 
@@ -34,11 +34,22 @@ Los pasos principales para enviar audiencias de Adobe Experience Platform a la C
 
    ![](assets/destination-new.png)
 
-1. Proporcione un nombre para la nueva conexión y elija el **[!UICONTROL tipo de conexión]** que desea usar y la **[!UICONTROL base de datos federada]** a la que desea conectarse y haga clic en **[!UICONTROL Siguiente]**.
+1. Escriba un nombre para la nueva conexión y seleccione **[!UICONTROL Tipo de conexión]** de las siguientes conexiones disponibles:
+
+   * Amazon Redshift
+   * Azure Synapse Analytics
+   * Google Big Query
+   * Snowflake
+   * Vertica Analytics
+   * Databricks
+
+1. Seleccione la **[!UICONTROL base de datos federada]** a la que desee conectarse y haga clic en **[!UICONTROL Siguiente]**.
 
    ![](assets/destination-configure.png)
 
-   La sección **[!UICONTROL Alertas]** le permite habilitar alertas para recibir notificaciones sobre el estado del flujo de datos a su destino. Para obtener más información sobre las alertas, consulte la documentación de Adobe Experience Platform sobre la suscripción de [a alertas de destinos mediante la interfaz de usuario](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+1. En la sección **[!UICONTROL Alertas]**, puede habilitar las alertas para recibir notificaciones sobre el estado del flujo de datos a su destino.
+
+   Para obtener más información sobre las alertas, consulte la documentación de Adobe Experience Platform sobre la suscripción de [a alertas de destinos mediante la interfaz de usuario](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. En el paso **[!UICONTROL Política de gobernanza y acciones de aplicación]**, puede definir las políticas de gobernanza de datos y asegurarse de que los datos utilizados sean compatibles cuando las audiencias se envíen y estén activas.
 

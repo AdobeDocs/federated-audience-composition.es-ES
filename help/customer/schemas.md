@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a los esquemas
 description: Aprenda a empezar con esquemas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 3c0cbda211eed4fa1a8fdab015d4db4c9ad0cf30
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '516'
 ht-degree: 19%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 19%
 
 Un esquema es una representación de una tabla de la base de datos. Es un objeto dentro de la aplicación que define cómo se asocian los datos a las tablas de la base de datos.
 
-Al crear un esquema, puede definir una representación de la tabla en la composición de audiencia federada de Experience Platform:
+Al crear un esquema, puede definir una representación de la tabla en la Composición de audiencias federada de Experience Platform:
 
 * Asigne un nombre descriptivo para simplificar la comprensión del usuario
 * Decidir la visibilidad de cada campo, según su uso real
@@ -57,19 +57,21 @@ Al crear un esquema, puede definir una representación de la tabla en la composi
 
 Para crear esquemas en Composición de audiencia federada, siga los pasos a continuación:
 
-1. En la sección **[!UICONTROL DATOS FEDERADOS]**, vaya al vínculo **[!UICONTROL Modelos]**. Vaya a la pestaña **[!UICONTROL Esquema]** y haga clic en el botón **[!UICONTROL Crear esquema]**.
+1. En la sección **[!UICONTROL Datos federados]**, obtenga acceso al menú **[!UICONTROL Modelos]**. Vaya a la pestaña **[!UICONTROL Esquema]** y haga clic en **[!UICONTROL Crear esquema]**.
 
    ![](assets/schema_create.png){zoomable="yes"}
 
    Este paso le permite acceder a una nueva pantalla con una lista desplegable en la que puede encontrar las bases de datos conectadas a su entorno. Obtenga más información acerca de la conexión a la base de datos en [esta sección](../connections/connections.md#connections-fdb).
 
-1. Seleccione la base de datos de origen en la lista y haga clic en la ficha **[!UICONTROL Agregar tablas]**.
+1. Seleccione la base de datos de origen en la lista y haga clic en **[!UICONTROL Siguiente]**.
 
    ![](assets/schema_tables.png){zoomable="yes"}
 
    Puede ver la lista de todas las tablas de la base de datos.
 
-1. Al agregar las tablas para las que desea crear el esquema, tiene acceso a sus campos como se muestra a continuación:
+1. Seleccione las tablas para las que desea crear el esquema.
+
+1. Cada tabla seleccionada genera un esquema con las columnas seleccionadas. Configure el esquema y sus columnas según sea necesario.
 
    ![](assets/schema_fields.png){zoomable="yes"}
 
@@ -77,31 +79,28 @@ Para crear esquemas en Composición de audiencia federada, siga los pasos a cont
 
    * cambiar la etiqueta del esquema
    * añadir una descripción
-   * cambie el nombre de todos los campos y establezca su visibilidad
+   * cambie el nombre de todas las etiquetas de campo y establezca su visibilidad
    * seleccione la clave principal del esquema
 
-   Por ejemplo, para la siguiente tabla importada:
+   El esquema se puede definir de la siguiente manera:
 
-   ![](assets/schema_lumaorder.png){zoomable="yes"}
+   ![](assets/schema_example.png)
 
-   El esquema se puede definir de esta manera:
-
-   ![](assets/schema_lumaorders.png){zoomable="yes"}
+1. Después de completar la configuración, haz clic en **[!UICONTROL Listo]**.
 
 ## Edición de un esquema {#schema-edit}
 
 Para editar un esquema, siga estos pasos:
 
-1. Haga clic en el nombre del esquema en la lista.
+1. Acceda al esquema creado anteriormente.
 
 1. Haz clic en el botón **[!UICONTROL Editar]**.
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
-   Puede acceder a las mismas opciones que al [crear un esquema](#schema-create).
+1. Desde la ventana **[!UICONTROL Editar esquema]**, puede acceder y configurar las mismas opciones que al [crear un esquema](#schema-create).
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
-
 
 ## Vista previa de datos en un esquema {#schema-preview}
 
@@ -114,7 +113,6 @@ Haga clic en el vínculo **[!UICONTROL Calcular]** para obtener una vista previa
 Haga clic en el botón **[!UICONTROL Configurar columnas]** para cambiar la visualización de datos.
 
 ![](assets/schema_columns.png){zoomable="yes"}
-
 
 ## Actualizar un esquema {#schema-refresh}
 

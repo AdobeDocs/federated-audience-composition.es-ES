@@ -2,7 +2,7 @@
 title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: a9d39ec1f7d678ce35b95898370c258b844e7fab
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 82%
@@ -17,7 +17,7 @@ ht-degree: 82%
 
 Esta versión incorpora los cambios que se indican a continuación.
 
-* **Compatibilidad con Microsoft Fabrics**
+* **Soporte de Microsoft Fabric**
 
   Ahora puede establecer conexiones con bases de datos de Microsoft Fabric a través de Federated Audience Composition. [Más información](../connections/federated-db.md)
 

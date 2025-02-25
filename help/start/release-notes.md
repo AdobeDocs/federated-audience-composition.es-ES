@@ -3,9 +3,9 @@ title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 82%
 
 ## Versión de febrero de 2025 {#fac-25-2}
 
-Esta versión incorpora los cambios que se indican a continuación.
+Esta versión incorpora los cambios que se enumeran a continuación.
 
-* **Soporte de Microsoft Fabric**
+* **Compatibilidad con Microsoft Fabric**
 
-  Ahora puede establecer conexiones con bases de datos de Microsoft Fabric a través de Federated Audience Composition. [Más información](../connections/federated-db.md)
+  Ahora puede establecer conexiones con bases de datos de Microsoft Fabric mediante la Composición de público federado. [Más información](../connections/federated-db.md)
 
 * **Compatibilidad con Amazon Redshift Spectrum**
 
-  Amazon Redshift Spectrum ahora es compatible con las conexiones de base de datos Amazon Redshift. [Más información](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift Spectrum ahora es compatible con las conexiones de base de datos de Amazon Redshift. [Más información](../connections/federated-db.md#amazon-redshift)
 
 * **Experiencia mejorada de creación de esquemas**
 
   El proceso de creación de esquemas se ha mejorado a través de una interfaz de usuario actualizada, diseñada para ser más intuitiva y fácil de navegar. Estas mejoras ofrecen a los profesionales de los datos una forma más fluida y eficaz de desarrollar modelos de datos. [Más información](../customer/schemas.md)
 
-* **Compatibilidad con enriquecimiento de audiencia para Databricks**
+* **Compatibilidad con el enriquecimiento del público de Databricks**
 
-  Ahora puede utilizar Databricks en el flujo Leer audiencia, lo que habilita la actividad de las bases de datos de Databricks y permite configurarlas como un nuevo destino. [Más información](../connections/destinations.md)
+  Ahora puede utilizar Databricks en el flujo Leer público, lo que habilita la actividad de las bases de datos de Databricks y permite configurarlas como un nuevo destino. [Más información](../connections/destinations.md)
 
 <!--
 * **Federated Audience Composition permissions**

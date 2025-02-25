@@ -3,9 +3,9 @@ title: Requisitos previos y protecciones para la composición de público federa
 description: Conozca los requisitos previos, permisos y protecciones para la composición de público federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Al adquirir el complemento composición de público federado, tiene derecho a do
 
 ## Permisos {#permissions}
 
-Para acceder a la Composición de audiencia federada, los usuarios deben añadirse al perfil de producto específico de la zona protegida creado tras la compra y se les debe asignar el permiso **[!UICONTROL Administrar datos federados]**. [Más información](feature-access.md)
+Para acceder a la Composición de público federado, los usuarios deben añadirse al perfil de producto específico de la zona protegida creado tras la compra y se les debe asignar el permiso **[!UICONTROL Administrar datos federados]**. [Más información](feature-access.md)
 
 ## Lista de IP permitidas {#ip}
 

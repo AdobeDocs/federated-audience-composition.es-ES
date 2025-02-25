@@ -3,9 +3,9 @@ title: Preguntas frecuentes
 description: Preguntas frecuentes sobre la composición de público federado de Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,9 +77,9 @@ Los datos de público resultantes no se mantienen indefinidamente en Adobe Exper
 
 +++
 
-+++¿Puedo eliminar una audiencia?
++++¿Puedo eliminar un público?
 
-No, en la versión actual no puede eliminar audiencias de Composición de audiencia federada.
+No, en la versión actual no puede eliminar públicos de Composición de público federado.
 
 +++
 

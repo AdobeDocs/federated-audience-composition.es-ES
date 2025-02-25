@@ -4,9 +4,9 @@ title: Configuración de las bases de datos federadas
 description: Aprenda sobre la configuración de las bases de datos federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -332,7 +332,7 @@ El conector admite las siguientes opciones:
 ## Microsoft Fabric {#microsoft-fabric}
 
 
-Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Microsoft Fabric.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Microsoft Fabric.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -342,13 +342,13 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 1. Escriba el **[!UICONTROL Nombre]** de su base de datos federada.
 
-1. En la lista desplegable **[!UICONTROL Tipo]**, seleccione Microsoft Fabric.
+1. En el menú desplegable **[!UICONTROL Tipo]**, seleccione Microsoft Fabric.
 
    ![](assets/microsoft-config.png)
 
-1. Configure las opciones de autenticación de Microsoft Fabric:
+1. Configure la configuración de autenticación de Microsoft Fabric:
 
-   * **[!UICONTROL Servidor]**: escriba la dirección URL del servidor de Microsoft Fabric.
+   * **[!UICONTROL Servidor]**: escriba la URL del servidor de Microsoft Fabric.
 
    * **[!UICONTROL ID de aplicación]**: escriba su ID de aplicación de Microsoft Fabric.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Enriquecimiento de públicos de Adobe Experience Platform con datos externos
 description: Aprenda a refinar y enriquecer las audiencias de Adobe Experience Platform con datos de sus bases de datos federadas mediante el destino de composición de audiencias federadas.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
+source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 8%
+source-wordcount: '588'
+ht-degree: 9%
 
 ---
 
@@ -42,6 +42,7 @@ Los pasos principales para enviar audiencias de Adobe Experience Platform a la C
    * Snowflake
    * Vertica Analytics
    * Databricks
+   * Microsoft Fabric
 
 1. Seleccione la **[!UICONTROL base de datos federada]** a la que desee conectarse y haga clic en **[!UICONTROL Siguiente]**.
 

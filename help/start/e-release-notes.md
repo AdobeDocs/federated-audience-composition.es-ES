@@ -3,10 +3,10 @@ title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 hide: true
 hidefromtoc: true
-source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
+source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 68%
+source-wordcount: '898'
+ht-degree: 65%
 
 ---
 
@@ -35,6 +35,10 @@ Esta versión incorpora las siguientes mejoras.
 * **Exportación de audiencia**
 
   La Composición de audiencias federada ahora admite la exportación de audiencias grandes, gestionando tamaños de archivo de hasta 20 GB.
+
+* **Asistente de IA**
+
+  El asistente de IA es una función de interfaz de usuario diseñada para ayudarle a navegar y comprender los conceptos de Adobe y obtener perspectivas operativas para su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluida la Composición de audiencias federada.
 
 ### Compatibilidad {#fac-25-3-compat}
 

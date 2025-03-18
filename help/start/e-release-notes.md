@@ -3,10 +3,10 @@ title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 69%
+source-wordcount: '857'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 69%
 
 ## Versión de marzo de 2025 {#fac-25-3}
 
-Esta versión incorpora la mejora que se indica a continuación.
+### Mejoras {#fac-25-3-improvements}
+
+Esta versión incorpora las siguientes mejoras.
 
 * **Permisos federados de composición de audiencias**
 
@@ -34,7 +36,7 @@ Esta versión incorpora la mejora que se indica a continuación.
 
   La Composición de audiencias federada ahora admite la exportación de audiencias grandes, gestionando tamaños de archivo de hasta 20 GB.
 
-### Compatibilidad {#fac-25.3-compat}
+### Compatibilidad {#fac-25-3-compat}
 
 * **Conexión de Databricks**
 

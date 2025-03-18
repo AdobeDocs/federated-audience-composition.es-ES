@@ -2,9 +2,9 @@
 user-guide-title: Composición de público federado de Experience Platform
 title: Documentación de la composición de público federado de Experience Platform
 breadcrumb-title: Composición de público federado de Experience Platform
-source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
-workflow-type: ht
-source-wordcount: '154'
+source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+workflow-type: tm+mt
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 100%
 
 + [Documentación de la composición de público federado de Experience Platform](home.md)
 + [Notas de la versión](start/release-notes.md)
++ [Notas de la versión](start/e-release-notes.md)
 + Introducción a composición de público federado {#start}
    + [¿Qué es una composición de público federado?](start/get-started.md)
    + [Requisitos previos y protecciones](start/access-prerequisites.md)

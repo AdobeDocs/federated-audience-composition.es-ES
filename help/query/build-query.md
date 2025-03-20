@@ -228,7 +228,7 @@ Los operadores disponibles son:
 
 Además, puede crear grupos intermedios de componentes si hace clic en el botón **+** de una transición. Esto le permite agregar un operador en esta ubicación específica para agrupar varios componentes y refinar la consulta.
 
-VIP VIP En el ejemplo siguiente, hemos creado un grupo intermedio para incluir los resultados de las audiencias &quot;recompensar con un&quot; o &quot;&quot;.
+En el ejemplo siguiente, hemos creado un grupo intermedio para incluir los resultados de las audiencias &quot;VIP to recompensa&quot; o &quot;Super VIP&quot;.
 
 ![](assets/query-intermediate-group.png){zoomable="yes"}
 
@@ -236,7 +236,7 @@ VIP VIP En el ejemplo siguiente, hemos creado un grupo intermedio para incluir l
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
->title="Propiedades de regla"
+>title="Propiedades de la regla"
 >abstract="Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **[!UICONTROL Propiedades de regla]** situado en el lado derecho.<br/>Este panel permite mostrar los datos resultantes, recuperar una versión de código SQL de la consulta y comprobar el número de registros de destino.<br/>Utilice el botón **[!UICONTROL Seleccionar o guardar filtro]** para guardar la consulta como un filtro predefinido o reemplazar el contenido del lienzo con un filtro existente."
 
 Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **[!UICONTROL Propiedades de regla]** ubicado a la derecha. Este panel se muestra al crear una consulta para crear una audiencia. Las operaciones disponibles son:

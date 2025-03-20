@@ -10,17 +10,17 @@ ht-degree: 46%
 
 ---
 
-# Anulación de duplicación {#deduplication}
+# Deduplicación {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Campos para identificar los duplicados"
->abstract="En la sección **[!UICONTROL Campos para identificar los duplicados]**, haga clic en el botón **[!UICONTROL Añadir atributo]** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar."
+>abstract="En la sección **[!UICONTROL Campos para identificar duplicados]**, haga clic en el botón **[!UICONTROL Añadir atributo]** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
->title="Actividad de anulación de duplicación"
->abstract="La actividad de **anulación de duplicación** permite eliminar duplicados en los resultados de las actividades entrantes. Se utiliza principalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos direccionados."
+>title="Actividad de deduplicación"
+>abstract="La actividad de **deduplicación permite** eliminar duplicados en los resultados de las actividades entrantes. Se utiliza principalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos direccionados."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
@@ -29,8 +29,8 @@ ht-degree: 46%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
->title="Configuración de la anulación de duplicación"
->abstract="Para eliminar duplicados en los datos entrantes, defina el método de anulación de duplicación en los campos siguientes. De forma predeterminada, solo se guarda un registro. También debe seleccionar el modo de anulación de duplicación en función de una expresión o un atributo. De forma predeterminada, el registro que se va a excluir de los duplicados se selecciona de forma aleatoria."
+>title="Configuración de la deduplicación"
+>abstract="Para eliminar duplicados en los datos entrantes, defina el método de deduplicación en los campos siguientes. De forma predeterminada, solo se guarda un registro. También debe seleccionar el modo de deduplicación en función de una expresión o un atributo. De forma predeterminada, el registro que se va a excluir de los duplicados se selecciona de forma aleatoria."
 
 La actividad **Deduplication** le permite eliminar duplicados en los resultados de las actividades entrantes, por ejemplo perfiles duplicados en la lista de destinatarios. La actividad **Deduplication** se utiliza generalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos de destino.
 
@@ -42,7 +42,7 @@ Siga estos pasos para configurar la actividad **Deduplication**:
 
 1. Si la actividad tiene varias transiciones de entrada, seleccione la transición que se utilizará para realizar la anulación de duplicación en la lista desplegable **[!UICONTROL Conjunto principal]**
 
-1. En la sección **[!UICONTROL Campos para identificar los duplicados]**, haga clic en el botón **[!UICONTROL Añadir atributo]** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar.
+1. En la sección **[!UICONTROL Campos para identificar duplicados]**, haga clic en el botón **[!UICONTROL Añadir atributo]** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar.
 
    ![](../assets/deduplication.png)
 

@@ -14,8 +14,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
->title="Seguimiento de auditoría"
->abstract="La capacidad de seguimiento de auditoría proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en tiempo real en su entorno de composición de público federado de Adobe Experience Platform."
+>title="Pista de auditoría"
+>abstract="La función de pista de auditoría proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en tiempo real en su entorno de composición de público federado de Adobe Experience Platform."
 
 La capacidad Audit trail proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en su entorno en tiempo real
 
@@ -23,7 +23,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente en tiem
 
 +++ Más información sobre las Entidades disponibles de pista de auditoría
 
-* **Seguimiento de auditoría de esquemas de Source** le permite supervisar las actividades y las modificaciones recientes realizadas en los esquemas en la instancia de Composición de audiencias federada de Adobe.
+* **Seguimiento de auditoría de esquemas de Source** le permite supervisar las actividades y las modificaciones recientes realizadas en los esquemas en la instancia de composición de audiencias federada de Adobe.
 
   Para obtener información detallada sobre los esquemas, consulte esta [página](../customer/schemas.md).
 

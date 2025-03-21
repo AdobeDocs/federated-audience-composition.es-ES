@@ -3,10 +3,10 @@ audience: end-user
 title: Pista de auditoría
 description: Conozca cómo se registran las acciones y los eventos y cómo se puede acceder a ellos en la pista de auditoría
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 11%
+source-wordcount: '343'
+ht-degree: 12%
 
 ---
 
@@ -16,8 +16,6 @@ ht-degree: 11%
 >id="dc_audit_trail"
 >title="Pista de auditoría"
 >abstract="La función de pista de auditoría proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en tiempo real en su entorno de composición de público federado de Adobe Experience Platform."
-
-La capacidad Audit trail proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en su entorno en tiempo real
 
 La función **[!UICONTROL Pista de auditoría]** registra constantemente en tiempo real un registro detallado de las acciones y eventos que tienen lugar en la instancia de Adobe Federated Composition. Ofrece un método cómodo para acceder a un registro cronológico de datos, y abordar consultas como: el estado de los flujos de trabajo, las personas más recientes para modificarlos o las actividades realizadas por los usuarios dentro de la instancia.
 

@@ -2,10 +2,10 @@
 title: Introducción a la composición de público federado de Experience Platform
 description: Descubra qué es la composición de público federado de Adobe y cómo utilizarla en Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
+source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 93%
+source-wordcount: '1095'
+ht-degree: 82%
 
 ---
 
@@ -62,6 +62,24 @@ Pasos clave:
 >[!NOTE]
 >
 >Después de ejecutar la composición, el público resultante se guarda en Adobe Experience Platform como público externo, estará disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Se puede acceder desde el menú **Públicos**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+## Gobernanza, privacidad y seguridad {#governance-privacy-security}
+
+### Solicitudes de privacidad {#gov-privacy-requests}
+
+Una vez creada una composición, las audiencias resultantes se guardan en Adobe Experience Platform.
+
+A continuación, puede realizar solicitudes de privacidad para acceder a los datos de perfil correspondientes a estas audiencias o eliminarlos mediante Adobe Experience Platform **Privacy Service**, que proporciona una [interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es){target="_blank"} y [API RESTful](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/overview){target="_blank"} para ayudarle a administrar las solicitudes de datos de los clientes.
+
+>[!NOTE]
+>
+>Para obtener más información sobre Privacy Service, consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target="_blank"}.
+
+Puede crear y administrar solicitudes individuales para acceder a datos de clientes y eliminarlos de la Composición de audiencias federada de Adobe. Los pasos para enviar **solicitudes de acceso** y **solicitudes de eliminación** se detallan en la [documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/privacy){target="_blank"}.
+
+### Pista de auditoría {#gov-audit-trail}
+
+La capacidad Pista de auditoría proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en su entorno en tiempo real. [Más información](../admin/audit-trail.md)
 
 ## Más información {#learn}
 

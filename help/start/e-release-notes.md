@@ -4,10 +4,10 @@ description: Últimas actualizaciones y notas de la versión
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 4b70d9e84a0089ffc4d3088bd21fb3803143ad38
+source-git-commit: 36b2d003800d5b737634cb36ca6a66944d433d8f
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 69%
+source-wordcount: '802'
+ht-degree: 73%
 
 ---
 
@@ -33,18 +33,19 @@ Esta versión incorpora las siguientes mejoras.
 * **Data model Canvas view**
 
     The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. [Learn more](ai-assistant.md)
 -->
-
-* **Asistente de IA**
-
-  El asistente de IA es una función de interfaz de usuario diseñada para ayudarle a navegar y comprender los conceptos de Adobe y obtener perspectivas operativas para su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluida la Composición de audiencias federada.
 
 ### Compatibilidad {#fac-25-3-compat}
 
 * **Conexión de Databricks**
 
   Con esta nueva versión, Federated Audience Composition ahora admite la conectividad de vínculos privados para conexiones de bases de datos de Databricks.
-También permite conexiones seguras a bases de datos de Databricks alojadas en Amazon Web Service (AWS) y Microsoft Azure. [Más información](../connections/federated-db.md#databricks)
+También permite conexiones seguras a bases de datos de Databricks alojadas en Amazon Web Service (AWS). [Más información](../connections/federated-db.md#databricks)
 
 * **Soporte para clientes de B2B CDP**
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Configuración de las bases de datos federadas
 description: Aprenda sobre la configuración de las bases de datos federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: ht
-source-wordcount: '2068'
-ht-degree: 100%
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
+workflow-type: tm+mt
+source-wordcount: '2120'
+ht-degree: 96%
 
 ---
 
@@ -175,7 +175,7 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 >[!NOTE]
 >
->Se admite el acceso seguro al almacén de datos externo de Snowflake a través de un vínculo privado. Tenga presente que la cuenta de Snowflake debe estar alojada en Amazon Web Services (AWS) y ubicada en la misma región que el entorno de composición de público federado. Póngase en contacto con su representante de Adobe para obtener ayuda sobre la configuración del acceso seguro a su cuenta de Snowflake.
+>Se admite el acceso seguro al almacén de datos externo de Snowflake a través de un vínculo privado. Tenga en cuenta que la cuenta de Snowflake debe estar alojada en Amazon Web Service (AWS) o Azure y encontrarse en la misma región que el entorno de Composición de audiencia federada. Póngase en contacto con su representante de Adobe para obtener ayuda sobre la configuración del acceso seguro a su cuenta de Snowflake.
 >
 
 Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Snowflake.
@@ -282,6 +282,10 @@ El conector admite la siguiente opción:
 | TimeZoneName | Al estar vacío de forma predeterminada, se utiliza la zona horaria del sistema del servidor de aplicaciones. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. |
 
 ## Databricks {#databricks}
+
+>[!NOTE]
+>
+>Se admite el acceso seguro al almacén de datos de Databricks externo a través de un vínculo privado. Esto incluye conexiones seguras a bases de datos de Databricks alojadas en Amazon Web Service (AWS) a través de un vínculo privado y bases de datos de Databricks alojadas en Microsoft Azure a través de una VPN. Póngase en contacto con su representante de Adobe para obtener ayuda sobre la configuración del acceso seguro.
 
 Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Databricks.
 

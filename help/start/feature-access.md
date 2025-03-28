@@ -2,11 +2,9 @@
 title: Acceso a la Composición de público federado
 description: Obtenga información acerca de los permisos necesarios para la Composición de público federado
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-hide: true
-hidefromtoc: true
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '301'
 ht-degree: 93%
 
 ---
@@ -20,10 +18,6 @@ Al adquirir la Composición de audiencia federada de Adobe Experience Platform, 
 Por ejemplo, si se activa una nueva zona protegida denominada «fac-test», se crea un perfil «ACP_FAC - fac-test - admin» de producto correspondiente. Para acceder a la composición de público federado con esta zona protegida, los usuarios deben añadirse a este perfil de producto.
 
 ## Administración del acceso a la Composición de público federado
-
->[!AVAILABILITY]
->
->Los permisos están disponibles como parte de la versión de marzo.
 
 Para obtener acceso a la **Composición de público federado**, primero debe asegurarse de que el permiso **Administrar datos federados** se haya asignado a las funciones correspondientes. Estas funciones deben asignarse a los usuarios que necesiten acceder a la **Composición de público federado**.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Enriquecimiento de públicos de Adobe Experience Platform con datos externos
 description: Aprenda a refinar y enriquecer las audiencias de Adobe Experience Platform con datos de sus bases de datos federadas mediante el destino de composición de audiencias federadas.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
+source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 9%
+source-wordcount: '611'
+ht-degree: 8%
 
 ---
 
@@ -60,11 +60,15 @@ Los pasos principales para enviar audiencias de Adobe Experience Platform a la C
 
    ![](assets/destination-activate.png)
 
-1. Seleccione las audiencias que desee enviar y haga clic en **[!UICONTROL Siguiente]**.
+1. Seleccione las audiencias que desee enviar.
 
-1. Configure el nombre de archivo y una programación de exportación para las audiencias seleccionadas.
+1. Seleccione el icono ![](assets/do-not-localize/Smock_Edit_18_N.svg) para editar la programación de exportación.
 
    ![](assets/destination-schedule.png)
+
+1. Defina las opciones del archivo de exportación. Para activar las audiencias más rápido, seleccione la opción **[!UICONTROL Después de la evaluación del segmento]** para almacenar en déclencheur el trabajo de activación inmediatamente después de que finalice el trabajo diario de segmentación por lotes de Platform.
+
+   ![](assets/destination-schedule-2.png)
 
    >[!NOTE]
    >

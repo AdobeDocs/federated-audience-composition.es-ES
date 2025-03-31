@@ -5,7 +5,7 @@ exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 ## Administración del acceso a zonas protegidas {#access-sandboxes}
 
-Al adquirir la Composición de audiencia federada de Adobe Experience Platform, se crea un perfil de producto para cada zona protegida activa en ese momento. Este perfil de producto se crea en Admin Console, en la tarjeta de producto **Adobe Experience Platform** y sigue la convención de nomenclatura siguiente: `ACP_FAC - <<SandboxName>> - admin.` para acceder a la Composición de público federado para una zona protegida específica, los usuarios deben agregarse al perfil de producto creado para esa zona protegida.
+Al adquirir la Composición de público federado de Adobe Experience Platform, se crea un perfil de producto para cada zona protegida activa en ese momento. Este perfil de producto se crea en Admin Console, en la tarjeta de producto **Adobe Experience Platform** y sigue la convención de nomenclatura siguiente: `ACP_FAC - <<SandboxName>> - admin.` para acceder a la Composición de público federado para una zona protegida específica, los usuarios deben agregarse al perfil de producto creado para esa zona protegida.
 
 Por ejemplo, si se activa una nueva zona protegida denominada «fac-test», se crea un perfil «ACP_FAC - fac-test - admin» de producto correspondiente. Para acceder a la composición de público federado con esta zona protegida, los usuarios deben añadirse a este perfil de producto.
 

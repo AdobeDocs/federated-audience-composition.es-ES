@@ -5,7 +5,7 @@ exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 73%
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ Aprenda a crear una conexión con estos sistemas en [esta página](../connection
 
 ## Zonas protegidas
 
-Al adquirir Federated Audience Composition, tiene derecho a dos zonas protegidas. Para cualquier solicitud de aprovisionamiento de zona protegida adicional, póngase en contacto con su representante de Adobe.
+Al adquirir la Composición de público federado, tiene derecho a dos zonas protegidas. Para cualquier solicitud de aprovisionamiento de zona protegida adicional, póngase en contacto con su representante de Adobe.
 
 Para ver la lista de los entornos limitados de Composición de audiencia federada activos, siga los pasos a continuación:
 
@@ -64,7 +64,7 @@ Añada estas direcciones IP a la lista de permitidos para conceder acceso a comp
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
-* Los derechos, limitaciones de productos y protecciones de rendimiento enumerados en la [documentación de Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails){target="_blank"} se aplican a la Composición de audiencias federada.
+* Los derechos, limitaciones de productos y protecciones de rendimiento enumerados en la [documentación de Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails){target="_blank"} se aplican a la Composición de público federado.
 
 <!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
 -->

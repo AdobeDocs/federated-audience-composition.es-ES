@@ -3,9 +3,9 @@ title: Preguntas frecuentes
 description: Preguntas frecuentes sobre la composición de público federado de Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ A continuación se muestra una lista de preguntas frecuentes sobre la composici�
 
 +++¿Cuáles son los permisos necesarios para acceder a la composición de público federado?
 
-La composición de público federado requiere los paquetes de Adobe Real-time Customer Data Platform y Adobe Journey Optimizer Prime o Ultimate. También debe haber adquirido Federated Audience Composition.
+La composición de público federado requiere los paquetes de Adobe Real-time Customer Data Platform y Adobe Journey Optimizer Prime o Ultimate. También debe haber adquirido la Composición de público federado.
 
 Para utilizar la composición de público federado, cada usuario debe añadirse a un perfil específico creado para cada zona protegida. Para obtener más información, consulte la página [Acceso a composición de público federado](access-prerequisites.md).
 
@@ -89,12 +89,12 @@ No, el servicio de identidad no se utiliza durante una composición. Los datos e
 
 +++
 
-+++¿Cómo se crean y administran solicitudes de privacidad con Federated Audience Composition?
++++¿Cómo se crean y administran las solicitudes de privacidad con la Composición de público federado?
 
-Puede enviar solicitudes individuales para acceder a los datos de clientes y eliminarlos de Adobe Federated Audience Composition de dos formas:
+Puede enviar solicitudes individuales para acceder a los datos del cliente y eliminarlos de la Composición de público federado de Adobe de dos formas:
 
-* A través de la **IU de Privacy Service** de Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es){target="_blank"}
-* A través de la **API de Privacy Service** de Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/overview){target="_blank"}
+* A través de la IU de Adobe Experience Platform **Privacy Service**. [Más información](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es){target="_blank"}
+* A través de la API de Adobe Experience Platform **Privacy Service**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/overview){target="_blank"}
 
 Todos los pasos para crear y administrar **solicitudes de acceso** y **solicitudes de eliminación** se detallan en la [documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/privacy){target="_blank"}.
 

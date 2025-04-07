@@ -3,9 +3,9 @@ title: Introducción a la composición de público federado de Experience Platfo
 description: Descubra qué es la composición de público federado de Adobe y cómo utilizarla en Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ La composición de público federado amplía el valor de Real-Time CDP y Journey
 
 * Utilización de un solo sistema para flujos de trabajo basados en experiencias: organice públicos federados e ingeridos en Adobe Experience Platform y coordine las experiencias de salida en todos los canales.
 
-* Los clientes de B2C y B2B CDP ahora pueden aprovechar la Composición de audiencias federada para crear audiencias basadas en personas integrando datos de almacenes de datos empresariales admitidos. Además, pueden enriquecer las audiencias basadas en personas de AEP existentes incorporando atributos relevantes disponibles en el almacén de datos empresarial, mejorando sus perfiles de audiencia para una participación más personalizada y dirigida.
+* Los clientes B2C y B2B de CDP ahora pueden aprovechar la composición de público federado para crear públicos basados en personas integrando datos de almacenes de datos empresariales compatibles. Además, pueden enriquecer los públicos basados en personas de AEP existentes incorporando atributos relevantes disponibles en el almacén de datos empresarial, mejorando sus perfiles de público para una participación más personalizada y segmentada.
 
 ## Casos de uso {#rn-uc}
 

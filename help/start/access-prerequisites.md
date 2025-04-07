@@ -3,9 +3,9 @@ title: Requisitos previos y protecciones para la composición de público federa
 description: Conozca los requisitos previos, permisos y protecciones para la composición de público federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ Aprenda a crear una conexión con estos sistemas en [esta página](../connection
 
 Al adquirir la Composición de público federado, tiene derecho a dos zonas protegidas. Para cualquier solicitud de aprovisionamiento de zona protegida adicional, póngase en contacto con su representante de Adobe.
 
-Para ver la lista de los entornos limitados de Composición de audiencia federada activos, siga los pasos a continuación:
+Para ver la lista de las zonas protegidas de composición de público federado activas, siga los pasos que se indican a continuación:
 
-1. Desde Federated Audience Composition, accede al menú **[!UICONTROL Uso de licencias]** en **[!UICONTROL Administración]**.
+1. Desde la composición de público federado, acceda al menú **[!UICONTROL Uso de licencias]** en **[!UICONTROL Administración]**.
 
 1. Haga clic en el icono ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) de **[!UICONTROL Volumen total de salida de datos]** para acceder a las propiedades de la zona protegida.
 

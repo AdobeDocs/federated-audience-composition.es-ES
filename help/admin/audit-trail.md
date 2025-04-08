@@ -3,7 +3,7 @@ audience: end-user
 title: Pista de auditoría
 description: Conozca cómo se registran las acciones y los eventos y cómo se puede acceder a ellos en la pista de auditoría
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 12%

@@ -3,7 +3,7 @@ audience: end-user
 title: Uso del modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 13%

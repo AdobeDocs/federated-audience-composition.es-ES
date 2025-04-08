@@ -2,16 +2,16 @@
 title: Preguntas frecuentes
 description: Preguntas frecuentes sobre la composición de público federado de Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Preguntas frecuentes {#faq}
 
-A continuación se muestra una lista de preguntas frecuentes sobre la composición de público federado de Adobe Experience Platform. Encuentre las preguntas frecuentes globales sobre el Servicio de segmentación de Adobe Experience Platform en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq){target="_blank"}.
+A continuación se muestra una lista de preguntas frecuentes sobre la composición de público federado de Adobe Experience Platform. También hay disponible una pregunta frecuente global para el servicio de segmentación de Adobe Experience Platform en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq){target="_blank"}.
 
 
 +++¿Cuáles son los permisos necesarios para acceder a la composición de público federado?
@@ -24,7 +24,7 @@ Para utilizar la composición de público federado, cada usuario debe añadirse 
 
 +++¿Cuáles son los almacenes en la nube admitidos?
 
-La lista de sistemas admitidos con la composición de público federado está disponible en [esta página](../start/access-prerequisites.md#supported-systems).
+La lista de sistemas admitidos con Federated Audience Composition está disponible en [esta página](../start/access-prerequisites.md#supported-systems).
 
 +++
 
@@ -64,7 +64,7 @@ La composición de público federado no mantiene ninguna copia física de los da
 Por ejemplo:
 
 * En caso de una creación de público, el público se crea en su almacén y puede utilizar la composición de público federado para tareas de composición y manipulación de datos adicionales antes de publicar el público resultante y los atributos asociados mediante Adobe Experience Platform Audience Portal. La definición de público y los atributos asociados se transfieren a Adobe Experience Platform.
-Tenga en cuenta que la caducidad de los datos actuales para los públicos generados externamente es de 30 días. La caducidad de los datos reduce la cantidad excesiva de datos que se almacena en una organización. Una vez transcurrido el período de caducidad de los datos, el conjunto de datos asociado sigue siendo visible dentro del inventario de conjuntos de datos, pero ya no es posible activar el público y el recuento de perfiles se mostrará como cero. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
+Tenga en cuenta que la caducidad de los datos actuales para los públicos generados externamente es de 30 días. La caducidad de los datos reduce la cantidad excesiva de datos que se almacena en una organización. Una vez transcurrido el período de caducidad de los datos, el conjunto de datos asociado sigue siendo visible dentro del inventario de conjuntos de datos, pero ya no es posible activar el público y el recuento de perfiles se mostrará como cero. Obtenga más información en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * En caso de un enriquecimiento de público, el punto de partida es el público existente de Adobe Experience Platform. Aquí se pueden ver dos escenarios:
    1. Incorporar atributos adicionales de carga útil del público desde el almacén de datos federado: en este caso, los atributos adicionales que se añaden provienen de la definición del público. La caducidad de los datos para los públicos generados de forma externa es la misma que la mencionada anteriormente: 30 días.

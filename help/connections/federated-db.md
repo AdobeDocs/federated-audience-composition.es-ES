@@ -4,9 +4,9 @@ title: Configuración de las bases de datos federadas
 description: Aprenda sobre la configuración de las bases de datos federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2120'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 La composición de público federado de Experience Platform permite al cliente generar y enriquecer los públicos de los almacenes de datos de terceros e importarlos a Adobe Experience Platform.
 
-Aprenda a crear, configurar, probar y guardar la conexión con la base de datos externa en [esta página](connections.md). A continuación, se muestra la lista de bases de datos compatibles y la configuración detallada de cada una.
+En [esta página](connections.md) aprenda a crear, configurar, probar y guardar la conexión a la base de datos externa. A continuación, se muestra la lista de bases de datos compatibles y la configuración detallada de cada una.
 
 ## Bases de datos compatibles {#supported-db}
 
@@ -73,7 +73,7 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
    * **[!UICONTROL Base de datos]**: escriba el nombre de la base de datos si no está especificada en el DSN. Se puede dejar vacío si ya está especificada en el DSN
 
-   * **[!UICONTROL Esquema de trabajo]**: nombre del esquema de la base de datos que se utilizará para las tablas de trabajo. Obtenga más información en [Documentación de Amazon](https://docs.aws.amazon.com/es_es/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
+   * **[!UICONTROL Esquema de trabajo]**: nombre del esquema de la base de datos que se utilizará para las tablas de trabajo. Obtenga más información en la [documentación de Amazon](https://docs.aws.amazon.com/es_es/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
@@ -123,7 +123,7 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 | Opción | Descripción |
 |---|---|
-| Autenticación | Tipo de autenticación admitida por el conector. Valor actual admitido: ActiveDirectoryMSI. Para obtener más información, consulte [Documentación de Microsoft SQL](https://learn.microsoft.com/es-es/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Ejemplo de cadenas de conexión n°8) |
+| Autenticación | Tipo de autenticación admitida por el conector. Valor actual admitido: ActiveDirectoryMSI. Para obtener más información, consulte la [documentación de Microsoft SQL](https://learn.microsoft.com/es-es/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Ejemplo de cadenas de conexión n.° 8) |
 
 ## Google Big Query {#google-big-query}
 
@@ -226,11 +226,11 @@ El conector admite las siguientes opciones:
 |---|---|
 | esquema de trabajo | Esquema de base de datos que se va a utilizar para tablas de trabajo |
 | almacén | Nombre del almacén predeterminado que se va a utilizar. Anula el valor predeterminado del usuario. |
-| TimeZoneName | Al estar vacío de forma predeterminada, se utiliza la zona horaria del sistema del servidor de aplicaciones. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. <br>Para obtener más información, consulte [esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
-| WeekStart | Parámetro de sesión WEEK_START. De forma predeterminada, se establece en 0. <br>Para obtener más información, consulte [esta página](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
-| UseCachedResult | Parámetro de sesión USE_CACHED_RESULTS. De forma predeterminada, se establece en TRUE. Esta opción se puede utilizar para deshabilitar los resultados almacenados en caché de Snowflake. <br>Para obtener más información, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
+| TimeZoneName | Al estar vacío de forma predeterminada, se utiliza la zona horaria del sistema del servidor de aplicaciones. La opción se puede utilizar para forzar el parámetro de sesión TIMEZONE. <br>Para obtener más información sobre esto, consulte [esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
+| WeekStart | Parámetro de sesión WEEK_START. De forma predeterminada, se establece en 0. <br>Para obtener más información sobre esto, consulte [esta página](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
+| UseCachedResult | Parámetro de sesión USE_CACHED_RESULTS. De forma predeterminada, se establece en TRUE. Esta opción se puede utilizar para deshabilitar los resultados almacenados en caché de Snowflake. <br>Para obtener más información sobre esto, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Número de hilos que se utilizan para el cargador masivo de Snowflake; a mayor número de hilos, mejor es el rendimiento con las cargas masivas más grandes. De forma predeterminada, se establece en 1. El número se puede ajustar en función del número de hilos del equipo. |
-| chunkSize | Determina el tamaño de archivo del fragmento del cargador masivo. De forma predeterminada, se establece en 128 MB. Se puede modificar para un rendimiento óptimo cuando se utiliza con bulkThreads. Los hilos más activos simultáneamente ofrecen un mejor rendimiento. <br>Para obtener más información, consulte [Documentación de Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
+| chunkSize | Determina el tamaño de archivo del fragmento del cargador masivo. De forma predeterminada, se establece en 128 MB. Se puede modificar para un rendimiento óptimo cuando se utiliza con bulkThreads. Los hilos más activos simultáneamente ofrecen un mejor rendimiento. <br>Para más información, consulte la [documentación de Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Nombre de la fase interna de aprovisionamiento previo. Se utiliza en la carga masiva en lugar de crear una nueva fase temporal. |
 
 ## Vertica Analytics {#vertica-analytics}
@@ -370,5 +370,5 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 | Opción | Descripción |
 |---|---|
-| Autenticación | Tipo de autenticación admitida por el conector. Valor actual admitido: ActiveDirectoryMSI. Para obtener más información, consulte [Documentación de Microsoft SQL](https://learn.microsoft.com/es-es/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Ejemplo de cadenas de conexión n°8) |
+| Autenticación | Tipo de autenticación admitida por el conector. Valor actual admitido: ActiveDirectoryMSI. Para obtener más información, consulte la [documentación de Microsoft SQL](https://learn.microsoft.com/es-es/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Ejemplo de cadenas de conexión n.° 8) |
 

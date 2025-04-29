@@ -5,15 +5,15 @@ hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión {#rn-new}
 
-[!DNL Federated Audience Composition] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan en estas notas de la versión. [!DNL Federated Audience Composition] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
+[!DNL Federated Audience Composition] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan en estas notas de la versión. [!DNL Federated Audience Composition] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
 ## Versión de abril de 2025 {#fac-25-4}
 
@@ -23,11 +23,11 @@ Esta versión incorpora las mejoras que se indican a continuación.
 
 * **Vista del lienzo del modelo de datos**
 
-  La vista de lienzo para la sección Modelos de datos mejora la experiencia al permitir la visualización de los modelos de datos y sus vínculos en un diseño de lienzo, junto con la vista tabular existente. [Más información](../data-management/gs-models.md)
+  La vista de lienzo de la sección Modelos de datos mejora la experiencia al permitir la visualización de los modelos de datos y sus vínculos en un diseño de lienzo, junto con la vista tabular existente. [Más información](../data-management/gs-models.md)
 
 * **Asistente de IA**
 
-  El asistente de IA es una función de interfaz de usuario diseñada para ayudarle a navegar y comprender los conceptos de Adobe y obtener perspectivas operativas para su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluida la Composición de audiencias federada. [Más información](../start/audiences.md)
+  El Asistente de IA es una función de la interfaz de usuario diseñada para que pueda navegar y comprender los conceptos de Adobe y obtener datos operativos de su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluida la composición de público federado. [Más información](../start/audiences.md)
 
 * **Nombre del modelo de datos**
 
@@ -41,7 +41,7 @@ Esta versión incorpora las mejoras que se indican a continuación.
 
 * **Conexión segura de Snowflake**
 
-  Con esta nueva versión, Federated Audience Composition admite conexiones de vínculo privado seguras a bases de datos Amazon Redshift alojadas en Microsoft Azure. [Más información](../connections/federated-db.md#amazon-redshift)
+  Con esta nueva versión, la composición de público federado admite las conexiones seguras de vínculos privados a las bases de datos de Amazon Redshift alojadas en Microsoft Azure. [Más información](../connections/federated-db.md#amazon-redshift)
 
 ## Versión de marzo de 2025 {#fac-25-3}
 
@@ -134,7 +134,7 @@ Con esta nueva versión, la composición de público federado ahora es compatibl
 
 * **Compatibilidad con Amazon Redshift sin servidor**
 
-  Con esta nueva versión, Federated Audience Composition admite [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}.
+  Con esta nueva versión, la composición de público federado admite [Amazon Redshift sin servidor](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}.
 
 ### Mejoras {#fac-24-10-improvements}
 
@@ -150,10 +150,10 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 ## Versión de julio de 2024: composición de público federado (disponibilidad limitada) {#fac-la}
 
-La Composición de público federado proporciona a las empresas un acceso flexible y ampliado a los almacenes de datos empresariales para componer públicos utilizando conjuntos de datos empresariales esenciales y potenciar las experiencias iniciadas por la marca y en el momento. Con este nuevo enfoque, como usuario de [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home){target="_blank"} y/o [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"}, puede federar los datos de audiencia directamente desde su almacén de datos existente para enriquecer las audiencias de Adobe Experience Platform en un sistema.
+La Composición de público federado proporciona a las empresas un acceso flexible y ampliado a los almacenes de datos empresariales para componer públicos utilizando conjuntos de datos empresariales esenciales y potenciar las experiencias iniciadas por la marca y en el momento. Con este nuevo enfoque, como usuario de [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home){target="_blank"} o [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"}, puede federar los datos de audiencia directamente desde su almacén de datos existente para enriquecer las audiencias de Adobe Experience Platform en un solo sistema.
 
 La Composición de público federado responde a la creciente demanda del mercado para las empresas que necesitan la flexibilidad de componer públicos con conjuntos de datos de almacén. Esto permite a las empresas reducir el movimiento de datos y, al mismo tiempo, poner los datos esenciales del público a disposición de los equipos de marketing para satisfacer los requisitos de los casos de uso y potenciar las experiencias personalizadas.
 
-Obtenga más información acerca de las funciones de la Composición de audiencias federadas en [esta página](get-started.md) y en las [Preguntas más frecuentes](faq.md).
+Obtenga más información sobre las funciones de la composición de público federado en [esta página](get-started.md) y en las [Preguntas frecuentes](faq.md).
 
 Para obtener información detallada sobre los requisitos previos para acceder a las composiciones de público federado y las protecciones actuales, consulte [esta página](access-prerequisites.md).

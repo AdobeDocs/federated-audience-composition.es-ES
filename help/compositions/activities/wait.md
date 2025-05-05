@@ -10,12 +10,12 @@ ht-degree: 45%
 
 ---
 
-# Espera {#wait}
+# Esperar {#wait}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
->title="Actividad de espera"
->abstract="La actividad **Espera** se utiliza para retrasar la transición de una actividad a otra."
+>title="Actividad Esperar"
+>abstract="La actividad **Esperar** se utiliza para retrasar la transición de una actividad a otra."
 
 La actividad **Wait** permite que transcurra un cierto tiempo entre dos actividades que se están ejecutando.
 

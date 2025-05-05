@@ -38,11 +38,11 @@ La actividad **Guardar audiencia** le permite crear una audiencia nueva a partir
 
 Esta actividad se utiliza esencialmente para mantener los grupos de población calculados en la misma composición, convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **audiencia de compilación** o una actividad **Combinar**.
 
-La actividad **[!UICONTROL Guardar audiencia]** genera un nuevo esquema de audiencia y un nuevo conjunto de datos. Una vez creada la audiencia, póngase en contacto con el administrador para asignar las etiquetas de control de datos correspondientes. [Más información sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+La actividad **[!UICONTROL Guardar audiencia]** genera un nuevo esquema de audiencia y un nuevo conjunto de datos. Una vez creada la audiencia, póngase en contacto con el administrador para asignar las etiquetas de control de datos correspondientes. [Más información sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
->La actividad **Guardar audiencia** requiere un esquema y un conjunto de datos habilitados para el perfil. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>La actividad **Guardar audiencia** requiere un esquema y un conjunto de datos habilitados para el perfil. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 
 ## Configuración de la actividad Guardar audiencia {#save-audience-configuration}
 

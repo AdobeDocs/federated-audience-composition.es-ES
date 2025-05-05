@@ -89,7 +89,7 @@ Esta versión incorpora las mejoras que se indican a continuación.
 * **Guardar actividad de audiencia**
 
   Se ha agregado una nota a la actividad **Guardar audiencia**, en la que se recuerda a los usuarios que colaboren con un administrador de datos para aplicar etiquetas de gobernanza a los nuevos esquemas y conjuntos de datos creados durante la creación y el enriquecimiento de la audiencia.
-  [Más información sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+  [Más información sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Compatibilidad {#fac-25-4-compat}
 

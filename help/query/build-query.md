@@ -24,7 +24,7 @@ Se pueden añadir dos tipos de elementos:
 
 * **Los operadores de grupo** (AND, OR, EXCEPT) le permiten agrupar los componentes de filtrado en el diagrama. Se añaden a las transiciones existentes antes de un componente de filtrado. [Aprenda a trabajar con operadores](#filtering)
 
-  Ejemplo: *Destinatarios que se suscribieron al boletín &quot;Deportes&quot;**Y**que viven en Nueva York **O**San Francisco*.
+  Ejemplo: *Destinatarios que se suscribieron al boletín &quot;Deportes&quot;**Y**&#x200B;que viven en Nueva York **O**&#x200B;San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -77,7 +77,7 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
    | Me gusta | Like es muy similar al operador Contains. Permite insertar % wild card character in the value. | Apellido (@lastName) como &quot;Jon%s&quot;. En este caso, el carácter comodín se utiliza para encontrar el nombre &quot;Jones&quot;, en el caso de que el operador haya olvidado la letra que falta entre la &quot;n&quot; y la &quot;s&quot;. |
    | Not like | Like es muy similar al operador Contains. Permite insertar % wild card character in the value. | Apellido (@lastName) como &quot;Smi%h&quot;. Aquí, no devuelve los destinatarios cuyo apellido sea &quot;Smi%h&quot;. |
 
-+++
+   +++
 
 1. En el campo **[!UICONTROL Value]**, defina el valor esperado. También puede aprovechar el editor de expresiones para definir manualmente una expresión mediante los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en el botón **[!UICONTROL Editar expresión]**. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
 

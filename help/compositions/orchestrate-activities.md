@@ -72,6 +72,6 @@ Puede hacer lo siguiente:
 
   La sección **[!UICONTROL Secuencia de comandos de inicialización]** le permite inicializar variables o modificar propiedades de actividad. Haga clic en el botón **[!UICONTROL Editar código]** y escriba el fragmento de código que desea ejecutar. Se llama al script cuando se ejecuta la actividad.
 
-+++
+  +++
 
 * Acceda a los **registros y tareas** de la actividad.

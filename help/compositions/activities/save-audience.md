@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Guardar audiencia
 description: Aprenda a utilizar la actividad Guardar audiencia
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 31%
+source-wordcount: '508'
+ht-degree: 28%
 
 ---
 
@@ -37,6 +37,8 @@ ht-degree: 31%
 La actividad **Guardar audiencia** le permite crear una audiencia nueva a partir de la población calculada en sentido ascendente en una composición. Las audiencias creadas se agregan a la lista de audiencias de Adobe Experience Platform y están disponibles a través del menú **Audiencias**. [Descubra cómo trabajar con públicos](../../start/audiences.md)
 
 Esta actividad se utiliza esencialmente para mantener los grupos de población calculados en la misma composición, convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **audiencia de compilación** o una actividad **Combinar**.
+
+La actividad **[!UICONTROL Guardar audiencia]** genera un nuevo esquema de audiencia y un nuevo conjunto de datos. Una vez creada la audiencia, póngase en contacto con el administrador para asignar las etiquetas de control de datos correspondientes. [Más información sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >

@@ -3,7 +3,7 @@ audience: end-user
 title: Pista de auditoría
 description: Conozca cómo se registran las acciones y los eventos y cómo se puede acceder a ellos en la pista de auditoría
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 12%
@@ -56,8 +56,8 @@ Para acceder a la **[!UICONTROL pista de auditoría]** de su instancia:
 
 1. La ventana **[!UICONTROL Entidad de auditoría]** le proporciona información más detallada sobre la entidad elegida, como:
 
-   * **[!UICONTROL Tipo]** : flujo de trabajo, opciones, envíos o esquemas.
-   * **[!UICONTROL Entidad]** : Nombre interno de sus actividades.
-   * **[!UICONTROL Modificado por]** : Nombre de usuario de la última persona que modificó esta entidad por última vez.
-   * **[!UICONTROL Acción]** : última acción realizada en esta entidad, ya sea Creada, Modificada o Eliminada.
-   * **[!UICONTROL Fecha de modificación]** : Fecha de la última acción realizada en esta entidad.
+   * **[!UICONTROL Tipo]**: flujo de trabajo, opciones, envíos o esquemas.
+   * **[!UICONTROL Entidad]**: Nombre interno de sus actividades.
+   * **[!UICONTROL Modificado por]**: Nombre de usuario de la última persona que modificó esta entidad por última vez.
+   * **[!UICONTROL Acción]**: última acción realizada en esta entidad, ya sea Creada, Modificada o Eliminada.
+   * **[!UICONTROL Fecha de modificación]**: Fecha de la última acción realizada en esta entidad.

@@ -1,33 +1,36 @@
 ---
 title: Trabajo con el Asistente de IA
 description: Aprenda a utilizar el Asistente de IA
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: ht
-source-wordcount: '246'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 46%
 
 ---
 
 # Trabajo con el Asistente de IA {#ai-assistant}
 
-El Asistente de IA es una función de la interfaz de usuario diseñada para que pueda navegar y comprender los conceptos de Adobe y obtener datos operativos de su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluida la composición de público federado.
-
-Para acceder al Asistente de IA, haga clic en el icono de la barra superior. El Asistente de IA se muestra en la sección derecha de la pantalla.
-
-![](assets/do-not-localize/ai-assistant-open.png)
-
+El asistente de IA es una función de interfaz de usuario diseñada para ayudarle a navegar y comprender los conceptos de Adobe. Está disponible para casos de uso de conocimiento de productos en varios productos de Adobe Experience Cloud, incluida la Composición de audiencias federada.
 
 >[!CAUTION]
 >
 >Debe aceptar las directrices del usuario de IA generativa de Adobe Experience Cloud para poder utilizar el Asistente de IA. Obtenga más información sobre el acuerdo en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-En la composición de público federado, puede acceder a preguntas de conocimiento del producto sobre conceptos de Adobe relacionados con diversos aspectos del proceso. Algunos ejemplos de estas preguntas son los siguientes:
+En Federated Audience Composition, puede acceder a los conocimientos del producto para conocer los conceptos de Adobe relacionados con diferentes partes del proceso. El Asistente de IA admite dos tipos de conocimiento del producto: **Abrir detección** (explore los conceptos del producto según la documentación de Experience League) y **Aprendizaje y solución de problemas específicos** (haga preguntas sobre las características o la funcionalidad específicas).
 
-* ¿Cuáles son los ajustes de configuración necesarios para establecer una conexión federada entre Snowflake y Adobe Experience Platform?
-* ¿Cómo configuro una composición en la composición de público federado?
-* ¿Cómo puedo utilizar un filtro predefinido en el modelador de consultas para ajustar la selección de público?
+Algunos ejemplos de estas preguntas son los siguientes:
+
+* ¿Qué es la composición de audiencia federada?
+* ¿Cómo puedo configurar una cuenta de Snowflake Federated Database?
+* ¿Cómo se puede crear una composición federada?
 
 Haga lo siguiente para huna pregunta:
+
+1. Para acceder al asistente de IA, haga clic en el icono de la barra superior.
+
+   El asistente de IA se muestra en la sección derecha de la pantalla. Puede hacer clic en ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "Expand") para expandir la ventana del asistente de IA.
+
+   ![](assets/do-not-localize/ai-assistant-open.png)
 
 1. Introdúzcala en el campo situado en la parte inferior de la pantalla y pulse Entrar.
 

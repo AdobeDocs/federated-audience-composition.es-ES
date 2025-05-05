@@ -3,10 +3,10 @@ audience: end-user
 title: Configuración de las bases de datos federadas
 description: Aprenda sobre la configuración de las bases de datos federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: ht
-source-wordcount: '2120'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '2133'
+ht-degree: 99%
 
 ---
 
@@ -45,9 +45,11 @@ Con la Composición de público federado, puede conectarse a las siguientes base
 
 ## Amazon Redshift {#amazon-redshift}
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->Solo son compatibles Amazon Redshift AWS, Amazon Redshift Spectrum y Amazon Redshift Serverless.
+>* Solo son compatibles Amazon Redshift AWS, Amazon Redshift Spectrum y Amazon Redshift Serverless.
+>
+>* Se admite el acceso seguro a las bases de datos Amazon Redshift externas a través de vínculos privados.
 
 Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Amazon Redshift.
 

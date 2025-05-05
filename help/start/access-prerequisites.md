@@ -2,10 +2,10 @@
 title: Requisitos previos y protecciones para la composición de público federado
 description: Conozca los requisitos previos, permisos y protecciones para la composición de público federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: ht
-source-wordcount: '311'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 92%
 
 ---
 
@@ -66,6 +66,6 @@ Añada estas direcciones IP a la lista de permitidos para conceder acceso a comp
 
 * Los derechos, limitaciones de productos y protecciones de rendimiento enumerados en la [documentación de Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails){target="_blank"} se aplican a la Composición de público federado.
 
-<!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
--->
+* La Composición de audiencias federada admite la exportación de audiencias grandes, con tamaños de archivo superiores a 1 GB. Para obtener un rendimiento óptimo, el tamaño máximo de archivo recomendado es de hasta 20 GB.
+
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de reconciliación
 description: Aprenda a utilizar la actividad de reconciliación
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 42%
+source-wordcount: '521'
+ht-degree: 43%
 
 ---
 
@@ -74,7 +74,7 @@ Siga estos pasos para configurar la actividad **Reconciliation**:
 1. Seleccione los campos que se utilizarán para la reconciliación. Se pueden utilizar uno o más criterios de reconciliación.
 
    1. Para usar atributos para reconciliar datos, selecciona la opción **Atributos simples** y luego haz clic en el botón **Agregar regla**.
-   1. Seleccione los campos **Source** y **Destination** para la reconciliación. El campo **Source**. El campo **Destino** corresponde a los campos del esquema seleccionado.
+   1. Seleccione los campos **Source** y **Destination** para la reconciliación. El campo **Destino** corresponde a los campos del esquema seleccionado.
 
       Los datos se concilian cuando el origen y el destino son iguales. Por ejemplo, seleccione los campos **Correo electrónico** para anular la duplicación de perfiles según su dirección de correo electrónico.
 

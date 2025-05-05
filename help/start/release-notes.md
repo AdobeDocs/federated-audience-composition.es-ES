@@ -2,16 +2,104 @@
 title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: ht
-source-wordcount: '813'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 83%
 
 ---
 
 # Notas de la versión {#rn-new}
 
 [!DNL Federated Audience Composition] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan en estas notas de la versión. [!DNL Federated Audience Composition] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
+
+## Versión de abril de 2025 {#fac-25-4}
+
+### Nuevas funciones {#fac-25-04-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Vista del lienzo del modelo de datos: Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La vista de lienzo para la sección Modelos de datos mejora la experiencia al permitir la visualización de los modelos de datos y sus vínculos en un diseño de lienzo, junto con la vista tabular existente. </p>
+<p>Actualmente, el modelo de datos con vista de lienzo está disponible como una versión beta para seleccionar solo usuarios.</p>
+<p>Para obtener más información, consulte la <a href="../data-management/gs-models.md">documentación detallada</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Soporte del asistente de IA para el conocimiento del producto</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Asistente de IA es una función de la interfaz de usuario diseñada para que pueda navegar y comprender los conceptos de Adobe y obtener datos operativos de su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluida la composición de público federado.</p>
+<p>Para obtener más información, consulte la <a href="../start/ai-assistant.md">documentación detallada</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Actividad Guardar perfiles</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> La Composición de audiencia federada ahora es compatible con el caso de uso de enriquecimiento de perfil, lo que permite a los clientes mejorar los perfiles de Experience Platform existentes con datos de sus almacenes de datos externos.
+</p>
+<p>Para obtener más información, consulte la <a href="../compositions/activities/save-profiles.md">documentación detallada</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Mejoras {#fac-25-4-improvements}
+
+Esta versión incorpora las mejoras que se indican a continuación.
+
+* **Nombre del modelo de datos**
+
+  Desde el menú Audiencias, la pestaña **Composiciones federadas** ahora muestra el nombre del modelo de datos en lugar del ID, lo que mejora la claridad y la facilidad de uso general.
+
+* **Audiencia**
+
+  El menú Audiencia ahora muestra el nombre o la etiqueta del modelo de datos seleccionado cuando un usuario selecciona un modelo de datos sin audiencias asociadas.
+
+* **Exportación de audiencias grandes**
+
+  La Composición de audiencias federada ahora admite la exportación de audiencias grandes, con tamaños de archivo superiores a 1 GB.
+
+* **Guardar actividad de audiencia**
+
+  Se ha agregado una nota a la actividad **Guardar audiencia**, en la que se recuerda a los usuarios que colaboren con un administrador de datos para aplicar etiquetas de gobernanza a los nuevos esquemas y conjuntos de datos creados durante la creación y el enriquecimiento de la audiencia.
+  [Más información sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+
+### Compatibilidad {#fac-25-4-compat}
+
+* **Conexión segura de Amazon Redshift**
+
+  Con esta nueva versión, Federated Audience Composition admite conexiones de vínculo privado seguras a bases de datos Amazon Redshift. [Más información](../connections/federated-db.md#amazon-redshift)
+
+* **Google Big Query**
+
+  Con esta nueva versión, Federated Audience Composition admite conexiones VPN seguras a bases de datos de Google Big Query. [Más información](../connections/federated-db.md#google-big-query)
 
 ## Versión de marzo de 2025 {#fac-25-3}
 

@@ -2,10 +2,10 @@
 user-guide-title: Composición de público federado de Experience Platform
 title: Documentación de la composición de público federado de Experience Platform
 breadcrumb-title: Composición de público federado de Experience Platform
-source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 84%
+source-wordcount: '161'
+ht-degree: 83%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 84%
    + [Requisitos previos y protecciones](start/access-prerequisites.md)
    + [Acceso a la Composición de público federado](start/feature-access.md)
    + [Trabajar con públicos](start/audiences.md)
+   + [Trabajo con el asistente de IA](start/ai-assistant.md)
    + [Preguntas frecuentes](start/faq.md)
 + Pasos de configuración {#config}
    + [Creación y administración de conexiones](connections/connections.md)
@@ -27,7 +28,6 @@ ht-degree: 84%
    + [Matriz de derechos de FDA](connections/fda-rights.md)
    + Modelos de datos y esquemas{#datamodel}
       + [Creación y configuración de esquemas](customer/schemas.md)
-      + [Configuración de modelos de datos (beta)](data-management/gs-models-beta.md)
       + [Configuración de modelos de datos](data-management/gs-models.md)
    + [Enriquecimiento de públicos de Adobe Experience Platform con datos externos](connections/destinations.md)
 + Componer audiencias {#compositions}
@@ -48,6 +48,7 @@ ht-degree: 84%
       + [Bifurcación](compositions/activities/fork.md)
       + [Reconciliación](compositions/activities/reconciliation.md)
       + [Guardar público](compositions/activities/save-audience.md)
+      + [Guardar perfiles](compositions/activities/save-profiles.md)
       + [Planificador](compositions/activities/scheduler.md)
       + [División](compositions/activities/split.md)
       + [Espera](compositions/activities/wait.md)

@@ -3,7 +3,7 @@ audience: end-user
 title: Trabajo con actividades
 description: Aprenda a trabajar con actividades
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 16%
@@ -31,7 +31,7 @@ En Federated Audience Composition, puede crear composiciones utilizando dos tipo
 ## Actividades de control de flujo
 
 * [AND-join](and-join.md): sincronice varias ramas de ejecución de una composición.
-* **Fin** : Marca gráficamente el final de una composición. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional.
+* **Fin**: marca gráficamente el final de una composición. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional.
 * [Bifurcación](fork.md): cree transiciones salientes para iniciar varias actividades al mismo tiempo.
 * [Programador](scheduler.md): Programe cuando comience la composición.
 * [Espera](wait.md): pausa momentáneamente la ejecución de una parte de una composición.

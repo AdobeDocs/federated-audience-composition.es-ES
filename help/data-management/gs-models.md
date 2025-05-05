@@ -2,53 +2,32 @@
 audience: end-user
 title: Introducción a los modelos de datos
 description: Obtenga información sobre cómo iniciar modelos de datos
-exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 61a7b66d16358a4a1c3d4b2ae153e856d8f682f7
+badge: label="Beta" type="Informative"
+exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 15%
+source-wordcount: '661'
+ht-degree: 2%
 
 ---
 
-# Introducción a los modelos de datos {#data-model}
+# Introducción a los modelos de datos {#data-model-beta}
 
->[!CONTEXTUALHELP]
->id="dc_model_menu"
->title="Trabajar con modelos"
->abstract="Los esquemas y los modelos de datos se muestran en esta pantalla. Puede crear esquemas y modelos de datos mediante el botón **Crear**."
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_add_schema"
->title="Seleccionar esquemas"
->abstract="Seleccione los esquemas para el modelo de datos."
-
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_add_audience"
->title="Selección de un público"
->abstract="Seleccione el público del modelo de datos."
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_properties"
->title="Propiedades del modelo de datos"
->abstract="Introduzca la etiqueta del modelo de datos."
-
+>[!AVAILABILITY]
+>
+>Actualmente, el modelo de datos con vista de lienzo está disponible como una versión beta para seleccionar solo usuarios.
 
 ## ¿Qué es un modelo de datos? {#data-model-start}
 
 Un modelo de datos es un conjunto de esquemas, audiencias y los vínculos entre ellos. Se utiliza para federar audiencias con datos de bases de datos.
 
-Más información sobre [esquemas](../customer/schemas.md#schema-start).
+En Federated Audience Composition, puede crear y administrar modelos de datos directamente en la vista Lienzo. Esto incluye agregar esquemas y audiencias, así como definir los vínculos entre ellos en función de su caso de uso.
 
-Más información sobre [audiencias](../start/audiences.md).
+Más información sobre [esquemas](../customer/schemas.md#schema-start) y [audiencias](../start/audiences.md).
 
 Por ejemplo, puede ver debajo una representación de un modelo de datos: las tablas con su nombre y los vínculos entre ellas.
 
 ![](assets/datamodel.png){zoomable="yes"}
-
-En la Composición de audiencias federada, es posible crear muchos modelos de datos.
-
-Su creación se basará en el caso de uso: elige las tablas necesarias y las vincula según sus necesidades.
 
 ## Creación de un modelo de datos {#data-model-create}
 
@@ -74,7 +53,11 @@ Para crear un modelo de datos, siga estos pasos:
 
 ## Crear vínculos {#data-model-links}
 
-Para crear vínculos entre tablas del modelo de datos, siga estos pasos:
+>[!BEGINTABS]
+
+>[!TAB Vista de tabla]
+
+Para crear vínculos entre tablas del modelo de datos desde la pestaña Table view, siga estos pasos:
 
 1. Haga clic en el menú **[!UICONTROL Crear vínculo]** de una de las tablas o haga clic en el botón **[!UICONTROL Crear vínculos]** y elija las dos tablas:
 
@@ -95,6 +78,45 @@ Para crear vínculos entre tablas del modelo de datos, siga estos pasos:
 Todos los vínculos definidos para el modelo de datos se enumeran a continuación:
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
+
+>[!TAB Vista de lienzo]
+
+Para crear vínculos entre tablas del modelo de datos desde la pestaña Vista de lienzo, siga estos pasos:
+
+1. Acceda a la vista Lienzo del modelo de datos y elija las dos tablas que desea vincular
+
+1. Haga clic en el botón ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) junto a Source Join y, a continuación, arrastre y guíe la flecha hacia Target Join para establecer la conexión.
+
+   ![](assets/datamodel.gif){zoomable="yes"}
+
+1. Complete el formulario proporcionado para definir el vínculo y haga clic en **[!UICONTROL Aplicar]** una vez configurado.
+
+   ![](assets/datamodel-canvas-1.png){zoomable="yes"}
+
+   **Cardinalidad**
+
+   * **1-N**: una incidencia de la tabla de origen puede tener varias incidencias correspondientes de la tabla de destino, pero una incidencia de la tabla de destino puede tener como máximo una incidencia correspondiente de la tabla de origen.
+
+   * **N-1**: una incidencia de la tabla de destino puede tener varias incidencias correspondientes de la tabla de origen, pero una incidencia de la tabla de origen puede tener como máximo una incidencia correspondiente de la tabla de destino.
+
+   * **1-1**: una incidencia de la tabla de origen puede tener como máximo una incidencia correspondiente de la tabla de destino.
+
+1. Todos los vínculos definidos en el modelo de datos se representan como flechas en la vista de lienzo. Haga clic en una flecha entre dos tablas para ver los detalles, realizar ediciones o quitar el vínculo según sea necesario.
+
+   ![](assets/datamodel-canvas-2.png){zoomable="yes"}
+
+1. Utilice la barra de herramientas para personalizar y ajustar el lienzo.
+
+   ![](assets/datamodel-canvas-3.png)
+
+   * **[!UICONTROL Acercar]**: amplíe el lienzo para ver los detalles del modelo de datos con mayor claridad.
+   * **[!UICONTROL Alejar]**: reduzca el tamaño del lienzo para obtener una vista más amplia del modelo de datos.
+   * **[!UICONTROL Ajustar vista]**: ajuste el zoom para ajustar todos los esquemas y/o audiencias dentro del área visible.
+   * **[!UICONTROL Alternar interactividad]**: habilita o deshabilita la interacción del usuario con el lienzo.
+   * **[!UICONTROL Filtro]**: elija qué esquema mostrar en el lienzo.
+   * **[!UICONTROL Forzar diseño automático]**: organice automáticamente los esquemas o audiencias para mejorar la organización.
+
+>[!ENDTABS]
 
 ## Cómo realizar el vídeo {#data-model-video}
 

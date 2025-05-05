@@ -4,9 +4,9 @@ description: Últimas actualizaciones y notas de la versión
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
-workflow-type: ht
-source-wordcount: '969'
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '980'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Esta versión incorpora las mejoras que se indican a continuación.
 * **Conexión de Databricks**
 
   Con esta nueva versión, la Composición de público federado ahora admite la conectividad de vínculos privados para las conexiones de bases de datos de Databricks.
-También permite conexiones seguras a bases de datos de Databricks alojadas en Amazon Web Service (AWS). [Más información](../connections/federated-db.md#databricks)
+Esto incluye conexiones seguras a bases de datos de Databricks alojadas en Amazon Web Services (AWS) a través de un vínculo privado y bases de datos de Databricks alojadas en Microsoft Azure a través de una VPN. [Más información](../connections/federated-db.md#databricks)
 
 * **Soporte para clientes de B2B CDP**
 

@@ -2,10 +2,10 @@
 title: Introducción a la composición de público federado de Experience Platform
 description: Descubra qué es la composición de público federado de Adobe y cómo utilizarla en Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 97%
 
 ---
 
@@ -42,6 +42,8 @@ En esta versión, hay dos casos de uso disponibles:
 1. Creación de públicos: genere nuevos públicos a partir de conjuntos de datos empresariales sin tener que copiar los datos subyacentes y active esos públicos con destinos prediseñados.
 
 1. Enriquecimiento de público: enriquezca los públicos existentes en Adobe Experience Platform utilizando datos de público compuestos que se hayan federado desde el almacén de datos empresariales. Estos datos no se mantendrán en los perfiles de clientes de Adobe Experience Platform.
+
+1. Enriquecimiento de perfiles: enriquezca los perfiles de Adobe Experience Platform mediante la federación de datos de almacenes externos, lo que le permite mejorar los perfiles de los clientes con atributos y perspectivas adicionales.
 
 ![diagrama](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -143,35 +145,3 @@ También puede consultar las preguntas frecuentes en [esta página](faq.md).
 >title="Seleccionar la dimensión de segmentación"
 >abstract="La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, en el caso de los correos electrónicos y SMS, el destinatario se selecciona en la tabla integrada Destinatarios. Para las notificaciones push, la dimensión de destino predeterminada son las aplicaciones del suscriptor."
 
-
-<!-- save profile IDs-->
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile"
->title="Guardar perfil"
->abstract="Guardar perfil"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_aepschemalist"
->title="Guardar lista de esquemas de AEP de perfil"
->abstract="Guardar lista de esquemas de AEP de perfil"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepattribute"
->title="Guardar atributo de esquema de AEP de perfil"
->abstract="Guardar atributo de esquema de AEP de perfil"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="Seleccionar el campo de identificación principal"
->abstract="Campo de identificación principal que se utilizará para los perfiles."
-
->[!CONTEXTUALHELP]
->id="ddc_orchestration_saveprofile_selectdataset"
->title="Conjunto de datos de AEP"
->abstract="Seleccione el conjunto de datos de AEP que se utilizará para los perfiles."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Guardar perfil Seleccionar esquema de AEP"
->abstract="Seleccione el esquema de AEP que se utilizará para los perfiles."

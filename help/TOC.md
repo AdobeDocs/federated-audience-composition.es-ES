@@ -3,9 +3,9 @@ user-guide-title: Composición de público federado de Experience Platform
 title: Documentación de la composición de público federado de Experience Platform
 breadcrumb-title: Composición de público federado de Experience Platform
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 83%
 + [Documentación de la composición de público federado de Experience Platform](home.md)
 + [Notas de la versión](start/release-notes.md)
 + [Notas de la versión](start/e-release-notes.md)
-+ Introducción a Federated Audience Composition {#start}
++ Introducción a la composición de público federado {#start}
    + [¿Qué es una composición de público federado?](start/get-started.md)
    + [Requisitos previos y protecciones](start/access-prerequisites.md)
    + [Acceso a la Composición de público federado](start/feature-access.md)
@@ -25,14 +25,14 @@ ht-degree: 83%
 + Pasos de configuración {#config}
    + [Creación y administración de conexiones](connections/connections.md)
    + [Configuración de las bases de datos federadas](connections/federated-db.md)
-   + [Matriz de derechos de FDA](connections/fda-rights.md)
+   + [Matriz de derechos FDA](connections/fda-rights.md)
    + Modelos de datos y esquemas{#datamodel}
       + [Creación y configuración de esquemas](customer/schemas.md)
       + [Configuración de modelos de datos](data-management/gs-models.md)
    + [Enriquecimiento de públicos de Adobe Experience Platform con datos externos](connections/destinations.md)
-+ Componer audiencias {#compositions}
++ Componer públicos {#compositions}
    + [Introducción a las composiciones](compositions/gs-compositions.md)
-   + Crear y ejecutar la primera composición {#create-composition}
+   + Crear y ejecutar su primera composición {#create-composition}
       + [Principios clave de la creación de una composición](compositions/gs-composition-creation.md)
       + [Crear y configurar la composición](compositions/create-composition.md)
       + [Organización de actividades](compositions/orchestrate-activities.md)

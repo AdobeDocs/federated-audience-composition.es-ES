@@ -3,9 +3,9 @@ title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>La vista de lienzo para la sección Modelos de datos mejora la experiencia al permitir la visualización de los modelos de datos y sus vínculos en un diseño de lienzo, junto con la vista tabular existente. </p>
-<p>Actualmente, el modelo de datos con vista de lienzo está disponible como una versión beta para seleccionar solo usuarios.</p>
+<p>La vista de lienzo de la sección Modelos de datos mejora la experiencia al permitir la visualización de los modelos de datos y sus vínculos en un diseño de lienzo, junto con la vista tabular existente. </p>
+<p>El modelo de datos con la vista de lienzo solo está disponible actualmente como versión beta para usuarios selectos.</p>
 <p>Para obtener más información, consulte la <a href="../data-management/gs-models.md">documentación detallada</a>.</p>
 </br>
 </td>
@@ -38,7 +38,7 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>Soporte del asistente de IA para el conocimiento del producto</strong><br/></th>
+<th><strong>Soporte del Asistente de IA para conocimiento del producto</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -61,7 +61,7 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p> La Composición de audiencia federada ahora es compatible con el caso de uso de enriquecimiento de perfil, lo que permite a los clientes mejorar los perfiles de Experience Platform existentes con datos de sus almacenes de datos externos.
+<p> La composición de público federado ahora admite el caso de uso de enriquecimiento de perfil, lo que permite a los clientes mejorar los perfiles de Experience Platform existentes con datos de sus almacenes de datos externos.
 </p>
 <p>Para obtener más información, consulte la <a href="../compositions/activities/save-profiles.md">documentación detallada</a>.</p>
 </br>
@@ -82,24 +82,24 @@ Esta versión incorpora las mejoras que se indican a continuación.
 
   El menú Audiencia ahora muestra el nombre o la etiqueta del modelo de datos seleccionado cuando un usuario selecciona un modelo de datos sin audiencias asociadas.
 
-* **Exportación de audiencias grandes**
+* **Exportación de públicos grandes**
 
-  La Composición de audiencias federada ahora admite la exportación de audiencias grandes, con tamaños de archivo superiores a 1 GB.
+  La composición de público federado ahora admite la exportación de públicos grandes, con tamaños de archivo superiores a 1 GB.
 
-* **Guardar actividad de audiencia**
+* **Actividad Guardar público**
 
-  Se ha agregado una nota a la actividad **Guardar audiencia**, en la que se recuerda a los usuarios que colaboren con un administrador de datos para aplicar etiquetas de gobernanza a los nuevos esquemas y conjuntos de datos creados durante la creación y el enriquecimiento de la audiencia.
-  [Más información sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/user-guide)
+  Se ha añadido una nota a la actividad **Guardar público**, en la que se recuerda a los usuarios que colaboren con un administrador de datos para aplicar las etiquetas de gobernanza a los nuevos esquemas y conjuntos de datos creados durante la creación y el enriquecimiento del público.
+  [Más información acerca de las etiquetas del uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Compatibilidad {#fac-25-4-compat}
 
 * **Conexión segura de Amazon Redshift**
 
-  Con esta nueva versión, Federated Audience Composition admite conexiones de vínculo privado seguras a bases de datos Amazon Redshift. [Más información](../connections/federated-db.md#amazon-redshift)
+  Con esta nueva versión, la composición de público federado admite las conexiones seguras de vínculos privados a las bases de datos de Amazon Redshift. [Más información](../connections/federated-db.md#amazon-redshift)
 
 * **Google Big Query**
 
-  Con esta nueva versión, Federated Audience Composition admite conexiones VPN seguras a bases de datos de Google Big Query. [Más información](../connections/federated-db.md#google-big-query)
+  Con esta nueva versión, la composición de público federado admite conexiones VPN seguras a bases de datos de Google Big Query. [Más información](../connections/federated-db.md#google-big-query)
 
 ## Versión de marzo de 2025 {#fac-25-3}
 

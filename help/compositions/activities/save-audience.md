@@ -42,7 +42,7 @@ La actividad **[!UICONTROL Guardar audiencia]** genera un nuevo esquema de audie
 
 >[!IMPORTANT]
 >
->La actividad **Guardar audiencia** requiere un esquema y un conjunto de datos habilitados para el perfil. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>La actividad **Guardar audiencia** requiere un esquema y un conjunto de datos habilitados para el perfil. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 
 ## Configuración de la actividad Guardar audiencia {#save-audience-configuration}
 

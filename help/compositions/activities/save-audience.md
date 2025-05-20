@@ -6,7 +6,7 @@ exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 28%
+ht-degree: 30%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
->title="Área de nombres de identidad"
+>title="Espacio de nombres de identidad"
 >abstract="Seleccione el área de nombres que se utilizará para los perfiles."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces" text="Más información en la Documentación de Experience Platform"
 
@@ -38,11 +38,11 @@ La actividad **Guardar audiencia** le permite crear una audiencia nueva a partir
 
 Esta actividad se utiliza esencialmente para mantener los grupos de población calculados en la misma composición, convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **audiencia de compilación** o una actividad **Combinar**.
 
-La actividad **[!UICONTROL Guardar audiencia]** genera un nuevo esquema de audiencia y un nuevo conjunto de datos. Una vez creada la audiencia, póngase en contacto con el administrador para asignar las etiquetas de control de datos correspondientes. [Más información sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/user-guide)
+La actividad **[!UICONTROL Guardar audiencia]** genera un nuevo esquema de audiencia y un nuevo conjunto de datos. Una vez creada la audiencia, póngase en contacto con el administrador para asignar las etiquetas de control de datos correspondientes. [Más información acerca de las etiquetas del uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
->La actividad **Guardar audiencia** requiere un esquema y un conjunto de datos habilitados para el perfil. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>La actividad **Guardar audiencia** requiere un esquema y un conjunto de datos habilitados para el perfil. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 
 ## Configuración de la actividad Guardar audiencia {#save-audience-configuration}
 

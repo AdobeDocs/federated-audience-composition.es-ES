@@ -2,10 +2,11 @@
 audience: end-user
 title: Uso de la actividad Guardar perfiles
 description: Aprenda a utilizar la actividad Guardar perfiles
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
+source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 0%
+ht-degree: 29%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
 >title="Guardar perfiles"
->abstract="La actividad Guardar perfiles permite enriquecer perfiles de Experience Platform federando datos de almacenes externos, lo que permite mejorar los perfiles de los clientes con atributos adicionales. "
+>abstract="La actividad Guardar perfiles permite enriquecer perfiles de Experience Platform federando datos de data warehouses externos, lo que permite mejorar los perfiles de los clientes con atributos adicionales. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
@@ -23,8 +24,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="Seleccione el campo Primary identification"
->abstract="Seleccione la Identidad principal que se utilizará para identificar los perfiles de destino en la base de datos."
+>title="Seleccionar el campo de identidad principal"
+>abstract="Seleccione la Identidad principal que se utilizará para identificar los perfiles segmentados en la base de datos."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"

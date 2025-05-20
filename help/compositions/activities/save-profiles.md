@@ -25,7 +25,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
 >title="Seleccionar el campo de identidad principal"
->abstract="Seleccione la Identidad principal que se utilizará para identificar los perfiles segmentados en la base de datos."
+>abstract="Seleccione la identidad principal que se utilizará para identificar los perfiles segmentados en la base de datos."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"

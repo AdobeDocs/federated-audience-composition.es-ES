@@ -3,14 +3,22 @@ audience: end-user
 title: Pista de auditoría
 description: Conozca cómo se registran las acciones y los eventos y cómo se puede acceder a ellos en la pista de auditoría
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 12%
+source-wordcount: '371'
+ht-degree: 11%
 
 ---
 
 # Pista de auditoría {#audit-trail}
+
+>[!AVAILABILITY]
+>
+>Para acceder a la pista de auditoría, necesita el siguiente permiso:
+>
+>-**Ver pista de auditoría**
+>
+>Para obtener más información sobre los permisos necesarios, lea la [Guía de composición de audiencias federadas de acceso](/help/start/feature-access.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"

@@ -2,20 +2,25 @@
 audience: end-user
 title: Introducción a los modelos de datos
 description: Obtenga información sobre cómo iniciar modelos de datos
-badge: label="Beta" type="Informative"
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '688'
 ht-degree: 2%
 
 ---
+
 
 # Introducción a los modelos de datos {#data-model-beta}
 
 >[!AVAILABILITY]
 >
->Actualmente, el modelo de datos con vista de lienzo está disponible como una versión beta para seleccionar solo usuarios.
+>Para acceder a los modelos de datos, necesita uno de los siguientes permisos:
+>
+>-**Administrar modelo de datos federado**
+>-**Ver modelo de datos federado**
+>
+>Para obtener más información sobre los permisos necesarios, lea la [Guía de composición de audiencias federadas de acceso](/help/start/feature-access.md).
 
 ## ¿Qué es un modelo de datos? {#data-model-start}
 
@@ -45,7 +50,9 @@ Para crear un modelo de datos, siga estos pasos:
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Agregar audiencias]** para definir los grupos de destino.
+1. Además, puede agregar audiencias al modelo de datos. Seleccione **[!UICONTROL Agregar audiencias]** para definir los grupos de destino.
+
+   ![](assets/datamodel-audiences.png){zoomable="yes"}
 
 1. Establezca conexiones entre las tablas del modelo de datos para garantizar relaciones de datos precisas. [Más información](#data-model-links)
 

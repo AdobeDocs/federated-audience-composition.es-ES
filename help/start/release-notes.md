@@ -3,9 +3,9 @@ title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1246'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 <td>
 <p>El modelo de datos con vista de lienzo ya está disponible para todos los clientes.</p>
 <p>La vista de lienzo de la sección Modelos de datos mejora la experiencia al permitir la visualización de los modelos de datos y sus vínculos en un diseño de lienzo, junto con la vista tabular existente. </p>
-<p>Para obtener más información sobre la vista en lienzo, lea la <a href="../data-management/gs-models.md">descripción general de los modelos de datos</a>.</p>
+<p>Para obtener más información sobre la vista de lienzo, lea la <a href="../data-management/gs-models.md">Información general de los modelos de datos</a>.</p>
 </br>
 </td>
 </tr>
@@ -37,13 +37,13 @@ ht-degree: 93%
 
 ### Mejoras {#fac-25-5-improvements}
 
-Esta versión incorpora las siguientes mejoras.
+Esta versión incluye las siguientes mejoras.
 
-* **Control de acceso basado en roles**
+* **Control de acceso basado en funciones**
 
-  A partir de la versión de mayo, [!DNL Federated Audience Composition] admite nuevos permisos granulares para el control de acceso. Los usuarios pueden asignar estos permisos a los roles de usuario para obtener un acceso más preciso a [!DNL Federated Audience Composition].
+  A partir de la versión de mayo, [!DNL Federated Audience Composition] admite nuevos permisos granulares para el control de acceso. Los usuarios pueden asignar estos permisos a las funciones de usuario para obtener un acceso más preciso a [!DNL Federated Audience Composition].
 
-  Para obtener más información sobre los nuevos permisos, lee la [Guía de acceso de la composición de audiencias federada](feature-access.md).
+  Para obtener más información sobre los nuevos permisos, consulte la [Guía de acceso de la composición de público federado](feature-access.md).
 
 ## Versión de abril de 2025 {#fac-25-4}
 

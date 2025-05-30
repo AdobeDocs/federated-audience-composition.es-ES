@@ -4,9 +4,9 @@ title: Introducción a las composiciones
 description: Obtenga más información acerca de cómo empezar con las composiciones
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 90%
 >Para acceder a las composiciones, necesita uno de los siguientes permisos:
 >
 >-**Administrar composiciones federadas**
->-**Ver composiciones federadas**
+>>-**Ver composiciones federadas**
 >
->Para obtener más información sobre los permisos necesarios, lea la [Guía de composición de audiencias federadas de acceso](/help/start/feature-access.md).
+>Para obtener más información sobre los permisos necesarios, consulte [Guía de acceso de la composición de público federado](/help/start/feature-access.md).
 
 ## ¿Qué es una composición? {#what}
 

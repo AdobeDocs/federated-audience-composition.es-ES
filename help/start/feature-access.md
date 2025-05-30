@@ -5,7 +5,7 @@ exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Por ejemplo, si se activa una nueva zona protegida denominada «fac-test», se c
 
 ## Administración del acceso a la Composición de público federado
 
-Para acceder a **Composición de audiencias federada**, primero debe asegurarse de asignar los permisos necesarios para acceder a diferentes aspectos de la Composición de audiencias federada. Estas funciones deben asignarse a los usuarios que necesiten acceso a **Federated Audience Composition**.
+Para acceder a una **Composición de público federado**, primero debe asegurarse de asignar los permisos necesarios para acceder a diferentes aspectos de la Composición de público federado. Estas funciones deben asignarse a los usuarios que necesiten acceder a la **Composición de público federado**.
 
 Tenga en cuenta que solo los administradores tienen la capacidad de asignar permisos.
 
@@ -29,41 +29,41 @@ Tenga en cuenta que solo los administradores tienen la capacidad de asignar perm
 
    ![](assets/access_fda_1.png)
 
-1. Seleccione **[!UICONTROL Editar]** para modificar los permisos de su rol.
+1. Seleccione **[!UICONTROL Editar]** para modificar los permisos de su función.
 
    ![](assets/access_fda_2.png)
 
-1. Añada los permisos necesarios para el usuario. Puede añadir los siguientes permisos para acceder a Federated Audience Composition:
+1. Añada los permisos necesarios para el usuario. Puede añadir los siguientes permisos para acceder a la composición de público federado:
 
    | Permiso | Descripción |
    | ---------- | ----------- |
-   | Administrar datos federados | Utilice este permiso para administrar todos los aspectos de la composición de audiencias federada. Este permiso presupone Administrar base de datos federada, Administrar esquema federado, Administrar modelo de datos federado y Administrar composiciones federadas. |
-   | Administrar base de datos federada | Utilice este permiso para agregar, ver, actualizar y eliminar las conexiones a bases de datos federadas. |
-   | Ver base de datos federada | Utilice este permiso para ver las conexiones a bases de datos federadas. |
+   | Administrar datos federados | Utilice este permiso para administrar todos los aspectos de la composición de público federado. Este permiso incluye Administrar base de datos federada, Administrar esquema federado, Administrar modelo de datos federado y Administrar composiciones federadas. |
+   | Administrar base de datos federada | Utilice este permiso para añadir, ver, actualizar y eliminar sus conexiones a bases de datos federadas. |
+   | Ver base de datos federada | Utilice este permiso para ver sus conexiones a bases de datos federadas. |
    | Administrar esquema federado | Utilice este permiso para crear, ver, actualizar, eliminar y actualizar esquemas. |
    | Ver datos de esquema federado | Utilice este permiso para ver la pestaña de datos dentro de la sección del esquema. |
-   | Ver esquema federado | Utilice este permiso para ver las tablas de esquema. |
+   | Ver esquema federado | Utilice este permiso para ver las tablas del esquema. |
    | Administrar modelo de datos federado | Utilice este permiso para crear, ver, actualizar y eliminar modelos de datos. |
    | Ver modelo de datos federado | Utilice este permiso para ver los modelos de datos. |
-   | Ver pista de auditoría de federación | Utilice este permiso para ver la pista de auditoría de la composición de audiencias federada. |
+   | Ver seguimiento de auditoría de federación | Utilice este permiso para ver el seguimiento de auditoría de la composición de público federado. |
    | Administrar composiciones federadas | Use este permiso para crear, ver, actualizar y eliminar composiciones federadas. |
    | Ver composiciones federadas | Utilice este permiso para ver composiciones federadas. |
 
    ![](assets/permissions.png)
 
-1. Una vez que hayas hecho los cambios necesarios, selecciona **[!UICONTROL Guardar]**.
+1. Cuando haya realizado los cambios necesarios, haga clic en **[!UICONTROL Guardar]**.
 
 Los permisos de los usuarios que ya se hayan asignado a esta función se actualizarán automáticamente y tendrán acceso a la Composición de público federado.
 
 Para asignar esta función a nuevos usuarios:
 
-1. Vaya a la ficha **[!UICONTROL Usuarios]** del panel de funciones y seleccione **[!UICONTROL Agregar usuarios]**.
+1. Vaya a la pestaña **[!UICONTROL Usuarios]** en el panel de control Función y seleccione **[!UICONTROL Añadir usuarios]**.
 
    ![](assets/access_fda_4.png)
 
-1. Introduzca el nombre o la dirección de correo electrónico del usuario o selecciónelo en la lista disponible. Una vez finalizado, seleccione **[!UICONTROL Guardar]**.
+1. Introduzca el nombre o la dirección de correo electrónico del usuario o selecciónelo en la lista disponible. Cuando haya terminado, seleccione **[!UICONTROL Guardar]**.
 
-<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
 | Role name | Permissions |
 | --------- | ----------- |

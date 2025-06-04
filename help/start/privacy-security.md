@@ -21,23 +21,23 @@ Por ejemplo, cuando se crea una audiencia utilizando el bloque de actividad de g
 
 Como alternativa, después de crear un enriquecimiento de perfil utilizando la actividad de guardar perfil en el lienzo de maquetación, el enriquecimiento resultante se almacena en Experience Platform como esquema habilitado para perfiles y conjunto de datos habilitado para perfiles. Estos datos de enriquecimiento están marcados con un campo de identidad y un área de nombres de identidad. Como resultado, puede utilizar Privacy Service para acceder a estos perfiles y limpiarlos.
 
-Para obtener más información sobre Privacy Service, lea la [descripción general de Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home){target="_blank"}.
+Para obtener más información sobre Privacy Service, lea la [descripción general de Privacy Service](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/home){target="_blank"}.
 
 ### Solicitudes de privacidad {#privacy-requests}
 
 En Privacy Service, puede crear y administrar solicitudes de privacidad individuales para acceder a datos de clientes y eliminarlos de Federated Audience Composition. Privacy Service proporciona una [interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es){target="_blank"} y una [API RESTful](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/overview){target="_blank"} para ayudarle a administrar las solicitudes de datos de los clientes.
 
-Para obtener más información sobre cómo crear y administrar solicitudes de privacidad, lea [trabajos de privacidad en la guía de la interfaz de usuario de Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide){target="_blank"}.
+Para obtener más información sobre cómo crear y administrar solicitudes de privacidad, lea [trabajos de privacidad en la guía de la interfaz de usuario de Privacy Service](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/ui/user-guide){target="_blank"}.
 
 ## Aplicación de políticas de consentimiento {#consent}
 
 Federated Audience Composition, a través de Experience Platform, ofrece herramientas que le permiten automatizar la aplicación del consentimiento, lo que garantiza que está activando audiencias en función del consentimiento proporcionado a sus clientes.
 
-Por ejemplo, cuando se crea una audiencia utilizando el bloque de actividad de guardado en el lienzo de maquetación, la audiencia resultante se almacena en el lago de datos en Experience Platform como una audiencia externa. Experience Platform admite automáticamente la validación del consentimiento durante la activación. Para obtener más información, lea las [Preguntas frecuentes sobre el servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#consent){target="_blank"}.
+Por ejemplo, cuando se crea una audiencia utilizando el bloque de actividad de guardado en el lienzo de maquetación, la audiencia resultante se almacena en el lago de datos en Experience Platform como una audiencia externa. Experience Platform admite automáticamente la validación del consentimiento durante la activación. Para obtener más información, lea las [Preguntas frecuentes sobre el servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq#consent){target="_blank"}.
 
-Como alternativa, después de crear un enriquecimiento de perfil utilizando la actividad de guardar perfil en el lienzo de maquetación, el enriquecimiento resultante se almacena en Experience Platform como esquema habilitado para perfiles y conjunto de datos habilitado para perfiles. Para los perfiles existentes, los atributos de consentimiento disponibles se respetan automáticamente durante la activación. Para los perfiles nuevos, los atributos de consentimiento proporcionados durante la ingesta de perfiles se respetan automáticamente durante la activación. Para obtener más información sobre la aplicación de consentimientos a los perfiles, lea la [guía de grupos de campos de consentimientos y preferencias](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}.
+Como alternativa, después de crear un enriquecimiento de perfil utilizando la actividad de guardar perfil en el lienzo de maquetación, el enriquecimiento resultante se almacena en Experience Platform como esquema habilitado para perfiles y conjunto de datos habilitado para perfiles. Para los perfiles existentes, los atributos de consentimiento disponibles se respetan automáticamente durante la activación. Para los perfiles nuevos, los atributos de consentimiento proporcionados durante la ingesta de perfiles se respetan automáticamente durante la activación. Para obtener más información sobre la aplicación de consentimientos a los perfiles, lea la [guía de grupos de campos de consentimientos y preferencias](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}.
 
-Para obtener más información sobre la aplicación de consentimientos, lea la [guía de la interfaz de usuario para administrar directivas](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}.
+Para obtener más información sobre la aplicación de consentimientos, lea la [guía de la interfaz de usuario para administrar directivas](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}.
 
 ## Ciclo de vida de los datos {#data-lifecycle}
 
@@ -47,13 +47,13 @@ Por ejemplo, cuando se crea una audiencia utilizando el bloque de actividad de g
 
 Como alternativa, después de crear un enriquecimiento de perfil utilizando la actividad de guardar perfil en el lienzo de maquetación, el enriquecimiento resultante se almacena en Experience Platform como esquema habilitado para perfiles y conjunto de datos habilitado para perfiles. Como resultado, puede usar Ciclo de vida de datos para acceder a los perfiles y limpiarlos.
 
-Para obtener más información sobre el uso del ciclo de vida de datos, lea [Resumen del ciclo de vida de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home){target="_blank"}.
+Para obtener más información sobre el uso del ciclo de vida de datos, lea [Resumen del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home){target="_blank"}.
 
 ## Etiquetas de uso de datos {#data-usage-labels}
 
 Las etiquetas de uso de datos permiten categorizar conjuntos de datos y campos en función de las políticas de gobernanza que se aplican a esos datos. Después de crear una audiencia con composiciones, puede aplicar las etiquetas de datos adecuadas al esquema resultante para asegurarse de que cumple las restricciones de uso requeridas.
 
-Para obtener más información sobre cómo usar etiquetas de datos, lea la [descripción general de las etiquetas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
+Para obtener más información sobre cómo usar etiquetas de datos, lea la [descripción general de las etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
 
 ## Cifrado {#encryption}
 
@@ -63,13 +63,13 @@ Los datos en reposo hacen referencia a los datos de clientes que se utilizan en 
 
 Los datos en tránsito se refieren a los datos del cliente cuando se mueven de un componente a otro en la Composición de audiencias federada. Los datos se mantienen cifrados en todos los componentes de Composición de audiencia federada mediante TLS 1.3 en HTTPS.
 
-Para obtener más información sobre cómo administra Adobe el cifrado de datos, lea la guía sobre el cifrado de datos [en Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}.
+Para obtener más información sobre cómo administra Adobe el cifrado de datos, lea la guía sobre el cifrado de datos [en Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}.
 
 ### Claves gestionadas por el cliente {#customer-managed-keys}
 
 Las claves administradas por el cliente le permiten tener el control de sus datos, ya que le permiten utilizar sus propias claves de cifrado para cifrar sus datos. Dado que la Composición de audiencias federada **no** almacena ninguno de los datos del cliente, puede usar claves administradas por el cliente directamente en las audiencias y enriquecimientos resultantes, ya que se almacenarán en el lago de datos en Experience Platform.
 
-Para obtener más información sobre las claves administradas por el cliente, lea la [guía de claves administradas por el cliente](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}.
+Para obtener más información sobre las claves administradas por el cliente, lea la [guía de claves administradas por el cliente](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}.
 
 ## Registro de auditoría {#audit-log}
 

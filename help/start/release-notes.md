@@ -3,7 +3,7 @@ title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 100%
 

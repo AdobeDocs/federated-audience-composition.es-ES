@@ -3,10 +3,10 @@ audience: end-user
 title: Configuración de las bases de datos federadas
 description: Aprenda sobre la configuración de las bases de datos federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '2133'
-ht-degree: 100%
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+workflow-type: tm+mt
+source-wordcount: '2128'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Con la Composición de público federado, puede conectarse a las siguientes base
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse Analytics](#azure-synapse)
-* [Google Big Query](#google-big-query)
+* [Google BigQuery](#google-bigquery)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
@@ -127,9 +127,9 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 |---|---|
 | Autenticación | Tipo de autenticación admitida por el conector. Valor actual admitido: ActiveDirectoryMSI. Para obtener más información, consulte la [documentación de Microsoft SQL](https://learn.microsoft.com/es-es/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Ejemplo de cadenas de conexión n.° 8) |
 
-## Google Big Query {#google-big-query}
+## Google BigQuery {#google-bigquery}
 
-Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos indicados a continuación para configurar el acceso a Google BigQuery.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Google BigQuery.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -137,9 +137,9 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
    ![](assets/federated_database_1.png)
 
-1. Escriba el **[!UICONTROL nombre]** de su base de datos federada.
+1. Escriba el **[!UICONTROL Nombre]** de su base de datos federada.
 
-1. En el menú desplegable **[!UICONTROL Tipo]**, seleccione Google BigQuery.
+1. En la lista desplegable **[!UICONTROL Tipo]**, seleccione Google BigQuery.
 
    ![](assets/federated_database_3.png)
 

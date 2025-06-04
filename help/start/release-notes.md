@@ -2,10 +2,10 @@
 title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 100%
+source-wordcount: '1244'
+ht-degree: 98%
 
 ---
 
@@ -129,9 +129,9 @@ Esta versión incorpora las mejoras que se indican a continuación.
 
   Con esta nueva versión, la composición de público federado admite las conexiones seguras de vínculos privados a las bases de datos de Amazon Redshift. [Más información](../connections/federated-db.md#amazon-redshift)
 
-* **Google Big Query**
+* **Google BigQuery**
 
-  Con esta nueva versión, la composición de público federado admite conexiones VPN seguras a bases de datos de Google Big Query. [Más información](../connections/federated-db.md#google-big-query)
+  Con esta nueva versión, Federated Audience Composition admite conexiones VPN seguras a bases de datos de Google BigQuery. [Más información](../connections/federated-db.md#google-bigquery)
 
 ## Versión de marzo de 2025 {#fac-25-3}
 

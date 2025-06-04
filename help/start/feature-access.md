@@ -3,7 +3,7 @@ title: Acceso a la Composición de público federado
 description: Obtenga información acerca de los permisos necesarios para la Composición de público federado
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Para asignar esta función a nuevos usuarios:
 
 1. Introduzca el nombre o la dirección de correo electrónico del usuario o selecciónelo en la lista disponible. Cuando haya terminado, seleccione **[!UICONTROL Guardar]**.
 
-<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
 | Role name | Permissions |
 | --------- | ----------- |

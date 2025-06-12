@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Guardar perfiles
 description: Aprenda a utilizar la actividad Guardar perfiles
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
-source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
+source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 29%
+source-wordcount: '374'
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Seleccionar esquema de AEP"
+>title="Seleccionar esquema de Experience Platform"
 >abstract="Elija el esquema de Experience Platform para los perfiles."
 
 >[!CONTEXTUALHELP]
@@ -29,12 +29,42 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Seleccionar esquema de AEP"
+>title="Seleccionar esquema de Experience Platform"
 >abstract="Elija el esquema de Experience Platform para los perfiles."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode"
+>title="Guardar modo de actualización de perfil"
+>abstract="Los modos de actualización disponibles para la actividad Guardar perfil incluyen actualización completa e incremental."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_full"
+>title="Actualización completa"
+>abstract="El modo de actualización completa actualiza el conjunto completo de perfiles para el enriquecimiento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_incremental"
+>title="Actualización incremental"
+>abstract="El modo de actualización incremental actualiza los perfiles que se han modificado desde que se ejecutó el último enriquecimiento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentityfield"
+>title="Campo de identidad principal"
+>abstract="El campo de identidad principal indica la fuente de verdad al combinar perfiles para el enriquecimiento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_requiredfieldscheck"
+>title="Criterios de campos obligatorios"
+>abstract="Un campo obligatorio es un atributo que debe rellenarse para cada perfil o registro al exportar datos. Si falta un campo obligatorio, la exportación no es completa ni válida."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentitycheck"
+>title="Criterios del campo de identidad principal"
+>abstract="El identificador único de cada perfil o registro. Esto garantiza que cada registro se pueda reconocer y hacer coincidir de forma distintiva, lo que evita la duplicación de datos."
 
 La actividad **Guardar perfiles** le permite enriquecer perfiles de Adobe Experience Platform con datos federados desde almacenes externos.
 
-Esta actividad se utiliza generalmente para mejorar los perfiles de los clientes mediante la introducción de atributos y perspectivas adicionales sin mover físicamente o duplicar los datos en la plataforma
+Esta actividad se utiliza generalmente para mejorar los perfiles de los clientes mediante la introducción de atributos y perspectivas adicionales sin mover físicamente o duplicar los datos en la plataforma.
 
 ## Configure la actividad Guardar perfiles {#save-profile-configuration}
 

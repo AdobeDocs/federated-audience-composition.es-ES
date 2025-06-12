@@ -4,16 +4,36 @@ description: Últimas actualizaciones y notas de la versión
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '980'
-ht-degree: 100%
+source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 89%
 
 ---
 
 # Notas de la versión {#rn-new}
 
 [!DNL Federated Audience Composition] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan en estas notas de la versión. [!DNL Federated Audience Composition] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
+
+## Versión de junio de 2025 {#fac-25-6}
+
+Esta versión incorpora las siguientes mejoras:
+
+* **Disponibilidad general para clientes de atención médica**
+
+  La Composición de audiencias federada estará disponible para los clientes de atención médica para la creación de audiencias y casos de uso de enriquecimiento de perfiles y enriquecimiento de perfiles a finales de junio.
+
+* **Control de acceso de nivel de objeto**
+
+  La Composición de audiencia federada ahora admite el control de acceso de nivel de objeto para aplicar etiquetas de acceso a las composiciones especificadas.
+
+* **Funciones predeterminadas**
+
+  Ahora puede utilizar una de las funciones predeterminadas para administrar los permisos de usuario para el acceso de Composición de audiencia federada.
+
+* **Actualizaciones incrementales en casos de uso de enriquecimiento de perfiles**
+
+  La actividad Guardar perfiles ahora admite actualizaciones incrementales. Con las actualizaciones incrementales, puede consultar y actualizar datos incrementales a la vez que enriquece los perfiles con datos de almacenes de datos externos.
 
 ## Versión de abril de 2025 {#fac-25-4}
 

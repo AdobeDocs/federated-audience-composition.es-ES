@@ -4,9 +4,9 @@ title: Configuración de las bases de datos federadas
 description: Aprenda sobre la configuración de las bases de datos federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2128'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 ## Google BigQuery {#google-bigquery}
 
-Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Google BigQuery.
+Utilice bases de datos federadas para procesar la información almacenada en una base de datos externa. Siga los pasos que se indican a continuación para configurar el acceso a Google BigQuery.
 
 1. En el menú **[!UICONTROL Datos federados]**, seleccione **[!UICONTROL Bases de datos federadas]**.
 
@@ -139,7 +139,7 @@ Utilice bases de datos federadas para procesar la información almacenada en una
 
 1. Escriba el **[!UICONTROL Nombre]** de su base de datos federada.
 
-1. En la lista desplegable **[!UICONTROL Tipo]**, seleccione Google BigQuery.
+1. En el menú desplegable **[!UICONTROL Tipo]**, seleccione Google BigQuery.
 
    ![](assets/federated_database_3.png)
 

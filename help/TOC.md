@@ -2,10 +2,10 @@
 user-guide-title: Composición de público federado de Experience Platform
 title: Documentación de la composición de público federado de Experience Platform
 breadcrumb-title: Composición de público federado de Experience Platform
-source-git-commit: 16af7b7e5258aa377c94d552048bdc2d38a39b44
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 100%
 + Introducción a la composición de público federado {#start}
    + [¿Qué es una composición de público federado?](start/get-started.md)
    + [Requisitos previos y protecciones](start/access-prerequisites.md)
-   + [Acceso a la Composición de público federado](start/feature-access.md)
    + [Trabajar con públicos](start/audiences.md)
    + [Trabajo con el asistente de IA](start/ai-assistant.md)
-   + [Privacidad y seguridad](start/privacy-security.md)
    + [Preguntas frecuentes](start/faq.md)
++ Gobernanza, privacidad y seguridad {#governance-privacy-security}
+   + [Información general](./governance-privacy-security/home.md)
+   + [Control de acceso](governance-privacy-security/access-control.md)
 + Pasos de configuración {#config}
    + [Creación y administración de conexiones](connections/connections.md)
    + [Configuración de las bases de datos federadas](connections/federated-db.md)

@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a los modelos de datos
 description: Obtenga información sobre cómo iniciar modelos de datos
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
+source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 >Para acceder a los modelos de datos, necesita uno de los siguientes permisos:
 >
 >-**Administrar modelo de datos federado**
->-**Ver modelo de datos federado**
+>>-**Ver modelo de datos federado**
 >
->Para obtener más información sobre los permisos necesarios, lea la [Guía de composición de audiencias federadas de acceso](/help/start/feature-access.md).
+>Para obtener más información sobre los permisos requeridos, lea la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
 
 ## ¿Qué es un modelo de datos? {#data-model-start}
 

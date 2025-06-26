@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a los esquemas
 description: Aprenda a empezar con esquemas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '545'
 ht-degree: 18%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 18%
 >Para acceder a los esquemas, necesita uno de los siguientes permisos:
 >
 >-**Administrar esquema federado**
->-**Ver esquema federado**
+>>-**Ver esquema federado**
 >
->Para obtener más información sobre los permisos necesarios, lea la [Guía de composición de audiencias federadas de acceso](/help/start/feature-access.md).
+>Para obtener más información sobre los permisos requeridos, lea la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -35,7 +35,6 @@ ht-degree: 18%
 >id="dc_schema_create_schema_name"
 >title="Nombre del esquema"
 >abstract="Introduzca el nombre del esquema."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"

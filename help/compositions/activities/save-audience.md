@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Guardar audiencia
 description: Aprenda a utilizar la actividad Guardar audiencia
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 30%
+source-wordcount: '532'
+ht-degree: 19%
 
 ---
 
@@ -34,15 +34,11 @@ ht-degree: 30%
 >abstract="Seleccione el área de nombres que se utilizará para los perfiles."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces" text="Más información en la Documentación de Experience Platform"
 
-La actividad **Guardar audiencia** le permite crear una audiencia nueva a partir de la población calculada en sentido ascendente en una composición. Las audiencias creadas se agregan a la lista de audiencias de Adobe Experience Platform y están disponibles a través del menú **Audiencias**. [Descubra cómo trabajar con públicos](../../start/audiences.md)
+La actividad **[!UICONTROL Guardar audiencia]** le permite crear una audiencia nueva a partir de la población calculada en sentido ascendente en una composición. Las audiencias creadas se agregan a la lista de audiencias de Adobe Experience Platform y están disponibles a través del menú **Audiencias**. [Descubra cómo trabajar con públicos](../../start/audiences.md)
 
 Esta actividad se utiliza esencialmente para mantener los grupos de población calculados en la misma composición, convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **audiencia de compilación** o una actividad **Combinar**.
 
-La actividad **[!UICONTROL Guardar audiencia]** genera un nuevo esquema de audiencia y un nuevo conjunto de datos. Una vez creada la audiencia, póngase en contacto con el administrador para asignar las etiquetas de control de datos correspondientes. [Más información acerca de las etiquetas del uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/user-guide)
-
->[!IMPORTANT]
->
->La actividad **Guardar audiencia** requiere un esquema y un conjunto de datos habilitados para el perfil. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+La actividad **[!UICONTROL Guardar audiencia]** genera un nuevo esquema de audiencia y un conjunto de datos asociado, que pueden contener información de identificación personal (PII) o información médica protegida (PHI). Una vez creada la audiencia, póngase en contacto con el administrador para asegurarse de que se aplican las etiquetas de control de datos adecuadas de acuerdo con las políticas de datos de su organización. Para obtener más información sobre cómo aplicar etiquetas de uso de datos, lea la [guía del usuario sobre etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/user-guide).
 
 ## Configuración de la actividad Guardar audiencia {#save-audience-configuration}
 
@@ -69,7 +65,7 @@ Siga estos pasos para configurar la actividad **Guardar audiencia**:
 
 ## Acceso al público en Adobe Experience Platform {#access-audience}
 
-Después de ejecutar la composición, el público resultante se guarda en Adobe Experience Platform como público externo, estará disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Se puede acceder desde el menú **Públicos**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Después de ejecutar la maquetación, la audiencia resultante se guarda en Adobe Experience Platform como audiencia externa y está disponible en Adobe Real-Time CDP o Adobe Journey Optimizer en Audience Portal. Para obtener más información sobre Audience Portal, lea la [descripción general de Audience Portal](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 La audiencia creada incluye todos los campos seleccionados en la sección Asignaciones de audiencias. Puede segmentar esta audiencia en Journey Optimizer o activarla en cualquier destino admitido por Adobe Experience Platform.
 

@@ -17,7 +17,7 @@ ht-degree: 3%
 >Para acceder a las conexiones, necesita uno de los siguientes permisos:
 >
 >-**Administrar base de datos federada**
->>-**Ver base de datos federada**
+>&#x200B;>-**Ver base de datos federada**
 >
 >Para obtener más información sobre los permisos requeridos, lea la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
 

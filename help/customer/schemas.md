@@ -17,7 +17,7 @@ ht-degree: 18%
 >Para acceder a los esquemas, necesita uno de los siguientes permisos:
 >
 >-**Administrar esquema federado**
->>-**Ver esquema federado**
+>&#x200B;>-**Ver esquema federado**
 >
 >Para obtener más información sobre los permisos requeridos, lea la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
 

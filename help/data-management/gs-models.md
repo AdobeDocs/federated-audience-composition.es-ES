@@ -18,7 +18,7 @@ ht-degree: 2%
 >Para acceder a los modelos de datos, necesita uno de los siguientes permisos:
 >
 >-**Administrar modelo de datos federado**
->>-**Ver modelo de datos federado**
+>&#x200B;>-**Ver modelo de datos federado**
 >
 >Para obtener más información sobre los permisos requeridos, lea la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
 

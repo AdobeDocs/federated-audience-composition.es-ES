@@ -73,7 +73,7 @@ Aparece la ventana emergente **[!UICONTROL Administrar acceso]**. En esta págin
 | Etiquetas confidenciales | Las etiquetas confidenciales (etiquetas &quot;S&quot;) se utilizan para categorizar a usted y/o a su organización como confidenciales. |
 | Etiquetas de Partner Ecosystem | Las etiquetas de ecosistema de socio se utilizan para categorizar los datos de fuentes externas a su organización. |
 
-Para obtener más información sobre las etiquetas de acceso y control de datos, lea el [glosario de etiquetas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
+Para obtener más información sobre las etiquetas de acceso y control de datos, lea el [glosario de etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference).
 
 ## Pasos siguientes
 

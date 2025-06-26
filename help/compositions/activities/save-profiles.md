@@ -70,9 +70,9 @@ Esta actividad se utiliza generalmente para mejorar los perfiles de los clientes
 
 >[!IMPORTANT]
 >
->La actividad **Guardar perfiles** requiere un esquema y un conjunto de datos con perfil habilitado. Para obtener información sobre cómo habilitar el conjunto de datos para perfiles, lea la [guía del usuario del conjunto de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>La actividad **Guardar perfiles** requiere un esquema y un conjunto de datos con perfil habilitado. Para obtener información sobre cómo habilitar el conjunto de datos para perfiles, lea la [guía del usuario del conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 >
->Además, si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos de los perfiles serán **reemplazados**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+>Además, si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos de los perfiles serán **reemplazados**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Siga estos pasos para configurar la actividad **[!UICONTROL Guardar perfiles]**:
 

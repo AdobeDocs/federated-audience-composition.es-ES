@@ -6,7 +6,7 @@ exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 source-git-commit: c76ef4b64a58d3d43e78b489a1efe1a97a8c09f7
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 12%
+ht-degree: 37%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Seleccionar esquema de Experience Platform"
+>title="Selección del esquema de Experience Platform"
 >abstract="Elija el esquema de Experience Platform para los perfiles."
 
 >[!CONTEXTUALHELP]
@@ -29,13 +29,13 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Seleccionar esquema de Experience Platform"
+>title="Selección del esquema de Experience Platform"
 >abstract="Elija el esquema de Experience Platform para los perfiles."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode"
->title="Guardar modo de actualización de perfil"
->abstract="Los modos de actualización disponibles para la actividad Guardar perfil incluyen actualización completa e incremental."
+>title="Modo de actualización para guardar perfil"
+>abstract="Los modos de actualización disponibles para la actividad Guardar perfil incluyen la actualización completa y la incremental."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode_full"
@@ -50,16 +50,16 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentityfield"
 >title="Campo de identidad principal"
->abstract="El campo de identidad principal indica la fuente de verdad al combinar perfiles para el enriquecimiento."
+>abstract="El campo de identidad principal indica la fuente de veracidad al combinar perfiles para el enriquecimiento."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_requiredfieldscheck"
 >title="Criterios de campos obligatorios"
->abstract="Un campo obligatorio es un atributo que debe rellenarse para cada perfil o registro al exportar datos. Si falta un campo obligatorio, la exportación no es completa ni válida."
+>abstract="Un campo obligatorio es un atributo que debe rellenarse para cada perfil o registro al exportar los datos. Si falta un campo obligatorio, la exportación no se completará ni será válida."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitycheck"
->title="Criterios del campo de identidad principal"
+>title="Campo de identidad principal"
 >abstract="El identificador único de cada perfil o registro. Esto garantiza que cada registro se pueda reconocer y hacer coincidir de forma distintiva, lo que evita la duplicación de datos."
 
 La actividad **[!UICONTROL Guardar perfiles]** le permite enriquecer perfiles de Adobe Experience Platform con datos federados desde almacenes externos.
@@ -70,9 +70,9 @@ Esta actividad se utiliza generalmente para mejorar los perfiles de los clientes
 
 >[!IMPORTANT]
 >
->La actividad **Guardar perfiles** requiere un esquema y un conjunto de datos con perfil habilitado. Para obtener información sobre cómo habilitar el conjunto de datos para perfiles, lea la [guía del usuario del conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>La actividad **Guardar perfiles** requiere un esquema y un conjunto de datos con perfil habilitado. Para obtener información sobre cómo habilitar el conjunto de datos para perfiles, lea la [guía del usuario del conjunto de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 >
->Además, si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos de los perfiles serán **reemplazados**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/enable-upsert).
+>Además, si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos de los perfiles serán **reemplazados**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Siga estos pasos para configurar la actividad **[!UICONTROL Guardar perfiles]**:
 

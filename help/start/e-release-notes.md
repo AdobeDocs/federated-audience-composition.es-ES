@@ -7,7 +7,7 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 89%
 
 ## Versión de junio de 2025 {#fac-25-6}
 
-Esta versión incorpora las siguientes mejoras:
+Esta versión incluye las siguientes mejoras:
 
 * **Disponibilidad general para clientes de Adobe Healthcare Shield**
 
-  La composición de audiencias federada estará disponible para los clientes de Adobe Healthcare Shield para la creación de audiencias y casos de uso de enriquecimiento de perfiles y enriquecimiento de perfiles a finales de junio.
+  A finales de junio, la composición de público federado estará disponible para los clientes de Adobe Healthcare Shield para la creación de públicos, enriquecimiento y casos de uso de enriquecimiento de perfiles.
 
-* **Control de acceso de nivel de objeto**
+* **Control de acceso a nivel de objeto**
 
-  La Composición de audiencia federada ahora admite el control de acceso de nivel de objeto para aplicar etiquetas de acceso a las composiciones especificadas.
+  La composición de público federado ahora admite el control de acceso a nivel de objeto para aplicar etiquetas de acceso a las composiciones especificadas.
 
 * **Funciones predeterminadas**
 
-  Ahora puede utilizar una de las funciones predeterminadas para administrar los permisos de usuario para el acceso de Composición de audiencia federada.
+  Ahora puede utilizar una de las funciones predeterminadas para administrar los permisos de usuario para el acceso de composición de público federado.
 
 * **Actualizaciones incrementales en casos de uso de enriquecimiento de perfiles**
 

@@ -61,7 +61,7 @@ Añada estas direcciones IP a la lista de permitidos para conceder acceso a comp
 
 Para usar la Composición de audiencia federada para generar audiencias, **debe** usar una política de combinación de **marca de tiempo solicitada**. Si su audiencia utiliza una política de combinación de **prioridad del conjunto de datos**, póngase en contacto con el Servicio de atención al cliente de Adobe para continuar.
 
-Para obtener más información sobre las políticas de combinación, lea la [descripción general de las políticas de combinación](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+Para obtener más información sobre las políticas de combinación, lea la [descripción general de las políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview).
 
 ## Mecanismos de protección y limitaciones {#fac-guardrails}
 

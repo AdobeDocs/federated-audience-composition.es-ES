@@ -38,7 +38,7 @@ ht-degree: 18%
 >
 >Para usar la actividad Guardar audiencia, la audiencia debe usar una política de combinación de **marca de tiempo solicitada**. Si su audiencia utiliza una política de combinación de **prioridad del conjunto de datos**, póngase en contacto con el Servicio de atención al cliente de Adobe para continuar.
 >
->Para obtener más información sobre las políticas de combinación, lea la [descripción general de las políticas de combinación](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+>Para obtener más información sobre las políticas de combinación, lea la [descripción general de las políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview).
 
 La actividad **[!UICONTROL Guardar audiencia]** le permite crear una audiencia nueva a partir de la población calculada en sentido ascendente en una composición. Las audiencias creadas se agregan a la lista de audiencias de Adobe Experience Platform y están disponibles a través del menú **Audiencias**. [Descubra cómo trabajar con públicos](../../start/audiences.md)
 

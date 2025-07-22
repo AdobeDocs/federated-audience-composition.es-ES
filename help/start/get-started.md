@@ -2,10 +2,10 @@
 title: Introducción a la composición de público federado de Experience Platform
 description: Descubra qué es la composición de público federado de Adobe y cómo utilizarla en Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '1112'
-ht-degree: 100%
+source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
+workflow-type: tm+mt
+source-wordcount: '1236'
+ht-degree: 76%
 
 ---
 
@@ -33,19 +33,22 @@ La composición de público federado amplía el valor de Real-Time CDP y Journey
 
 * Los clientes B2C y B2B de CDP ahora pueden aprovechar la composición de público federado para crear públicos basados en personas integrando datos de almacenes de datos empresariales compatibles. Además, pueden enriquecer los públicos basados en personas de AEP existentes incorporando atributos relevantes disponibles en el almacén de datos empresarial, mejorando sus perfiles de público para una participación más personalizada y segmentada.
 
-## Casos de uso {#rn-uc}
+## Casos de uso {#use-cases}
 
-A través de una interfaz de usuario para expertos en marketing fácil de usar, puede crear reglas de segmentos que consulten su almacén de datos para obtener una lista de usuarios que cumplan los requisitos de un segmento específico necesario para campañas de marketing, acceder a públicos existentes en el almacén para su activación o enriquecer públicos de Adobe Experience Platform con puntos de datos adicionales que existan en el almacén.
+La Composición de audiencia federada admite **tres** categorías de casos de uso: creación de audiencias, enriquecimiento de audiencias y enriquecimiento del perfil del cliente.
 
-En esta versión, hay dos casos de uso disponibles:
+* Creación de audiencias: puede crear audiencias a partir de un almacén de datos y federarlas en Experience Platform para usarlas en Real-Time CDP o Journey Optimizer mediante una interfaz de usuario de arrastrar y soltar fácil de usar para expertos en marketing. Como resultado, puede realizar consultas en los almacenes de datos sin copiar datos subyacentes confidenciales ni duplicar datos existentes.
+   * **Ejemplo:** Cree una audiencia de compradores anteriores de alto valor usando datos de transacciones históricas en el almacén, sin copiar esas transacciones en Experience Platform.
 
-1. Creación de públicos: genere nuevos públicos a partir de conjuntos de datos empresariales sin tener que copiar los datos subyacentes y active esos públicos con destinos prediseñados.
+* Enriquecimiento de la audiencia: puede añadir más detalles a las audiencias existentes en Experience Platform utilizando conjuntos de datos adicionales de sus almacenes de datos y superponiendo las audiencias con esta información, todo sin copiar los datos subyacentes en Experience Platform. Con el enriquecimiento de la audiencia, puede ofrecer una personalización mejorada con la audiencia enriquecida.
+   * **Ejemplo:** Enriquezca la audiencia de Experience Platform de los que abandonan el carro de compras con la audiencia de Composición de audiencia federada de compradores anteriores de alto valor para entregar una oferta segmentada.
 
-1. Enriquecimiento de público: enriquezca los públicos existentes en Adobe Experience Platform utilizando datos de público compuestos que se hayan federado desde el almacén de datos empresariales. Estos datos no se mantendrán en los perfiles de clientes de Adobe Experience Platform.
-
-1. Enriquecimiento de perfiles: enriquezca los perfiles de Adobe Experience Platform mediante la federación de datos de almacenes externos, lo que le permite mejorar los perfiles de los clientes con atributos y datos adicionales.
+* Enriquecimiento del perfil: puede seleccionar atributos de cliente individuales de su almacén de datos para mejorar los perfiles de Experience Platform. Con los datos federados agregados a estos perfiles, puede potenciar las experiencias en el momento que se activan mediante señales de clientes entrantes.
+   * **Ejemplo:** enriquezca un perfil de Experience Platform con información de la audiencia federada. Ahora puede enviar marketing a un visitante del sitio que pertenezca a la audiencia federada de compradores anteriores de alto valor con una oferta segmentada que se active por su comportamiento en el sitio.
 
 ![diagrama](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+
+Para obtener más información sobre los casos de uso de la Composición de audiencia federada, lea el [documento técnico de la Composición de audiencia federada](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
 
 ## Pasos clave {#gs-steps}
 
@@ -65,7 +68,7 @@ Pasos clave:
 
 >[!NOTE]
 >
->Después de ejecutar la composición, el público resultante se guarda en Adobe Experience Platform como público externo, estará disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Se puede acceder desde el menú **Públicos**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Después de ejecutar la maquetación, la audiencia resultante se guarda en Adobe Experience Platform como audiencia externa y está disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Se puede acceder desde el menú **Públicos**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Gobernanza, privacidad y seguridad {#governance-privacy-security}
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Uso de la actividad Guardar audiencia
+title: Uso de la actividad Guardar público
 description: Aprenda a utilizar la actividad Guardar audiencia
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 18%
+source-wordcount: '567'
+ht-degree: 23%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->Para usar la actividad Guardar audiencia, la audiencia debe usar una política de combinación de **marca de tiempo solicitada**. Si su audiencia utiliza una política de combinación de **prioridad del conjunto de datos**, póngase en contacto con el Servicio de atención al cliente de Adobe para continuar.
+>Si su audiencia utiliza una política de combinación de **prioridad del conjunto de datos**, póngase en contacto con el Servicio de atención al cliente de Adobe para agregar el conjunto de datos `Halos UPS` a su política de combinación.
 >
->Para obtener más información sobre las políticas de combinación, lea la [descripción general de las políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview).
+>Para obtener más información sobre las políticas de combinación, lea la [descripción general de las políticas de combinación](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
 La actividad **[!UICONTROL Guardar audiencia]** le permite crear una audiencia nueva a partir de la población calculada en sentido ascendente en una composición. Las audiencias creadas se agregan a la lista de audiencias de Adobe Experience Platform y están disponibles a través del menú **Audiencias**. [Descubra cómo trabajar con públicos](../../start/audiences.md)
 
@@ -46,9 +46,9 @@ Esta actividad se utiliza esencialmente para mantener los grupos de población c
 
 La actividad **[!UICONTROL Guardar audiencia]** genera un nuevo esquema de audiencia y un conjunto de datos asociado, que pueden contener información de identificación personal (PII) o información médica protegida (PHI). Una vez creada la audiencia, póngase en contacto con el administrador para asegurarse de que se aplican las etiquetas de control de datos adecuadas de acuerdo con las políticas de datos de su organización. Para obtener más información sobre cómo aplicar etiquetas de uso de datos, lea la [guía del usuario sobre etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/user-guide).
 
-## Configuración de la actividad Guardar audiencia {#save-audience-configuration}
+## Configuración de la actividad Guardar público {#save-audience-configuration}
 
-Siga estos pasos para configurar la actividad **Guardar audiencia**:
+Siga estos pasos para configurar la actividad **Guardar público**:
 
 1. Agregue una actividad **Guardar audiencia** a su composición.
 
@@ -75,7 +75,7 @@ Después de ejecutar la maquetación, la audiencia resultante se guarda en Adobe
 
 La audiencia creada incluye todos los campos seleccionados en la sección Asignaciones de audiencias. Puede segmentar esta audiencia en Journey Optimizer o activarla en cualquier destino admitido por Adobe Experience Platform.
 
-[Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[Más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 <!--
 

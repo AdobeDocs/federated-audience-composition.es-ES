@@ -61,7 +61,7 @@ Añada estas direcciones IP a la lista de permitidos para conceder acceso a comp
 
 Si su audiencia utiliza una política de combinación de **prioridad del conjunto de datos**, póngase en contacto con el Servicio de atención al cliente de Adobe para agregar el conjunto de datos `Halos UPS` a su política de combinación.
 
-Para obtener más información sobre las políticas de combinación, lea la [descripción general de las políticas de combinación](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+Para obtener más información sobre las políticas de combinación, lea la [descripción general de las políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview).
 
 ## Mecanismos de protección y limitaciones {#fac-guardrails}
 

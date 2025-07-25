@@ -3,9 +3,9 @@ title: Página de inicio de la documentación de composición de público federa
 description: Documentación de composición de público federado
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 87ad70eea32255060d6c23075901cbfc83107e7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -53,17 +53,17 @@ Añada y configure actividades (división, enriquecimiento, consulta, etc.) para
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Componga una audiencia</strong><br/>Agregue y configure actividades (como División, Enriquecimiento o Consulta) para crear composiciones y crear su primera audiencia federada.
+    <div><strong>Cree un público</strong><br/>Añada y configure actividades (como División, Enriquecimiento o Consulta) para generar composiciones y crear su primer público federado.
     </div>
     </td>
     <td>
     <a href="start/get-started.md#use-cases"><img src="assets/do-not-localize/start-use-cases.png"></a>
-    <div><strong>Casos de uso</strong><br/>Use la Composición de audiencias federadas para crear y enriquecer audiencias, así como para enriquecer datos de perfil.
+    <div><strong>Casos de uso</strong><br/>Use la composición de público federado para crear y enriquecer públicos, así como para enriquecer datos de perfil.
     </div>
     </td>
     <td>
     <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
-    <div><strong>Preguntas frecuentes</strong><br/>Preguntas frecuentes sobre la composición de audiencias federada.</div>
+    <div><strong>Preguntas frecuentes</strong><br/>Preguntas frecuentes acerca de la composición de público federado.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -77,4 +77,4 @@ Añada y configure actividades (división, enriquecimiento, consulta, etc.) para
 
 ## Recursos adicionales  {#additional-resources}
 
-[Documentación de Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home){target="_blank"} - [Documentación del Portal de Audiencias de Adobe](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutoriales](https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+[Documentación de Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home){target="_blank"} - [Documentación de Adobe Audience Portal](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutoriales](https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}

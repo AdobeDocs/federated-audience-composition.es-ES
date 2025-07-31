@@ -3,7 +3,7 @@ audience: end-user
 title: Crear y administrar conexiones con bases de datos federadas
 description: Obtenga información sobre cómo crear y administrar conexiones con bases de datos federadas
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 0fad4079df8efb2ed249a3b82703acf658ca2e72
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 11%
@@ -17,7 +17,7 @@ ht-degree: 11%
 >Para acceder a las conexiones, necesita uno de los siguientes permisos:
 >
 >-**Administrar base de datos federada**
->&#x200B;>-**Ver base de datos federada**
+>>-**Ver base de datos federada**
 >
 >Para obtener más información sobre los permisos necesarios, consulte la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
 
@@ -227,4 +227,3 @@ Después de agregar los detalles de la conexión, tenga en cuenta la siguiente c
 | Probar conexión | Le permite comprobar los detalles de configuración. |
 
 Ahora puede seleccionar **[!UICONTROL Implementar funciones]**, seguido de **[!UICONTROL Agregar]** para finalizar la conexión entre la base de datos federada y Experience Platform.
-

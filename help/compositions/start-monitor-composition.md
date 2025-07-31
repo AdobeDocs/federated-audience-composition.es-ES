@@ -3,7 +3,7 @@ audience: end-user
 title: Creación de composiciones
 description: Aprenda a crear composiciones
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 8%
@@ -95,3 +95,4 @@ Las acciones disponibles son:
 * **[!UICONTROL Detener]** una composición que se está ejecutando y que luego adquirirá el estado **[!UICONTROL Finalizado]**. Las operaciones en curso se interrumpen si es posible. No puede continuar desde la composición desde el mismo lugar en el que se detuvo.
 
 * **[!UICONTROL Restart]**: detiene y reinicia una composición. En la mayoría de los casos, esto le permite reiniciarse más rápido, ya que la detención lleva una cierta cantidad de tiempo, y el botón **[!UICONTROL Iniciar]** solo está disponible cuando la detención es efectiva.
+

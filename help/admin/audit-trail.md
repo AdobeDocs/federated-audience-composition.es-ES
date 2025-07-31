@@ -3,10 +3,10 @@ audience: end-user
 title: Pista de auditoría
 description: Conozca cómo se registran las acciones y los eventos y cómo se puede acceder a ellos en la pista de auditoría
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 >
 >-**Ver pista de auditoría**
 >
->Para obtener más información sobre los permisos requeridos, lea la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
+>Para obtener más información sobre los permisos necesarios, consulte la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
@@ -48,7 +48,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente en tiem
 
 * **Cuenta externa** le permite comprobar las modificaciones realizadas en las cuentas externas en la instancia de composición de audiencias de Adobe.
 
-  Para obtener más información sobre la cuenta externa, consulte esta [página](../connections/federated-db.md).
+  Para obtener más información sobre la cuenta externa, consulte esta [página](../connections/home.md).
 
 +++
 

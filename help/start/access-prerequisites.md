@@ -2,10 +2,10 @@
 title: Requisitos previos y protecciones para la composición de público federado
 description: Conozca los requisitos previos, permisos y protecciones para la composición de público federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ La composición de público federado admite los siguientes almacenes en la nube:
 * Vertica Analytics
 * Microsoft Fabric
 
-Aprenda a crear una conexión con estos sistemas en [esta página](../connections/connections.md).
+Aprenda a crear una conexión con estos sistemas en [esta página](../connections/home.md).
 
 ## Zonas protegidas
 
@@ -53,15 +53,15 @@ Para acceder a la Composición de público federado, los usuarios deben añadirs
 
 ## Lista de IP permitidas {#ip}
 
-Para permitir de forma segura que composición de público federado acceda a sus bases de datos, póngase en contacto con su representante de Adobe para obtener las direcciones IP de los servidores de composición de público federado que accederán a ellas. Estas direcciones IP se muestran al añadir una base de datos federada en la interfaz de usuario de Adobe Experience Platform. [Más información](../connections/connections.md)
+Para permitir de forma segura que composición de público federado acceda a sus bases de datos, póngase en contacto con su representante de Adobe para obtener las direcciones IP de los servidores de composición de público federado que accederán a ellas. Estas direcciones IP se muestran al añadir una base de datos federada en la interfaz de usuario de Adobe Experience Platform. [Más información](../connections/home.md)
 
-Añada estas direcciones IP a la lista de permitidos para conceder acceso a composición de público federado.
+Añada estas direcciones IP a la lista de permitidos para conceder acceso a la composición de público federado.
 
 ## Combinar políticas {#merge-policies}
 
-Si su audiencia utiliza una política de combinación de **prioridad del conjunto de datos**, póngase en contacto con el Servicio de atención al cliente de Adobe para agregar el conjunto de datos `Halos UPS` a su política de combinación.
+Si su zona protegida utiliza una política de combinación de **prioridad del conjunto de datos**, póngase en contacto con el Servicio de atención al cliente de Adobe para agregar el conjunto de datos `Halos UPS` a su política de combinación.
 
-Para obtener más información sobre las políticas de combinación, lea la [descripción general de las políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview).
+Para obtener más información sobre las políticas de combinación, consulte la [información general sobre políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview).
 
 ## Mecanismos de protección y limitaciones {#fac-guardrails}
 

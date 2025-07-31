@@ -3,8 +3,8 @@ audience: end-user
 title: Introducción a las composiciones
 description: Obtenga más información acerca de cómo empezar con las composiciones
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: ht
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 100%
 
@@ -48,23 +48,23 @@ También puede ver información sobre las composiciones, incluido el nombre, el 
 
 Puede aprender a iniciar o detener una composición en la [guía de inicio y monitorización de la composición](./start-monitor-composition.md).
 
-![Se muestra una lista de las composiciones disponibles.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
+![Se muestra una lista de las composiciones disponibles.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
 Para detallar la lista y encontrar fácilmente la composición que está buscando, puede buscar en la lista y filtrar las composiciones por su estado o fechas de último procesamiento.
 
 También puede personalizar la lista añadiendo o quitando columnas. Para ello, seleccione el botón **[!UICONTROL Configurar columnas]** y añada o quite las columnas de salida que desee.
 
-![Se muestra una lista de las columnas disponibles que puede añadir a la página de exploración de composiciones.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
+![Se muestra una lista de las columnas disponibles que puede añadir a la página de exploración de composiciones.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### Aplicación de etiquetas de acceso {#access-labels}
 
 Para aplicar etiquetas de acceso a una composición específica, seleccione la composición, seguida de **[!UICONTROL Administrar acceso]**.
 
-![El botón &quot;Administrar acceso&quot; aparece resaltado en el lienzo de composición.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![El botón &quot;Administrar acceso&quot; aparece resaltado en el lienzo de composición.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 Aparece la ventana emergente **[!UICONTROL Administrar acceso]**. En esta página, puede aplicar las etiquetas de acceso y de gobernanza de datos aplicables a su composición.
 
-![Se muestra la ventana emergente Administrar acceso. Muestra una lista de todas las etiquetas disponibles que se pueden aplicar a la composición.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![Se muestra la ventana emergente Administrar acceso. Muestra una lista de todas las etiquetas disponibles que se pueden aplicar a la composición.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}
 
 | Tipo de etiqueta | Descripción |
 | ---------- | ----------- |

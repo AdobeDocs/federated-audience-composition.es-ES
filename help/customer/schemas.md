@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a los esquemas
 description: Aprenda a empezar con esquemas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 18%
 >Para acceder a los esquemas, necesita uno de los siguientes permisos:
 >
 >-**Administrar esquema federado**
->&#x200B;>-**Ver esquema federado**
+>>-**Ver esquema federado**
 >
->Para obtener más información sobre los permisos requeridos, lea la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
+>Para obtener más información sobre los permisos necesarios, consulte la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -69,7 +69,7 @@ Para crear esquemas en Composición de audiencia federada, siga los pasos a cont
 
    ![](assets/schema_create.png){zoomable="yes"}
 
-   Este paso le permite acceder a una nueva pantalla con una lista desplegable en la que puede encontrar las bases de datos conectadas a su entorno. Obtenga más información acerca de la conexión a la base de datos en [esta sección](../connections/connections.md#connections-fdb).
+   Este paso le permite acceder a una nueva pantalla con una lista desplegable en la que puede encontrar las bases de datos conectadas a su entorno. Obtenga más información acerca de la conexión a la base de datos en [esta sección](../connections/home.md#connections-fdb).
 
 1. Seleccione la base de datos de origen en la lista y haga clic en **[!UICONTROL Siguiente]**.
 

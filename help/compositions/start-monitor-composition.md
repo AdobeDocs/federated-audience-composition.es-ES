@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de composiciones
 description: Aprenda a crear composiciones
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 1%
+source-wordcount: '738'
+ht-degree: 8%
 
 ---
 
@@ -37,8 +37,8 @@ Los indicadores visuales de la esquina superior derecha de cada cuadro de activi
 
 | Indicador visual | Descripción |
 |-----|------------|
-| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | La actividad se está ejecutando. |
-| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | La actividad requiere su atención. Esto puede implicar confirmar el envío de una entrega o realizar la acción necesaria. |
+| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | La actividad se está ejecutando actualmente. |
+| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | La actividad requiere su atención. Esto puede implicar confirmar el envío de una entrega o tomar las medidas necesarias. |
 | ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | La actividad ha encontrado un error. Para resolver el problema, abra los registros de composición para obtener más información. |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | La actividad se ha ejecutado correctamente. |
 
@@ -61,6 +61,22 @@ El historial se organiza en varias pestañas, que se detallan a continuación:
 ![](assets/logs-tasks.png)
 
 En todas las pestañas, puede elegir las columnas mostradas y su orden, aplicar filtros y utilizar el campo de búsqueda para encontrar rápidamente la información deseada.
+
+## Suscribirse a alertas {#alerts}
+
+Además, puede suscribirse a alertas para recibir notificaciones si las ejecuciones de composición federada se han realizado correctamente o no.
+
+Para suscribirse a las alertas, seleccione el ![icono de notificación](/help/assets/icons/bell.png), seguido del ![icono de configuración](/help/assets/icons/settings.png).
+
+![Se resaltan tanto la notificación como los iconos de configuración.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+
+Se muestra la página de configuración de notificaciones. En esta página, seleccione **[!UICONTROL Experience Platform]** y elija los canales de alertas que desee. Para ver las notificaciones dentro de la interfaz de usuario, selecciona **[!UICONTROL En la aplicación]**.
+
+![La casilla de verificación en la aplicación está seleccionada en la sección Experience Platform.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+
+Con **[!UICONTROL En la aplicación]** seleccionada, se le notificará de los errores y las ejecuciones de composición.
+
+![Se muestran las alertas, que muestran los errores y los aciertos de composición.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## Comandos de ejecución de composición {#execution-commands}
 

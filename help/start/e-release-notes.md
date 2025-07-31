@@ -4,7 +4,7 @@ description: Últimas actualizaciones y notas de la versión
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a568024516cec999e1e22b6f6deec926fe7083f8
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 95%
@@ -73,7 +73,7 @@ Esta versión incorpora las mejoras que se indican a continuación.
 
 * **Conexión segura de Snowflake**
 
-  Con esta nueva versión, la composición de público federado admite las conexiones seguras de vínculos privados a las bases de datos de Amazon Redshift alojadas en Microsoft Azure. [Más información](../connections/federated-db.md#amazon-redshift)
+  Con esta nueva versión, la composición de público federado admite las conexiones seguras de vínculos privados a las bases de datos de Amazon Redshift alojadas en Microsoft Azure. [Más información](../connections/home.md#amazon-redshift)
 
 ## Versión de marzo de 2025 {#fac-25-3}
 
@@ -105,7 +105,7 @@ Esta versión incorpora las mejoras que se indican a continuación.
 * **Conexión de Databricks**
 
   Con esta nueva versión, la Composición de público federado ahora admite la conectividad de vínculos privados para las conexiones de bases de datos de Databricks.
-Esto incluye conexiones seguras a bases de datos de Databricks alojadas en Amazon Web Services (AWS) a través de un vínculo privado y bases de datos de Databricks alojadas en Microsoft Azure a través de una VPN. [Más información](../connections/federated-db.md#databricks)
+Esto incluye conexiones seguras a bases de datos de Databricks alojadas en Amazon Web Services (AWS) a través de un vínculo privado y bases de datos de Databricks alojadas en Microsoft Azure a través de una VPN. [Más información](../connections/home.md#databricks)
 
 * **Soporte para clientes de B2B CDP**
 
@@ -113,7 +113,7 @@ Esto incluye conexiones seguras a bases de datos de Databricks alojadas en Amazo
 
 * **Conexión segura de Snowflake**
 
-  Con esta nueva versión, la Composición de público federado admite las conexiones seguras de vínculos privados a las bases de datos de Snowflake alojadas en Microsoft Azure. [Más información](../connections/federated-db.md#snowflake)
+  Con esta nueva versión, la Composición de público federado admite las conexiones seguras de vínculos privados a las bases de datos de Snowflake alojadas en Microsoft Azure. [Más información](../connections/home.md#snowflake)
 
 ## Versión de febrero de 2025 {#fac-25-2}
 
@@ -121,11 +121,11 @@ Esta versión incorpora los cambios que se enumeran a continuación.
 
 * **Compatibilidad con Microsoft Fabric**
 
-  Ahora puede establecer conexiones con bases de datos de Microsoft Fabric mediante la Composición de público federado. [Más información](../connections/federated-db.md)
+  Ahora puede establecer conexiones con bases de datos de Microsoft Fabric mediante la Composición de público federado. [Más información](../connections/home.md)
 
 * **Compatibilidad con Amazon Redshift Spectrum**
 
-  Amazon Redshift Spectrum ahora es compatible con las conexiones de base de datos de Amazon Redshift. [Más información](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift Spectrum ahora es compatible con las conexiones de base de datos de Amazon Redshift. [Más información](../connections/home.md#amazon-redshift)
 
 * **Experiencia mejorada de creación de esquemas**
 
@@ -143,7 +143,7 @@ Esta versión incorpora la mejora que se indica a continuación.
 
 * **Lista de direcciones IP permitidas**
 
-  Al añadir una base de datos federada en la interfaz de usuario de Adobe Experience Platform, ahora puede ver directamente las direcciones IP asociadas con las instancias de Composición de público federado. Esto le permite copiar y autorizar fácilmente estas IP para conectarse a la base de datos y tener mayor seguridad y flexibilidad. [Más información](../connections/connections.md)
+  Al añadir una base de datos federada en la interfaz de usuario de Adobe Experience Platform, ahora puede ver directamente las direcciones IP asociadas con las instancias de Composición de público federado. Esto le permite copiar y autorizar fácilmente estas IP para conectarse a la base de datos y tener mayor seguridad y flexibilidad. [Más información](../connections/home.md)
 
 ## Versión de octubre de 2024 {#fac-24-10}
 
@@ -158,11 +158,11 @@ Con esta nueva versión, la composición de público federado ahora es compatibl
 
 * **Compatibilidad con Databricks**
 
-  Ahora puede establecer conexiones con bases de datos de Databricks mediante la composición de público federado. [Más información](../connections/federated-db.md#databricks)
+  Ahora puede establecer conexiones con bases de datos de Databricks mediante la composición de público federado. [Más información](../connections/home.md#databricks)
 
 * **Compatibilidad con acceso seguro a Snowflake a través de AWS PrivateLink**
 
-  Ahora se admite el acceso seguro al almacén de datos externo de Snowflake a través de un vínculo privado. Tenga presente que la cuenta de Snowflake debe estar alojada en Amazon Web Services (AWS) y ubicada en la misma región que el entorno de composición de público federado. Póngase en contacto con su representante de Adobe para obtener ayuda sobre la configuración del acceso seguro a su cuenta de Snowflake. [Más información](../connections/federated-db.md#snowflake)
+  Ahora se admite el acceso seguro al almacén de datos externo de Snowflake a través de un vínculo privado. Tenga presente que la cuenta de Snowflake debe estar alojada en Amazon Web Services (AWS) y ubicada en la misma región que el entorno de composición de público federado. Póngase en contacto con su representante de Adobe para obtener ayuda sobre la configuración del acceso seguro a su cuenta de Snowflake. [Más información](../connections/home.md#snowflake)
 
 * **Compatibilidad con Amazon Redshift sin servidor**
 

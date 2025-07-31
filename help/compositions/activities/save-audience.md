@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Guardar público
 description: Aprenda a utilizar la actividad Guardar audiencia
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->Si su audiencia utiliza una política de combinación de **prioridad del conjunto de datos**, póngase en contacto con el Servicio de atención al cliente de Adobe para agregar el conjunto de datos `Halos UPS` a su política de combinación.
+>Si su zona protegida utiliza una política de combinación de **prioridad del conjunto de datos**, póngase en contacto con el Servicio de atención al cliente de Adobe para agregar el conjunto de datos `Halos UPS` a su política de combinación.
 >
->Para obtener más información sobre las políticas de combinación, lea la [descripción general de las políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview).
+>Para obtener más información sobre las políticas de combinación, consulte la [información general sobre políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview).
 
 La actividad **[!UICONTROL Guardar audiencia]** le permite crear una audiencia nueva a partir de la población calculada en sentido ascendente en una composición. Las audiencias creadas se agregan a la lista de audiencias de Adobe Experience Platform y están disponibles a través del menú **Audiencias**. [Descubra cómo trabajar con públicos](../../start/audiences.md)
 

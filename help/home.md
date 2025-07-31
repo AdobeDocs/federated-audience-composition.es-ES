@@ -2,8 +2,8 @@
 title: Página de inicio de la documentación de composición de público federado de Experience Platform
 description: Documentación de composición de público federado
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 87ad70eea32255060d6c23075901cbfc83107e7b
-workflow-type: ht
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ La composición de público federado permite crear, refinar y enriquecer públic
 
 Cree, configure, pruebe y guarde la conexión con la base de datos externa.
 
-[![Imagen](assets/learn-more-button.svg)](connections/federated-db.md)
+[![Imagen](assets/learn-more-button.svg)](connections/home.md)
 
 >[!TAB Crear un público]
 

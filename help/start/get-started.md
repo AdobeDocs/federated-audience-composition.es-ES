@@ -2,8 +2,8 @@
 title: Introducción a la composición de público federado de Experience Platform
 description: Descubra qué es la composición de público federado de Adobe y cómo utilizarla en Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
-workflow-type: ht
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 La composición de público federado está disponible en los entornos [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home){target="_blank"} y [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"}. Le permite generar y enriquecer los públicos de los almacenes de datos de terceros e importarlos a Adobe Experience Platform. La composición de público federado ofrece una solución fácil y potente para conectar su almacén de datos empresariales directamente con Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer y para realizar consultas en las tablas de su almacén de datos.
 
-La composición de público federado de Adobe ayuda a los usuarios de las aplicaciones de Adobe Experience Platform a acceder a sus datos de clientes almacenados en sus almacenes de datos y plataformas de almacenamiento en la nube como Amazon Redshift, Azure Synapse Analytics y más. Los datos de clientes pueden almacenarse en varios almacenes de datos y ahora se puede acceder a ellos instantáneamente, sin necesidad de replicación. Las plataformas compatibles se enumeran en [esta página](../connections/federated-db.md#supported-db).
+La composición de público federado de Adobe ayuda a los usuarios de las aplicaciones de Adobe Experience Platform a acceder a sus datos de clientes almacenados en sus almacenes de datos y plataformas de almacenamiento en la nube como Amazon Redshift, Azure Synapse Analytics y más. Los datos de clientes pueden almacenarse en varios almacenes de datos y ahora se puede acceder a ellos instantáneamente, sin necesidad de replicación. Las plataformas compatibles se enumeran en [esta página](../connections/home.md#supported-db).
 
 >[!INFO]
 >
@@ -58,7 +58,7 @@ La composición de público federado de Adobe le permite crear y actualizar los 
 
 Pasos clave:
 
-1. **Integración de datos**: reúna datos de varias fuentes y combínelos en un conjunto de datos unificado. Obtenga más información acerca de cómo conectar las aplicaciones de Adobe Experience Platform y el almacén de datos empresariales; las bases de datos admitidas y cómo configurarlas se especifican en [esta sección](../connections/federated-db.md).
+1. **Integración de datos**: reúna datos de varias fuentes y combínelos en un conjunto de datos unificado. Obtenga más información acerca de cómo conectar las aplicaciones de Adobe Experience Platform y el almacén de datos empresariales; las bases de datos admitidas y cómo configurarlas se especifican en [esta sección](../connections/home.md).
 
 1. **Modelado de datos**: diseñe y cree modelos de datos y esquemas que definan la estructura, las relaciones y las restricciones de los datos. Obtenga más información sobre los esquemas en [esta página](../customer/schemas.md). Obtenga más información sobre la creación de vínculos para su modelo de datos en [esta página](../data-management/gs-models.md).
 

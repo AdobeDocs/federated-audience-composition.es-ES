@@ -3,9 +3,9 @@ title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1542'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>El conector Oracle ya está disponible para su uso con Federated Audience Composition.</p>
-<p>Puede utilizar el conector de Oracle para casos de uso de creación de audiencias y enriquecimiento de audiencias.</p>
+<p>El conector Oracle ya está disponible para su uso con la composición de público federado.</p>
+<p>Puede utilizar el conector de Oracle para casos de uso de creación y enriquecimiento de audiencias.</p>
 <p>Para obtener más información acerca de la conexión de Oracle, lea la <a href="../connections/home.md#create">descripción general de las conexiones</a>.</p>
 </br>
 </td>
@@ -54,11 +54,11 @@ ht-degree: 92%
 
 ### Mejoras {#fac-25-07-improvements}
 
-Esta versión incorpora las siguientes mejoras:
+Esta versión incluye las siguientes mejoras:
 
 * **Aumento de la longitud de caracteres del servidor**
 
-  Al configurar las bases de datos federadas, ahora puede utilizar hasta 255 caracteres, en lugar de los 80 caracteres anteriores.
+  Al configurar las bases de datos federadas, ahora puede utilizar hasta 255 caracteres, en lugar de 80.
 
 ## Versión de junio de 2025 {#fac-25-6}
 

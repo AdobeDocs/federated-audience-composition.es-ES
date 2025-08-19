@@ -2,16 +2,78 @@
 title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: ht
-source-wordcount: '1542'
-ht-degree: 100%
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+workflow-type: tm+mt
+source-wordcount: '1706'
+ht-degree: 91%
 
 ---
 
 # Notas de la versión {#rn-new}
 
 [!DNL Federated Audience Composition] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan en estas notas de la versión. [!DNL Federated Audience Composition] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
+
+## Versión de agosto de 2025 {#fac-25-8}
+
+### Nuevas funciones {#fac-25-08-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con claves compuestas en la detección de esquemas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede combinar columnas para crear una clave compuesta para el esquema.</p>
+<p>Para obtener más información sobre esquemas, lea <a href="../customer/schemas.md#create">información general sobre esquemas</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Adición de varias uniones en un vínculo para modelos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede agregar varias uniones en un solo vínculo para los modelos.</p>
+<p>Para obtener más información sobre los modelos, lea <a href="../data-management/gs-models.md#create">descripción general de los modelos</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Mejoras {#fac-25-8-improvements}
+
+Esta versión incluye las siguientes mejoras:
+
+* **Se agregó `StringAgg` función**
+
+  Ahora puede usar la función `StringAgg` para las bases de datos de Amazon Redshift Spectrum cuando. uso del editor de expresiones.
+
+* **`Replace`, función**
+
+  La descripción y sintaxis de la función `Replace` se ha aclarado en la documentación.
+
+### Compatibilidad {#fac-25-8-compatibility}
+
+* **bases de datos de Azure Synapse**
+
+  Ahora puede conectarse de forma segura a las bases de datos de Azure Synapse con PrivateLink o VPN. Póngase en contacto con el Servicio de atención al cliente de Adobe para obtener más información.
+
+* **base de datos de Oracle**
+
+  Ahora puede conectarse de forma segura a las bases de datos de Oracle. Póngase en contacto con el Servicio de atención al cliente de Adobe para obtener más información.
+
+Para obtener más información sobre las bases de datos compatibles en Federated Audience Composition, lea la [descripción general de las conexiones](../connections/home.md).
 
 ## Versión de julio de 2025 {#fac-25-7}
 

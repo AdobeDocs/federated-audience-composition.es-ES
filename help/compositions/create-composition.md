@@ -3,33 +3,35 @@ audience: end-user
 title: Creación de composiciones
 description: Aprenda a crear composiciones
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 22%
+source-wordcount: '515'
+ht-degree: 21%
 
 ---
 
-# Crear y configurar la composición {#create}
+# Creación y configuración de la composición {#create}
 
 El primer paso para crear una composición es definir su etiqueta y configurar ajustes adicionales si es necesario.
 
 ## Creación de la composición {#create-the-composition}
 
-1. Acceda al menú **[!UICONTROL Audiencias]** y seleccione la pestaña **[!UICONTROL Composiciones federadas]**.
+Para crear una composición, selecciona **[!UICONTROL Audiencias]** en la sección **[!UICONTROL Cliente]**, seguido de la pestaña **[!UICONTROL Composiciones federadas]**.
 
-1. Haga clic en el botón **[!UICONTROL Crear composición]**.
+IMAGEN
 
-   ![](assets/composition-create.png)
+Aparecerá la página de exploración de composiciones federadas. Seleccione **[!UICONTROL Crear composición]** para continuar con el proceso de creación de la composición.
 
-1. En la sección **[!UICONTROL Propiedades]**, especifique una etiqueta para la composición y seleccione un modelo de datos. Solo los esquemas asociados a este modelo de datos estarán disponibles en las actividades de la composición.
+![](assets/composition-create.png)
 
-   ![](assets/composition-select-schema.png)
+En la sección **[!UICONTROL Propiedades]**, especifique una etiqueta para la composición y seleccione un modelo de datos. Solo los esquemas asociados a este modelo de datos estarán disponibles en las actividades de la composición.
 
-1. Haga clic en **[!UICONTROL Crear]**. Se muestra el lienzo de composición. Ahora puede configurar la composición agregando tantas actividades como sea necesario para adaptarlas a sus necesidades antes de ejecutarla:
+![](assets/composition-select-schema.png)
 
-   * [Aprenda a organizar actividades](orchestrate-activities.md)
-   * [Aprenda a iniciar y supervisar una composición](start-monitor-composition.md)
+Seleccione **[!UICONTROL Crear]**. Se muestra el lienzo de composición. Ahora puede configurar la composición agregando tantas actividades como sea necesario para adaptarlas a sus necesidades antes de ejecutarla:
+
+* [Aprenda a organizar actividades](orchestrate-activities.md)
+* [Aprenda a iniciar y supervisar una composición](start-monitor-composition.md)
 
 ## Configuración de los ajustes de la composición {#settings}
 
@@ -48,7 +50,9 @@ El primer paso para crear una composición es definir su etiqueta y configurar a
 >title="Configuración de la administración de errores"
 >abstract="En esta sección, puede definir cómo administrar los errores durante la ejecución. Puede optar por poner en pausa el proceso, ignorar un determinado número de errores o detener la ejecución de la composición."
 
-Al acceder a una composición, puede acceder a ajustes avanzados que le permiten, por ejemplo, definir cómo debe comportarse la composición en caso de error. Para acceder a estas opciones adicionales, haga clic en el botón **[!UICONTROL Configuración]** ubicado en la sección superior de la pantalla de creación de la composición.
+Al acceder a una composición, puede acceder a ajustes avanzados que le permiten, por ejemplo, definir cómo debe comportarse la composición en caso de error.
+
+Para acceder a estas opciones adicionales, seleccione **[!UICONTROL Configuración]** en la sección superior de la pantalla de creación de la composición.
 
 ![](assets/composition-create-settings.png)
 

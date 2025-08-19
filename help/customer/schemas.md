@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a los esquemas
 description: Aprenda a empezar con esquemas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 20%
+source-wordcount: '573'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 >Para acceder a los esquemas, necesita uno de los siguientes permisos:
 >
 >-**Administrar esquema federado**
->&#x200B;>-**Ver esquema federado**
+>>-**Ver esquema federado**
 >
 >Para obtener más información sobre los permisos necesarios, consulte la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
 
@@ -59,80 +59,70 @@ Al crear un esquema, puede definir una representación de la tabla en la Composi
 >[!CAUTION]
 >
 >Al conectar varios entornos limitados con la misma base de datos, debe utilizar esquemas de trabajo diferentes.
->
 
 ## Creación de un esquema {#schema-create}
 
-Para crear esquemas en Composición de audiencia federada, siga los pasos a continuación:
+Para crear un esquema en Federated Audience Composition, seleccione **[!UICONTROL Modelos]** en la sección **[!UICONTROL Datos federados]**. En la ficha **[!UICONTROL Esquema]**, seleccione **[!UICONTROL Crear esquema]**.
 
-1. En la sección **[!UICONTROL Datos federados]**, obtenga acceso al menú **[!UICONTROL Modelos]**. Vaya a la pestaña **[!UICONTROL Esquema]** y haga clic en **[!UICONTROL Crear esquema]**.
+![](assets/schema_create.png){zoomable="yes"}
 
-   ![](assets/schema_create.png){zoomable="yes"}
+Aparece la ventana emergente **[!UICONTROL Seleccionar base de datos federada]**. En esta ventana emergente, puede seleccionar la [base de datos de origen](/help/connections/home.md), seguida de **[!UICONTROL Siguiente]**.
 
-   Este paso le permite acceder a una nueva pantalla con una lista desplegable en la que puede encontrar las bases de datos conectadas a su entorno. Obtenga más información acerca de la conexión a la base de datos en [esta sección](../connections/home.md#connections-fdb).
 
-1. Seleccione la base de datos de origen en la lista y haga clic en **[!UICONTROL Siguiente]**.
+![](assets/schema_tables.png){zoomable="yes"}
 
-   ![](assets/schema_tables.png){zoomable="yes"}
+Aparece la ventana emergente **Seleccionar tabla**. En esta ventana emergente, puede seleccionar las tablas que desea utilizar para crear el esquema.
 
-   Puede ver la lista de todas las tablas de la base de datos.
+![Se muestra la ventana emergente Seleccionar tabla.](assets/select-table.png){zoomable="yes"}
 
-1. Seleccione las tablas para las que desea crear el esquema.
+Cada tabla seleccionada genera un esquema con las columnas seleccionadas. Para cada tabla, puede cambiar la etiqueta del esquema, agregar una descripción, cambiar el nombre de la etiqueta del campo, establecer la visibilidad de la etiqueta del campo y seleccionar la clave principal del esquema.
 
-1. Cada tabla seleccionada genera un esquema con las columnas seleccionadas. Configure el esquema y sus columnas según sea necesario.
+![](assets/schema_fields.png){zoomable="yes"}
 
-   ![](assets/schema_fields.png){zoomable="yes"}
+>[!NOTE]
+>
+>Si habilita **[!UICONTROL Usar clave compuesta]** pero solo selecciona una clave para usar, la clave se tratará como una clave principal de esquema estándar.
 
-   Para cada tabla, puede:
+Además, puede crear una clave que esté formada por varias columnas de esquema. Active **[!UICONTROL Usar clave compuesta]** y marque las claves que desee usar como clave compuesta.
 
-   * cambiar la etiqueta del esquema
-   * añadir una descripción
-   * cambie el nombre de todas las etiquetas de campo y establezca su visibilidad
-   * seleccione la clave principal del esquema
+![](assets/composite-key.png)
 
-   El esquema se puede definir de la siguiente manera:
-
-   ![](assets/schema_example.png)
-
-1. Después de completar la configuración, haz clic en **[!UICONTROL Listo]**.
+Después de completar la configuración, selecciona **[!UICONTROL Listo]** para terminar de crear el esquema.
 
 ## Edición de un esquema {#schema-edit}
 
-Para editar un esquema, siga estos pasos:
+Para editar un esquema, seleccione el esquema creado anteriormente en la página **Esquemas**.
 
-1. Acceda al esquema creado anteriormente.
+Aparecerá la página de detalles del esquema. Seleccione el ![icono de lápiz](/help/assets/icons/edit.png) para editar el esquema.
 
-1. Haz clic en el botón **[!UICONTROL Editar]**.
+![](assets/schema_edit.png){zoomable="yes"}
 
-   ![](assets/schema_edit.png){zoomable="yes"}
+En la ventana **[!UICONTROL Editar esquema]**, puede acceder y configurar las mismas opciones que al [crear un esquema](#schema-create).
 
-1. Desde la ventana **[!UICONTROL Editar esquema]**, puede acceder y configurar las mismas opciones que al [crear un esquema](#schema-create).
-
-   ![](assets/schema_edit_orders.png){zoomable="yes"}
+![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## Vista previa de datos en un esquema {#schema-preview}
 
 Para obtener una vista previa de los datos de la tabla representada por su esquema, vaya a la pestaña **[!UICONTROL Data]** como se muestra a continuación.
 
-Haga clic en el vínculo **[!UICONTROL Calcular]** para obtener una vista previa del número total de grabaciones.
+Seleccione el vínculo **[!UICONTROL Calcular]** para obtener una vista previa del número total de grabaciones.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-Haga clic en el botón **[!UICONTROL Configurar columnas]** para cambiar la visualización de datos.
+Seleccione el botón **[!UICONTROL Configurar columnas]** para cambiar la visualización de datos.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## Actualizar un esquema {#schema-refresh}
 
-Las tablas de una base de datos federada se pueden actualizar, agregar o quitar. En estos casos, debe actualizar el esquema en Adobe Experience Platform para alinearlo con los cambios más recientes. Para ello, haga clic en los tres puntos junto al nombre del esquema que desea actualizar y seleccione **Actualizar esquema**.
+Las tablas de una base de datos federada se pueden actualizar, agregar o quitar. En estos casos, debe actualizar el esquema en Adobe Experience Platform para alinearlo con los cambios más recientes. Para ello, seleccione el ![icono de tres puntos](/help/assets/icons/more.png) junto al nombre del esquema seguido de **[!UICONTROL Actualizar esquema]**.
 
 También puede actualizar la definición del esquema al editarla.
 
 ![](assets/schema_refresh.png){zoomable="yes"}
 
-
 ## Eliminar un esquema {#schema-delete}
 
-Para eliminar un esquema, haga clic en el botón **[!UICONTROL Más]** y, a continuación, elija **[!UICONTROL Eliminar]**.
+Para eliminar un esquema, seleccione el ![icono de tres puntos](/help/assets/icons/more.png), seguido de **[!UICONTROL Eliminar]**.
 
 ![](assets/schema_delete.png){zoomable="yes"}

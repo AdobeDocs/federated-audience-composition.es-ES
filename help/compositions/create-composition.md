@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de composiciones
 description: Aprenda a crear composiciones
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 21%
+source-wordcount: '524'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +18,7 @@ El primer paso para crear una composición es definir su etiqueta y configurar a
 
 Para crear una composición, selecciona **[!UICONTROL Audiencias]** en la sección **[!UICONTROL Cliente]**, seguido de la pestaña **[!UICONTROL Composiciones federadas]**.
 
-IMAGEN
+![Se resalta la ruta de acceso a la sección Composiciones federadas.](assets/create/access-compositions.png)
 
 Aparecerá la página de exploración de composiciones federadas. Seleccione **[!UICONTROL Crear composición]** para continuar con el proceso de creación de la composición.
 

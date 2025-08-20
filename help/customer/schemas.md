@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a los esquemas
 description: Aprenda a empezar con esquemas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '586'
 ht-degree: 19%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 19%
 >Para acceder a los esquemas, necesita uno de los siguientes permisos:
 >
 >-**Administrar esquema federado**
->&#x200B;>-**Ver esquema federado**
+>>-**Ver esquema federado**
 >
 >Para obtener más información sobre los permisos necesarios, consulte la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
 
@@ -64,7 +64,7 @@ Al crear un esquema, puede definir una representación de la tabla en la Composi
 
 Para crear un esquema en Federated Audience Composition, seleccione **[!UICONTROL Modelos]** en la sección **[!UICONTROL Datos federados]**. En la ficha **[!UICONTROL Esquema]**, seleccione **[!UICONTROL Crear esquema]**.
 
-![](assets/schema_create.png){zoomable="yes"}
+![El botón Crear esquema está resaltado en la sección de esquema Federate Audience Composition.](assets/schema_create.png){zoomable="yes"}
 
 Aparece la ventana emergente **[!UICONTROL Seleccionar base de datos federada]**. En esta ventana emergente, puede seleccionar la [base de datos de origen](/help/connections/home.md), seguida de **[!UICONTROL Siguiente]**.
 
@@ -77,7 +77,7 @@ Aparece la ventana emergente **Seleccionar tabla**. En esta ventana emergente, p
 
 Cada tabla seleccionada genera un esquema con las columnas seleccionadas. Para cada tabla, puede cambiar la etiqueta del esquema, agregar una descripción, cambiar el nombre de la etiqueta del campo, establecer la visibilidad de la etiqueta del campo y seleccionar la clave principal del esquema.
 
-![](assets/schema_fields.png){zoomable="yes"}
+![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Cada tabla seleccionada genera un esquema con las columnas seleccionadas. Para c
 
 Además, puede crear una clave que esté formada por varias columnas de esquema. Active **[!UICONTROL Usar clave compuesta]** y marque las claves que desee usar como clave compuesta.
 
-![](assets/composite-key.png)
+![](assets/composite-key.png){zoomable="yes"}
 
 Después de completar la configuración, selecciona **[!UICONTROL Listo]** para terminar de crear el esquema.
 

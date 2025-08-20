@@ -3,9 +3,9 @@ audience: end-user
 title: Crear y administrar conexiones con bases de datos federadas
 description: Obtenga información sobre cómo crear y administrar conexiones con bases de datos federadas
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1970'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >Para acceder a las conexiones, necesita uno de los siguientes permisos:
 >
 >-**Administrar base de datos federada**
->&#x200B;>-**Ver base de datos federada**
+>>-**Ver base de datos federada**
 >
 >Para obtener más información sobre los permisos necesarios, consulte la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
 
@@ -71,6 +71,10 @@ Después de seleccionar Amazon Redshift, puede añadir los siguientes detalles:
 | Esquema de trabajo | Nombre del esquema de la base de datos que se va a utilizar para las tablas de trabajo. Encontrará más información sobre esta característica en la [documentación de esquemas de Amazon](https://docs.aws.amazon.com/es_es/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Nota:** Puede utilizar cualquier esquema de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre y cuando tenga los permisos necesarios para conectarse a este esquema. Sin embargo, **debe** utilizar distintos esquemas de trabajo al conectar varios entornos limitados con la misma base de datos. |
 
 >[!TAB Azure Synapse Analytics]
+
+>[!NOTE]
+>
+>Si desea crear una conexión segura con Azure Synapse Analytics, póngase en contacto con su representante del Servicio de atención al cliente de Adobe.
 
 Después de seleccionar Azure Synapse Analytics, puede añadir los siguientes detalles:
 
@@ -153,7 +157,7 @@ Para Microsoft Fabric, puede establecer las siguientes opciones adicionales:
 >
 >Actualmente, el conector de base de datos de Oracle **solo** se puede usar para casos de uso de creación de audiencias y enriquecimiento de audiencias.
 >
->Además, antes de configurar su base de datos de Oracle, póngase en contacto con su representante del Servicio de atención al cliente de Adobe.
+>Antes de configurar la base de datos de Oracle, incluido el establecimiento de la conexión de Oracle para utilizar una conexión segura, póngase en contacto con el representante del Servicio de atención al cliente de Adobe.
 
 Después de seleccionar Oracle, puede añadir los siguientes detalles:
 

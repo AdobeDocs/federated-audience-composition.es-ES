@@ -2,16 +2,54 @@
 title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
-workflow-type: ht
-source-wordcount: '1706'
-ht-degree: 100%
+source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+workflow-type: tm+mt
+source-wordcount: '1740'
+ht-degree: 98%
 
 ---
 
 # Notas de la versión {#rn-new}
 
 [!DNL Federated Audience Composition] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan en estas notas de la versión. [!DNL Federated Audience Composition] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
+
+## Versión de octubre de 2025 {#fac-25-10}
+
+### Nuevas funciones {#fac-25-10-feature}
+
+<!-- <table>
+<thead>
+<tr>
+<th><strong>Availability for Adobe Experience Platform customers on Amazon Web Services (AWS)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table> -->
+
+<table>
+<thead>
+<tr>
+<th><strong>Autenticación OAuth para Google BigQuery y Snowflake</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede conectarse a Google BigQuery y Snowflake mediante OAuth.</p>
+<p>Para obtener más información acerca de cómo crear conexiones, lea la <a href="../connections/home.md#create">descripción general de las conexiones</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Versión de agosto de 2025 {#fac-25-8}
 
@@ -89,7 +127,7 @@ Para obtener más información sobre las bases de datos compatibles con la compo
 <tr>
 <td>
 <p>El conector Oracle ya está disponible para su uso con la composición de público federado.</p>
-<p>Puede utilizar el conector de Oracle para casos de uso de creación y enriquecimiento de audiencias.</p>
+<p>Puede utilizar el conector de Oracle para casos de uso de creación y enriquecimiento de públicos.</p>
 <p>Para obtener más información acerca de la conexión de Oracle, lea la <a href="../connections/home.md#create">descripción general de las conexiones</a>.</p>
 </br>
 </td>
@@ -247,11 +285,11 @@ Esta versión incorpora las mejoras que se indican a continuación.
 
 * **Nombre del modelo de datos**
 
-  Desde el menú Audiencias, la pestaña **Composiciones federadas** ahora muestra el nombre del modelo de datos en lugar del ID, lo que mejora la claridad y la facilidad de uso general.
+  Desde el menú Públicos, la pestaña **Composiciones federadas** ahora muestra el nombre del modelo de datos en lugar del ID, lo que mejora la claridad y la facilidad de uso general.
 
-* **Audiencia**
+* **Público**
 
-  El menú Audiencia ahora muestra el nombre o la etiqueta del modelo de datos seleccionado cuando un usuario selecciona un modelo de datos sin audiencias asociadas.
+  El menú Público ahora muestra el nombre o la etiqueta del modelo de datos seleccionado cuando un usuario selecciona un modelo de datos sin públicos asociados.
 
 * **Exportación de públicos grandes**
 
@@ -367,7 +405,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 ## Versión de julio de 2024: composición de público federado (disponibilidad limitada) {#fac-la}
 
-La Composición de público federado proporciona a las empresas un acceso flexible y ampliado a los almacenes de datos empresariales para componer públicos utilizando conjuntos de datos empresariales esenciales y potenciar las experiencias iniciadas por la marca y en el momento. Con este nuevo enfoque, como usuario de [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home){target="_blank"} o [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"}, puede federar los datos de audiencia directamente desde su almacén de datos existente para enriquecer las audiencias de Adobe Experience Platform en un solo sistema.
+La Composición de público federado proporciona a las empresas un acceso flexible y ampliado a los almacenes de datos empresariales para componer públicos utilizando conjuntos de datos empresariales esenciales y potenciar las experiencias iniciadas por la marca y en el momento. Con este nuevo enfoque, como usuario de [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home){target="_blank"} o [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"}, puede federar los datos de público directamente desde su almacén de datos existente para enriquecer los públicos de Adobe Experience Platform en un solo sistema.
 
 La Composición de público federado responde a la creciente demanda del mercado para las empresas que necesitan la flexibilidad de componer públicos con conjuntos de datos de almacén. Esto permite a las empresas reducir el movimiento de datos y, al mismo tiempo, poner los datos esenciales del público a disposición de los equipos de marketing para satisfacer los requisitos de los casos de uso y potenciar las experiencias personalizadas.
 

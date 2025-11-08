@@ -2,7 +2,7 @@
 title: Novedades de la composición de público federado de Experience Platform
 description: Últimas actualizaciones y notas de la versión
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+source-git-commit: aabe96fc223af5841c7b77ab914745d08d82ce49
 workflow-type: tm+mt
 source-wordcount: '1740'
 ht-degree: 98%
@@ -17,7 +17,8 @@ ht-degree: 98%
 
 ### Nuevas funciones {#fac-25-10-feature}
 
-<!-- <table>
+<!-- 
+<table>
 <thead>
 <tr>
 <th><strong>Availability for Adobe Experience Platform customers on Amazon Web Services (AWS)</strong><br/></th>
@@ -27,12 +28,13 @@ ht-degree: 98%
 <tr>
 <td>
 <p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
-<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
 </br>
 </td>
 </tr>
 </tbody>
-</table> -->
+</table> 
+-->
 
 <table>
 <thead>

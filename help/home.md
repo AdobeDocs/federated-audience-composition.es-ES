@@ -3,7 +3,7 @@ title: Página de inicio de la documentación de composición de público federa
 description: Documentación de composición de público federado
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: ae33d99e1d8b5c56a563d062c2526d53527878df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
 ht-degree: 100%
 

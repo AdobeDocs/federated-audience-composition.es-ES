@@ -3,7 +3,7 @@ audience: end-user
 title: Crear y administrar conexiones con bases de datos federadas
 description: Obtenga información sobre cómo crear y administrar conexiones con bases de datos federadas
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: aabe96fc223af5841c7b77ab914745d08d82ce49
+source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 10%

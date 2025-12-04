@@ -4,7 +4,7 @@ title: Introducción a las composiciones
 description: Obtenga más información acerca de cómo empezar con las composiciones
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 100%
 

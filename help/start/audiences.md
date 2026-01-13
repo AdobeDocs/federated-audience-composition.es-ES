@@ -3,22 +3,22 @@ audience: end-user
 title: Trabajar con públicos
 description: Descubra cómo trabajar con públicos
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
+source-git-commit: ad6ba3e9e806065c05bb4b67ef94dffc7e6b45cd
+workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Trabajar con públicos {#gs-audiences}
 
-La composición de público federado de Experience Platform le permite [crear composiciones](../compositions/gs-compositions.md), donde puede aprovechar diversas actividades en un lienzo visual para crear públicos y almacenarlos en Adobe Experience Platform Audience Portal
+La composición de público federado de Experience Platform le permite [crear composiciones](../compositions/home.md), donde puede aprovechar diversas actividades en un lienzo visual para crear públicos y almacenarlos en Adobe Experience Platform Audience Portal
 
 A continuación, puede tener estos públicos como objetivo en Journey Optimizer o activarlos en cualquier destino admitido por Adobe Experience Platform.
 
 ## Creación de públicos mediante composiciones{#creation}
 
-Para crear públicos utilizando la composición de público federado, debe crear una composición que incluya la actividad **[!UICONTROL Guardar público]**. Esta actividad le permite guardar el público en Audience Portal y seleccionar campos de las bases de datos externas para incluirlos en el público. [Obtenga información sobre cómo configurar la actividad Guardar público](../compositions/activities/save-audience.md)
+Para crear públicos utilizando la composición de público federado, debe crear una composición que incluya la actividad **[!UICONTROL Guardar público]**. Esta actividad le permite guardar el público en Audience Portal y seleccionar campos de las bases de datos externas para incluirlos en el público. [Obtenga información sobre cómo configurar la actividad Guardar público](../compositions/activities.md#save-audience)
 
 Los públicos creados con la Composición de datos federados de Adobe incluyen todos los campos seleccionados en la actividad **[!UICONTROL Guardar público]** y se almacenan en Audience Portal junto con todos los públicos de Adobe Experience Platform.
 
@@ -38,6 +38,6 @@ La pestaña **[!UICONTROL Examinar]** lista todos los públicos existentes almac
 
 ![](assets/audiences-list.png)
 
-Para obtener más información sobre cómo trabajar con públicos en Adobe Experience Platform, consulte la [documentación de Audience Portal](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Para obtener más información sobre cómo trabajar con públicos en Adobe Experience Platform, consulte la [Documentación de Audience Portal](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

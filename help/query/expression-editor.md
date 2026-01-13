@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Cree su primera consulta con el modelador de consultas
-description: Aprenda a crear la primera consulta en el modelador de consultas.
+title: Información general del editor de expresiones
+description: Aprenda a utilizar las funciones del editor de expresiones para generar una consulta en el modelador de consultas.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: fdf93fb3554d05057052aa7059e141817a883dcc
+source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
 workflow-type: tm+mt
-source-wordcount: '4107'
-ht-degree: 10%
+source-wordcount: '4108'
+ht-degree: 9%
 
 ---
 
-# Edición de expresiones {#expression}
+# Resumen del editor de expresiones {#expression}
 
 Editar una expresión implica introducir manualmente las condiciones para formar una regla. Este modo le permite utilizar funciones avanzadas, que le permiten manipular los valores utilizados para llevar a cabo consultas específicas, como la manipulación de fechas, cadenas, campos numéricos, ordenación, etc.
 
@@ -28,11 +28,11 @@ El editor de expresiones proporciona lo siguiente:
 * La lista de **campos (2)** disponibles que se pueden usar en la expresión y que corresponden al esquema, también conocido como dimensión de segmentación, de la consulta.
 * **Funciones de ayuda (3)**, ordenadas por categoría.
 
-Edite la expresión introduciendo una expresión directamente en el campo de entrada. Para añadir un campo o una función de ayuda, coloque el cursor en la expresión donde desee añadirlo y haga clic en el botón +.
+Edite la expresión introduciendo una expresión directamente en el campo de entrada. Para añadir un campo o una función de ayuda, coloque el cursor en la expresión donde desee añadirla y seleccione el botón +.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
-Cuando la expresión esté lista, haga clic en el botón **[!UICONTROL Confirmar]**. La expresión se muestra en el campo seleccionado. Para editarlo, abra el editor de expresiones y realice los cambios deseados.
+Cuando la expresión esté lista, seleccione **[!UICONTROL Confirmar]**. La expresión se muestra en el campo seleccionado. Para editarlo, abra el editor de expresiones y realice los cambios deseados.
 
 El ejemplo siguiente muestra una expresión configurada para el campo **[!UICONTROL Value]**. Para editarlo, debe abrir el editor de expresiones con el botón **[!UICONTROL Editar expresión]**.
 

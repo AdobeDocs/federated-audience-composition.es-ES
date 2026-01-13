@@ -2,7 +2,7 @@
 title: Privacidad y seguridad en la composición de público federado
 description: Descubra cómo la composición de público federado aborda el tema de la privacidad y seguridad de los datos de usuario, incluyendo funciones como la gobernanza de datos, la aplicación del consentimiento, el control de acceso, el cifrado de datos y el cumplimiento de la privacidad.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 77%
@@ -31,7 +31,7 @@ Puede utilizar la gobernanza de datos para administrar e identificar los datos d
 
 Puede utilizar etiquetas de uso de datos para categorizar conjuntos de datos y campos en función de las políticas de gobernanza que se aplican a esos datos. Después de crear un público usando composiciones, puede aplicar las etiquetas de datos adecuadas al esquema resultante para asegurarse de que cumple las restricciones de uso requeridas.
 
-Para obtener más información sobre el uso de etiquetas de datos en la composición de audiencias federada, lea la [sección de aplicación de etiquetas de acceso](../compositions/gs-compositions.md#access-labels){target="_blank"}.
+Para obtener más información sobre el uso de etiquetas de datos en la composición de audiencias federada, lea la [sección de aplicación de etiquetas de acceso](../compositions/home.md#access-labels){target="_blank"}.
 
 ## Privacidad
 
@@ -109,6 +109,6 @@ Para obtener más información sobre el control de acceso en Federated Audience 
 
 La composición de público federado **no** almacena los datos de los clientes. Como resultado, debe asegurarse de conectar **solamente** las bases de datos externas con la región de zona protegida correspondiente para mantener los datos en la misma región. Si conecta una base de datos de otra región a una zona protegida, Adobe **no** se hace responsable de la localización de los datos.
 
-## Pasos siguientes {#next-steps}
+## Próximos pasos {#next-steps}
 
 Después de leer esta guía, tendrá una mejor comprensión de las funciones de control de datos, privacidad y seguridad que se utilizan para Federated Audience Composition, incluidas las etiquetas de uso de datos, el cumplimiento de la privacidad, la aplicación del consentimiento, la administración del ciclo vital de datos y el control de acceso.

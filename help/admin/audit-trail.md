@@ -3,7 +3,7 @@ audience: end-user
 title: Pista de auditoría
 description: Conozca cómo se registran las acciones y los eventos y cómo se puede acceder a ellos en la pista de auditoría
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 14%
@@ -31,7 +31,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente en tiem
 
 * **Seguimiento de auditoría de esquemas de Source** le permite supervisar las actividades y las modificaciones recientes realizadas en los esquemas en la instancia de composición de audiencias federada de Adobe.
 
-  Para obtener información detallada sobre los esquemas, consulte esta [página](../customer/schemas.md).
+  Para obtener información detallada sobre los esquemas, consulte esta [página](../data-modelling/schemas.md).
 
 * **Registro de auditoría de flujo de trabajo** le permite realizar un seguimiento de las actividades y los cambios recientes realizados en los flujos de trabajo, incluidos sus estados actuales, como:
 
@@ -44,7 +44,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente en tiem
    * Activación igual a la acción Ejecutar tareas pendientes ahora
    * Interrupción incondicional
 
-  Para obtener más información sobre los flujos de trabajo, consulte esta [página](../compositions/gs-compositions.md).
+  Para obtener más información sobre los flujos de trabajo, consulte esta [página](../compositions/home.md).
 
 * **Cuenta externa** le permite comprobar las modificaciones realizadas en las cuentas externas en la instancia de composición de audiencias de Adobe.
 

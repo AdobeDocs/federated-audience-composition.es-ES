@@ -2,7 +2,7 @@
 title: Control de acceso en la composición de audiencia federada
 description: Obtenga información sobre cómo administrar el acceso a datos para usuarios en la Composición de audiencias federada.
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: a26e5a2b106426113764d3f2f668ddfbbff85b01
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 80%
@@ -15,7 +15,7 @@ Puede utilizar el control de acceso para proporcionar acceso basado en funciones
 
 ## Administración del acceso a zonas protegidas {#access-sandboxes}
 
-Al adquirir la Composición de público federado de Adobe Experience Platform, se crea un perfil de producto para cada zona protegida activa en ese momento. Este perfil de producto se crea en Admin Console, en la tarjeta de producto **Adobe Experience Platform** y sigue la convención de nomenclatura siguiente: `ACP_FAC - <<SandboxName>> - admin.` para acceder a la Composición de público federado para una zona protegida específica, los usuarios deben agregarse al perfil de producto creado para esa zona protegida.
+Al comprar la Composición de público federado de Adobe Experience Platform, se crea un perfil de producto para cada zona protegida activa en ese momento. Este perfil de producto se crea en Admin Console, en la tarjeta de producto **Adobe Experience Platform** y sigue la convención de nomenclatura siguiente: `ACP_FAC - <<SandboxName>> - admin.` para acceder a la Composición de público federado para una zona protegida específica, los usuarios deben agregarse al perfil de producto creado para esa zona protegida.
 
 Por ejemplo, si se activa una nueva zona protegida denominada «fac-test», se crea un perfil «ACP_FAC - fac-test - admin» de producto correspondiente. Para acceder a la composición de público federado con esta zona protegida, los usuarios deben añadirse a este perfil de producto.
 
@@ -74,10 +74,10 @@ De forma alternativa, puede asignar una de las funciones preexistentes a los usu
 | Administradores de composición de FAC | <ul><li>Administrar composiciones federadas</li></ul> |
 | Administradores de FAC | <ul><li>Administrar datos federados</li></ul> |
 
-El usuario recibirá un correo electrónico con instrucciones para acceder a su instancia. Si el usuario no se ha creado previamente, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/users).
+El usuario recibirá un correo electrónico con instrucciones para acceder a su instancia. Si el usuario no estaba ya creado, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 ## Administración del acceso a composiciones específicas
 
 Puede administrar el acceso a una composición específica aplicando etiquetas de acceso.
 
-Para obtener más información sobre cómo aplicar etiquetas de acceso a una composición, lea la [sección](/help/compositions/gs-compositions.md#access-labels) de la guía de composiciones sobre aplicar etiquetas de acceso.
+Para obtener más información sobre cómo aplicar etiquetas de acceso a una composición, lea la [sección](/help/compositions/home.md#access-labels) de la guía de composiciones sobre aplicar etiquetas de acceso.

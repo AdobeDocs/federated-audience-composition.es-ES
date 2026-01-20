@@ -3,9 +3,9 @@ title: Requisitos previos y protecciones para la composición de público federa
 description: Conozca los requisitos previos, permisos y protecciones para la composición de público federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ La composición de público federado admite los siguientes almacenes en la nube:
 * Vertica Analytics
 * Microsoft Fabric
 
-Puede aprender a crear una conexión con estos sistemas en la [descripción general de las conexiones](../connections/home.md).
+Puede aprender a crear una conexión con estos sistemas en la [información general de las conexiones](../connections/home.md).
 
 ## Zonas protegidas
 
@@ -39,7 +39,7 @@ Para ver la lista de las zonas protegidas de composición de público federado a
 
 1. Desde la composición de público federado, acceda al menú **[!UICONTROL Uso de licencias]** en **[!UICONTROL Administración]**.
 
-1. Seleccione el icono ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) de **[!UICONTROL Volumen total de salida de datos]** para acceder a las propiedades de su zona protegida.
+1. Seleccione el icono ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) de **[!UICONTROL Volumen total de salida de datos]** para acceder a las propiedades de la zona protegida.
 
    ![](assets/sandbox_1.png)
 

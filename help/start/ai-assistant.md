@@ -3,9 +3,9 @@ title: Trabajo con el Asistente de IA
 description: Aprenda a utilizar el Asistente de IA
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Algunos ejemplos de estas preguntas son los siguientes:
 
 Haga lo siguiente para realizar una pregunta:
 
-1. Para acceder al asistente de IA, seleccione el icono en la barra superior.
+1. Acceso al Asistente de IA mediante el icono de la barra superior.
 
-   El Asistente de IA se muestra en la sección derecha de la pantalla. Puede seleccionar ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "Expand") para expandir la ventana del asistente de IA.
+   El Asistente de IA se muestra en la sección derecha de la pantalla. Puede seleccionar ![Profundizar texto alternativo de la imagen](assets/do-not-localize/Smock_FullScreen_18_N.svg "Expandir") para expandir la ventana del Asistente de IA.
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 

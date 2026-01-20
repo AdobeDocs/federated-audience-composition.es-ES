@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # Artículo sobre colaboración
@@ -26,8 +26,8 @@ Este proyecto ha adoptado el [Código de conducta de Adobe Open Source](code-of-
 Si su contribución es una actualización menor:
 
 1. Vaya al tema que desee editar.
-2. En el banner “¿Le ha sido útil este contenido?” titular que aparece en la parte inferior de la ventana del explorador, seleccione **Opciones de comentarios detalladas**.
-3. Seleccione **Sugerir una edición** y envíe una solicitud de extracción (PR) con sus cambios en la interfaz de usuario de GitHub.
+2. En el banner “¿Le ha sido útil este contenido?” que aparece en la parte inferior de la ventana del explorador, seleccione **Opc. de comentarios detallados**.
+3. Seleccione **Sugerir una edición** y envíe una solicitud de extracción (PR, de “pull request”) con sus cambios en la interfaz de usuario de GitHub.
 
    Consulte la guía [general del colaborador de Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=es) para obtener más información.
 

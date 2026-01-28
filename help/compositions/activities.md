@@ -2,9 +2,9 @@
 audience: end-user
 title: Información general sobre las actividades
 description: Obtenga información acerca de las diferentes actividades y transiciones disponibles para usar en Federated Audience Composition.
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
+source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
 workflow-type: tm+mt
-source-wordcount: '4619'
+source-wordcount: '4662'
 ht-degree: 33%
 
 ---
@@ -420,6 +420,8 @@ Después de agregar la actividad **Guardar audiencia** a la composición, puede 
 Ahora puede especificar las asignaciones para seleccionar qué campos desea transferir a la audiencia recién creada. Seleccione **Agregar asignación de audiencia** y elija los campos de audiencia de origen y destino, repitiéndolos tantas veces como sea necesario.
 
 Después de agregar las asignaciones, puede seleccionar la identidad principal y el área de nombres para identificar los perfiles de destino en la base de datos. El campo de identidad principal se utiliza para identificar los perfiles, mientras que el área de nombres de identidad actúa como una clave para identificar la identidad.
+
+Además, puede establecer la caducidad de los datos de la audiencia. La caducidad de los datos determina el número de días después de los cuales caducará la pertenencia a la audiencia. La caducidad de los datos puede oscilar entre 1 y 90 días. De forma predeterminada, este valor se establece en 30.
 
 +++
 

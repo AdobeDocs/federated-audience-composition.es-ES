@@ -25,7 +25,7 @@ La versión de enero de Composición de audiencias federada admite las siguiente
 
 | Disponibilidad para clientes de Adobe Experience Platform en Amazon Web Service (AWS) |
 | --- |
-| Ahora puede utilizar la Composición de audiencia federada si la instancia de Experience Platform está en AWS. Para obtener más información sobre Experience Platform en AWS, lea [descripción general de varias nubes](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
+| Ahora puede utilizar la Composición de audiencia federada si la instancia de Experience Platform está en AWS. Para obtener más información sobre Experience Platform en AWS, lea [descripción general de varias nubes](https://experienceleague.adobe.com/es/docs/experience-platform/landing/multi-cloud). |
 
 ### Mejoras {#fac-26-01-improvements}
 

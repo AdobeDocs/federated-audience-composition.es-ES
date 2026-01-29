@@ -2,7 +2,7 @@
 title: Página de inicio de la documentación de composición de público federado de Experience Platform
 description: Documentación de composición de público federado
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
@@ -78,4 +78,3 @@ Añada y configure actividades (división, enriquecimiento, consulta, etc.) para
 ## Recursos adicionales  {#additional-resources}
 
 [Documentación de Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home){target="_blank"} - [Documentación de Adobe Audience Portal](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutoriales](https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
-

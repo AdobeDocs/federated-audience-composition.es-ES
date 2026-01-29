@@ -1,7 +1,8 @@
 ---
 title: Notas de la versión de Federated Audience Composition
 description: Últimas actualizaciones y notas de la versión de Federated Audience Composition.
-source-git-commit: a7476931e8cbae7cef226fee249999b7a1f30c89
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 24%
@@ -25,7 +26,7 @@ La versión de enero de Composición de audiencias federada admite las siguiente
 
 | Disponibilidad para clientes de Adobe Experience Platform en Amazon Web Service (AWS) |
 | --- |
-| Ahora puede utilizar la Composición de audiencia federada si la instancia de Experience Platform está en AWS. Para obtener más información sobre Experience Platform en AWS, lea [descripción general de varias nubes](https://experienceleague.adobe.com/es/docs/experience-platform/landing/multi-cloud). |
+| Ahora puede utilizar la Composición de audiencia federada si la instancia de Experience Platform está en AWS. Para obtener más información sobre Experience Platform en AWS, lea [descripción general de varias nubes](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Mejoras {#fac-26-01-improvements}
 
@@ -36,3 +37,4 @@ Esta versión incorpora las siguientes mejoras.
   Ahora puede establecer una caducidad de datos al usar la actividad **Guardar audiencia** en una composición.
 
   Para obtener más información sobre las caducidades de los datos en la Composición de audiencias federada, lee la [guía de actividades](../compositions/activities.md#save-audience).
+

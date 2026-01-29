@@ -2,7 +2,7 @@
 audience: end-user
 title: Información general sobre las actividades
 description: Obtenga información acerca de las diferentes actividades y transiciones disponibles para usar en Federated Audience Composition.
-source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
+source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
 workflow-type: tm+mt
 source-wordcount: '4662'
 ht-degree: 33%
@@ -23,7 +23,7 @@ Existen **dos** tipos diferentes de actividades para usar dentro de la Composici
 
 Las actividades de segmentación le permiten definir lo que constituye su audiencia para la composición.
 
-#### Generar público
+#### Generar público {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
@@ -60,7 +60,7 @@ Una vez seleccionadas las opciones, puede optar por **Generar una transición sa
 
 +++
 
-#### Cambio de la fuente de datos
+#### Cambio de la fuente de datos {#change-data-source}
 
 La actividad **Cambiar fuente de datos** le permite cambiar la fuente de datos que utiliza la composición.
 
@@ -80,7 +80,7 @@ Después de seleccionar **[!UICONTROL cuenta externa de FDA]**, puede elegir con
 
 +++
 
-#### Cambiar dimensión
+#### Cambiar dimensión {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
@@ -104,7 +104,7 @@ Después de ejecutar la composición, se actualizarán los resultados.
 
 +++
 
-#### Combinar
+#### Combinar {#combine}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
@@ -206,7 +206,7 @@ Una vez configuradas las reglas de exclusión, también puede seleccionar la opc
 
 +++
 
-#### Deduplicación
+#### Deduplicación {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
@@ -251,7 +251,7 @@ Además, puede seleccionar la opción **Generar complemento**. La generación de
 
 +++
 
-#### Enriquecimiento
+#### Enriquecimiento {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
@@ -294,7 +294,7 @@ Después de agregar la actividad **Enrichment** a la composición, puede selecci
 
 +++
 
-#### Reconciliación
+#### Reconciliación {#reconciliation}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
@@ -375,7 +375,7 @@ También puede filtrar los datos reconciliados. Seleccione **Crear filtro** para
 
 +++
 
-#### Guardar público
+#### Guardar público {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -415,7 +415,7 @@ La actividad **Guardar audiencia** le permite crear una audiencia basada en la c
 
 Después de agregar la actividad **Guardar audiencia** a la composición, puede especificar el nombre de la audiencia recién creada.
 
-![](./assets/activities/save-audience.png)
+![](./assets/activities/save-audience.png){zoomable="yes" width="30%"}
 
 Ahora puede especificar las asignaciones para seleccionar qué campos desea transferir a la audiencia recién creada. Seleccione **Agregar asignación de audiencia** y elija los campos de audiencia de origen y destino, repitiéndolos tantas veces como sea necesario.
 
@@ -425,7 +425,7 @@ Además, puede establecer la caducidad de los datos de la audiencia. La caducida
 
 +++
 
-#### División
+#### División {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -506,7 +506,7 @@ Ahora que se han configurado los subconjuntos, puede definir algunas opciones ad
 
 Las actividades de control de flujo permiten definir la organización y la coordinación de la composición.
 
-#### Y únase
+#### Y únase {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
@@ -525,11 +525,11 @@ En la sección **Combinando opciones**, puede seleccionar todas las actividades 
 
 +++
 
-#### Fin
+#### Fin {#end}
 
 La actividad **End** marca gráficamente el final de la composición y no tiene ningún impacto funcional.
 
-#### Bifurcación
+#### Bifurcación {#fork}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
@@ -551,7 +551,7 @@ Una vez que haya agregado la actividad **Fork** a la composición, se generarán
 
 +++
 
-#### Planificador
+#### Planificador {#scheduler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
@@ -651,7 +651,7 @@ Después de seleccionar la frecuencia de ejecución, puede elegir el **Período 
 
 +++
 
-#### Esperar
+#### Esperar {#wait}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"

@@ -2,10 +2,11 @@
 audience: end-user
 title: Información general sobre las actividades
 description: Obtenga información acerca de las diferentes actividades y transiciones disponibles para usar en Federated Audience Composition.
-source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
+exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
+source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
 workflow-type: tm+mt
-source-wordcount: '4662'
-ht-degree: 33%
+source-wordcount: '5001'
+ht-degree: 32%
 
 ---
 
@@ -20,6 +21,81 @@ Las actividades permiten definir los componentes dentro de la audiencia.
 Existen **dos** tipos diferentes de actividades para usar dentro de la Composición de audiencia federada: actividades de segmentación y actividades de control de flujo.
 
 ### Actividades de segmentación {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="Enriquecer campos"
+>abstract="La actividad Enrich fields permite enriquecer los esquemas de Experience Platform federando datos de almacenes externos, lo que permite mejorar los esquemas de Experience Platform con atributos adicionales. "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="Campo de área de nombres de identificación principal"
+>abstract="El área de nombres de la identidad principal. El área de nombres ayuda a proporcionar contexto para describir la clasificación de la identidad principal."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Seleccionar esquema de Experience Platform"
+>abstract="Elija el esquema de Experience Platform que desea enriquecer."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="Modo de actualización de campos enriquecidos"
+>abstract="Los modos de actualización disponibles para la actividad de campos enriquecidos incluyen actualización completa e incremental."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="Actualización completa"
+>abstract="El modo de actualización completa actualiza el conjunto completo de atributos en los esquemas seleccionados."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="Actualización incremental"
+>abstract="El modo de actualización incremental actualiza los campos que se han modificado desde la última ejecución del enriquecimiento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="Campo de identidad principal"
+>abstract="El campo de identidad principal indica la fuente de veracidad al combinar perfiles para el enriquecimiento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="Criterios de campos obligatorios"
+>abstract="Un campo obligatorio es un atributo que debe rellenarse para cada perfil o registro al exportar los datos. Si falta un campo obligatorio, la exportación no se completará ni será válida."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="Campo de identidad principal"
+>abstract="El identificador único de cada perfil o registro. Esto garantiza que cada registro se pueda reconocer y hacer coincidir de forma distintiva, lo que evita la duplicación de datos."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="Lista de esquemas"
+>abstract="Una lista de los esquemas disponibles en la zona protegida. Puede seleccionar esquemas estándar o relacionales."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="Seleccionar atributo"
+>abstract="Puede crear una asignación de origen/destino para los campos."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="Selección de conjunto de datos"
+>abstract="Una lista de los conjuntos de datos que pertenecen al esquema. Puede seleccionar en qué conjunto de datos desea guardar los datos enriquecidos."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="Clave principal"
+>abstract="La clave principal del esquema relacional. Este valor garantiza la exclusividad dentro de los conjuntos de datos al evitar que se ingieran registros duplicados."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="Descriptor de versión"
+>abstract="El descriptor de versión del esquema relacional. Este valor ayuda a determinar qué propiedad tiene prioridad si varios valores comparten la misma clave principal, lo que garantiza que se aplique la actualización más reciente."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="Descriptor de marca de tiempo"
+>abstract="El descriptor de marca de tiempo del esquema relacional. Este valor ayuda a establecer la hora del evento para la realización de pedidos y solo existe si trabaja con datos de series temporales."
 
 Las actividades de segmentación le permiten definir lo que constituye su audiencia para la composición.
 

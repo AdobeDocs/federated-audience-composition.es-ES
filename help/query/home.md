@@ -6,11 +6,11 @@ exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
-# Información general del modelador de consultas {#query-modeler}
+# Información general de modelador de consultas {#query-modeler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"

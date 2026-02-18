@@ -1,15 +1,15 @@
 ---
-title: Resumen de composición de audiencia federada
+title: Información general de composición de público federado
 description: Obtenga información acerca de la composición de audiencias federada de Adobe y cómo utilizarla en servicios descendentes como Adobe Experience Platform y Adobe Journey Optimizer
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1203'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
-# Resumen de composición de audiencia federada
+# Información general de composición de público federado
 
 La composición de audiencias federada permite crear y enriquecer audiencias de sus almacenes de datos de terceros e importarlas a Adobe Experience Platform. Esto ofrece una solución fácil y potente para conectar su almacén de datos empresarial directamente dentro de servicios descendentes como Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer, y realizar consultas en las tablas de su almacén de datos. Como resultado, puede acceder a los datos de los clientes almacenados en los almacenes de datos y en las plataformas de almacenamiento en la nube como Amazon Redshift y Azure Synapse Analytics.
 

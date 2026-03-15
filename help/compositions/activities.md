@@ -281,7 +281,7 @@ Además, puede seleccionar la opción **Generar complemento**. La generación de
 
 La actividad **Enrichment** le permite mejorar su composición al agregar datos adicionales de su base de datos federada.
 
-Si ha configurado una conexión con el destino de Composición de audiencia federada, puede utilizar la actividad de enriquecimiento para enriquecer los datos que llegan a Adobe Experience Platform con atributos de la base de datos externa. [Aprenda a enriquecer audiencias de Adobe Experience Platform con datos externos ](../connections/destinations.md)
+Si ha configurado una conexión con el destino de Composición de audiencia federada, puede utilizar la actividad de enriquecimiento para enriquecer los datos que llegan a Adobe Experience Platform con atributos de la base de datos externa. [Aprenda a enriquecer audiencias de Adobe Experience Platform con datos externos &#x200B;](../connections/destinations.md)
 
 +++ Detalles de configuración
 

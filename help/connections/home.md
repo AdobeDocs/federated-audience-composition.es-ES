@@ -3,9 +3,9 @@ audience: end-user
 title: Crear y administrar conexiones con bases de datos federadas
 description: Obtenga información sobre cómo crear y administrar conexiones con bases de datos federadas
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: a81840d5cdc53a781045242f9c0dac50f56df2b8
+source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
-source-wordcount: '2616'
+source-wordcount: '2970'
 ht-degree: 9%
 
 ---
@@ -84,7 +84,7 @@ Después de seleccionar Azure Synapse Analytics, puede añadir los siguientes de
 | ----- | ----------- |
 | Servidor | La URL del servidor de Azure Synapse. |
 | Cuenta | El id. de aplicación (**id. de cliente**) del registro de aplicación de Azure. |
-| Contraseña | El valor **Secreto de cliente** de la aplicación de Azure. |
+| Contraseña | El valor **Secreto de cliente** de la aplicación Azure. |
 | Base de datos | Nombre de la base de datos. Si se especifica en el nombre del servidor, este campo se puede dejar en blanco. |
 | Opciones | Opciones adicionales para la conexión. Para Azure Synapse Analytics, puede especificar el tipo de autenticación admitida por el conector. Actualmente, la Composición de audiencia federada admite `ActiveDirectoryMSI`. Para obtener más información sobre las cadenas de conexión, lea la sección [ejemplo de cadenas de conexión en la documentación de Microsoft](https://learn.microsoft.com/es-es/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} . |
 
@@ -102,7 +102,7 @@ Antes de configurar la autenticación de entidad de seguridad de servicio, tenga
 
 +++
 
-En Azure Portal, primero debe crear un nuevo registro de aplicación. Seleccione **Registrar** después de asignar un nombre único a la aplicación. Aparecerá la página **Información general**. Asegúrese de anotar los valores de **ID de aplicación (cliente)** y **ID de directorio (inquilino)**.
+En el portal de Azure, primero debe crear un nuevo registro de aplicación. Seleccione **Registrar** después de asignar un nombre único a la aplicación. Aparecerá la página **Información general**. Asegúrese de anotar los valores de **ID de aplicación (cliente)** y **ID de directorio (inquilino)**.
 
 ![El identificador de aplicación (cliente) de la página de información general está resaltado.](/help/connections/assets/home/azure-client-id.png)
 
@@ -124,7 +124,7 @@ En la conexión de Azure Synapse, defina los siguientes detalles de configuraci�
 | ----- | ----------- |
 | Servidor | La URL del servidor de Azure Synapse. |
 | Cuenta | El id. de aplicación (**id. de cliente**) del registro de aplicación de Azure. |
-| Contraseña | El valor **Secreto de cliente** de la aplicación de Azure. |
+| Contraseña | El valor **Secreto de cliente** de la aplicación Azure. |
 | Base de datos | Nombre de la base de datos. Si se especifica en el nombre del servidor, este campo se puede dejar en blanco. |
 | Opciones | Opciones adicionales para la conexión. Para usar la autenticación de entidad de seguridad de servicio, deberá establecer `Authentication="ActiveDirectoryServicePrincipal"`. |
 
@@ -134,13 +134,37 @@ En la conexión de Azure Synapse, defina los siguientes detalles de configuraci�
 >
 >Se admite el acceso seguro al almacén de datos externo de Databricks a través de un vínculo privado. Esto incluye conexiones seguras a bases de datos de Databricks alojadas en Amazon Web Services (AWS) a través de un vínculo privado y bases de datos de Databricks alojadas en Microsoft Azure a través de una VPN. Póngase en contacto con su representante de Adobe para obtener ayuda sobre cómo configurar un acceso seguro.
 
-Después de seleccionar Databricks, puede agregar los siguientes detalles:
+Después de seleccionar Databricks, puede elegir el método de autenticación que desee utilizar al conectarse con Federated Audience Composition.
+
+Si selecciona **Autenticación de cuenta/contraseña**, puede agregar los siguientes detalles de inicio de sesión:
 
 | Campo | Descripción |
 | ----- | ----------- |
 | Servidor | Nombre del servidor de Databricks. |
-| Ruta HTTP | Ruta de acceso al clúster o al almacén. Para obtener más información sobre la ruta, lea la [documentación de Databricks sobre los detalles de conexión](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Contraseña | El token de acceso para el servidor de Databricks. Para obtener más información sobre este valor, lea la [documentación de Databricks sobre tokens de acceso personal](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
+
+Si selecciona **Autenticación de entidad de seguridad de servicio**, puede agregar los siguientes detalles:
+
+| Campo | Descripción |
+| ----- | ----------- |
+| Servidor | Nombre del servidor de Databricks. |
+| ID de cliente | El ID de cliente del servidor de Databricks. Este campo actúa como un nombre de usuario para el proyecto. |
+| Secreto del cliente | El secreto de cliente del servidor Databricks. Este campo actúa como una contraseña para el proyecto. |
+
+Si selecciona **OAuth 2.0**, puede agregar los siguientes detalles:
+
+| Campo | Descripción |
+| ----- | ----------- |
+| Servidor | Nombre del servidor de Databricks. |
+| ID de cliente | El ID de cliente del servidor de Databricks. Este campo se utiliza para identificar la aplicación durante la autenticación OAuth 2.0 y actúa como un nombre de usuario para el proyecto. |
+| Secreto del cliente | El secreto de cliente del servidor Databricks. Esta credencial confidencial se emite con el ID de cliente y actúa como una contraseña para el proyecto. |
+| Ámbito del acceso | Información previamente rellenada que enumera los ámbitos para los que está autorizado el token de OAuth en el servidor de Databricks. |
+
+Después de introducir los detalles de inicio de sesión, puede añadir la siguiente información:
+
+| Campo | Descripción |
+| ----- | ----------- |
+| Ruta HTTP | Ruta de acceso al clúster o al almacén. Para obtener más información sobre la ruta, lea la [documentación de Databricks sobre los detalles de conexión](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Catálogo | Nombre del catálogo de Databricks. Para obtener más información sobre los catálogos de Databricks, lea la [documentación de Databricks sobre los catálogos](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
 | Esquema de trabajo | Nombre del esquema de base de datos que se va a utilizar para las tablas de trabajo. <br/><br/>**Nota:** Puede usar **cualquier esquema** de la base de datos, incluidos los esquemas utilizados para el procesamiento temporal de datos, siempre y cuando tenga los permisos necesarios para conectarse a este esquema. Sin embargo, **debe** utilizar distintos esquemas de trabajo al conectar varios entornos limitados con la misma base de datos. |
 | Opciones | Opciones adicionales para la conexión. Las opciones disponibles se enumeran en la tabla siguiente. |
@@ -196,9 +220,9 @@ Para Google BigQuery, puede definir las siguientes opciones adicionales:
 | ProxyHost | El nombre de host o la dirección IP donde se puede contactar con el proxy. |
 | ProxyUid | Número de puerto en el que se está ejecutando el proxy. |
 | ProxyPwd | La contraseña del proxy. |
-| bgpath | **Nota:** Esto solo se aplica a la **herramienta de carga masiva** (Cloud SDK). <br/><br/> Ruta de acceso al directorio bin de Cloud SDK en el servidor. Solo debe establecer esta propiedad si ha movido el directorio `google-cloud-sdk` a otra ubicación o si desea evitar utilizar la variable PATH. |
-| GCloudConfigName | **Nota:** Esto solo es aplicable a la **herramienta de carga masiva** (Cloud SDK) anterior a la versión 7.3.4. <br/><br/> El nombre de la configuración que almacena los parámetros para cargar los datos. De manera predeterminada, este valor es `accfda`. |
-| GCloudDefaultConfigName | **Nota:** Esto solo se aplica a la **herramienta de carga masiva** (Cloud SDK) anterior a la versión 7.3.4. <br/><br/> El nombre de la configuración temporal para volver a crear la configuración principal para cargar datos. De manera predeterminada, este valor es `default`. |
+| bgpath | **Nota:** Esto solo es aplicable a la **herramienta de carga masiva** (Cloud SDK). <br/><br/> La ruta al directorio bin de Cloud SDK en el servidor. Solo debe establecer esta propiedad si ha movido el directorio `google-cloud-sdk` a otra ubicación o si desea evitar utilizar la variable PATH. |
+| GCloudConfigName | **Nota:** Esto solo es aplicable a la **herramienta de carga masiva** (Cloud SDK) anterior a la versión 7.3.4. <br/><br/> Nombre de la configuración que almacena los parámetros para cargar los datos. De manera predeterminada, este valor es `accfda`. |
+| GCloudDefaultConfigName | **Nota:** Esto solo es aplicable a la **herramienta de carga masiva** (Cloud SDK) anterior a la versión 7.3.4. <br/><br/> Nombre de la configuración temporal para volver a crear la configuración principal y cargar los datos. De manera predeterminada, este valor es `default`. |
 | GCloudRecreateConfig | **Nota:** Esto solo es aplicable a la **herramienta de carga masiva** (Cloud SDK) anterior a la versión 7.3.4. <br/><br/> Un valor booleano que le permite decidir si el mecanismo de carga masiva debe recrear, eliminar o modificar automáticamente las configuraciones de Google Cloud SDK. Si este valor se establece en `false`, el mecanismo de carga masiva carga datos mediante una configuración existente en el equipo. Si este valor se establece en `true`, asegúrese de que la configuración esté configurada correctamente; de lo contrario, aparecerá el error `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` y el mecanismo de carga volverá al mecanismo de carga predeterminado. |
 
 >[!TAB Estructura de Microsoft]

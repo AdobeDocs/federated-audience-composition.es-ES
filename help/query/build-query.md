@@ -16,7 +16,7 @@ Para empezar a crear una consulta, acceda al modelador de consultas desde la ubi
 
 Se pueden añadir dos tipos de elementos:
 
-* **Los componentes de filtrado** (condición personalizada, Seleccionar audiencia) le permiten crear sus propias reglas o seleccionar una audiencia para restringir la consulta. Se añaden al principio de la consulta y en transiciones punteadas. [Aprenda a trabajar con los componentes de filtrado ](#filtering)
+* **Los componentes de filtrado** (condición personalizada, Seleccionar audiencia) le permiten crear sus propias reglas o seleccionar una audiencia para restringir la consulta. Se añaden al principio de la consulta y en transiciones punteadas. [Aprenda a trabajar con los componentes de filtrado &#x200B;](#filtering)
 
   Ejemplo: *Destinatarios que se suscribieron al boletín &#39;Deportes&#39;*. *Destinatarios que viven en Nueva York*, *Destinatarios que viven en San Francisco*
 
@@ -24,7 +24,7 @@ Se pueden añadir dos tipos de elementos:
 
 * **Los operadores de grupo** (AND, OR, EXCEPT) le permiten agrupar los componentes de filtrado en el diagrama. Se añaden a las transiciones existentes antes de un componente de filtrado. [Aprenda a trabajar con operadores](#filtering)
 
-  Ejemplo: *Destinatarios que se suscribieron al boletín &quot;Deportes&quot;**Y**que viven en Nueva York **O**San Francisco*.
+  Ejemplo: *Destinatarios que se suscribieron al boletín &quot;Deportes&quot;**Y**&#x200B;que viven en Nueva York **O**&#x200B;San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 

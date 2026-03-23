@@ -5,7 +5,7 @@ description: Aprenda a crear composiciones
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 source-git-commit: 036dcb96d2d831e3a1d6ab50afef5b87e25b564b
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1603'
 ht-degree: 20%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 La composición de público federado le permite crear composiciones, donde puede aprovechar diversas actividades en un lienzo visual para crear públicos. Después de crear la composición, los públicos resultantes se guardan en Adobe Experience Platform y se pueden aprovechar en destinos de Experience Platform y Adobe Journey Optimizer para dirigirse a los clientes.
 
-## Definición de la composición {#create}
+## Definir la composición {#create}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
@@ -114,7 +114,7 @@ Los indicadores visuales de la esquina superior derecha de cada actividad muestr
 | ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | La actividad ha encontrado un error. Para resolver el problema, abra los registros de composición para obtener más información. |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | La actividad se ha ejecutado correctamente. |
 
-### Monitorización de registros y tareas {#monitor-logs}
+### Monitorizar registros y tareas {#monitor-logs}
 
 Además, puede ver los registros de composición para asegurarse de que se ejecutan correctamente. Seleccione **[!UICONTROL Registros]** en la barra de herramientas de acciones para ver esta información.
 

@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo crear la primera consulta en el mo
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
-source-wordcount: '2063'
-ht-degree: 34%
+source-wordcount: '2082'
+ht-degree: 36%
 
 ---
 
@@ -16,7 +16,7 @@ Para empezar a crear una consulta, acceda al modelador de consultas desde la ubi
 
 Se pueden añadir dos tipos de elementos:
 
-* **Los componentes de filtrado** (condición personalizada, Seleccionar audiencia) le permiten crear sus propias reglas o seleccionar una audiencia para restringir la consulta. Se añaden al principio de la consulta y en transiciones punteadas. [Aprenda a trabajar con los componentes de filtrado](#filtering)
+* **Los componentes de filtrado** (condición personalizada, Seleccionar audiencia) le permiten crear sus propias reglas o seleccionar una audiencia para restringir la consulta. Se añaden al principio de la consulta y en transiciones punteadas. [Aprenda a trabajar con los componentes de filtrado ](#filtering)
 
   Ejemplo: *Destinatarios que se suscribieron al boletín &#39;Deportes&#39;*. *Destinatarios que viven en Nueva York*, *Destinatarios que viven en San Francisco*
 
@@ -24,7 +24,7 @@ Se pueden añadir dos tipos de elementos:
 
 * **Los operadores de grupo** (AND, OR, EXCEPT) le permiten agrupar los componentes de filtrado en el diagrama. Se añaden a las transiciones existentes antes de un componente de filtrado. [Aprenda a trabajar con operadores](#filtering)
 
-  Ejemplo: *Destinatarios que se suscribieron al boletín &quot;Deportes&quot;**Y**&#x200B;que viven en Nueva York **O**&#x200B;San Francisco*.
+  Ejemplo: *Destinatarios que se suscribieron al boletín &quot;Deportes&quot;**Y**que viven en Nueva York **O**San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -52,7 +52,7 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
    >[!NOTE]
    >
-   >El botón **[!UICONTROL Editar expresión]** le permite aprovechar el editor de expresiones para definir manualmente una expresión con campos de la base de datos y funciones de ayuda. [Más información sobre cómo editar expresiones](expression-editor.md)
+   >El botón **[!UICONTROL Editar expresión]** le permite aprovechar el editor de expresiones para definir manualmente una expresión con campos de la base de datos y funciones de ayuda. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
 
 3. Seleccione el operador que desee aplicar en la lista desplegable. Hay varios operadores disponibles que se pueden utilizar. Tenga en cuenta que los operadores disponibles en la lista desplegable dependen del tipo de datos del atributo.
 
@@ -79,7 +79,7 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
    +++
 
-4. En el campo **[!UICONTROL Valor]**, defina el valor previsto. También puede aprovechar el editor de expresiones para definir manualmente una expresión mediante los campos de la base de datos y las funciones de ayuda. Para ello, seleccione el botón **[!UICONTROL Editar expresión]**. [Más información sobre cómo editar expresiones](expression-editor.md)
+4. En el campo **[!UICONTROL Valor]**, defina el valor previsto. También puede aprovechar el editor de expresiones para definir manualmente una expresión mediante los campos de la base de datos y las funciones de ayuda. Para ello, seleccione el botón **[!UICONTROL Editar expresión]**. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
 
    *Ejemplo de consulta que devuelve todos los perfiles de 21 años o más:*
 
@@ -237,9 +237,9 @@ En el ejemplo siguiente, hemos creado un grupo intermedio para incluir los resul
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Propiedades de la regla"
->abstract="Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **[!UICONTROL Propiedades de regla]** situado en el lado derecho.<br/>Este panel permite mostrar los datos resultantes, recuperar una versión de código SQL de la consulta y comprobar el número de registros de destino.<br/>Utilice el botón **[!UICONTROL Seleccionar o guardar filtro]** para guardar la consulta como un filtro predefinido o reemplazar el contenido del lienzo con un filtro existente."
+>abstract="Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **[!UICONTROL Propiedades de regla]** situado a la derecha.<br/>Este panel le permite mostrar los datos resultantes, recuperar una versión del código SQL de la consulta y comprobar el número de registros objetivo.<br/>Utilice el botón **[!UICONTROL Seleccionar o guardar filtro]** para guardar la consulta como un filtro predefinido, o reemplace el contenido del lienzo con un filtro existente."
 
-Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **[!UICONTROL Propiedades de regla]** ubicado a la derecha. Este panel se muestra al armar una consulta para crear un público. Las operaciones disponibles son las siguientes:
+Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **[!UICONTROL Propiedades de regla]** situado en el lado derecho. Este panel se muestra al armar una consulta para crear un público. Las operaciones disponibles son las siguientes:
 
 * **[!UICONTROL Ver resultados]:** Muestra los datos resultantes de la consulta.
 * **[!UICONTROL Vista de código]**: muestra una versión basada en código de la consulta en SQL.

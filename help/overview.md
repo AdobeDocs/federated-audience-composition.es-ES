@@ -4,8 +4,8 @@ description: Obtenga información acerca de la composición de audiencias federa
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 52%
+source-wordcount: '1280'
+ht-degree: 54%
 
 ---
 
@@ -60,7 +60,7 @@ La composición de público federado de Adobe le permite crear y actualizar los 
 
 >[!NOTE]
 >
->Después de ejecutar la composición, el público resultante se guarda en Adobe Experience Platform como público externo y estará disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Se puede acceder desde el menú **Públicos**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Después de ejecutar la composición, el público resultante se guarda en Adobe Experience Platform como público externo y estará disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Es accesible desde el menú **Audiencias**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Gobernanza, privacidad y seguridad {#governance-privacy-security}
 
@@ -91,7 +91,7 @@ Para obtener respuestas a las preguntas más frecuentes, lea las [Preguntas frec
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
 >title="Configuración de ejecución"
->abstract="En esta sección puede configurar opciones relacionadas con la ejecución del flujo de trabajo, como el número de días que se conserva el historial de maquetación."
+>abstract="En esta sección, puede configurar los ajustes relacionados con la ejecución del flujo de trabajo, como el número de días que se conserva el historial de la composición."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
@@ -136,5 +136,5 @@ Para obtener respuestas a las preguntas más frecuentes, lea las [Preguntas frec
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
 >title="Seleccionar la dimensión de segmentación"
->abstract="La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, en el caso de los correos electrónicos y SMS, el destinatario se selecciona en la tabla integrada Destinatarios. Para las notificaciones push, la dimensión de destino predeterminada son las aplicaciones del suscriptor."
+>abstract="La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, para los correos electrónicos y SMS, el destinatario se selecciona en la tabla integrada de destinatarios. Para las notificaciones push, la dimensión de destino predeterminada son las aplicaciones del suscriptor."
 

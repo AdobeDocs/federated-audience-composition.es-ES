@@ -281,7 +281,7 @@ Además, puede seleccionar la opción **Generar complemento**. La generación de
 
 La actividad **Enrichment** le permite mejorar su composición al agregar datos adicionales de su base de datos federada.
 
-Si ha configurado una conexión con el destino de Composición de audiencia federada, puede utilizar la actividad de enriquecimiento para enriquecer los datos que llegan a Adobe Experience Platform con atributos de la base de datos externa. [Aprenda a enriquecer audiencias de Adobe Experience Platform con datos externos &#x200B;](../connections/destinations.md)
+Si ha configurado una conexión con el destino de Composición de audiencia federada, puede utilizar la actividad de enriquecimiento para enriquecer los datos que llegan a Adobe Experience Platform con atributos de la base de datos externa. [Aprenda a enriquecer audiencias de Adobe Experience Platform con datos externos ](../connections/destinations.md)
 
 +++ Detalles de configuración
 
@@ -511,7 +511,7 @@ Esta actividad se utiliza para enriquecer esquemas mediante la introducción de 
 
 >[!IMPORTANT]
 >
->Si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos se **reemplazarán**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/enable-upsert).
+>Si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos se **reemplazarán**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Después de agregar la actividad **[!UICONTROL Guardar campos]** a la composición, puede asignar una etiqueta a la actividad y seleccionar el esquema de Adobe Experience Platform que desee utilizar. El esquema puede ser estándar o relacional.
 

@@ -67,4 +67,4 @@ Actualmente, la habilidad de creación de audiencias admite las siguientes funci
 
 Para obtener más información sobre el Asistente de IA, incluidos los objetivos de ejemplo que puede lograr con el Asistente de IA y aprender cómo funciona el Asistente de IA, lea la [descripción general del Asistente de IA](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Para obtener una lista completa de las preguntas operativas de Insight que puede hacer sobre la Composición de audiencias federada, lea la [sección de información operativa](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
+Para obtener una lista completa de las preguntas operativas de Insight que puede hacer sobre la Composición de audiencias federada, lea la [sección de información operativa](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.

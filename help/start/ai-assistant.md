@@ -2,7 +2,7 @@
 title: Información general del asistente de IA
 description: Aprenda a utilizar el asistente de IA, incluidos los conocimientos del producto, las perspectivas operativas y la creación de composiciones de audiencia federadas.
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 16%
@@ -67,4 +67,4 @@ Actualmente, la habilidad de creación de audiencias admite las siguientes funci
 
 Para obtener más información sobre el Asistente de IA, incluidos los objetivos de ejemplo que puede lograr con el Asistente de IA y aprender cómo funciona el Asistente de IA, lea la [descripción general del Asistente de IA](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Para obtener una lista completa de las preguntas operativas de Insight que puede hacer sobre la Composición de audiencias federada, lea la [sección de información operativa](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
+Para obtener una lista completa de las preguntas operativas de Insight que puede hacer sobre la Composición de audiencias federada, lea la [sección de información operativa](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.

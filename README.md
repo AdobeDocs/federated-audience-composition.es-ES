@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 99%
 
 ---
 # Artículo sobre colaboración
@@ -47,14 +47,14 @@ Consulte la [Guía del colaborador de Adobe Docs](https://experienceleague.adobe
 
 ## Colaboradores internos
 
-Si es un redactor técnico, administrador de programa o desarrollador del equipo de producto para una solución de Adobe Experience Cloud y su trabajo es contribuir en artículos técnicos o crearlos, debe utilizar el [repositorio privado](https://git.corp.adobe.com/AdobeDocs). 
+Si es un redactor técnico, administrador de programa o desarrollador del equipo de producto para una solución de Adobe Experience Cloud y su trabajo es contribuir en artículos técnicos o crearlos, debe utilizar el [repositorio privado](https://git.corp.adobe.com/AdobeDocs).
 
 ## Dar formato al tema
 
 Todos los artículos de este repositorio utilizan GitHub Flavored Markdown. Si no está familiarizado con Markdown, consulte:
 
 * [Conceptos básicos de Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Lista de referencias de Markdown imprimible](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Hoja de trucos de markdown imprimible](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Etiquetas
 

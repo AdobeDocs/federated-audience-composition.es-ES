@@ -511,7 +511,7 @@ Esta actividad se utiliza para enriquecer esquemas mediante la introducción de 
 
 >[!IMPORTANT]
 >
->Si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos se **reemplazarán**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/enable-upsert).
+>Si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos se **reemplazarán**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Después de agregar la actividad **[!UICONTROL Guardar campos]** a la composición, puede asignar una etiqueta a la actividad y seleccionar el esquema de Adobe Experience Platform que desee utilizar. El esquema puede ser estándar o relacional.
 
@@ -736,38 +736,38 @@ Si selecciona **Varias veces al día**, la composición se ejecutará varias vec
 
 Si selecciona **Horas seleccionadas**, puede elegir las horas específicas en que se ejecutará la composición. Si selecciona **Periódica**, puede elegir la frecuencia con la que se ejecutará la composición en horas o minutos y entre las horas en que se ejecutará. Todos los horarios están en UTC.
 
-Después de seleccionar las horas, puede elegir la frecuencia con la que se ejecuta la ejecución en la sección **Día del mes**.
+After select the hours, you can choose how often the execution is run under the **Day of the month** section.
 
-| Día del mes | Descripción |
+| Day of the month | Descripción |
 | ---------------- | ----------- |
-| Todos los días de la semana | La composición se ejecuta todos los días. |
-| En determinados días de la semana | La composición se ejecuta todos los días de la semana seleccionados. |
+| Every day of the week | The composition is executed every day. |
+| On certain days of the week | The composition is executed every day of the week that is selected. |
 
-Después de elegir qué día del mes se ejecutará la programación, puede seleccionar **Previsualizar horas de inicio** para comprobar la programación de las siguientes diez ejecuciones de su composición.
+After choosing what day of the month the schedule will run, you can select **Preview launch times** to check the schedule of the next ten executions of your composition.
 
->[!TAB Semanalmente]
+>[!TAB Weekly]
 
-Si selecciona **Semanalmente**, la composición se ejecutará con la frecuencia semanal establecida. Si establece la frecuencia semanal como un número mayor que 1, también puede elegir la fecha desde la que comienza la ejecución.
+If you select **Weekly**, the composition is executed on the weekly frequency that is set. If you set the weekly frequency as a number larger than 1, you can also choose the date the execution starts from.
 
-Después de elegir la frecuencia de evaluación, puede elegir la frecuencia con la que se ejecuta la ejecución en la sección **Día del mes**.
+After choosing the evaluation frequency, you can choose how often the execution is run under the **Day of the month** section.
 
-| Día del mes | Descripción |
+| Day of the month | Descripción |
 | ---------------- | ----------- |
-| Todos los días de la semana | La composición se ejecuta todos los días. |
-| En determinados días de la semana | La composición se ejecuta todos los días de la semana seleccionados. |
+| Every day of the week | The composition is executed every day. |
+| On certain days of the week | The composition is executed every day of the week that is selected. |
 
-Después de elegir qué día del mes se ejecutará la programación, puede seleccionar **Previsualizar horas de inicio** para comprobar la programación de las siguientes diez ejecuciones de su composición.
+After choosing what day of the month the schedule will run, you can select **Preview launch times** to check the schedule of the next ten executions of your composition.
 
->[!TAB Mensual]
+>[!TAB Monthly]
 
-Si selecciona **Mensual**, la composición se ejecutará con la frecuencia mensual establecida. Puede configurarlo para que sea cada mes o en determinados meses.
+If you select **Monthly**, the composition is executed on the monthly frequency that is set. You can either set it to be every month or on certain months.
 
-Después de elegir la frecuencia mensual, puede elegir el **día del mes** en que se ejecuta la ejecución.
+After choosing the monthly frequency, you can choose the **Day of the month** the execution is run.
 
-| Día del mes | Descripción |
+| Day of the month | Descripción |
 | ---------------- | ----------- |
-| Cada día | La composición se ejecuta todos los días. |
-| En días de semana | La composición se ejecuta cada día entre semana. |
+| Every day | The composition is executed every day. |
+| On week days | La composición se ejecuta cada día entre semana. |
 | Durante un período seleccionado | La composición se ejecuta todos los días a lo largo del período seleccionado. Puede establecer la duración del período de periodicidad y la fecha de inicio del período. |
 | Días de la semana seleccionados | La composición se ejecuta todos los días de la semana seleccionados. |
 

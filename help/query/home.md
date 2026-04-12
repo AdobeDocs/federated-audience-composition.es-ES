@@ -5,7 +5,7 @@ description: Aprenda a utilizar el modelador de consultas para definir reglas pa
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 18%
 
 ---
@@ -28,7 +28,7 @@ El modelador de consultas está disponible en todos los contextos en los que nec
 | **Definir audiencias**: especifique la población a la que quiere dirigirse en sus composiciones y cree nuevas audiencias adaptadas a sus necesidades sin esfuerzo. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **Personalizar actividades**: aplique reglas dentro de las actividades de composición, como **División** y **Reconciliación**, para alinearlas con sus requisitos específicos. [Más información sobre las actividades de composición](../compositions/activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-## Interfaz del modelador de consultas  {#interface}
+## Interfaz del modelador de consultas {#interface}
 
 El modelador de consultas proporciona un lienzo central en el que generar la consulta y un panel derecho que proporciona información sobre la misma.
 

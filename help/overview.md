@@ -5,7 +5,7 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -60,7 +60,7 @@ La composición de público federado de Adobe le permite crear y actualizar los 
 
 >[!NOTE]
 >
->Después de ejecutar la composición, el público resultante se guarda en Adobe Experience Platform como público externo y estará disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Es accesible desde el menú **Audiencias**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Después de ejecutar la composición, el público resultante se guarda en Adobe Experience Platform como público externo y estará disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. Se puede acceder desde el menú **Públicos**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Gobernanza, privacidad y seguridad {#governance-privacy-security}
 

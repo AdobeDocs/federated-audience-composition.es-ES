@@ -5,8 +5,8 @@ description: Obtenga más información acerca de cómo empezar con las composici
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 82%
+source-wordcount: '655'
+ht-degree: 84%
 
 ---
 

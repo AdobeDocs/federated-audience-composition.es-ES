@@ -5,8 +5,8 @@ description: Aprenda a refinar y enriquecer las audiencias de Adobe Experience P
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 8%
+source-wordcount: '658'
+ht-degree: 7%
 
 ---
 

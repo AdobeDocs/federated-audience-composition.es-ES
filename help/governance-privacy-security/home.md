@@ -2,10 +2,13 @@
 title: Privacidad y seguridad en la composición de público federado
 description: Descubra cómo la composición de público federado aborda el tema de la privacidad y seguridad de los datos de usuario, incluyendo funciones como la gobernanza de datos, la aplicación del consentimiento, el control de acceso, el cifrado de datos y el cumplimiento de la privacidad.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
-source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+TQID: https://experienceleague.adobe.com/f9H56k6sIfCskuaO1yhHcETFFqLnfufpP2riTT-iGAg
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 77%
+source-wordcount: 1286
+ht-degree: 79%
 
 ---
 

@@ -3,9 +3,12 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Obtenga información sobre cómo crear la primera consulta en el modelador de consultas
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
-source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+TQID: https://experienceleague.adobe.com/SJSO3icKYWUUDUZJsQhZfjjw6QjITphRIuRZpv-5394
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: 2084
 ht-degree: 36%
 
 ---
@@ -252,6 +255,6 @@ Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel
 
 Cuando la consulta esté lista, selecciona el botón **[!UICONTROL Confirmar]** en la esquina superior derecha para guardarlo.
 
-Puede modificar la consulta en cualquier momento abriéndola. Tenga en cuenta que al abrir una consulta existente, se muestra en una vista simplificada sin la visibilidad de **+** botones. Para agregar nuevos elementos a la consulta, seleccione un componente u operador en el lienzo para mostrar los botones **+**.
+Puede modificar la consulta en cualquier momento abriéndola. Tenga en cuenta que al abrir una consulta existente, se muestra en una vista simplificada sin la visibilidad de **+** botones. To add new elements to the query, select a component or operator on the canvas to display the **+** buttons.
 
 ![](assets/edit-audience.png){zoomable="yes"}

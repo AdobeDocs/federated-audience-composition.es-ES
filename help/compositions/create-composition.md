@@ -3,9 +3,12 @@ audience: end-user
 title: Creación de composiciones
 description: Aprenda a crear composiciones
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 036dcb96d2d831e3a1d6ab50afef5b87e25b564b
+TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: 1603
 ht-degree: 20%
 
 ---
@@ -66,26 +69,26 @@ Puede realizar operaciones en las actividades agregadas dentro del panel de prop
 Las opciones incluyen:
 
 * **[!UICONTROL Eliminar]**: elimine la actividad del lienzo.
-* **[!UICONTROL Disable]/[!UICONTROL Enable]**: Disable or enable the activity. When the composition is executed, disabled activities and the following activities on the same path are not executed and the composition is stopped.
-* **[!UICONTROL Pause]/[!UICONTROL Resume]**: Pause or resume the activity. When the composition is executed, it pauses at the paused activity. No se ejecutará la tarea correspondiente ni las que la siguen en la misma ruta.
-* **[!UICONTROL Copy]**: Copies the activity to paste it at another location in the composition. To do this, select the **+** button on a transition and select **[!UICONTROL Paste X activity]**. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
-* Configure **[!UICONTROL Execution options]** for the selected activity. Available execution options include the following:
-  +++Available execution options
+* **[!UICONTROL Deshabilitar]/[!UICONTROL Habilitar]**: deshabilitar o habilitar la actividad. Cuando se ejecuta la composición, las actividades desactivadas y las siguientes actividades en la misma ruta no se ejecutan y la composición se detiene.
+* **[!UICONTROL Pausar]/[!UICONTROL Reanudar]**: Pausar o reanudar la actividad. Cuando se ejecuta la composición, esta se pausa en la actividad pausada. No se ejecutará la tarea correspondiente ni las que la siguen en la misma ruta.
+* **[!UICONTROL Copiar]**: copia la actividad para pegarla en otra ubicación de la composición. Para ello, seleccione el botón **+** en una transición y seleccione **[!UICONTROL Pegar actividad X]**. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
+* Configure **[!UICONTROL Opciones de ejecución]** para la actividad seleccionada. Las opciones de ejecución disponibles son las siguientes:
+  +++Opciones de ejecución disponibles
 
-  The **[!UICONTROL Properties]** section allows you to configure generic settings regarding the execution of the activity:
+  La sección **[!UICONTROL Properties]** le permite configurar opciones genéricas con respecto a la ejecución de la actividad:
 
-   * **[!UICONTROL Execution]**: Define the action to be carried out when the is started.
-   * **[!UICONTROL Maximum execution duration]**: Specify a duration such as &quot;30s&quot; or &quot;1h&quot;. If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the composition functions.
-   * **[!UICONTROL Time zone]**: Select the time zone of the activity. Federated Audience Composition allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
-   * **[!UICONTROL Affinity]**: Force the composition activity to execute on a particular machine. To do this, you must specify one or several affinities for the activity in question.
-   * **[!UICONTROL Behavior]**: Define the procedure to follow if asynchronous tasks are used.
+   * **[!UICONTROL Ejecución]**: defina la acción que se va a llevar a cabo cuando se inicie.
+   * **[!UICONTROL Duración máxima de la ejecución]**: especifique una duración como &quot;30 s&quot; o &quot;1h&quot;. Si la actividad no termina después de que haya transcurrido la duración especificada, se activa una alerta. Esto no afecta al funcionamiento de la composición.
+   * **[!UICONTROL Zona horaria]**: seleccione la zona horaria de la actividad. La Composición de audiencia federada permite administrar las diferencias horarias entre varios países en la misma instancia. La configuración aplicada se configura cuando se crea la instancia.
+   * **[!UICONTROL Afinidad]**: fuerza la ejecución de la actividad de composición en un equipo concreto. Para ello, debe especificar una o varias afinidades para la actividad en cuestión.
+   * **[!UICONTROL Comportamiento]**: defina el procedimiento a seguir si se utilizan tareas asincrónicas.
 
-  The **[!UICONTROL Error management]** section allows you to specify the action to be carried out should the activity encounter an error.
+  La sección **[!UICONTROL Administración de errores]** le permite especificar la acción que se debe llevar a cabo si la actividad encuentra un error.
 
-  The **[!UICONTROL Initialization script]** section lets you initialize variables or modify activity properties. Select the **[!UICONTROL Edit code]** button and type the snippet of code to execute. The script is called when the activity executes.
+  La sección **[!UICONTROL Secuencia de comandos de inicialización]** le permite inicializar variables o modificar propiedades de actividad. Seleccione el botón **[!UICONTROL Editar código]** y escriba el fragmento de código que desea ejecutar. Se llama al script cuando se ejecuta la actividad.
 
   +++
-* **Logs and tasks**: View the logs and tasks for the selected activity.
+* **Registros y tareas**: vea los registros y tareas de la actividad seleccionada.
 
 ## Inicie y monitorice su composición {#start-and-monitor}
 

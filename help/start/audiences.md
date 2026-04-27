@@ -3,9 +3,12 @@ audience: end-user
 title: Trabajar con públicos
 description: Descubra cómo trabajar con públicos
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: ad6ba3e9e806065c05bb4b67ef94dffc7e6b45cd
-workflow-type: ht
-source-wordcount: '309'
+TQID: https://experienceleague.adobe.com/SWOFxsQrWwsWdyiaxZP2H3XuX-E0PfRu2C5zZtXnOiE
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+workflow-type: tm+mt
+source-wordcount: 326
 ht-degree: 100%
 
 ---
@@ -16,13 +19,13 @@ La composición de público federado de Experience Platform le permite [crear co
 
 A continuación, puede tener estos públicos como objetivo en Journey Optimizer o activarlos en cualquier destino admitido por Adobe Experience Platform.
 
-## Creación de públicos mediante composiciones{#creation}
+## Creación de públicos mediante composiciones {#creation}
 
 Para crear públicos utilizando la composición de público federado, debe crear una composición que incluya la actividad **[!UICONTROL Guardar público]**. Esta actividad le permite guardar el público en Audience Portal y seleccionar campos de las bases de datos externas para incluirlos en el público. [Obtenga información sobre cómo configurar la actividad Guardar público](../compositions/activities.md#save-audience)
 
 Los públicos creados con la Composición de datos federados de Adobe incluyen todos los campos seleccionados en la actividad **[!UICONTROL Guardar público]** y se almacenan en Audience Portal junto con todos los públicos de Adobe Experience Platform.
 
-Después de ejecutar la composición, el público resultante se guarda en Adobe Experience Platform como público externo y está disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer. 
+Después de ejecutar la composición, el público resultante se guarda en Adobe Experience Platform como público externo y está disponible en Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer.
 
 Puede activar estos públicos en cualquier destino admitido por Adobe Experience Platform. Aprenda a trabajar con destinos en [Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/home){target="_blank"}
 

@@ -3,9 +3,12 @@ audience: end-user
 title: Información general sobre las actividades
 description: Obtenga información acerca de las diferentes actividades y transiciones disponibles para usar en Federated Audience Composition.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
+TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '5478'
+source-wordcount: 5478
 ht-degree: 31%
 
 ---
@@ -485,7 +488,7 @@ Además, puede establecer la caducidad de los datos de la audiencia. La caducida
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepdataset"
->title="Selección de conjunto de datos"
+>title="Seleccionar conjunto de datos"
 >abstract="Una lista de los conjuntos de datos que pertenecen al esquema. Puede seleccionar en qué conjunto de datos desea guardar los datos enriquecidos."
 
 >[!CONTEXTUALHELP]
@@ -767,20 +770,20 @@ After choosing the monthly frequency, you can choose the **Day of the month** th
 | Day of the month | Descripción |
 | ---------------- | ----------- |
 | Every day | The composition is executed every day. |
-| On week days | La composición se ejecuta cada día entre semana. |
-| Durante un período seleccionado | La composición se ejecuta todos los días a lo largo del período seleccionado. Puede establecer la duración del período de periodicidad y la fecha de inicio del período. |
-| Días de la semana seleccionados | La composición se ejecuta todos los días de la semana seleccionados. |
+| On week days | The composition is executed every weekday. |
+| Through a selected period | The composition is executed every day throughout the selected period. You can set the length of the recurrence period as well as the date the period starts. |
+| Selected days of the week | The composition is executed every day of the week that is selected. |
 
-Una vez que hayas establecido el **Día del mes**, puedes elegir la hora de inicio. Todos los horarios están en UTC.
+Once you set the **Day of the month**, you can choose the start time. All the times are in UTC.
 
 >[!ENDTABS]
 
-Después de seleccionar la frecuencia de ejecución, puede elegir el **Período de validez** de la programación.
+After selecting the execution frequency, you can choose the **Validity period** of the schedule.
 
 | Período de validez | Descripción |
 | --------------- | ----------- |
-| **Permanente (nunca caduca)** | La composición nunca caducará. |
-| **Período de validez** | La composición se ejecutará entre las fechas dadas. |
+| **Permanent (never expires)** | The composition will never expire. |
+| **Validity period** | The composition will run between the given dates. |
 
 +++
 
@@ -791,29 +794,29 @@ Después de seleccionar la frecuencia de ejecución, puede elegir el **Período 
 >title="Actividad Esperar"
 >abstract="La actividad **Esperar** se utiliza para retrasar la transición de una actividad a otra."
 
-La actividad **Wait** pone en pausa la ejecución de la composición durante el tiempo especificado.
+The **Wait** activity pauses the composition&#39;s execution for the specified amount of time.
 
 +++ Detalles de configuración
 
-Después de agregar la actividad **Wait** a la composición, puede convertirla en una espera de **Duration** o de **Fixed time**.
+After you add the **Wait** activity to your composition, you can make it either a **Duration** or a **Fixed time** wait.
 
 ![](./assets/activities/wait.png)
 
-Si selecciona Duración, puede establecer el período de tiempo de espera. Este período de tiempo puede ser en segundos, minutos, horas o días.
+If you select duration, you can set the period of time to wait. This period of time can be in seconds, minutes, hours, or days.
 
-Si selecciona tiempo fijo, puede definir la composición para que espere hasta la fecha y hora determinadas. La hora está establecida en su **zona horaria local**.
+If you select fixed time, you can set the composition to wait until the given date and time. The time is set to your **local time zone**.
 
 +++
 
 ## Transiciones {#transitions}
 
-En las composiciones, las transiciones muestran cómo se transportan los datos de una actividad a otra. Las transiciones almacenan los datos en una tabla de trabajo temporal. Si selecciona la transición, puede ver la siguiente información:
+In compositions, transitions show how data is transported from one activity to another. The transitions store the data in a temporary work table. If you select the transition, you can view the following information:
 
-- **Vista previa del esquema**: puede seleccionar esta opción para ver el esquema de la tabla de trabajo.
-- **Previsualizar resultados**: puede seleccionarlo para visualizar los datos que se transportan en la transición seleccionada. Esta opción solo está disponible si **Mantener habilitado el resultado de poblaciones provisionales entre dos ejecuciones**.
+- **Preview schema**: You can select this to view the schema for the work table.
+- **Preview results**: You can select this to visualize the data that&#39;s transported in the selected transition. This option is only available if **Keep the result of interim populations between two executions** is enabled.
 
 ![](assets/transition-preview.png)
 
 ## Próximos pasos {#next-steps}
 
-Después de leer esta guía, tendrá una mejor comprensión de las actividades y transiciones que puede utilizar dentro de una composición. Para obtener más información sobre composiciones en general, lea [descripción general de la composición](./create-composition.md).
+After reading this guide, you&#39;ll have a better understanding of the activities and transitions you can use within a composition. For more information on compositions in general, read the [composition overview](./create-composition.md).

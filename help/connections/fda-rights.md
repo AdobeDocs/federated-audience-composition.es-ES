@@ -2,9 +2,15 @@
 title: Permisos para acceder a una base de datos externa
 description: Obtenga información sobre los permisos que necesita para acceder y realizar tareas en cada motor de base de datos
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
-source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
+TQID: https://experienceleague.adobe.com/LI7H7b6iM3TAsPy00wDwNj3-D0Z7mIrH9MKW8g9QDsk
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: 418
 ht-degree: 25%
 
 ---
@@ -19,7 +25,7 @@ En la tabla siguiente se describen los permisos de base de datos necesarios para
 | **Creación de tablas** | Privilegio `CREATE TABLE ON SCHEMA` | Permiso `CREATE` | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create` y `bigquery.tables.create` permisos | Permisos de `USE SCHEMA` y `CREATE TABLE` |
 | **Creación de índices** | N/A | Permiso `CREATE` | BigQuery solo admite índices de búsqueda. La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create`, `bigquery.tables.getData` y `bigquery.tables.createIndex` permisos | N/A |
 | **Creación de funciones** | Privilegio `CREATE FUNCTION ON SCHEMA` | Permiso `USAGE ON LANGUAGE plpythonu` para poder llamar scripts de Python externos | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create` y `bigquery.routines.create` permisos | Permiso `CREATE FUNCTION` |
-| **Creación de procedimientos** | N/A | Permiso `USAGE ON LANGUAGE plpythonu` para poder llamar scripts de Python externos | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create` y `bigquery.routines.create` permisos |  N/D |
+| **Creación de procedimientos** | N/A | Permiso `USAGE ON LANGUAGE plpythonu` para poder llamar scripts de Python externos | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create` y `bigquery.routines.create` permisos |  N/A |
 | **Eliminación de objetos (tablas, índices, funciones, procedimientos)** | Propiedad del objeto | Tener el objeto o ser un superusuario | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create`, `bigquery.routines.delete`, `bigquery.tables.delete` y `bigquery.tables.deleteIndex` permisos | N/A |
 | **Monitoreo de las ejecuciones** | Privilegio `MONITOR` en el objeto requerido | No se requieren permisos para utilizar el comando `EXPLAIN` | `monitoring.viewer` rol | Permiso `CAN_VIEW` |
 | **Escritura de datos** | Privilegios `INSERT` o `UPDATE` (según la operación de escritura) | Permisos de `INSERT` y `UPDATE` | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create` y `bigquery.tables.updateData` | Permiso `MODIFY` |

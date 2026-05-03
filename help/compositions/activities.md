@@ -4,12 +4,11 @@ title: Información general sobre las actividades
 description: Obtenga información acerca de las diferentes actividades y transiciones disponibles para usar en Federated Audience Composition.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
-ht-degree: 31%
+ht-degree: 36%
 
 ---
 
@@ -207,6 +206,8 @@ Si selecciona **Exclusión**, tendrá que seleccionar el **conjunto principal** 
 Después de elegir el conjunto principal, puedes configurar las **reglas de exclusión**. Puede seleccionar **Coincidencia por atributo** o **Unirse**.
 
 Una vez configuradas las reglas de exclusión, también puede seleccionar la opción **Generar complemento**. La generación de un complemento procesa la población restante y contiene los datos **no** incluidos como parte de la exclusión. Se agregará una transición saliente adicional a la actividad.
+
+>[!ENDTABS]
 
 +++
 
@@ -439,7 +440,7 @@ Además, puede establecer la caducidad de los datos de la audiencia. La caducida
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
 >title="Campo de área de nombres de identificación principal"
->abstract="El área de nombres de la identidad principal. El área de nombres ayuda a proporcionar contexto para describir la clasificación de la identidad principal."
+>abstract="El área de nombres de la identidad principal. El área de nombres proporciona contexto para describir la clasificación de la identidad principal."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepschema"
@@ -468,12 +469,12 @@ Además, puede establecer la caducidad de los datos de la audiencia. La caducida
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_requiredfieldscheck"
->title="Criterios de campos obligatorios"
+>title="Criterios para campos obligatorios"
 >abstract="Un campo obligatorio es un atributo que debe rellenarse para cada perfil o registro al exportar datos. Si falta un campo obligatorio, la exportación no es completa ni válida."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitycheck"
->title="Criterios del campo de identidad principal"
+>title="Criterios de campo de identidad principal"
 >abstract="El identificador único de cada perfil o registro. Esto garantiza que cada registro se pueda reconocer y hacer coincidir de forma distintiva, lo que evita la duplicación de datos."
 
 >[!CONTEXTUALHELP]
@@ -499,12 +500,12 @@ Además, puede establecer la caducidad de los datos de la audiencia. La caducida
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_versiondescriptor"
 >title="Descriptor de versión"
->abstract="El descriptor de versión del esquema relacional. Este valor ayuda a determinar qué propiedad tiene prioridad si varios valores comparten la misma clave principal, lo que garantiza que se aplique la actualización más reciente."
+>abstract="El descriptor de versión del esquema relacional. Este valor determina qué propiedad tiene prioridad si varios valores comparten la misma clave principal, lo que garantiza que se aplique la actualización más reciente."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_timestampdescriptor"
 >title="Descriptor de marca de tiempo"
->abstract="El descriptor de marca de tiempo del esquema relacional. Este valor ayuda a establecer la hora del evento para la realización de pedidos y solo existe si trabaja con datos de series temporales."
+>abstract="El descriptor de marca de tiempo del esquema relacional. Este valor establece la hora del evento para la realización de pedidos y solo existe si trabaja con datos de series temporales."
 
 La actividad **[!UICONTROL Guardar campos]** permite enriquecer esquemas de Experience Platform mediante la federación de datos de almacenes externos, lo que permite enriquecer esquemas de Experience Platform con atributos adicionales.
 
@@ -514,7 +515,7 @@ Esta actividad se utiliza para enriquecer esquemas mediante la introducción de 
 
 >[!IMPORTANT]
 >
->Si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos se **reemplazarán**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/enable-upsert).
+>Si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos se **reemplazarán**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Después de agregar la actividad **[!UICONTROL Guardar campos]** a la composición, puede asignar una etiqueta a la actividad y seleccionar el esquema de Adobe Experience Platform que desee utilizar. El esquema puede ser estándar o relacional.
 
@@ -739,51 +740,51 @@ Si selecciona **Varias veces al día**, la composición se ejecutará varias vec
 
 Si selecciona **Horas seleccionadas**, puede elegir las horas específicas en que se ejecutará la composición. Si selecciona **Periódica**, puede elegir la frecuencia con la que se ejecutará la composición en horas o minutos y entre las horas en que se ejecutará. Todos los horarios están en UTC.
 
-After select the hours, you can choose how often the execution is run under the **Day of the month** section.
+Después de seleccionar las horas, puede elegir la frecuencia con la que se ejecuta la ejecución en la sección **Día del mes**.
 
-| Day of the month | Descripción |
+| Día del mes | Descripción |
 | ---------------- | ----------- |
-| Every day of the week | The composition is executed every day. |
-| On certain days of the week | The composition is executed every day of the week that is selected. |
+| Todos los días de la semana | La composición se ejecuta todos los días. |
+| En determinados días de la semana | La composición se ejecuta todos los días de la semana seleccionados. |
 
-After choosing what day of the month the schedule will run, you can select **Preview launch times** to check the schedule of the next ten executions of your composition.
+Después de elegir qué día del mes se ejecutará la programación, puede seleccionar **Previsualizar horas de inicio** para comprobar la programación de las siguientes diez ejecuciones de su composición.
 
->[!TAB Weekly]
+>[!TAB Semanalmente]
 
-If you select **Weekly**, the composition is executed on the weekly frequency that is set. If you set the weekly frequency as a number larger than 1, you can also choose the date the execution starts from.
+Si selecciona **Semanalmente**, la composición se ejecutará con la frecuencia semanal establecida. Si establece la frecuencia semanal como un número mayor que 1, también puede elegir la fecha desde la que comienza la ejecución.
 
-After choosing the evaluation frequency, you can choose how often the execution is run under the **Day of the month** section.
+Después de elegir la frecuencia de evaluación, puede elegir la frecuencia con la que se ejecuta la ejecución en la sección **Día del mes**.
 
-| Day of the month | Descripción |
+| Día del mes | Descripción |
 | ---------------- | ----------- |
-| Every day of the week | The composition is executed every day. |
-| On certain days of the week | The composition is executed every day of the week that is selected. |
+| Todos los días de la semana | La composición se ejecuta todos los días. |
+| En determinados días de la semana | La composición se ejecuta todos los días de la semana seleccionados. |
 
-After choosing what day of the month the schedule will run, you can select **Preview launch times** to check the schedule of the next ten executions of your composition.
+Después de elegir qué día del mes se ejecutará la programación, puede seleccionar **Previsualizar horas de inicio** para comprobar la programación de las siguientes diez ejecuciones de su composición.
 
->[!TAB Monthly]
+>[!TAB Mensual]
 
-If you select **Monthly**, the composition is executed on the monthly frequency that is set. You can either set it to be every month or on certain months.
+Si selecciona **Mensual**, la composición se ejecutará con la frecuencia mensual establecida. Puede configurarlo para que sea cada mes o en determinados meses.
 
-After choosing the monthly frequency, you can choose the **Day of the month** the execution is run.
+Después de elegir la frecuencia mensual, puede elegir el **día del mes** en que se ejecuta la ejecución.
 
-| Day of the month | Descripción |
+| Día del mes | Descripción |
 | ---------------- | ----------- |
-| Every day | The composition is executed every day. |
-| On week days | The composition is executed every weekday. |
-| Through a selected period | The composition is executed every day throughout the selected period. You can set the length of the recurrence period as well as the date the period starts. |
-| Selected days of the week | The composition is executed every day of the week that is selected. |
+| Cada día | La composición se ejecuta todos los días. |
+| En días de semana | La composición se ejecuta cada día entre semana. |
+| Durante un período seleccionado | La composición se ejecuta todos los días a lo largo del período seleccionado. Puede establecer la duración del período de periodicidad y la fecha de inicio del período. |
+| Días de la semana seleccionados | La composición se ejecuta todos los días de la semana seleccionados. |
 
-Once you set the **Day of the month**, you can choose the start time. All the times are in UTC.
+Una vez que hayas establecido el **Día del mes**, puedes elegir la hora de inicio. Todos los horarios están en UTC.
 
 >[!ENDTABS]
 
-After selecting the execution frequency, you can choose the **Validity period** of the schedule.
+Después de seleccionar la frecuencia de ejecución, puede elegir el **Período de validez** de la programación.
 
 | Período de validez | Descripción |
 | --------------- | ----------- |
-| **Permanent (never expires)** | The composition will never expire. |
-| **Validity period** | The composition will run between the given dates. |
+| **Permanente (nunca caduca)** | La composición nunca caducará. |
+| **Período de validez** | La composición se ejecutará entre las fechas dadas. |
 
 +++
 
@@ -794,29 +795,29 @@ After selecting the execution frequency, you can choose the **Validity period** 
 >title="Actividad Esperar"
 >abstract="La actividad **Esperar** se utiliza para retrasar la transición de una actividad a otra."
 
-The **Wait** activity pauses the composition&#39;s execution for the specified amount of time.
+La actividad **Wait** pone en pausa la ejecución de la composición durante el tiempo especificado.
 
 +++ Detalles de configuración
 
-After you add the **Wait** activity to your composition, you can make it either a **Duration** or a **Fixed time** wait.
+Después de agregar la actividad **Wait** a la composición, puede convertirla en una espera de **Duration** o de **Fixed time**.
 
 ![](./assets/activities/wait.png)
 
-If you select duration, you can set the period of time to wait. This period of time can be in seconds, minutes, hours, or days.
+Si selecciona Duración, puede establecer el período de tiempo de espera. Este período de tiempo puede ser en segundos, minutos, horas o días.
 
-If you select fixed time, you can set the composition to wait until the given date and time. The time is set to your **local time zone**.
+Si selecciona tiempo fijo, puede definir la composición para que espere hasta la fecha y hora determinadas. La hora está establecida en su **zona horaria local**.
 
 +++
 
 ## Transiciones {#transitions}
 
-In compositions, transitions show how data is transported from one activity to another. The transitions store the data in a temporary work table. If you select the transition, you can view the following information:
+En las composiciones, las transiciones muestran cómo se transportan los datos de una actividad a otra. Las transiciones almacenan los datos en una tabla de trabajo temporal. Si selecciona la transición, puede ver la siguiente información:
 
-- **Preview schema**: You can select this to view the schema for the work table.
-- **Preview results**: You can select this to visualize the data that&#39;s transported in the selected transition. This option is only available if **Keep the result of interim populations between two executions** is enabled.
+- **Vista previa del esquema**: puede seleccionar esta opción para ver el esquema de la tabla de trabajo.
+- **Previsualizar resultados**: puede seleccionarlo para visualizar los datos que se transportan en la transición seleccionada. Esta opción solo está disponible si **Mantener habilitado el resultado de poblaciones provisionales entre dos ejecuciones**.
 
 ![](assets/transition-preview.png)
 
 ## Próximos pasos {#next-steps}
 
-After reading this guide, you&#39;ll have a better understanding of the activities and transitions you can use within a composition. For more information on compositions in general, read the [composition overview](./create-composition.md).
+Después de leer esta guía, tendrá una mejor comprensión de las actividades y transiciones que puede utilizar dentro de una composición. Para obtener más información sobre composiciones en general, lea [descripción general de la composición](./create-composition.md).

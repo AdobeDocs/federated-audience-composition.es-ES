@@ -4,16 +4,12 @@ title: Introducción a los modelos de datos
 description: Obtenga información sobre cómo iniciar modelos de datos
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 TQID: https://experienceleague.adobe.com/iUpEJiNCYHzeDyGr6DYCKmb3jLEBwnbpN2dakLnf68k
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 34%
+source-wordcount: 778
+ht-degree: 33%
 
 ---
 
@@ -32,11 +28,11 @@ Un modelo de datos es un conjunto de esquemas, audiencias y los vínculos entre 
 
 En Federated Audience Composition, puede crear y administrar modelos de datos directamente en la vista Lienzo. Esto incluye agregar esquemas y audiencias, así como definir los vínculos entre ellos en función de su caso de uso.
 
-Más información sobre [esquemas](../data-modelling/schemas.md#schema-start) y [audiencias](../start/audiences.md).
+Para obtener más información acerca de los esquemas, lea la [descripción general de los esquemas](../data-modelling/schemas.md). Para obtener más información acerca de las audiencias, lea la [guía para trabajar con audiencias](../start/audiences.md).
 
 Por ejemplo, puede ver debajo una representación de un modelo de datos: las tablas con su nombre y los vínculos entre ellas.
 
-![](assets/models/datamodel.png){zoomable="yes"}
+![Representación de ejemplo de un modelo de datos, con las tablas y los vínculos entre las tablas mostrados.](assets/models/datamodel.png){zoomable="yes"}
 
 ## Creación de un modelo de datos {#data-model-create}
 

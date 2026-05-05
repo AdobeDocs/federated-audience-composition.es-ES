@@ -4,9 +4,8 @@ title: Creación de composiciones
 description: Aprenda a crear composiciones
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 1603
 ht-degree: 20%
@@ -73,6 +72,7 @@ Las opciones incluyen:
 * **[!UICONTROL Pausar]/[!UICONTROL Reanudar]**: Pausar o reanudar la actividad. Cuando se ejecuta la composición, esta se pausa en la actividad pausada. No se ejecutará la tarea correspondiente ni las que la siguen en la misma ruta.
 * **[!UICONTROL Copiar]**: copia la actividad para pegarla en otra ubicación de la composición. Para ello, seleccione el botón **+** en una transición y seleccione **[!UICONTROL Pegar actividad X]**. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
 * Configure **[!UICONTROL Opciones de ejecución]** para la actividad seleccionada. Las opciones de ejecución disponibles son las siguientes:
+
   +++Opciones de ejecución disponibles
 
   La sección **[!UICONTROL Properties]** le permite configurar opciones genéricas con respecto a la ejecución de la actividad:
@@ -88,6 +88,7 @@ Las opciones incluyen:
   La sección **[!UICONTROL Secuencia de comandos de inicialización]** le permite inicializar variables o modificar propiedades de actividad. Seleccione el botón **[!UICONTROL Editar código]** y escriba el fragmento de código que desea ejecutar. Se llama al script cuando se ejecuta la actividad.
 
   +++
+
 * **Registros y tareas**: vea los registros y tareas de la actividad seleccionada.
 
 ## Inicie y monitorice su composición {#start-and-monitor}

@@ -4,17 +4,12 @@ title: Crear y administrar conexiones con bases de datos federadas
 description: Obtenga información sobre cómo crear y administrar conexiones con bases de datos federadas
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 498afaa156e21b8ef8baa93f27eb1410809855af
 workflow-type: tm+mt
-source-wordcount: 2970
+source-wordcount: 3189
 ht-degree: 9%
 
 ---
@@ -43,6 +38,7 @@ Para trabajar con la base de datos federada y Adobe Experience Platform, primero
 - Microsoft Fabric
 - Oracle
 - Snowflake
+- Teradata
 - Vertica Analytics
 
 ## Crear conexión {#create}
@@ -54,6 +50,10 @@ Para crear una conexión, seleccione **[!UICONTROL Bases de datos federadas]** e
 Aparecerá la sección Bases de datos federadas. Seleccione **[!UICONTROL Agregar base de datos federada]** para crear una conexión.
 
 ![El botón Agregar base de datos federada está resaltado en la página de visualización de la base de datos federada.](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
+
+>[!NOTE]
+>
+>Para solicitar conectividad segura mediante un vínculo privado o VPN, **debe** tener licencia para Privacy and Security Shield o Healthcare Shield.
 
 Aparecerá la ventana emergente de propiedades de conexión. Puede asignar un nombre a la conexión y seleccionar el tipo de base de datos que desea crear.
 
@@ -281,6 +281,15 @@ Si selecciona **[!UICONTROL Autenticación de cuenta/contraseña]**, puede agreg
 | Usuario | El nombre de usuario de la cuenta. |
 | Contraseña | Contraseña de la cuenta. |
 
+También puede proporcionar una clave privada en lugar de proporcionar una contraseña. Si agrega una clave privada, debe proporcionar la siguiente información:
+
+| Campo | Descripción |
+| ----- | ----------- |
+| Servidor | El nombre del servidor. |
+| Usuario | El nombre de usuario de la cuenta. |
+| Clave privada | La clave privada de la cuenta. Solo se admiten `.pem` archivos. |
+| Contraseña | (Opcional) Contraseña de la cuenta. |
+
 Si selecciona **[!UICONTROL OAuth 2.0]**, puede agregar la siguiente información de inicio de sesión:
 
 >[!NOTE]
@@ -315,6 +324,29 @@ Para Snowflake, puede establecer las siguientes opciones adicionales:
 | bulkThreads | Número de subprocesos que se van a utilizar para el cargador en bloque de Snowflake. Cuantos más hilos se agreguen, mejor será el rendimiento para cargas masivas más grandes. De forma predeterminada, este valor se establece en 1. |
 | chunkSize | El tamaño de archivo del fragmento de cada cargador en bloque. Cuando se utiliza de forma simultánea con más subprocesos, puede mejorar el rendimiento de las cargas masivas. De forma predeterminada, este valor se establece en 128 MB. Para obtener más información sobre los tamaños de fragmento, lea la [documentación de Snowflake sobre la preparación de archivos de datos](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}. |
 | StageName | Nombre de un entorno de ensayo interno aprovisionado previamente. Esto se puede utilizar en cargas masivas en lugar de crear una nueva fase temporal. |
+
+>[!TAB Teradata]
+
+>[!NOTE]
+>
+>Para conectarse con Teradata, **debe** completar varios requisitos previos, incluida la instalación de controladores de base de datos. Póngase en contacto con el representante del Servicio de atención al cliente de Adobe para obtener más información.
+
+Después de seleccionar Teradata, puede añadir los siguientes detalles:
+
+| Campo | Descripción |
+| ----- | ----------- |
+| Servidor | La URL del servidor de Teradata. |
+| Cuenta | El nombre de usuario que utiliza la base de datos para la sesión de Conectividad abierta de bases de datos (ODBC). |
+| Contraseña | Contraseña que se utiliza para conectarse a la sesión ODBC. |
+| Base de datos | Nombre de la base de datos. |
+| Opciones | Opciones adicionales para la conexión. Para Teradata, ambas opciones enumeradas son **obligatorias** para agregar. Las opciones disponibles se enumeran en la tabla siguiente. |
+
+Para Teradata, puede establecer las siguientes opciones adicionales:
+
+| Opciones | Descripción |
+| ------- | ----------- |
+| `workTableSchema` | Nombre del esquema para las tablas de trabajo. |
+| `ODBCLib` | La ubicación de la biblioteca ODBC del sistema, que puede utilizar si combina Teradata con otra ODBC. |
 
 >[!TAB Vertica Analytics]
 

@@ -10,7 +10,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 580
 ht-degree: 18%
@@ -72,7 +72,6 @@ Para crear un esquema en Federated Audience Composition, seleccione **[!UICONTRO
 ![El botón Crear esquema está resaltado en la sección de esquema Federate Audience Composition.](assets/schemas/schema_create.png){zoomable="yes"}
 
 Aparece la ventana emergente **[!UICONTROL Seleccionar base de datos federada]**. En esta ventana emergente, puede seleccionar la [base de datos de origen](/help/connections/home.md), seguida de **[!UICONTROL Siguiente]**.
-
 
 ![](assets/schemas/schema_tables.png){zoomable="yes"}
 

@@ -9,10 +9,10 @@ product_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
 workflow-type: tm+mt
-source-wordcount: 658
-ht-degree: 7%
+source-wordcount: 773
+ht-degree: 5%
 
 ---
 
@@ -29,66 +29,62 @@ Para ello, debe configurar una nueva conexión en Adobe Experience Platform al d
 
 Por ejemplo, supongamos que almacena información de compra en su almacén de datos y tiene una audiencia de Adobe Experience Platform dirigida a los clientes interesados en un producto específico en los últimos dos meses. Con el destino de composición de audiencia federada, puede:
 
-* Refine la audiencia en función de la información de compra. Por ejemplo, puede filtrar la audiencia para dirigirse a los clientes que hayan realizado una compra de más de 150 $.
+* Refine la audiencia en función de la información de compra. Por ejemplo, puede filtrar la audiencia para dirigirse a los clientes que hayan realizado una compra de más de 150 dólares.
 * Enriquezca la audiencia con campos relacionados con las compras, como el nombre del producto y la cantidad comprada.
 
-Los pasos principales para enviar audiencias de Adobe Experience Platform a la Composición de audiencias federada de Adobe son los siguientes:
+## Activar audiencia en destino {#activate}
 
-1. Acceda al catálogo de destinos de Adobe Experience Platform y seleccione el destino de composición de audiencia federada.
+En el catálogo Destinos de Adobe Experience Platform, seleccione el destino Composición de audiencia federada. En el panel derecho, seleccione **[!UICONTROL Configurar nuevo destino]**.
 
-   En el panel derecho, seleccione **[!UICONTROL Configurar nuevo destino]**.
+![El botón Configurar nuevo destino está resaltado en el catálogo de destinos.](assets/destinations/new.png)
 
-   ![](assets/destination-new.png)
+Aparecerá la página **[!UICONTROL Configurar nuevo destino]**. En esta página, puede configurar los detalles del destino, incluido el nombre, la descripción, el tipo de conexión y la base de datos federada.
 
-1. Escriba un nombre para la nueva conexión y seleccione **[!UICONTROL Tipo de conexión]** de las siguientes conexiones disponibles:
+![Se muestra la página Configurar nuevo destino, que muestra los detalles que se deben agregar para crear el destino.](assets/destinations/configure.png)
 
-   * Amazon Redshift
-   * Azure Synapse Analytics
-   * Google BigQuery
-   * Snowflake
-   * Vertica Analytics
-   * Databricks
-   * Microsoft Fabric
+En la sección **[!UICONTROL Alertas]**, puede habilitar las alertas para recibir notificaciones sobre el estado del flujo de datos a su destino. Estas incluyen alertas para retrasos de ejecución del flujo de datos, errores de ejecución, ejecuciones correctas, inicios de ejecución y saltos de activación.
 
-1. Seleccione la **[!UICONTROL base de datos federada]** a la que desee conectarse, seguida de **[!UICONTROL Siguiente]**.
+Para obtener más información acerca de las alertas, lea la documentación de Adobe Experience Platform acerca de la suscripción de [a alertas de destinos mediante la interfaz de usuario](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
-   ![](assets/destination-configure.png)
+![Se muestran las alertas disponibles para el destino.](assets/destinations/alerts.png)
 
-1. En la sección **[!UICONTROL Alertas]**, puede habilitar las alertas para recibir notificaciones sobre el estado del flujo de datos a su destino.
+Una vez que hayas terminado de configurar los detalles de tu destino, selecciona **[!UICONTROL Siguiente]**. Aparece el paso **[!UICONTROL Política de gobernanza y acciones de aplicación]**. En esta página, puede definir las políticas de control de datos y asegurarse de que los datos utilizados sean compatibles cuando las audiencias se envíen y estén activas.
 
-   Para obtener más información sobre las alertas, consulte la documentación de Adobe Experience Platform sobre la suscripción de [a alertas de destinos mediante la interfaz de usuario](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+Cuando termine de seleccionar las acciones de marketing deseadas para el destino, seleccione **[!UICONTROL Crear]**.
 
-1. En el paso **[!UICONTROL Política de gobernanza y acciones de aplicación]**, puede definir las políticas de gobernanza de datos y asegurarse de que los datos utilizados sean compatibles cuando las audiencias se envíen y estén activas.
+Se crea la nueva conexión con el destino. Ahora puede activar audiencias para enviar al destino. Elija el destino al que desea activar las audiencias, seguido de **[!UICONTROL Siguiente]**.
 
-   Cuando termine de seleccionar las acciones de marketing deseadas para el destino, seleccione **[!UICONTROL Crear]**.
+![El botón de activación está resaltado.](assets/destinations/activate.png)
 
-1. Se crea la nueva conexión con el destino. Ahora puede activar audiencias para enviar al destino. Para ello, selecciónelo en la lista, seguido de **[!UICONTROL Siguiente]**
+Se muestra el paso **[!UICONTROL Scheduling]**. Puede seleccionar las audiencias que desee activar en el destino. Para configurar una programación, seleccione ![icono de lápiz](assets/do-not-localize/Smock_Edit_18_N.svg) para editar la programación de exportación.
 
-   ![](assets/destination-activate.png)
+![Se muestra la página Activar destino.](assets/destinations/schedule.png)
 
-1. Seleccione las audiencias que desee enviar.
+Aparece la ventana emergente **[!UICONTROL Programando]**. En esta ventana emergente, puede definir las opciones de exportación de archivos, la frecuencia y la programación.
 
-1. Seleccione el icono ![](assets/do-not-localize/Smock_Edit_18_N.svg) para editar la programación de exportación.
+![Se muestra la ventana emergente de programación.](assets/destinations/schedule-2.png)
 
-   ![](assets/destination-schedule.png)
+>[!NOTE]
+>
+>Para activar las audiencias más rápido, seleccione la opción **[!UICONTROL Después de la evaluación del segmento]** para almacenar en déclencheur el trabajo de activación inmediatamente después de que finalice el trabajo diario de segmentación por lotes de Platform.
+>
+>Para obtener información detallada sobre cómo configurar la programación y los nombres de archivo, lea las siguientes secciones de la documentación de Adobe Experience Platform:
+>
+>* [Programar exportación de audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [Configurar nombres de archivo](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. Defina las opciones del archivo de exportación. Para activar las audiencias más rápido, seleccione la opción **[!UICONTROL Después de la evaluación del segmento]** para almacenar en déclencheur el trabajo de activación inmediatamente después de que finalice el trabajo diario de segmentación por lotes de Platform.
+En el paso **[!UICONTROL Asignación]**, seleccione qué campos de atributo e identidad desea exportar para sus audiencias.
 
-   ![](assets/destination-schedule-2.png)
+>[!IMPORTANT]
+>
+>Usted **no puede** utilizar columnas generadas por el sistema al activar su destino. Si se selecciona una columna generada por el sistema, la activación fallará.
 
-   >[!NOTE]
-   >
-   >Encontrará información detallada sobre cómo configurar la programación y los nombres de archivo en las siguientes secciones de la documentación de Adobe Experience Platform:
-   >
-   >* [Programar exportación de audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
-   >* [Configurar nombres de archivo](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+Para obtener más información, lea la [sección de asignación](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} en la documentación de Adobe Experience Platform.
 
-1. En el paso **[!UICONTROL Asignación]**, seleccione qué campos de atributo e identidad desea exportar para sus audiencias. Para obtener más información, vea el [paso de asignación](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} en la documentación de Adobe Experience Platform.
+![Se muestra la página de atributos de asignación.](assets/destinations/attributes.png)
 
-   ![](assets/destination-attributes.png)
+Revise la configuración de destino y la configuración de audiencia y, a continuación, seleccione **[!UICONTROL Finalizar]**.
 
-1. Revise la configuración de destino y la configuración de audiencia y, a continuación, seleccione **[!UICONTROL Finalizar]**.
-
-   ![](assets/destination-review.png)
+![Se muestra la página de destino de revisión.](assets/destinations/review.png)
 
 Las audiencias seleccionadas ahora están activadas para la nueva conexión. Para agregar más audiencias que enviar con esta conexión, vuelva a la página **[!UICONTROL Activar audiencias]**. Las audiencias no se pueden eliminar una vez activadas.

@@ -8,10 +8,10 @@ product_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 25%
+source-wordcount: 447
+ht-degree: 24%
 
 ---
 
@@ -29,21 +29,21 @@ En la tabla siguiente se describen los permisos de base de datos necesarios para
 | **Eliminación de objetos (tablas, índices, funciones, procedimientos)** | Propiedad del objeto | Tener el objeto o ser un superusuario | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create`, `bigquery.routines.delete`, `bigquery.tables.delete` y `bigquery.tables.deleteIndex` permisos | N/A |
 | **Monitoreo de las ejecuciones** | Privilegio `MONITOR` en el objeto requerido | No se requieren permisos para utilizar el comando `EXPLAIN` | `monitoring.viewer` rol | Permiso `CAN_VIEW` |
 | **Escritura de datos** | Privilegios `INSERT` o `UPDATE` (según la operación de escritura) | Permisos de `INSERT` y `UPDATE` | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create` y `bigquery.tables.updateData` | Permiso `MODIFY` |
-| **Carga de datos en tablas** | Privilegios de `CREATE STAGE ON SCHEMA`, `SELECT` y `INSERT` en la tabla de destino | Permisos de `SELECT` y `INSERT` | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create`, `bigquery.tables.getData` y `bigquery.tables.updateData` | Permisos de `SELECT` y `MODIFY` |
+| **Carga de datos en tablas** | Privilegios de `CREATE STAGE ON SCHEMA`, `Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>` `SELECT` y `INSERT` en la tabla de destino | Permisos de `SELECT` y `INSERT` | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create`, `bigquery.tables.getData` y `bigquery.tables.updateData` | Permisos de `SELECT` y `MODIFY` |
 | **Acceso a los datos del cliente** | Privilegios `SELECT on (FUTURE) TABLE(S)` o `VIEW(S)` | Permiso `SELECT` | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create` y `bigquery.tables.getData` para las tablas o la función `bigquery.dataViewer` | Permiso `SELECT` |
 | **Acceso a metadatos** | Privilegio `SELECT on INFORMATION_SCHEMA SCHEMA` | Permiso `SELECT` | `bigquery.metadataViewer` rol |  Permiso `SELECT on INFORMATION_SCHEMA SCHEMA` |
 
 
-|   | Microsoft Fabric | Azure Synapse Analytics | Vertica |
-|:-:|:-:|:-:|:-:|
-| **Conexión a la base de datos remota** | Permiso Leer (predeterminado) | Permiso `CONNECT` | No se requiere ningún privilegio. |
-| **Creación de tablas** | `CREATE TABLE ON DATABASE` (almacén) y `ALTER ON SCHEMA` | Permiso `CREATE TABLE` | Privilegio `CREATE ON SCHEMA` |
-| **Creación de índices** | N/A | Permiso `ALTER` | N/A |
-| **Creación de funciones** | N/A | Permiso `CREATE FUNCTION` | Privilegio `CREATE ON SCHEMA` |
-| **Creación de procedimientos** | `CREATE PROCEDURE ON DATABASE` (almacén) y `ALTER ON SCHEMA` | Permiso `CREATE PROCEDURE` | Privilegio `CREATE ON SCHEMA` |
-| **Eliminación de objetos (tablas, índices, funciones, procedimientos)** | `ALTER ON SCHEMA` | Permiso `ALTER` | Propiedad del objeto o del privilegio `DROP` en el objeto |
-| **Monitoreo de las ejecuciones** | Permisos de colaborador de Workspace o superiores (`queryinsights.exec_requests_history`) | Permiso `CONTROL` | No se requiere ningún privilegio para utilizar la instrucción `EXPLAIN` |
-| **Escritura de datos** | `INSERT` o `UPDATE ON OBJECT` | Permisos de `INSERT` y `UPDATE` | Privilegios `INSERT` y `UPDATE` |
-| **Carga de datos en tablas** | `SELECT ON OBJECT` y `INSERT ON OBJECT` | Permisos de `CREATE TABLE`, `EXECUTE`, `SELECT`, `INSERT`, `UPDATE` y `ALTER` | Privilegio `INSERT` en tabla, privilegio `USAGE` en esquema |
-| **Acceso a los datos del cliente** | `SELECT ON OBJECT` | Permiso `SELECT` | Privilegio `SELECT` |
-| **Acceso a metadatos** | `SELECT ON INFORMATION_SCHEMA` | No se requiere permiso para describir la tabla | `USAGE ON SCHEMA`, `SELECT on TABLE` y también privilegios en las tablas `v_catalog.columns` y `v_catalog.view_columns` |
+|   | Microsoft Fabric | Azure Synapse Analytics | Vertica | Teradata |
+|:-:|:-:|:-:|:-:|:-:|
+| **Conexión a la base de datos remota** | Permiso Leer (predeterminado) | Permiso `CONNECT` | No se requiere ningún privilegio. | Privilegio `CONNECT` |
+| **Creación de tablas** | `CREATE TABLE ON DATABASE` (almacén) y `ALTER ON SCHEMA` | Permiso `CREATE TABLE` | Privilegio `CREATE ON SCHEMA` | Palabra clave `CREATE TABLE` o `TABLE` |
+| **Creación de índices** | N/A | Permiso `ALTER` | N/A | Palabra clave `CREATE INDEX` o `INDEX` |
+| **Creación de funciones** | N/A | Permiso `CREATE FUNCTION` | Privilegio `CREATE ON SCHEMA` | Palabra clave `CREATE FUNCTION` o `FUNCTION` |
+| **Creación de procedimientos** | `CREATE PROCEDURE ON DATABASE` (almacén) y `ALTER ON SCHEMA` | Permiso `CREATE PROCEDURE` | Privilegio `CREATE ON SCHEMA` | Palabra clave `CREATE PROCEDURE` o `PROCEDURE` |
+| **Eliminación de objetos (tablas, índices, funciones, procedimientos)** | `ALTER ON SCHEMA` | Permiso `ALTER` | Propiedad del objeto o del privilegio `DROP` en el objeto | `DROP` en tipo de objeto o palabra clave relacionada |
+| **Monitoreo de las ejecuciones** | Permisos de colaborador de Workspace o superiores (`queryinsights.exec_requests_history`) | Permiso `CONTROL` | No se requiere ningún privilegio para utilizar la instrucción `EXPLAIN` | No se requiere ningún privilegio adicional para utilizar `EXPLAIN` |
+| **Escritura de datos** | `INSERT` o `UPDATE ON OBJECT` | Permisos de `INSERT` y `UPDATE` | Privilegios `INSERT` y `UPDATE` | Privilegios `INSERT` y `UPDATE` |
+| **Carga de datos en tablas** | `SELECT ON OBJECT` y `INSERT ON OBJECT` | Permisos de `CREATE TABLE`, `EXECUTE`, `SELECT`, `INSERT`, `UPDATE` y `ALTER` | Privilegio `INSERT` en tabla, privilegio `USAGE` en esquema | `SELECT` y `INSERT` (por ejemplo `COPY TO`/`COPY FROM`) |
+| **Acceso a los datos del cliente** | `SELECT ON OBJECT` | Permiso `SELECT` | Privilegio `SELECT` | Privilegio `SELECT` |
+| **Acceso a metadatos** | `SELECT ON INFORMATION_SCHEMA` | No se requiere permiso para describir la tabla | `USAGE ON SCHEMA`, `SELECT on TABLE` y también privilegios en las tablas `v_catalog.columns` y `v_catalog.view_columns` | Privilegio `SHOW` |

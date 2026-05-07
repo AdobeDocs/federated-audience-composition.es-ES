@@ -4,8 +4,7 @@ title: Cree su primera consulta con el modelador de consultas
 description: Obtenga información sobre cómo crear la primera consulta en el modelador de consultas
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 TQID: https://experienceleague.adobe.com/SJSO3icKYWUUDUZJsQhZfjjw6QjITphRIuRZpv-5394
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
 source-wordcount: 2084
@@ -27,7 +26,7 @@ Se pueden añadir dos tipos de elementos:
 
 * **Los operadores de grupo** (AND, OR, EXCEPT) le permiten agrupar los componentes de filtrado en el diagrama. Se añaden a las transiciones existentes antes de un componente de filtrado. [Aprenda a trabajar con operadores](#filtering)
 
-  Ejemplo: *Destinatarios que se suscribieron al boletín &quot;Deportes&quot;**Y**&#x200B;que viven en Nueva York **O**&#x200B;San Francisco*.
+  Ejemplo: *Destinatarios que se suscribieron al boletín &quot;Deportes&quot;**Y**que viven en Nueva York **O**San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -255,6 +254,6 @@ Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel
 
 Cuando la consulta esté lista, selecciona el botón **[!UICONTROL Confirmar]** en la esquina superior derecha para guardarlo.
 
-Puede modificar la consulta en cualquier momento abriéndola. Tenga en cuenta que al abrir una consulta existente, se muestra en una vista simplificada sin la visibilidad de **+** botones. To add new elements to the query, select a component or operator on the canvas to display the **+** buttons.
+Puede modificar la consulta en cualquier momento abriéndola. Tenga en cuenta que al abrir una consulta existente, se muestra en una vista simplificada sin la visibilidad de **+** botones. Para agregar nuevos elementos a la consulta, seleccione un componente u operador en el lienzo para mostrar los botones **+**.
 
 ![](assets/edit-audience.png){zoomable="yes"}

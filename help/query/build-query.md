@@ -255,6 +255,6 @@ Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel
 
 Cuando la consulta esté lista, selecciona el botón **[!UICONTROL Confirmar]** en la esquina superior derecha para guardarlo.
 
-Puede modificar la consulta en cualquier momento abriéndola. Tenga en cuenta que al abrir una consulta existente, se muestra en una vista simplificada sin la visibilidad de **+** botones. To add new elements to the query, select a component or operator on the canvas to display the **+** buttons.
+Puede modificar la consulta en cualquier momento abriéndola. Tenga en cuenta que al abrir una consulta existente, se muestra en una vista simplificada sin la visibilidad de **+** botones. Para agregar nuevos elementos a la consulta, seleccione un componente u operador en el lienzo para mostrar los botones **+**.
 
 ![](assets/edit-audience.png){zoomable="yes"}

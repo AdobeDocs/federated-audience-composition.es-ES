@@ -9,7 +9,7 @@ product_v2:
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -436,7 +436,7 @@ Además, puede establecer la caducidad de los datos de la audiencia. La caducida
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
 >title="Guardar campos"
->abstract="La actividad Guardar campos permite enriquecer los esquemas de Experience Platform federando datos de almacenes externos y mejorando los esquemas de Experience Platform con atributos adicionales. "
+>abstract="La actividad Guardar campos permite enriquecer los esquemas de Experience Platform federando datos de almacenes externos, lo que permite mejorar los esquemas de Experience Platform con atributos adicionales. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
@@ -450,8 +450,8 @@ Además, puede establecer la caducidad de los datos de la audiencia. La caducida
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
->title="Guardar modo de actualización de campos"
->abstract="Los modos de actualización disponibles para la actividad Guardar campos incluyen actualización completa e incremental."
+>title="Modo de actualización Guardar campos"
+>abstract="Los modos de actualización disponibles de la actividad Guardar campos incluyen actualización completa e incremental."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"

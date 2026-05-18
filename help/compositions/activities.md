@@ -4,12 +4,11 @@ title: Información general sobre las actividades
 description: Obtenga información acerca de las diferentes actividades y transiciones disponibles para usar en Federated Audience Composition.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -436,7 +435,7 @@ Además, puede establecer la caducidad de los datos de la audiencia. La caducida
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
 >title="Guardar campos"
->abstract="La actividad Guardar campos permite enriquecer los esquemas de Experience Platform federando datos de almacenes externos y mejorando los esquemas de Experience Platform con atributos adicionales. "
+>abstract="La actividad Guardar campos permite enriquecer los esquemas de Experience Platform federando datos de almacenes externos, lo que permite mejorar los esquemas de Experience Platform con atributos adicionales. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
@@ -450,8 +449,8 @@ Además, puede establecer la caducidad de los datos de la audiencia. La caducida
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
->title="Guardar modo de actualización de campos"
->abstract="Los modos de actualización disponibles para la actividad Guardar campos incluyen actualización completa e incremental."
+>title="Modo de actualización Guardar campos"
+>abstract="Los modos de actualización disponibles de la actividad Guardar campos incluyen actualización completa e incremental."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
@@ -516,7 +515,7 @@ Esta actividad se utiliza para enriquecer esquemas mediante la introducción de 
 
 >[!IMPORTANT]
 >
->Si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos se **reemplazarán**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/enable-upsert).
+>Si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos se **reemplazarán**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Después de agregar la actividad **[!UICONTROL Guardar campos]** a la composición, puede asignar una etiqueta a la actividad y seleccionar el esquema de Adobe Experience Platform que desee utilizar. El esquema puede ser estándar o relacional.
 

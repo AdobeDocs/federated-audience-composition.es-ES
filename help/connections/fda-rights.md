@@ -3,15 +3,12 @@ title: Permisos para acceder a una base de datos externa
 description: Obtenga información sobre los permisos que necesita para acceder y realizar tareas en cada motor de base de datos
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
 TQID: https://experienceleague.adobe.com/LI7H7b6iM3TAsPy00wDwNj3-D0Z7mIrH9MKW8g9QDsk
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 2f08e668fafcde9df941313f912c5cb2037ef691
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 24%
+source-wordcount: 445
+ht-degree: 22%
 
 ---
 
@@ -30,8 +27,8 @@ En la tabla siguiente se describen los permisos de base de datos necesarios para
 | **Monitoreo de las ejecuciones** | Privilegio `MONITOR` en el objeto requerido | No se requieren permisos para utilizar el comando `EXPLAIN` | `monitoring.viewer` rol | Permiso `CAN_VIEW` |
 | **Escritura de datos** | Privilegios `INSERT` o `UPDATE` (según la operación de escritura) | Permisos de `INSERT` y `UPDATE` | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create` y `bigquery.tables.updateData` | Permiso `MODIFY` |
 | **Carga de datos en tablas** | Privilegios de `CREATE STAGE ON SCHEMA`, `Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>` `SELECT` y `INSERT` en la tabla de destino | Permisos de `SELECT` y `INSERT` | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create`, `bigquery.tables.getData` y `bigquery.tables.updateData` | Permisos de `SELECT` y `MODIFY` |
-| **Acceso a los datos del cliente** | Privilegios `SELECT on (FUTURE) TABLE(S)` o `VIEW(S)` | Permiso `SELECT` | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create` y `bigquery.tables.getData` para las tablas o la función `bigquery.dataViewer` | Permiso `SELECT` |
-| **Acceso a metadatos** | Privilegio `SELECT on INFORMATION_SCHEMA SCHEMA` | Permiso `SELECT` | `bigquery.metadataViewer` rol |  Permiso `SELECT on INFORMATION_SCHEMA SCHEMA` |
+| **Acceder a los datos del cliente** | Privilegios `SELECT on (FUTURE) TABLE(S)` o `VIEW(S)` | Permiso `SELECT` | La función asignada a la cuenta de servicio debe contener: `bigquery.jobs.create`, `bigquery.readsessions.create` y `bigquery.tables.getData` para las tablas o la función `bigquery.dataViewer` | Permiso `SELECT` |
+| **Acceder a metadatos** | Privilegio `SELECT on INFORMATION_SCHEMA SCHEMA` | Permiso `SELECT` | `bigquery.metadataViewer` rol |  Permiso `SELECT on INFORMATION_SCHEMA SCHEMA` |
 
 
 |   | Microsoft Fabric | Azure Synapse Analytics | Vertica | Teradata |

@@ -12,10 +12,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 498afaa156e21b8ef8baa93f27eb1410809855af
+source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
 workflow-type: tm+mt
-source-wordcount: 3189
-ht-degree: 9%
+source-wordcount: 3543
+ht-degree: 8%
 
 ---
 
@@ -217,6 +217,8 @@ Si selecciona **[!UICONTROL OAuth 2.0]**, puede agregar la siguiente informació
 
 Seleccione **[!UICONTROL Iniciar sesión]** para finalizar su autenticación.
 
+Si selecciona **[!UICONTROL WIF]**, **no** necesita proporcionar información de inicio de sesión. Sin embargo, **debe** agregar la configuración de la biblioteca de cliente como la **[!UICONTROL ruta del archivo de clave]**. Para obtener más información sobre la configuración de la biblioteca de cliente, lea la [sección de configuración de Google BigQuery (Workload Identity Federation)](#wif-configuration).
+
 Después de introducir los detalles de inicio de sesión, puede añadir los siguientes detalles:
 
 | Campo | Descripción |
@@ -387,3 +389,46 @@ Después de agregar los detalles de la conexión, tenga en cuenta la siguiente c
 | Probar conexión | Le permite comprobar los detalles de configuración. |
 
 Ahora puede seleccionar **[!UICONTROL Implementar funciones]**, seguido de **[!UICONTROL Agregar]** para finalizar la conexión entre la base de datos federada y Experience Platform.
+
+## Apéndice {#appendix}
+
+En el siguiente apéndice se describe cómo configurar las conexiones del lado de la cuenta externa.
+
+### Configuración de Google BigQuery (Workload Identity Federation) {#wif-configuration}
+
+Antes de configurar Google Cloud Platform, necesitará los siguientes valores:
+
+- ID de cuenta de AWS
+   - Póngase en contacto con su representante de Adobe para obtener este valor.
+- Nombre de función de AWS IAM
+   - El nombre de rol de AWS IAM sigue el formato siguiente: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+
+En Google Cloud Console, cree un **Grupo de identidad de carga de trabajo** en la **sección IAM y administración**. Esto permite organizar y administrar las identidades externas.
+
+Seleccione **Agregar proveedor** para crear un proveedor de identidad. Esto configura una confianza unidireccional entre el proveedor de identidad en Google Cloud y el grupo de identidad del trabajador al proporcionar los metadatos relevantes sobre el proveedor.
+
+![El botón Agregar proveedor está resaltado en Google Cloud.](/help/connections/assets/home/select-add-provider.png)
+
+Al crear un proveedor, deberá proporcionar la siguiente información:
+
+| Campo | Descripción |
+| ----- | ----------- |
+| Nombre | Nombre del proveedor del grupo de identidad de carga de trabajo. |
+| ID | El ID del proveedor se genera automáticamente. |
+| ID de cuenta de AWS | El ID de cuenta de AWS proporcionado anteriormente. |
+| Proveedor habilitado | Un booleano que determina si el proveedor está habilitado o deshabilitado. |
+| Asignación de atributos | Las asignaciones que deben coincidir con los roles. Esta información ya está presente. |
+
+Después de crear el proveedor, debe crear una directiva IAM para permitir que las identidades del grupo de identidad de carga de trabajo suplanten a la cuenta de servicio. Seleccione **Conceder acceso** para abrir el cuadro de diálogo Conceder acceso a la cuenta de servicio.
+
+En el cuadro de diálogo, seleccione **Conceder acceso mediante la suplantación de cuenta de servicio**. En la sección **Seleccionar principales**, tendrá que crear sus asignaciones de atributos.
+
+Seleccione **aws_role** y agregue `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` como valor, sustituyendo `AWSAccountID` y `AWSRoleName` por los valores proporcionados anteriormente.
+
+![Se muestra el cuadro de diálogo Conceder acceso.](/help/connections/assets/home/aws_role.png)
+
+Después de conceder acceso a la cuenta de servicio, descargue la configuración de la biblioteca de cliente.
+
+![Se muestra la ubicación para descargar la configuración de la biblioteca.](/help/connections/assets/home/download-config.png)
+
+Después de descargar la configuración de la biblioteca del cliente, ahora puede establecer una conexión WIF con la Configuración de audiencias federadas.

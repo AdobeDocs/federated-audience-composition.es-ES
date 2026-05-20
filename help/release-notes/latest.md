@@ -5,16 +5,24 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
+source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 13%
+source-wordcount: 671
+ht-degree: 12%
 
 ---
 
 # Notas de la versión
 
 [!DNL Federated Audience Composition] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan en estas notas de la versión. [!DNL Federated Audience Composition] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
+
+## Versión de mayo de 2026 {#fac-26-05}
+
+La versión de mayo para Federated Audience Composition admite la siguiente capacidad:
+
+| Autenticación de federación de identidades de carga de trabajo (WIF) para Google Big Query |
+| --- |
+| Ahora puede conectarse a Google Big Query mediante la autenticación WIF. Para obtener más información acerca de cómo conectarse mediante la autenticación WIF, lea la [descripción general de las conexiones](/help/connections/home.md#wif-configuration). |
 
 ## Versión de abril de 2026 {#fac-26-04}
 
@@ -25,6 +33,16 @@ La versión de abril para Federated Audience Composition admite las siguientes f
 | Nuevo conector: Teradata |
 | --- |
 | El conector Teradata ya está disponible para su uso con Federated Audience Composition. Puede utilizar el conector de Teradata para casos de uso de creación de audiencias y enriquecimiento de audiencias. Para obtener más información acerca del conector Teradata, lea la [descripción general de las conexiones](/help/connections/home.md). |
+
+### Mejoras {#fac-26-05-improvements}
+
+Esta versión incorpora las siguientes mejoras.
+
+- **Segmentación de varias entidades con audiencias de Composición de audiencias federadas en recorridos de audiencia de lectura de Adobe Journey Optimizer**
+
+  Ahora puede aprovechar los atributos de audiencia de FAC como identificadores suplementarios en recorridos de audiencia de lectura de Journey Optimizer. Esto permite activar las audiencias en varias entidades, como cuentas o suscripciones.
+
+  Para obtener más información, lea [usando identificadores suplementarios en la guía de recorridos](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
 
 ### Mejoras {#fac-26-04-improvements}
 

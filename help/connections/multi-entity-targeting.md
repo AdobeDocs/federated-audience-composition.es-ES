@@ -2,7 +2,7 @@
 audience: end-user
 title: Segmentación De Varias Entidades Con Audiencias De Composición De Audiencias Federadas En Adobe Journey Optimizer
 description: Aprenda a segmentar perfiles a partir de audiencias de Composición de audiencias federadas en Adobe Journey Optimizer recorrido.
-source-git-commit: 297a1d5019737c35ee07967a6d7330d3ad0bac1d
+source-git-commit: 79f05c5a1b025b522a1b88615973d9fe383e3720
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 3%
@@ -57,3 +57,4 @@ El recorrido ahora se dirigirá a los perfiles de audiencia en función del **id
 ## Próximos pasos {#next-steps}
 
 Después de leer esta guía, ahora sabe cómo usar identificadores suplementarios de sus audiencias de Composición de audiencias federadas en Journey Optimizer recorrido. Para obtener más información sobre el uso de recorridos suplementarios, lea [usar identificadores suplementarios en la guía de recorridos](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+

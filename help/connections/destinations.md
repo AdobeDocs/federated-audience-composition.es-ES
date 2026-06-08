@@ -44,7 +44,7 @@ Aparecerá la página **[!UICONTROL Configurar nuevo destino]**. En esta página
 
 En la sección **[!UICONTROL Alertas]**, puede habilitar las alertas para recibir notificaciones sobre el estado del flujo de datos a su destino. Estas incluyen alertas para retrasos de ejecución del flujo de datos, errores de ejecución, ejecuciones correctas, inicios de ejecución y saltos de activación.
 
-Para obtener más información acerca de las alertas, lea la documentación de Adobe Experience Platform acerca de la suscripción de [a alertas de destinos mediante la interfaz de usuario](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
+Para obtener más información acerca de las alertas, lea la documentación de Adobe Experience Platform acerca de la suscripción de [a alertas de destinos mediante la interfaz de usuario](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
 ![Se muestran las alertas disponibles para el destino.](assets/destinations/alerts.png)
 
@@ -70,8 +70,8 @@ Aparece la ventana emergente **[!UICONTROL Programando]**. En esta ventana emerg
 >
 >Para obtener información detallada sobre cómo configurar la programación y los nombres de archivo, lea las siguientes secciones de la documentación de Adobe Experience Platform:
 >
->* [Programar exportación de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
->* [Configurar nombres de archivo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+>* [Programar exportación de audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [Configurar nombres de archivo](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
 En el paso **[!UICONTROL Asignación]**, seleccione qué campos de atributo e identidad desea exportar para sus audiencias.
 
@@ -79,7 +79,7 @@ En el paso **[!UICONTROL Asignación]**, seleccione qué campos de atributo e id
 >
 >Usted **no puede** utilizar columnas generadas por el sistema al activar en destinos. Si se selecciona una columna generada por el sistema, se producirá un error.
 
-Para obtener más información, lea la [sección de asignación](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} en la documentación de Adobe Experience Platform.
+Para obtener más información, lea la [sección de asignación](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} en la documentación de Adobe Experience Platform.
 
 ![Se muestra la página de atributos de asignación.](assets/destinations/attributes.png)
 

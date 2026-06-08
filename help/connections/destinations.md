@@ -4,14 +4,11 @@ title: Enriquecimiento de públicos de Adobe Experience Platform con datos exter
 description: Aprenda a refinar y enriquecer las audiencias de Adobe Experience Platform con datos de sus bases de datos federadas mediante el destino de composición de audiencias federadas.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 TQID: https://experienceleague.adobe.com/g32ycFuhXFq68NmBJjunWZT3m4JpmL108bhMSs-4EYc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ce79e1b9216ca69020155978ac84f29577c5ff8d
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 774
 ht-degree: 5%
 
 ---
@@ -44,7 +41,7 @@ Aparecerá la página **[!UICONTROL Configurar nuevo destino]**. En esta página
 
 En la sección **[!UICONTROL Alertas]**, puede habilitar las alertas para recibir notificaciones sobre el estado del flujo de datos a su destino. Estas incluyen alertas para retrasos de ejecución del flujo de datos, errores de ejecución, ejecuciones correctas, inicios de ejecución y saltos de activación.
 
-Para obtener más información acerca de las alertas, lea la documentación de Adobe Experience Platform acerca de la suscripción de [a alertas de destinos mediante la interfaz de usuario](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
+Para obtener más información acerca de las alertas, lea la documentación de Adobe Experience Platform acerca de la suscripción de [a alertas de destinos mediante la interfaz de usuario](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
 ![Se muestran las alertas disponibles para el destino.](assets/destinations/alerts.png)
 
@@ -70,16 +67,16 @@ Aparece la ventana emergente **[!UICONTROL Programando]**. En esta ventana emerg
 >
 >Para obtener información detallada sobre cómo configurar la programación y los nombres de archivo, lea las siguientes secciones de la documentación de Adobe Experience Platform:
 >
->* [Programar exportación de audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
->* [Configurar nombres de archivo](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+>* [Programar exportación de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [Configurar nombres de archivo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
 En el paso **[!UICONTROL Asignación]**, seleccione qué campos de atributo e identidad desea exportar para sus audiencias.
 
 >[!IMPORTANT]
 >
->Usted **no puede** utilizar columnas generadas por el sistema al activar su destino. Si se selecciona una columna generada por el sistema, la activación fallará.
+>Usted **no puede** utilizar columnas generadas por el sistema al activar en destinos. Si se selecciona una columna generada por el sistema, se producirá un error.
 
-Para obtener más información, lea la [sección de asignación](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} en la documentación de Adobe Experience Platform.
+Para obtener más información, lea la [sección de asignación](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} en la documentación de Adobe Experience Platform.
 
 ![Se muestra la página de atributos de asignación.](assets/destinations/attributes.png)
 

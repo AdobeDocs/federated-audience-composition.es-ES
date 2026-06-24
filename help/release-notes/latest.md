@@ -5,9 +5,9 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 02d8690a6e20c22ddd67afc4899830ccd2f03da9
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: 726
 ht-degree: 12%
 
 ---
@@ -16,13 +16,21 @@ ht-degree: 12%
 
 [!DNL Federated Audience Composition] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan en estas notas de la versión. [!DNL Federated Audience Composition] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
+## Versión de junio de 2026 {#fac-26-06}
+
+La versión de junio para Federated Audience Composition admite la siguiente capacidad:
+
+| Conector de API de REST con compatibilidad de puerta de enlace [!DNL Apigee] para Google [!DNL BigQuery] |
+| --- |
+| Ahora puede conectarse a Google [!DNL BigQuery] mediante un conector de API de REST, con la opción de enrutar la conexión a través de una puerta de enlace [!DNL Apigee] al utilizar la autenticación de cuenta de servicio. Para obtener más información acerca de cómo conectar con [!DNL Apigee], lea la [descripción general de las conexiones](/help/connections/home.md#apigee). |
+
 ## Versión de mayo de 2026 {#fac-26-05}
 
 La versión de mayo para Federated Audience Composition admite la siguiente capacidad:
 
-| Autenticación de federación de identidades de carga de trabajo (WIF) para Google Big Query |
+| Autenticación de federación de identidades de carga de trabajo (WIF) para Google [!DNL BigQuery] |
 | --- |
-| Ahora puede conectarse a Google Big Query mediante la autenticación WIF. Para obtener más información acerca de cómo conectarse mediante la autenticación WIF, lea la [descripción general de las conexiones](/help/connections/home.md#wif-configuration). |
+| Ahora puede conectarse a Google [!DNL BigQuery] mediante la autenticación WIF. Para obtener más información acerca de cómo conectarse mediante la autenticación WIF, lea la [descripción general de las conexiones](/help/connections/home.md#wif-configuration). |
 
 ### Mejoras {#fac-26-05-improvements}
 

@@ -4,17 +4,12 @@ title: Crear y administrar conexiones con bases de datos federadas
 description: Obtenga información sobre cómo crear y administrar conexiones con bases de datos federadas
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: 3543
+source-wordcount: 3947
 ht-degree: 8%
 
 ---
@@ -225,6 +220,7 @@ Después de introducir los detalles de inicio de sesión, puede añadir los sigu
 | ----- | ----------- |
 | Proyecto | El ID del proyecto. Para obtener más información, lea la [documentación del proyecto de Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects?hl=es-419){target="_blank"}. |
 | Conjunto de datos | Nombre del conjunto de datos. Para obtener más información, lea la [documentación del conjunto de datos de Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
+| Ubicación del Google Bucket | La ubicación de su Google Bucket. Solo es necesario que agregue este campo si está utilizando la actividad **Cambiar dimensión** en su composición. Para obtener más información, lea la [documentación de ubicaciones de compartimentos de Google Cloud](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
 | Ruta del archivo de claves | El archivo de clave al servidor. Solo se admiten `json` archivos. |
 | Opciones | Opciones adicionales para la conexión. Las opciones disponibles se enumeran en la tabla siguiente. |
 
@@ -240,6 +236,7 @@ Para Google BigQuery, puede definir las siguientes opciones adicionales:
 | GCloudConfigName | **Nota:** Esto solo es aplicable a la **herramienta de carga masiva** (Cloud SDK) anterior a la versión 7.3.4. <br/><br/> Nombre de la configuración que almacena los parámetros para cargar los datos. De manera predeterminada, este valor es `accfda`. |
 | GCloudDefaultConfigName | **Nota:** Esto solo es aplicable a la **herramienta de carga masiva** (Cloud SDK) anterior a la versión 7.3.4. <br/><br/> Nombre de la configuración temporal para volver a crear la configuración principal y cargar los datos. De manera predeterminada, este valor es `default`. |
 | GCloudRecreateConfig | **Nota:** Esto solo es aplicable a la **herramienta de carga masiva** (Cloud SDK) anterior a la versión 7.3.4. <br/><br/> Un valor booleano que le permite decidir si el mecanismo de carga masiva debe recrear, eliminar o modificar automáticamente las configuraciones de Google Cloud SDK. Si este valor se establece en `false`, el mecanismo de carga masiva carga datos mediante una configuración existente en el equipo. Si este valor se establece en `true`, asegúrese de que la configuración esté configurada correctamente; de lo contrario, aparecerá el error `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` y el mecanismo de carga volverá al mecanismo de carga predeterminado. |
+| **restEndpoint** | El punto final del proxy de Apigee. Solo debe utilizarlo si utiliza el conector REST-API con el proxy de Apigee. Si está usando el proxy de Apigee, habilite la opción **Usar conector de API REST**. Para obtener más información sobre la configuración, lea la [sección de soporte técnico de Google BigQuery Apigee Gateway](#apigee). |
 
 >[!TAB Estructura de Microsoft]
 
@@ -425,10 +422,39 @@ En el cuadro de diálogo, seleccione **Conceder acceso mediante la suplantación
 
 Seleccione **aws_role** y agregue `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` como valor, sustituyendo `AWSAccountID` y `AWSRoleName` por los valores proporcionados anteriormente.
 
-![Se muestra el cuadro de diálogo Conceder acceso.](/help/connections/assets/home/aws_role.png)
+![Se muestra el cuadro de diálogo Conceder acceso.](/help/connections/assets/home/aws-role.png)
 
 Después de conceder acceso a la cuenta de servicio, descargue la configuración de la biblioteca de cliente.
 
 ![Se muestra la ubicación para descargar la configuración de la biblioteca.](/help/connections/assets/home/download-config.png)
 
 Después de descargar la configuración de la biblioteca del cliente, ahora puede establecer una conexión WIF con la Configuración de audiencias federadas.
+
+### Compatibilidad con puerta de enlace [!DNL Apigee] de Google BigQuery {#apigee}
+
+Puede usar [!DNL Apigee], la plataforma nativa de administración de API de Google Cloud, para proxy sus llamadas de API a Google BigQuery.
+
+Primero tendrá que crear un proxy dentro de la interfaz de usuario de [!DNL Apigee]. En Google Cloud, ve a **Apigee** seguido de **desarrollo de proxy**, **proxies de API** y **Create** para que aparezca el panel **Crear un proxy**. En el panel, puede rellenar los siguientes detalles:
+
+![Se muestra la pantalla de creación del proxy Apigee.](/help/connections/assets/home/create-proxy-apigee.png)
+
+| Detalles | Descripción |
+| ------- | ----------- |
+| Plantilla de proxy | El tipo de proxy que desea crear. Para este caso de uso, debe seleccionar **proxy inverso (el más común)**. |
+| Nombre de proxy | El nombre de su proxy. Este valor puede **solamente** incluir caracteres alfanuméricos, guiones (`-`) o guiones bajos (`_`). |
+| Ruta básica | Fragmento de URI que muestra la dirección de host del proxy de la API. Esta ruta de acceso base se basa en el nombre de proxy y **debe** ser única. |
+| Descripción | Una descripción opcional del proxy de la API. |
+| Target | La dirección URL (que incluye HTTP o HTTPS) del servicio back-end que invoca el proxy API. |
+
+Para Federated Audience Composition, cree una regla de extremo proxy para **cada** extremo que use el conector Google BigQuery, como se indica a continuación:
+
+| Ruta básica | Extremo de destino | Descripción |
+| --------- | --------------- | ----------- |
+| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | El punto final principal de Google BigQuery. Este extremo se utiliza para obtener datos como consultas y tablas de lista. |
+| `/token` | `https://oauth2.googleapis.com/token` | Este extremo se utiliza para la autenticación de cuentas de servicio. |
+| `/storage` | `https://storage.googleapis.com/storage` | Este extremo de almacenamiento se utiliza para eliminar archivos de carga masiva temporales. |
+| `/upload` | `https://storage.googleapis.com/upload` | Este extremo de almacenamiento se utiliza para la carga masiva de archivos. |
+| `/v1/token` | `https://sts.googleapis.com/v1/token` | Este extremo se utiliza para el flujo de federación de identidades de carga de trabajo (WIF) para obtener el token. |
+| `/v1/projects` | `https://iamcredentials.googleapis.com/v1/projects` | Este extremo se utiliza para suplantar una cuenta de servicio en el flujo de federación de identidades de carga de trabajo (WIF). |
+
+Una vez que haya creado el proxy, ya puede utilizarlo para conectarse con Federated Audience Composition. Una vez que implemente el proxy, encontrará la URL completa del proxy en **Nombres de host** al seleccionar **Entornos** seguidos de **Grupos** en la sección **Administración**.

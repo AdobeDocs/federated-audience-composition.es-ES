@@ -3,18 +3,33 @@ title: Notas de la versión de Federated Audience Composition
 description: Últimas actualizaciones y notas de la versión de Federated Audience Composition.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 12%
+source-wordcount: 825
+ht-degree: 11%
 
 ---
 
 # Notas de la versión
 
 [!DNL Federated Audience Composition] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan en estas notas de la versión. [!DNL Federated Audience Composition] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
+
+## Versión de julio de 2026 {#fac-26-07}
+
+La versión de julio para Federated Audience Composition admite la siguiente capacidad:
+
+| Disponibilidad general para la región CHE2 (Suiza) |
+| --- |
+| Ahora puede aprovisionar la instancia de Composición de audiencia federada en la región CHE2 (Suiza). |
+
+### Mejoras {#fac-26-07-improvements}
+
+Esta versión incorpora las siguientes mejoras.
+
+- **Compatibilidad con audiencias de composición de audiencias federadas en la simulación de Recorrido**
+
+  La simulación de recorrido ahora le permite probar los recorridos creados con audiencias de Composición de audiencia federada antes de publicarlos con usuarios simulados. Para obtener más información, lea la [guía de introducción a la simulación de Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
 
 ## Versión de junio de 2026 {#fac-26-06}
 
@@ -102,7 +117,7 @@ La versión de enero de Composición de audiencias federada admite las siguiente
 
 | Disponibilidad para clientes de Adobe Experience Platform en Amazon Web Service (AWS) |
 | --- |
-| Ahora puede utilizar la Composición de audiencia federada si la instancia de Experience Platform está en AWS. Para obtener más información sobre Experience Platform en AWS, lea [descripción general de varias nubes](https://experienceleague.adobe.com/es/docs/experience-platform/landing/multi-cloud). |
+| Ahora puede utilizar la Composición de audiencia federada si la instancia de Experience Platform está en AWS. Para obtener más información sobre Experience Platform en AWS, lea [descripción general de varias nubes](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Mejoras {#fac-26-01-improvements}
 

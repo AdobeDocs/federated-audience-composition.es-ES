@@ -4,17 +4,12 @@ title: Crear y administrar conexiones con bases de datos federadas
 description: Obtenga información sobre cómo crear y administrar conexiones con bases de datos federadas
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
 workflow-type: tm+mt
-source-wordcount: 3976
+source-wordcount: 3992
 ht-degree: 8%
 
 ---
@@ -25,13 +20,30 @@ ht-degree: 8%
 >
 >Para acceder a las conexiones, necesita uno de los siguientes permisos:
 >
->-**Administrar base de datos federada-** Ver base de datos federada **
+>-**Administrar base de datos federada**
+>-**Ver base de datos federada**
 >
 >Para obtener más información sobre los permisos necesarios, consulte la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
 
 La composición de audiencias federada de Experience Platform le permite crear y enriquecer audiencias de los almacenes de datos de terceros e importarlas a Adobe Experience Platform.
 
 ## Bases de datos compatibles {#supported-databases}
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="Clave privada"
+>abstract="Contenido temporal en blanco."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="Ruta del archivo de claves"
+>abstract="Contenido temporal en blanco."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_serverip"
+>title="IP de servidor"
+>abstract="Contenido temporal en blanco."
+
 
 Para trabajar con la base de datos federada y Adobe Experience Platform, primero debe establecer una conexión entre los dos orígenes. Con Federated Audience Composition, puede conectarse a las siguientes bases de datos.
 
@@ -401,9 +413,9 @@ En el siguiente apéndice se describe cómo configurar las conexiones del lado d
 Antes de configurar Google Cloud Platform, necesitará los siguientes valores:
 
 - ID de cuenta de AWS
-   - Póngase en contacto con su representante de Adobe para obtener este valor.
+  - Póngase en contacto con su representante de Adobe para obtener este valor.
 - Nombre de función de AWS IAM
-   - El nombre de rol de AWS IAM sigue el formato siguiente: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+  - El nombre de rol de AWS IAM sigue el formato siguiente: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
 En Google Cloud Console, cree un **Grupo de identidad de carga de trabajo** en la **sección IAM y administración**. Esto permite organizar y administrar las identidades externas.
 

@@ -10,9 +10,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
+source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
 workflow-type: tm+mt
-source-wordcount: 580
+source-wordcount: 585
 ht-degree: 18%
 
 ---
@@ -27,6 +27,11 @@ ht-degree: 18%
 >-**Ver esquema federado**
 >
 >Para obtener más información sobre los permisos necesarios, consulte la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
+
+>[!CONTEXTUALHELP]
+>id="platform_schemas_manageconfiguration"
+>title="Administrar configuración"
+>abstract="Contenido temporal en blanco."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"

@@ -14,10 +14,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: b418b8ef242ef9b9f7dfaa601d4a9a505b7c6f8d
 workflow-type: tm+mt
-source-wordcount: 386
-ht-degree: 100%
+source-wordcount: 406
+ht-degree: 95%
 
 ---
 
@@ -58,6 +58,8 @@ Para ver la lista de las zonas protegidas de composición de público federado a
 1. La información sobre la zona protegida se muestra en la ventana emergente Propiedades.
 
    ![](assets/sandbox_2.png)
+
+Si desea utilizar la Composición de audiencia federada en otra zona protegida, póngase en contacto con el Servicio de atención al cliente de Adobe para solicitar un conmutador de zona protegida.
 
 ## Permisos {#permissions}
 

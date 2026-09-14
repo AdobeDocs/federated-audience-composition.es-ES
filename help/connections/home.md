@@ -6,19 +6,22 @@ exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
 workflow-type: tm+mt
-source-wordcount: 3987
+source-wordcount: '3987'
 ht-degree: 7%
-
 ---
-
 # Creación de conexiones {#connections-fdb}
 
 >[!AVAILABILITY]
@@ -41,12 +44,12 @@ La composición de audiencias federada de Experience Platform le permite crear y
 
 >[!CONTEXTUALHELP]
 >id="platform_sources_snowflake_keyfilepath"
->title="Ruta del archivo de claves"
+>title="Ruta de archivo clave"
 >abstract="Contenido temporal en blanco."
 
 >[!CONTEXTUALHELP]
 >id="platform_sources_snowflake_serverip"
->title="IP de servidor"
+>title="IP del servidor"
 >abstract="Contenido temporal en blanco."
 
 
@@ -241,7 +244,7 @@ Después de introducir los detalles de inicio de sesión, puede añadir los sigu
 | ----- | ----------- |
 | Proyecto | El ID del proyecto. Para obtener más información, lea la [documentación del proyecto de Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects?hl=es-419){target="_blank"}. |
 | Conjunto de datos | Nombre del conjunto de datos. Para obtener más información, lea la [documentación del conjunto de datos de Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
-| Ruta del archivo de claves | El archivo de clave al servidor. Solo se admiten `json` archivos. |
+| Ruta de archivo clave | El archivo de clave al servidor. Solo se admiten `json` archivos. |
 | Ubicación del Google Bucket | La ubicación de su Google Bucket. Solo es necesario que agregue este campo si está utilizando la actividad **Cambiar dimensión** en su composición. Para obtener más información, lea la [documentación de ubicaciones de compartimentos de Google Cloud](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
 | Usar el conector de API REST | Alternar que permite utilizar el conector de la API de REST. Esta opción está **solamente** disponible si usa autenticación de cuenta/contraseña. |
 | Opciones | Opciones adicionales para la conexión. Las opciones disponibles se enumeran en la tabla siguiente. |

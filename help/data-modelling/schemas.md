@@ -6,17 +6,19 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 TQID: https://experienceleague.adobe.com/cpkFeiskYDpixNo01llqC3UKK8XfewN7XC2yAf1wOYQ
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+    internal-label: Privacy
+source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
 workflow-type: tm+mt
-source-wordcount: 585
+source-wordcount: '610'
 ht-degree: 18%
-
 ---
-
 # Información general de esquemas {#schemas}
 
 >[!AVAILABILITY]
@@ -71,6 +73,11 @@ Al crear un esquema, puede definir una representación de la tabla en la Composi
 >Al conectar varios entornos limitados con la misma base de datos, debe utilizar esquemas de trabajo diferentes.
 
 ## Creación de un esquema {#schema-create}
+
+>[!CONTEXTUALHELP]
+>id="platform_schemas_primarycompositekey"
+>title="Clave compuesta"
+>abstract="Una clave de esquema que consta de varias columnas de esquema. Marque las columnas que desee utilizar como clave compuesta."
 
 Para crear un esquema en Federated Audience Composition, seleccione **[!UICONTROL Modelos]** en la sección **[!UICONTROL Datos federados]**. En la ficha **[!UICONTROL Esquema]**, seleccione **[!UICONTROL Crear esquema]**.
 

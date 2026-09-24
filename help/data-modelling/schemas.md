@@ -14,9 +14,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
+source-git-commit: ded8d299cabcdc0a5bd387db64e895ae65cd3b55
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '580'
 ht-degree: 18%
 ---
 # Información general de esquemas {#schemas}
@@ -29,11 +29,6 @@ ht-degree: 18%
 >-**Ver esquema federado**
 >
 >Para obtener más información sobre los permisos necesarios, consulte la [guía de control de acceso](/help/governance-privacy-security/access-control.md).
-
->[!CONTEXTUALHELP]
->id="platform_schemas_manageconfiguration"
->title="Administrar configuración"
->abstract="Contenido temporal en blanco."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -73,11 +68,6 @@ Al crear un esquema, puede definir una representación de la tabla en la Composi
 >Al conectar varios entornos limitados con la misma base de datos, debe utilizar esquemas de trabajo diferentes.
 
 ## Creación de un esquema {#schema-create}
-
->[!CONTEXTUALHELP]
->id="platform_schemas_primarycompositekey"
->title="Clave compuesta"
->abstract="Una clave de esquema que consta de varias columnas de esquema. Marque las columnas que desee utilizar como clave compuesta."
 
 Para crear un esquema en Federated Audience Composition, seleccione **[!UICONTROL Modelos]** en la sección **[!UICONTROL Datos federados]**. En la ficha **[!UICONTROL Esquema]**, seleccione **[!UICONTROL Crear esquema]**.
 

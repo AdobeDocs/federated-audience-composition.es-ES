@@ -5,16 +5,17 @@ exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 TQID: https://experienceleague.adobe.com/Wd6WnteenqEV9ZEBs4-tgD8aRSSO1SwtEB4EetSUac4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: '981'
 ht-degree: 75%
-
 ---
-
 # Preguntas frecuentes {#faq}
 
 A continuación se muestra una lista de preguntas frecuentes sobre la composición de público federado de Adobe Experience Platform. Encuentre preguntas frecuentes globales sobre el servicio de segmentación de Adobe Experience Platform en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq){target="_blank"}.
@@ -96,8 +97,8 @@ Por ejemplo:
 Tenga en cuenta que la caducidad de los datos actuales para los públicos generados externamente es de 30 días. La caducidad de los datos reduce la cantidad excesiva de datos que se almacena en una organización. Una vez transcurrido el período de caducidad de los datos, el conjunto de datos asociado sigue siendo visible dentro del inventario de conjuntos de datos, pero ya no es posible activar el público y el recuento de perfiles se mostrará como cero. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * En caso de un enriquecimiento de público, el punto de partida es el público existente de Adobe Experience Platform. Aquí se pueden ver dos escenarios:
-   1. Incorporar atributos adicionales de carga útil del público desde el almacén de datos federado: en este caso, los atributos adicionales que se añaden provienen de la definición del público. La caducidad de los datos para los públicos generados de forma externa es la misma que la mencionada anteriormente: 30 días.
-   1. Refine el público existente de Adobe Experience Platform en función de los atributos adicionales que existan en su almacén de datos. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
+  1. Incorporar atributos adicionales de carga útil del público desde el almacén de datos federado: en este caso, los atributos adicionales que se añaden provienen de la definición del público. La caducidad de los datos para los públicos generados de forma externa es la misma que la mencionada anteriormente: 30 días.
+  1. Refine el público existente de Adobe Experience Platform en función de los atributos adicionales que existan en su almacén de datos. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 ## Si los datos de los patrones de casos de uso de Creación de audiencias y Enriquecimiento de audiencias no se mantienen, ¿cómo se almacenan temporalmente?

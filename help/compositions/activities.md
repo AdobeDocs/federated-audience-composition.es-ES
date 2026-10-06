@@ -6,8 +6,8 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
-source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '5478'
 ht-degree: 37%
@@ -515,7 +515,7 @@ Esta actividad se utiliza para enriquecer esquemas mediante la introducción de 
 
 >[!IMPORTANT]
 >
->Si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos se **reemplazarán**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/enable-upsert).
+>Si el conjunto de datos seleccionado **no** tiene habilitada la actualización, los datos se **reemplazarán**. Para obtener información sobre cómo habilitar la actualización para los conjuntos de datos, lea la [guía de actualización de habilitación](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Después de agregar la actividad **[!UICONTROL Guardar campos]** a la composición, puede asignar una etiqueta a la actividad y seleccionar el esquema de Adobe Experience Platform que desee utilizar. El esquema puede ser estándar o relacional.
 

@@ -5,18 +5,21 @@ exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
 TQID: https://experienceleague.adobe.com/j-KXucjaZa4dNSjg5POqxh7KOSUHG5CnBkBLFA6rPVs
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: ht
-source-wordcount: 651
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+workflow-type: tm+mt
+source-wordcount: '651'
 ht-degree: 100%
-
 ---
-
 # Información general del Asistente de IA {#ai-assistant}
 
 El Asistente de IA es una función de interfaz de usuario concebida para ayudarle a navegar y comprender los conceptos de Adobe. Puede utilizar el Asistente de IA con el fin de conocer mejor los casos de uso de conocimiento del producto en varios productos de Adobe Experience Cloud, incluida la composición de público federado.
@@ -67,9 +70,9 @@ Si el plan parece preciso, puede seleccionar **[!UICONTROL Ejecutar]** para perm
 Actualmente, la habilidad para crear públicos admite las siguientes funciones adicionales:
 
 - Planificador
-   - Puede crear composiciones federadas que se ejecuten según una programación recurrente. Los valores admitidos son **Una vez** y **Cada día**.
+  - Puede crear composiciones federadas que se ejecuten según una programación recurrente. Los valores admitidos son **Una vez** y **Cada día**.
 - Deduplicación
-   - Puede anular la duplicación de los registros de datos federados durante la reconciliación de datos
+  - Puede anular la duplicación de los registros de datos federados durante la reconciliación de datos
 
 ## Próximos pasos
 

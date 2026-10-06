@@ -6,13 +6,12 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
-source-wordcount: 5478
+source-wordcount: '5478'
 ht-degree: 37%
-
 ---
-
 # Información general sobre las actividades
 
 En Federated Audience Composition, puede agregar actividades y transiciones que ayuden a definir la audiencia.
@@ -627,7 +626,7 @@ Ahora puede proporcionar detalles para cada una de estas subrutas. Puede asignar
 Una vez creada la condición de filtrado, puede aplicar las siguientes reglas adicionales:
 
 - **Habilitar límite**: limita el número de perfiles que se pueden dividir en el subconjunto. Puede establecerlo como un número o como un porcentaje de la población.
-   - Si activa un límite, también puede clasificar los perfiles seleccionados según un atributo de perfil específico. Active **Habilitar ordenación** y podrá ordenar los atributos en orden de subida o de bajada.
+  - Si activa un límite, también puede clasificar los perfiles seleccionados según un atributo de perfil específico. Active **Habilitar ordenación** y podrá ordenar los atributos en orden de subida o de bajada.
 - **Omitir transición vacía**: deshabilita la transición si la población entrante está vacía.
 
 Ahora que se han configurado los subconjuntos, puede definir algunas opciones adicionales.

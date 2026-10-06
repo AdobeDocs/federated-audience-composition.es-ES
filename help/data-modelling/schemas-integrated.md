@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 3%
+ht-degree: 6%
 ---
 # Información general de esquemas {#schemas}
 
@@ -69,7 +69,7 @@ Aparece la ventana emergente **[!UICONTROL Seleccionar base de datos federada]**
 >[!CONTEXTUALHELP]
 >id="platform_schemas_primarycompositekey"
 >title="Clave compuesta"
->abstract="Una clave de esquema que consta de varias columnas de esquema. Marque las columnas que desee utilizar como clave compuesta."
+>abstract="Una clave de esquema que consta de varias columnas de esquema. Marque las columnas que desea utilizar como clave compuesta."
 
 Después de elegir la base de datos federada, puede definir el esquema. Aparecerá la pantalla **[!UICONTROL Agregar datos]**. En esta página, puede seleccionar **[!UICONTROL Agregar tabla]** para elegir qué tablas desea agregar al esquema.
 

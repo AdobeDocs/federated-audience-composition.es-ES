@@ -6,13 +6,12 @@ exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 TQID: https://experienceleague.adobe.com/SWOFxsQrWwsWdyiaxZP2H3XuX-E0PfRu2C5zZtXnOiE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: '326'
 ht-degree: 100%
-
 ---
-
 # Trabajar con públicos {#gs-audiences}
 
 La composición de público federado de Experience Platform le permite [crear composiciones](../compositions/home.md), donde puede aprovechar diversas actividades en un lienzo visual para crear públicos y almacenarlos en Adobe Experience Platform Audience Portal

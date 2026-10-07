@@ -6,13 +6,12 @@ exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: '1603'
 ht-degree: 20%
-
 ---
-
 # Crear una composición
 
 La composición de público federado le permite crear composiciones, donde puede aprovechar diversas actividades en un lienzo visual para crear públicos. Después de crear la composición, los públicos resultantes se guardan en Adobe Experience Platform y se pueden aprovechar en destinos de Experience Platform y Adobe Journey Optimizer para dirigirse a los clientes.
@@ -78,11 +77,11 @@ Las opciones incluyen:
 
   La sección **[!UICONTROL Properties]** le permite configurar opciones genéricas con respecto a la ejecución de la actividad:
 
-   * **[!UICONTROL Ejecución]**: defina la acción que se va a llevar a cabo cuando se inicie.
-   * **[!UICONTROL Duración máxima de la ejecución]**: especifique una duración como &quot;30 s&quot; o &quot;1h&quot;. Si la actividad no termina después de que haya transcurrido la duración especificada, se activa una alerta. Esto no afecta al funcionamiento de la composición.
-   * **[!UICONTROL Zona horaria]**: seleccione la zona horaria de la actividad. La Composición de audiencia federada permite administrar las diferencias horarias entre varios países en la misma instancia. La configuración aplicada se configura cuando se crea la instancia.
-   * **[!UICONTROL Afinidad]**: fuerza la ejecución de la actividad de composición en un equipo concreto. Para ello, debe especificar una o varias afinidades para la actividad en cuestión.
-   * **[!UICONTROL Comportamiento]**: defina el procedimiento a seguir si se utilizan tareas asincrónicas.
+  * **[!UICONTROL Ejecución]**: defina la acción que se va a llevar a cabo cuando se inicie.
+  * **[!UICONTROL Duración máxima de la ejecución]**: especifique una duración como &quot;30 s&quot; o &quot;1h&quot;. Si la actividad no termina después de que haya transcurrido la duración especificada, se activa una alerta. Esto no afecta al funcionamiento de la composición.
+  * **[!UICONTROL Zona horaria]**: seleccione la zona horaria de la actividad. La Composición de audiencia federada permite administrar las diferencias horarias entre varios países en la misma instancia. La configuración aplicada se configura cuando se crea la instancia.
+  * **[!UICONTROL Afinidad]**: fuerza la ejecución de la actividad de composición en un equipo concreto. Para ello, debe especificar una o varias afinidades para la actividad en cuestión.
+  * **[!UICONTROL Comportamiento]**: defina el procedimiento a seguir si se utilizan tareas asincrónicas.
 
   La sección **[!UICONTROL Administración de errores]** le permite especificar la acción que se debe llevar a cabo si la actividad encuentra un error.
 

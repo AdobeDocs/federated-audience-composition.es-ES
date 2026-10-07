@@ -6,13 +6,12 @@ exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 TQID: https://experienceleague.adobe.com/SJSO3icKYWUUDUZJsQhZfjjw6QjITphRIuRZpv-5394
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 2084
+source-wordcount: '2084'
 ht-degree: 36%
-
 ---
-
 # Genere su primera consulta {#build-query}
 
 Para empezar a crear una consulta, acceda al modelador de consultas desde la ubicación que elija, según la acción que desee realizar. El modelador de consultas se abre con un lienzo en blanco. Seleccione el botón **+** para configurar el primer nodo de la consulta.

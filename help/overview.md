@@ -5,19 +5,23 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 TQID: https://experienceleague.adobe.com/eYN6lkQ52Ic2r-G3k3JXq89leFOBdx6VPvZKQNLcE7Y
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1280
+source-wordcount: '1280'
 ht-degree: 55%
-
 ---
-
 # Información general de composición de público federado
 
 La composición de audiencias federada permite crear y enriquecer audiencias de sus almacenes de datos de terceros e importarlas a Adobe Experience Platform. Esto ofrece una solución fácil y potente para conectar su almacén de datos empresarial directamente dentro de servicios descendentes como Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer, y realizar consultas en las tablas de su almacén de datos. Como resultado, puede acceder a los datos de los clientes almacenados en los almacenes de datos y en las plataformas de almacenamiento en la nube como Amazon Redshift y Azure Synapse Analytics.
@@ -41,13 +45,13 @@ La composición de público federado amplía el valor de Real-Time CDP y Journey
 La composición de público federado admite **tres** categorías de casos de uso: creación de públicos, enriquecimiento de públicos y enriquecimiento del perfil del cliente.
 
 * **Creación de audiencias**: puede crear audiencias a partir de un almacén de datos y federarlas en Experience Platform para usarlas en Real-Time CDP o Journey Optimizer mediante una interfaz de usuario de arrastrar y soltar fácil de usar para expertos en marketing. Como resultado, puede realizar consultas en los almacenes de datos sin copiar datos subyacentes confidenciales ni duplicar datos existentes.
-   * **Ejemplo:** cree un público de compradores anteriores de alto valor usando datos de transacciones históricas en el almacén, sin copiar esas transacciones en Experience Platform.
+  * **Ejemplo:** cree un público de compradores anteriores de alto valor usando datos de transacciones históricas en el almacén, sin copiar esas transacciones en Experience Platform.
 
 * **Enriquecimiento de la audiencia**: puede agregar más detalles a las audiencias existentes en Experience Platform usando conjuntos de datos adicionales de sus almacenes de datos y superponiendo las audiencias con esta información, todo sin copiar los datos subyacentes en Experience Platform. Con el enriquecimiento de públicos, puede ofrecer una personalización mejorada con el público enriquecido.
-   * **Ejemplo:** enriquezca el público de Experience Platform compuesto por usuarios que abandonan el carro de compras con el público de la composición de público federado compuesto por compradores anteriores de alto valor para presentar una oferta personalizada.
+  * **Ejemplo:** enriquezca el público de Experience Platform compuesto por usuarios que abandonan el carro de compras con el público de la composición de público federado compuesto por compradores anteriores de alto valor para presentar una oferta personalizada.
 
 * **Enriquecimiento del perfil**: puede seleccionar atributos de cliente individuales de su almacén de datos para mejorar los perfiles de Experience Platform. Con los datos federados agregados a estos perfiles, puede potenciar las experiencias en el momento que se activan mediante señales de clientes entrantes.
-   * **Ejemplo:** enriquezca un perfil de Experience Platform con información del público federado. Ahora puede dirigirse a los visitantes del sitio que pertenecen al público federado de compradores anteriores de alto valor con una oferta específica que se activa en función de su comportamiento en el sitio.
+  * **Ejemplo:** enriquezca un perfil de Experience Platform con información del público federado. Ahora puede dirigirse a los visitantes del sitio que pertenecen al público federado de compradores anteriores de alto valor con una oferta específica que se activa en función de su comportamiento en el sitio.
 
 ![diagrama](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 

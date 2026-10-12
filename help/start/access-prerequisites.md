@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Requisitos previos y protecciones {#fac-access}
 
@@ -64,7 +64,7 @@ Para ver la lista de las zonas protegidas de composición de público federado a
 
    ![](assets/sandbox_2.png)
 
-Si desea utilizar la Composición de audiencia federada en otra zona protegida, póngase en contacto con el Servicio de atención al cliente de Adobe para solicitar un conmutador de zona protegida.
+Si desea utilizar la Composición de público federado en otra zona protegida, póngase en contacto con el Servicio de atención al cliente de Adobe para solicitar un cambio de zona protegida.
 
 ## Permisos {#permissions}
 

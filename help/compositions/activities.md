@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '5478'
+source-wordcount: '5480'
 ht-degree: 37%
 ---
 # Información general sobre las actividades
@@ -426,7 +426,7 @@ Ahora puede especificar las asignaciones para seleccionar qué campos desea tran
 
 Después de agregar las asignaciones, puede seleccionar la identidad principal y el área de nombres para identificar los perfiles de destino en la base de datos. El campo de identidad principal se utiliza para identificar los perfiles, mientras que el área de nombres de identidad actúa como una clave para identificar la identidad.
 
-Además, puede establecer la caducidad de los datos de la audiencia. La caducidad de los datos determina el número de días después de los cuales caducará la pertenencia a la audiencia. La caducidad de los datos puede oscilar entre 1 y 90 días. De forma predeterminada, este valor se establece en 30.
+Además, puede establecer la caducidad de los datos de la audiencia. La caducidad de los datos determina el número de días después de los cuales caducará la pertenencia a la audiencia. La caducidad de los datos puede variar entre 1 y 3650 días (10 años). De forma predeterminada, este valor se establece en 30.
 
 +++
 
@@ -449,7 +449,7 @@ Además, puede establecer la caducidad de los datos de la audiencia. La caducida
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
->title="Modo de actualización Guardar campos"
+>title="Modo de actualización de Guardar campos"
 >abstract="Los modos de actualización disponibles de la actividad Guardar campos incluyen actualización completa e incremental."
 
 >[!CONTEXTUALHELP]

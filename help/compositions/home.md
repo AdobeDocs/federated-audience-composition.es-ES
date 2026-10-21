@@ -69,7 +69,7 @@ También puede realizar acciones rápidas en las composiciones seleccionando el 
 | ------ | ----------- |
 | **[!UICONTROL Duplicado]** | Duplica la composición seleccionada. |
 | **[!UICONTROL Eliminar]** | Elimina la composición seleccionada. |
-| **[!UICONTROL Agregar al paquete]** | Mueve la composición entre zonas protegidas. Para obtener más información acerca de esta característica, lea la [guía de herramientas para zonas protegidas](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling). |
+| **[!UICONTROL Agregar al paquete]** | Mueve la composición entre zonas protegidas. Para obtener más información acerca de esta característica, lea la [guía de herramientas para zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/ui/sandbox-tooling). |
 
 Para detallar la lista y encontrar fácilmente la composición que está buscando, puede buscar en la lista y filtrar las composiciones por su estado o fechas de último procesamiento.
 

@@ -25,7 +25,7 @@ La versión de septiembre para Federated Audience Composition admite la siguient
 
 | Compatibilidad con herramientas de espacio aislado para audiencias de Composición de audiencia federada |
 | --- |
-| Ahora puede utilizar la función de herramientas de zona protegida de Experience Platform para mover audiencias de Composición de audiencia federada de una zona protegida a otra. Para obtener más información sobre el uso de las herramientas de zona protegida, lea la [guía de herramientas de zona protegida](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling). |
+| Ahora puede utilizar la función de herramientas de zona protegida de Experience Platform para mover audiencias de Composición de audiencia federada de una zona protegida a otra. Para obtener más información sobre el uso de las herramientas de zona protegida, lea la [guía de herramientas de zona protegida](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/ui/sandbox-tooling). |
 
 ### Mejoras {#fac-26-09-improvements}
 
@@ -49,7 +49,7 @@ Esta versión incorpora las siguientes mejoras.
 
 - **Compatibilidad con audiencias de composición de audiencias federadas en la simulación de Recorrido**
 
-  La simulación de recorrido ahora le permite probar los recorridos creados con audiencias de Composición de audiencia federada antes de publicarlos con usuarios simulados. Para obtener más información, lea la [guía de introducción a la simulación de Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
+  La simulación de recorrido ahora le permite probar los recorridos creados con audiencias de Composición de audiencia federada antes de publicarlos con usuarios simulados. Para obtener más información, lea la [guía de introducción a la simulación de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
 
 ## Versión de junio de 2026 {#fac-26-06}
 
@@ -137,7 +137,7 @@ La versión de enero de Composición de audiencias federada admite las siguiente
 
 | Disponibilidad para clientes de Adobe Experience Platform en Amazon Web Service (AWS) |
 | --- |
-| Ahora puede utilizar la Composición de audiencia federada si la instancia de Experience Platform está en AWS. Para obtener más información sobre Experience Platform en AWS, lea [descripción general de varias nubes](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
+| Ahora puede utilizar la Composición de audiencia federada si la instancia de Experience Platform está en AWS. Para obtener más información sobre Experience Platform en AWS, lea [descripción general de varias nubes](https://experienceleague.adobe.com/es/docs/experience-platform/landing/multi-cloud). |
 
 ### Mejoras {#fac-26-01-improvements}
 

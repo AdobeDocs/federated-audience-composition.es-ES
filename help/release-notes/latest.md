@@ -6,14 +6,34 @@ TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 11%
+source-wordcount: '973'
+ht-degree: 9%
 ---
 # Notas de la versión
 
 [!DNL Federated Audience Composition] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan en estas notas de la versión. [!DNL Federated Audience Composition] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
+
+## Versión de septiembre de 2026 {#fac-26-09}
+
+La versión de septiembre para Federated Audience Composition admite la siguiente capacidad:
+
+| Nueva experiencia unificada para conexiones federadas y esquemas |
+| --- |
+| Ahora puede acceder a conexiones federadas y esquemas directamente en la interfaz de usuario de Adobe Experience Platform. Para aprender a crear conexiones federadas, lea [Crear conexiones en la guía de la interfaz de usuario de Experience Platform](/help/connections/integrated.md). Para aprender a crear esquemas, lea la [Descripción general de esquemas](/help/data-modelling/schemas-integrated.md). |
+
+| Compatibilidad con herramientas de espacio aislado para audiencias de Composición de audiencia federada |
+| --- |
+| Ahora puede utilizar la función de herramientas de zona protegida de Experience Platform para mover audiencias de Composición de audiencia federada de una zona protegida a otra. Para obtener más información sobre el uso de las herramientas de zona protegida, lea la [guía de herramientas de zona protegida](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling). |
+
+### Mejoras {#fac-26-09-improvements}
+
+Esta versión incorpora las siguientes mejoras.
+
+- **Aumento de caducidad de datos para audiencias de Composición de audiencia federada**
+
+  La caducidad de los datos de las audiencias de Composición de audiencia federada se ha aumentado a 3650 días (10 años).
 
 ## Versión de julio de 2026 {#fac-26-07}
 
@@ -29,7 +49,7 @@ Esta versión incorpora las siguientes mejoras.
 
 - **Compatibilidad con audiencias de composición de audiencias federadas en la simulación de Recorrido**
 
-  La simulación de recorrido ahora le permite probar los recorridos creados con audiencias de Composición de audiencia federada antes de publicarlos con usuarios simulados. Para obtener más información, lea la [guía de introducción a la simulación de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
+  La simulación de recorrido ahora le permite probar los recorridos creados con audiencias de Composición de audiencia federada antes de publicarlos con usuarios simulados. Para obtener más información, lea la [guía de introducción a la simulación de Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
 
 ## Versión de junio de 2026 {#fac-26-06}
 
@@ -117,7 +137,7 @@ La versión de enero de Composición de audiencias federada admite las siguiente
 
 | Disponibilidad para clientes de Adobe Experience Platform en Amazon Web Service (AWS) |
 | --- |
-| Ahora puede utilizar la Composición de audiencia federada si la instancia de Experience Platform está en AWS. Para obtener más información sobre Experience Platform en AWS, lea [descripción general de varias nubes](https://experienceleague.adobe.com/es/docs/experience-platform/landing/multi-cloud). |
+| Ahora puede utilizar la Composición de audiencia federada si la instancia de Experience Platform está en AWS. Para obtener más información sobre Experience Platform en AWS, lea [descripción general de varias nubes](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Mejoras {#fac-26-01-improvements}
 

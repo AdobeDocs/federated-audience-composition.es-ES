@@ -110,7 +110,7 @@ elementos de navegación, nombres de páginas, opciones, campos y pestañas, tal
 
 - Negrita en pasos y navegación: `Select **[!UICONTROL Destinations]** from the left navigation.`
 - Cursiva aceptable en texto conceptual (sin pasos) para una mayor claridad.
-- En tablas de HTML: use `<span class="uicontrol">term</span>` en lugar de ``.
+- En tablas de HTML: use `<span class="uicontrol">term</span>` en lugar de &grave;&grave;.
 - En el texto del vínculo: elimine los corchetes de etiqueta.
 - El uso de mayúsculas debe coincidir exactamente con la interfaz.
 - NO se aplique a términos genéricos utilizados conceptualmente (&quot;segmento&quot;, &quot;métrica&quot;, &quot;campaña&quot;) a menos que
@@ -131,7 +131,7 @@ No se necesitan dentro de los bloques de código; no se localizan de forma prede
 
 - Se puede utilizar en: párrafos, listas, encabezados, tablas, distintivos, texto alternativo y metadatos.
 - No se puede usar en: bloques de código, siglas.
-- Si un campo de metadatos comienza con una etiqueta `[!DNL]` o ``, escriba el campo completo
+- Si un campo de metadatos comienza con una etiqueta `[!DNL]` o &grave;&grave;, escriba el campo completo
 valor entre comillas o la validación falla.
 
 ## &#x200B;3. Terminología y marca
@@ -438,10 +438,10 @@ de motores de búsqueda con `hide: true` en frontmatter.
 - Inglés Americano ortografía: color, reconocer, licencia, mientras, caducidad, metro, entre
 (no color, reconocer, licencia, mientras, caducidad, metro, entre otros).
 - Reservar comillas para citar personas; no citar cadenas de interfaz de usuario (utilice negrita +
-  ``).
+  &grave;&grave;).
 - Utilice cursiva para los términos usados como términos (*perfil*, no &quot;perfil&quot;). Utilice comillas invertidas para el código,
 parámetros, nombres de archivo y texto escrito.
-- Negrita sólo para elementos de la interfaz de usuario en procedimientos (con ``) y términos clave al principio
+- Negrita sólo para elementos de la interfaz de usuario en procedimientos (con &grave;&grave;) y términos clave al principio
 introducción.
 - No hay punto y coma, ni guiones/guiones en prosa, ni reglas horizontales (ver sección 1).
 
@@ -453,7 +453,7 @@ Antes de finalizar cualquier edición, compruebe lo siguiente:
 - Frases ≤20 palabras, párrafos ≤125 palabras
 - Encabezados: mayúsculas y minúsculas, ≤5 palabras/69 caracteres, seguido de texto independiente, sin niveles omitidos
 - Nombres y formularios correctos del producto; sin términos obsoletos, solo internos o no inclusivos
-- `` en cada elemento de la interfaz de usuario en pasos; `[!DNL]` en cada nombre de producto/terceros
+- &grave;&grave; en cada elemento de la interfaz de usuario en pasos; `[!DNL]` en cada nombre de producto/terceros
 - Sin etiquetas dentro de bloques de código; campos de metadatos etiquetados entre comillas
 - Sintaxis de advertencia correcta; marcadores de lista coherentes; sin listas de tareas; sin reglas horizontales
 - El texto alternativo es descriptivo y completo; no hay &quot;clic aquí&quot;; no hay lenguaje espacial/direccional

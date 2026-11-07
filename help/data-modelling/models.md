@@ -143,4 +143,4 @@ Para crear vínculos entre tablas del modelo de datos desde la pestaña Vista de
 
 Aprenda a crear un modelo de datos en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432020)
+>[!VIDEO](https://video.tv.adobe.com/v/3507565?captions=spa)
